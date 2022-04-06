@@ -1,4 +1,4 @@
-# CSS.2: Layout
+# 1.6: CSS Layout
 
 CSS Layout refers to creating a web page that is designed with sections that are visually differentiated.
 
@@ -31,4 +31,3 @@ No need to do user story \#8 because it will be covered later. You may find the 
 {% endhint %}
 
 [https://www.freecodecamp.org/learn/responsive-web-design/responsive-web-design-projects/build-a-tribute-page](https://www.freecodecamp.org/learn/responsive-web-design/responsive-web-design-projects/build-a-tribute-page)
-

@@ -51,9 +51,12 @@
 - [1.0: Module 1 Overview](1-frontend-fundamentals/1.0-module-1-overview.md)
 - [1.1: HTML](1-frontend-fundamentals/1.1-html)
 - [1.2: DOM](1-frontend-fundamentals/1.2-dom/README.md)
+
   - [1.2.1: Creating HTML Elements](1-frontend-fundamentals/1.2-dom/1.2.1-creating-html-elements.md)
   - [1.2.2: Handling HTML Events](1-frontend-fundamentals/1.2-dom/1.2.2-handling-html-events.md)
   - [1.2.3: Selecting HTML Elements](1-frontend-fundamentals/1.2-dom/1.2.3-selecting-html-elements.md)
+  - [1.2.4: Conrolling CSS with DOM Manipulation](1-frontend-fundamentals/1.2.4-controlling-css-with-dom-manipulation.md)
+
 - [1.3: setTimeout](1-frontend-fundamentals/1.3-settimeout.md)
 - [1.4: setInterval](1-frontend-fundamentals/1.4-setinterval.md)
 - [1.5: Basic CSS](1-frontend-fundamentals/1.5-basic-css/README.md)
@@ -63,9 +66,9 @@
   - [1.6.1: No Layout](1-frontend-fundamentals/1.6-layout/1.6.1-no-layout.md)
   - [1.6.2: Display: Inline and Block](1-frontend-fundamentals/1.6-layout/1.6.2-display-inline-and-block.md)
   - [1.6.3: Box Model](1-frontend-fundamentals/1.6-layout/1.6.3-box-model.md)
-  - [1.6.4: Layout: Fixed, Percent Width & Max Width](1-frontend-fundamentals/1.6-layout/1.6.4-layout-fixed-width-and-max-width.md)
+  - [1.6.4: Layout: Fixed, Percent and Max Width](1-frontend-fundamentals/1.6-layout/1.6.4-layout-fixed-width-and-max-width.md)
   - [1.6.5: Display: Inline Block](1-frontend-fundamentals/1.6-layout/1.6.5-display-inline-block.md)
-  - [1.6.6: Layout: Columns & Cards](1-frontend-fundamentals/1.6-layout/1.6.6-layout-columns-and-cards.md)
+  - [1.6.6: Layout: Columns and Cards](1-frontend-fundamentals/1.6-layout/1.6.6-layout-columns-and-cards.md)
   - [1.6.7: Position](1-frontend-fundamentals/1.6-layout/1.6.7-position.md)
   - [1.6.8: Float](1-frontend-fundamentals/1.6-layout/1.6.8-float.md)
 - [1.7: Flexbox](1-frontend-fundamentals/1.7-flexbox/README.md)
@@ -74,22 +77,16 @@
 - [1.9: Web Design Basics](1-frontend-fundamentals/1.9-web-design-basics.md)
 - [1.10: Bootstrap](1-frontend-fundamentals/1.10-bootstrap.md)
 
-- [1.9: Tic Tac Toe](1-frontend-fundamentals/1.9-tic-tac-toe.md)
-- [1.11: CSS Control with DOM](1-frontend-fundamentals/1.11-css-control-with-dom.md)
 - [1.ICE: In-Class Exercises](1-frontend-fundamentals/1.ice-in-class-exercises/README.md)
+
   - [1.ICE.1: Drawing with DOM Manipulation](1-frontend-fundamentals/1.ice-in-class-exercises/1.ice.1-drawing-with-dom-manipulation.md)
   - [1.ICE.2: High Card With Delay](1-frontend-fundamentals/1.ice-in-class-exercises/1.ice.2-high-card-with-delay.md)
   - [1.ICE.3: Timer and Stopwatch Logic](1-frontend-fundamentals/1.ice-in-class-exercises/1.ice.3-timer-and-stopwatch-logic.md)
-  - [CSS.ICE.1: Personal Portfolio Site](css/1.ice.css-in-class-css-exercises/1.ice.css.1-straits-times-css.md)
-  - [CSS.ICE.2: Wikipedia](css/1.ice.css-in-class-css-exercises/1.ice.css.2-css-practice-6-wikipedia/README.md)
-    - [CSS.ICE.2.1: Wikipedia Day 2](css/1.ice.css-in-class-css-exercises/1.ice.css.2-css-practice-6-wikipedia/1.ice.css.3-mytunes-1.md)
-  - [CSS.ICE.3: MyTunes](css/1.ice.css-in-class-css-exercises/1.ice.css.3-mytunes.md)
-  - [CSS.ICE.4: Etsy](css/css.ice-in-class-exercises/css.ice.4-etsy.md)
-  - [CSS.ICE.5: Restaurant](css/1.ice.css-in-class-css-exercises/1.ice.css.5-restaurant.md)
-  - [CSS.ICE.6: NTU](css/1.ice.css-in-class-css-exercises/1.ice.css.6-ntu.md)
-  - [CSS.ICE.7: Zillow](css/1.ice.css-in-class-css-exercises/1.ice.css.7-zillow.md)
-  - [CSS.ICE.8: Portfolio Page](css/1.ice.css-in-class-css-exercises/1.ice.css.8-chase-bank.md)
-  - [CSS.ICE.9: Selectors](css/1.ice.css-in-class-css-exercises/css.ice.9-selectors.md)
+  - [1.ICE.4: Wikipedia](1-frontend-fundamentals/1.ice-in-class-exercises/1.ice.4-wikipedia.md)
+  - [1.ICE.5: Etsy](1-frontend-fundamentals/1.ice-in-class-exercises/1.ice.5-etsy.md)
+  - [1.ICE.6: Personal Page](1-frontend-fundamentals/1.ice-in-class-exercises/1.ice.6-personal-page.md)
+  - [1.ICE.7: Bootstrap Columns](1-frontend-fundamentals/1.ice-in-class-exercises/1.ice.7-bootstrap-columns.md)
+
 - [1.POCE: Post-Class Exercises](1-frontend-fundamentals/1.poce-post-class-exercises/README.md)
 
   - [1.POCE.1: Noodle Recipe Website](1-frontend-fundamentals/1.poce-post-class-exercises/1.poce.1-noodle-recipe-website.md)
@@ -97,10 +94,8 @@
   - [1.POCE.3: Match Game](1-frontend-fundamentals/1.poce-post-class-exercises/1.poce.3-match-game.md)
   - [1.POCE.4: Timer](1-frontend-fundamentals/1.poce-post-class-exercises/1.poce.4-timer.md)
   - [1.POCE.5: Tic Tac Toe](1-frontend-fundamentals/1.poce-post-class-exercises/1.poce.5-tic-tac-toe.md)
-  - [CSS.POCE.1: Flexbox Docs Page](css/1.poce.css-post-class-css-exercises/1.poce.css.1-technical-documentation-page-flexbox-responsive.md)
-  - [CSS.POCE.2: Flexbox Personal Page](css/1.poce.css-post-class-css-exercises/1.poce.css.2-flexbox-personal-page.md)
-  - [CSS.POCE.3: Bootstrap Columns](css/1.poce.css-post-class-css-exercises/1.poce.css.3-bootstrap-columns.md)
-  - [CSS.POCE.4: Bootstrap](css/1.poce.css-post-class-css-exercises/1.poce.css.4-bootstrap-adobe.md)
+
+- [Additional Resources](1-frontend-fundamentals/additional-resources.md)
 
 ## 2: Backend Fundamentals
 
