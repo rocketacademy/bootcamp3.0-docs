@@ -9,9 +9,9 @@
 - [Naming, Casing, and Commenting Conventions](logistics/naming-casing-and-commenting-conventions.md)
 - [Tools, Syntax, and Glossary](logistics/tools-syntax-and-glossary.md)
 - [Group Work](logistics/group-work.md)
+- [Sharing Code with Classmates](logistics/sharing-code-with-classmates.md)
 - [LinkedIn Education Badge](logistics/linkedin-education-badge.md)
 - [Recommended Resources](logistics/recommended-resources.md)
-- [Sharing Code with Classmates](logistics/sharing-code-with-classmates.md)
 
 ## 🏞 Projects
 
