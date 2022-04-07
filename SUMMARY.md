@@ -87,11 +87,11 @@
 
 - [Page 2](2-backend/page-2.md)
 
-## 3: Full-Stack Applications
+## 3: Advanced Backend
 
 - [Page 3](3-full-stack-applications/page-3.md)
 
-## 4: React
+## 4: Advanced Frontend
 
 - [Page 4](4-react/page-4.md)
 
