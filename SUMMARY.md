@@ -89,11 +89,11 @@
 
 ## 3: Advanced Backend
 
-- [Page 3](3-full-stack-applications/page-3.md)
+- [Page 3](3-advanced-backend/page-3.md)
 
 ## 4: Advanced Frontend
 
-- [Page 4](4-react/page-4.md)
+- [Page 4](4-advanced-frontend/page-4.md)
 
 ## 5: Capstone
 
