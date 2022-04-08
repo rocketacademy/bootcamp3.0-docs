@@ -109,7 +109,7 @@
 
   - [Page 5](5-capstone/page-5.md)
 
-- [Algorithms](5-capstone/README.md)
+- [Algorithms](algorithms/README.md)
 
   - [A.0: Algorithms Overview](algorithms/a.0-algorithms-overview.md)
   - [A.1: Intro to SWE Interviews](algorithms/a.1-intro-to-swe-interviews.md)
