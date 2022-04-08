@@ -2,18 +2,27 @@
 
 ## General Coding Tools
 
-### Opening HTML in Browser from VSCode
+### Opening HTML in Browser from VS Code
 
 1. [https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)
 2. [https://marketplace.visualstudio.com/items?itemName=techer.open-in-browser](https://marketplace.visualstudio.com/items?itemName=techer.open-in-browser)
 
-### Git, GitHub
-
-Past students have found this [video playlist](https://www.youtube.com/playlist?list=PLRqwX-V7Uu6ZF9C0YMKuns9sLDzK6zoiV) helpful in better understanding Git and GitHub.
-
 ### Linux Commands
 
 Past students have found [this video](https://www.youtube.com/watch?v=RzAkjX_9B7E) helpful in understanding Linux commands.
+
+#### Sudo
+
+`sudo` is the command that tells the computer to execute a command as an admin (root user).
+
+#### Apt (Windows/Ubuntu only)
+
+Apt is the package management system in Ubuntu. On a clean new Ubuntu install we run the 2 commands below to make sure that we have the latest package records and that everything is updated.
+
+```
+sudo apt update
+sudo apt upgrade
+```
 
 ## CSS
 
@@ -120,4 +129,4 @@ Schema can refer to a few things, but in general it refers to a "blueprint" or "
 2. Relation or Table Schema
 3. PostgreSQL Schema
 
-See this [Stack Overflow answer](https://stackoverflow.com/a/298765) for definitions of \#1 and \#2, and [Postgres documentation](https://www.postgresql.org/docs/13/ddl-schemas.html) for \#3. We will rarely be using definition \#3 in Coding Bootcamp.
+See this [Stack Overflow answer](https://stackoverflow.com/a/298765) for definitions of \#1 and \#2, and [Postgres documentation](https://www.postgresql.org/docs/13/ddl-schemas.html) for \#3. We will rarely be using definition \#3 in SWE Bootcamp.

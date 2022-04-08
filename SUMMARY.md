@@ -4,14 +4,17 @@
 
 ## 🛠 Logistics
 
-- [Required Hardware and Software](logistics/required-hardware-and-software.md)
 - [Course Methodology](logistics/course-methodology.md)
-- [Naming, Casing, and Commenting Conventions](logistics/naming-casing-and-commenting-conventions.md)
-- [Tools, Syntax, and Glossary](logistics/tools-syntax-and-glossary.md)
-- [Group Work](logistics/group-work.md)
-- [Sharing Code with Classmates](logistics/sharing-code-with-classmates.md)
+- [Required Software](logistics/required-software.md)
 - [LinkedIn Education Badge](logistics/linkedin-education-badge.md)
-- [Recommended Resources](logistics/recommended-resources.md)
+
+## 📚 General Reference
+
+- [Naming, Casing, and Commenting Conventions](general-reference/naming-casing-and-commenting-conventions.md)
+- [VS Code Tips](general-reference/vs-code-tips.md)
+- [Tools, Syntax, and Glossary](general-reference/tools-syntax-and-glossary.md)
+- [Group Work Primer](general-reference/group-work-primer.md)
+- [Recommended Resources](general-reference/recommended-resources.md)
 
 ## 🏞 Projects
 
@@ -34,9 +37,16 @@
     - [0.1.5.2: Try Catch](0-foundations/0.1-javascript/0.1.5-promises/0.1.5.2-try-catch.md)
     - [0.1.5.3: Async Await](0-foundations/0.1-javascript/0.1.5-promises/0.1.5.3-async-await.md)
   - [0.1.6: Classes](0-foundations/0.1-javascript/0.1.6-classes.md)
-- [0.2: Git](0-foundations/0.2-git/README.md)
-  - [0.2.1: Git Pull](0-foundations/0.2-git/0.2.1-git-pull.md)
-  - [0.2.2: Git Branches](0-foundations/0.2-git/0.2.2-git-branches.md)
+- [0.2: Command Line](0-foundations/0.2-command-line.md)
+- [0.3: Git](0-foundations/0.3-git/README.md)
+  - [0.3.1: Intro to Git](0-foundations/0.3-git/0.3.1-intro-to-git.md)
+  - [0.3.2: Git Pull](0-foundations/0.3-git/0.3.2-git-pull.md)
+  - [0.3.3: Git Branches](0-foundations/0.3-git/0.3.3-git-branches.md)
+- [0.4: GitHub](0-foundations/0.4-github/README.md)
+  - [0.4.1: Intro to GitHub](0-foundations/0.4-github/0.4.1-intro-to-github.md)
+  - [0.4.2: Navigating GitHub](0-foundations/0.4-github/0.4.2-navigating-github.md)
+  - [0.4.3: Fork](0-foundations/0.4-github/0.4.3-fork.md)
+  - [0.4.4: Pull Request](0-foundations/0.4-github/0.4.4-pull-request.md)
 - [0.ICE: In-Class Exercises](0-foundations/0.ice-in-class-exercises/README.md)
   - [0.ICE.1: Git Branches](0-foundations/0.ice-in-class-exercises/0.ice.1-git-branches.md)
 

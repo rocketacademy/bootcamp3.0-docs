@@ -1,4 +1,4 @@
-# Group Work
+# Group Work Primer
 
 ## Introduction
 

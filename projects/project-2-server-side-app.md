@@ -42,7 +42,7 @@ Your app idea is more compelling if its purpose is for something specific and re
 
 ### Frontend Limitations
 
-Given the relative restrictions of a server-side app that renders HTML pages, there are certain ideas that will be more easily accomplished when we include more modern technologies. In later Coding Bootcamp modules we will learn how to incorporate 3rd-party JS libraries into our frontends to accomplish some of the following. No worries if you don't have these for now.
+Given the relative restrictions of a server-side app that renders HTML pages, there are certain ideas that will be more easily accomplished when we include more modern technologies. In later SWE Bootcamp modules we will learn how to incorporate 3rd-party JS libraries into our frontends to accomplish some of the following. No worries if you don't have these for now.
 
 - Date or date-time input fields for scheduling or calendars.
 - User location using maps.

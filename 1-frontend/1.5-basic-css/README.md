@@ -137,7 +137,7 @@ Below is a table that shows how to use different selector combinations and the e
 
 ### Don't Write Placeholder Text
 
-Install the [Lorem Ipsum plugin for VSCode](https://marketplace.visualstudio.com/items?itemName=Tyriar.lorem-ipsum) to quickly get placeholder text.
+Install the [Lorem Ipsum plugin for VS Code](https://marketplace.visualstudio.com/items?itemName=Tyriar.lorem-ipsum) to quickly get placeholder text.
 
 ### Get Placeholder Images for CSS
 
