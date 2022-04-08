@@ -1,28 +1,25 @@
 # Table of contents
 
 - [Welcome to Bootcamp!](README.md)
+- [Logistics]
+  - [Course Methodology](logistics/course-methodology.md)
+  - [Required Software](logistics/required-software.md)
+  - [LinkedIn Education Badge](logistics/linkedin-education-badge.md)
+- [General Reference]
 
-## 🛠 Logistics
+  - [Naming, Casing, and Commenting Conventions](general-reference/naming-casing-and-commenting-conventions.md)
+  - [VS Code Tips](general-reference/vs-code-tips.md)
+  - [Tools, Syntax, and Glossary](general-reference/tools-syntax-and-glossary.md)
+  - [Group Work Primer](general-reference/group-work-primer.md)
+  - [Recommended Resources](general-reference/recommended-resources.md)
 
-- [Course Methodology](logistics/course-methodology.md)
-- [Required Software](logistics/required-software.md)
-- [LinkedIn Education Badge](logistics/linkedin-education-badge.md)
+- [Projects]
 
-## 📚 General Reference
-
-- [Naming, Casing, and Commenting Conventions](general-reference/naming-casing-and-commenting-conventions.md)
-- [VS Code Tips](general-reference/vs-code-tips.md)
-- [Tools, Syntax, and Glossary](general-reference/tools-syntax-and-glossary.md)
-- [Group Work Primer](general-reference/group-work-primer.md)
-- [Recommended Resources](general-reference/recommended-resources.md)
-
-## 🏞 Projects
-
-- [Project 1: Video Poker](projects/project-1-video-poker.md)
-- [Project 2: Server-Side App](projects/project-2-server-side-app.md)
-- [Project 3: Full-Stack Game](projects/project-3-full-stack-game.md)
-- [Project 4: Group React App](projects/project-4-group-react-app.md)
-- [Project 5: Capstone](projects/project-5-capstone.md)
+  - [Project 1: Video Poker](projects/project-1-video-poker.md)
+  - [Project 2: Server-Side App](projects/project-2-server-side-app.md)
+  - [Project 3: Full-Stack Game](projects/project-3-full-stack-game.md)
+  - [Project 4: Group React App](projects/project-4-group-react-app.md)
+  - [Project 5: Capstone](projects/project-5-capstone.md)
 
 ## 0: Foundations
 
