@@ -1,11 +1,14 @@
 # Table of contents
 
-- [Welcome to Bootcamp!](README.md)
-- [Logistics]
+- [🚀 Welcome to Bootcamp!](README.md)
+
+- 🛠 Logistics
+
   - [Course Methodology](logistics/course-methodology.md)
   - [Required Software](logistics/required-software.md)
   - [LinkedIn Education Badge](logistics/linkedin-education-badge.md)
-- [General Reference]
+
+- 📚 General Reference
 
   - [Naming, Casing, and Commenting Conventions](general-reference/naming-casing-and-commenting-conventions.md)
   - [VS Code Tips](general-reference/vs-code-tips.md)
@@ -13,7 +16,7 @@
   - [Group Work Primer](general-reference/group-work-primer.md)
   - [Recommended Resources](general-reference/recommended-resources.md)
 
-- [Projects]
+- 🏞 Projects
 
   - [Project 1: Video Poker](projects/project-1-video-poker.md)
   - [Project 2: Server-Side App](projects/project-2-server-side-app.md)
@@ -21,31 +24,31 @@
   - [Project 4: Group React App](projects/project-4-group-react-app.md)
   - [Project 5: Capstone](projects/project-5-capstone.md)
 
-## 0: Foundations
+- 0️⃣ Foundations
 
-- [0.0: Module 0 Overview](0-foundations/0.0-module-0-overview.md)
-- [0.1: JavaScript](0-foundations/0.1-javascript/README.md)
-  - [0.1.1: ES6](0-foundations/0.1-javascript/0.1.1-es6.md)
-  - [0.1.2: Common Syntax](0-foundations/0.1-javascript/0.1.2-common-syntax.md)
-  - [0.1.3: Reference vs Value](0-foundations/0.1-javascript/0.1.3-reference-vs-value.md)
-  - [0.1.4: Destructuring and Spread Operator](0-foundations/0.1-javascript/0.1.4-destructuring-and-spread-operator.md)
-  - [0.1.5: Promises](0-foundations/0.1-javascript/0.1.5-promises/README.md)
-    - [0.1.5.1: Promise.catch, Promise.all](0-foundations/0.1-javascript/0.1.5-promises/0.1.5.1-promise.catch-promise.all.md)
-    - [0.1.5.2: Try Catch](0-foundations/0.1-javascript/0.1.5-promises/0.1.5.2-try-catch.md)
-    - [0.1.5.3: Async Await](0-foundations/0.1-javascript/0.1.5-promises/0.1.5.3-async-await.md)
-  - [0.1.6: Classes](0-foundations/0.1-javascript/0.1.6-classes.md)
-- [0.2: Command Line](0-foundations/0.2-command-line.md)
-- [0.3: Git](0-foundations/0.3-git/README.md)
-  - [0.3.1: Intro to Git](0-foundations/0.3-git/0.3.1-intro-to-git.md)
-  - [0.3.2: Git Pull](0-foundations/0.3-git/0.3.2-git-pull.md)
-  - [0.3.3: Git Branches](0-foundations/0.3-git/0.3.3-git-branches.md)
-- [0.4: GitHub](0-foundations/0.4-github/README.md)
-  - [0.4.1: Intro to GitHub](0-foundations/0.4-github/0.4.1-intro-to-github.md)
-  - [0.4.2: Navigating GitHub](0-foundations/0.4-github/0.4.2-navigating-github.md)
-  - [0.4.3: Fork](0-foundations/0.4-github/0.4.3-fork.md)
-  - [0.4.4: Pull Request](0-foundations/0.4-github/0.4.4-pull-request.md)
-- [0.ICE: In-Class Exercises](0-foundations/0.ice-in-class-exercises/README.md)
-  - [0.ICE.1: Git Branches](0-foundations/0.ice-in-class-exercises/0.ice.1-git-branches.md)
+  - [0.0: Module 0 Overview](0-foundations/0.0-module-0-overview.md)
+  - [0.1: JavaScript](0-foundations/0.1-javascript/README.md)
+    - [0.1.1: ES6](0-foundations/0.1-javascript/0.1.1-es6.md)
+    - [0.1.2: Common Syntax](0-foundations/0.1-javascript/0.1.2-common-syntax.md)
+    - [0.1.3: Reference vs Value](0-foundations/0.1-javascript/0.1.3-reference-vs-value.md)
+    - [0.1.4: Destructuring and Spread Operator](0-foundations/0.1-javascript/0.1.4-destructuring-and-spread-operator.md)
+    - [0.1.5: Promises](0-foundations/0.1-javascript/0.1.5-promises/README.md)
+      - [0.1.5.1: Promise.catch, Promise.all](0-foundations/0.1-javascript/0.1.5-promises/0.1.5.1-promise.catch-promise.all.md)
+      - [0.1.5.2: Try Catch](0-foundations/0.1-javascript/0.1.5-promises/0.1.5.2-try-catch.md)
+      - [0.1.5.3: Async Await](0-foundations/0.1-javascript/0.1.5-promises/0.1.5.3-async-await.md)
+    - [0.1.6: Classes](0-foundations/0.1-javascript/0.1.6-classes.md)
+  - [0.2: Command Line](0-foundations/0.2-command-line.md)
+  - [0.3: Git](0-foundations/0.3-git/README.md)
+    - [0.3.1: Intro to Git](0-foundations/0.3-git/0.3.1-intro-to-git.md)
+    - [0.3.2: Git Pull](0-foundations/0.3-git/0.3.2-git-pull.md)
+    - [0.3.3: Git Branches](0-foundations/0.3-git/0.3.3-git-branches.md)
+  - [0.4: GitHub](0-foundations/0.4-github/README.md)
+    - [0.4.1: Intro to GitHub](0-foundations/0.4-github/0.4.1-intro-to-github.md)
+    - [0.4.2: Navigating GitHub](0-foundations/0.4-github/0.4.2-navigating-github.md)
+    - [0.4.3: Fork](0-foundations/0.4-github/0.4.3-fork.md)
+    - [0.4.4: Pull Request](0-foundations/0.4-github/0.4.4-pull-request.md)
+  - [0.ICE: In-Class Exercises](0-foundations/0.ice-in-class-exercises/README.md)
+    - [0.ICE.1: Git Branches](0-foundations/0.ice-in-class-exercises/0.ice.1-git-branches.md)
 
 ## 1: Frontend
 
