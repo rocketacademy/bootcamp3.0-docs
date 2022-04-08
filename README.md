@@ -1,3 +1,3 @@
-# Welcome to Bootcamp!
+# 🚀 Welcome to Bootcamp!
 
 WIP

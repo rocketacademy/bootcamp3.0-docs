@@ -17,10 +17,7 @@ We will learn about Command Line and Git in the course. For now, install them.
 _**When copying commands from the Git website, do not copy the dollar sign ($) in front of the command.**_ The dollar signs in their commands denote the starts of command lines, and are not part of the commands.
 {% endhint %}
 
-{% tabs %}
-{% tab title="MacOS" %}
-
-### MacOS Instructions
+#### MacOS Instructions
 
 1. Download and install Git for MacOS by downloading it here: [https://sourceforge.net/projects/git-osx-installer/](https://sourceforge.net/projects/git-osx-installer/)
 2. Verify Git is installed by running `git --version` in the [VS Code terminal](https://code.visualstudio.com/docs/editor/integrated-terminal). This should print out a version number on the next line, e.g., `git version 2.28.0`.
@@ -32,11 +29,7 @@ To install the Git Credential Manager you may need to allow "unidentified develo
 If you are using a company computer for this course you may not be able to override the security settings. You may need to [create a personal token](https://docs.github.com/en/github/authenticating-to-github/keeping-your-account-and-data-secure/creating-a-personal-access-token) instead.
 {% endhint %}
 
-{% endtab %}
-
-{% tab title="Windows" %}
-
-### Windows Instructions
+#### Windows Instructions
 
 1. Navigate to the Git download page and click the download link: [https://git-scm.com/download/win](https://git-scm.com/download/win)
 2. Open the downloaded file
@@ -45,49 +38,8 @@ If you are using a company computer for this course you may not be able to overr
 5. Verify Git is installed by running `git --version` in the [VS Code terminal](https://code.visualstudio.com/docs/editor/integrated-terminal). This should print out a version number on the next line, e.g., `git version 2.28.0`.
 
 {% embed url="https://www.youtube.com/watch?v=7Dq_e90LqTU" %}
-
-{% hint style="info" %}
 Install dialog options (Click "Next" to apply default option):
-
-- Information (_default_)
-- Select Destination Location (**Copy this or write it down**. You will need it for VS Code setup.
-- Select Components (_default_)
-- Select Start Menu Folder (_default_)
-- Choose the default editor used by Git (**Choose VS Code**)
-- Adjusting your PATH environment (_default_)
-- Choosing HTTPS transport backend (**choose Use the native Windows Secure Channel Library**)
-- Configuring the line ending conversions (_default_)
-- Configuring the terminal emulator to use with Git Bash (_default_)
-- Choose the default behaviour of git pull (_default_)
-- Choose a credential helper (_default_)
-- Configuring extra options (_default_)
-- Configuring extra options (_default_)
-
-{% endhint %}
-
-{% hint style="warning" %}
-Git needs to be installed on the same drive as VS Code. If you happen to have 2 drives on your computer, e.g. C and D drives, make sure both VS Code and Git are installed on the same drive.
-{% endhint %}
-
-{% hint style="warning" %}
-Don't install anything into Windows OneDrive. This can cause unexpected slowness when installing code packages.
-{% endhint %}
-
-### Setup command line (Windows only)
-
-We will need the command line (aka terminal) to do our work. Windows uses a terminal language called PowerShell by default, but most software engineers use terminal languages made for Unix-based operating systems, e.g. Linux and MacOS. We will use Git Bash, a Unix-based terminal language for Windows. Read more on Git Bash [here](https://www.gitkraken.com/blog/what-is-git-bash).
-
-1. Ensure Git is installed as per above.
-2. Follow instuctions from Stack Overflow [here](https://stackoverflow.com/questions/42606837/how-do-i-use-bash-on-windows-from-the-visual-studio-code-integrated-terminal/50527994#50527994). You may need to restart VS Code to see changes.
-
-{% hint style="warning" %}
-If we don't see "bash" or "Git Bash" from the Select Default Profile dropdown, it's possible VS Code isn't sure where to find our Bash installation. In this case, we can manually tell Git where to find it by adding settings to our VS Code settings.
-
-If you have this issue, follow instructions in the VS Code Formatting Settings section below to tell VS Code to look for Bash where you installed it. Remember to update the file paths to the location of your Bash installation.
-{% endhint %}
-
-{% endtab %}
-{% endtabs %}
+{% endembed %}
 
 ## Configure Git and GitHub
 
@@ -119,7 +71,7 @@ Type `git config -l` into the terminal to verify configuration success. If you s
 
 Prettier is a code formatter that will auto-format our code and make it more readable when we save our files.
 
-1. Install the Prettier extension for VS Code [here](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode).&#x20;
+1. Install the Prettier extension for VS Code [here](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode).
 2. Restart VS Code to activate Prettier.
 
 ### Install ESLint
@@ -140,8 +92,7 @@ ESLint is a JavaScript code formatter that helps us detect functional and stylis
 
 {% tabs %}
 {% tab title="MacOS" %}
-
-### VS Code Settings for MacOS
+#### VS Code Settings for MacOS
 
 ```json
 {
@@ -159,18 +110,15 @@ ESLint is a JavaScript code formatter that helps us detect functional and stylis
   "eslint.migration.2_x": "off"
 }
 ```
-
 {% endtab %}
 
 {% tab title="Windows" %}
-
-### VS Code Settings for Windows
+#### VS Code Settings for Windows
 
 {% hint style="warning" %}
 Windows users: The following code assumes we installed our Git folder at the root of our C drive. Some students' installers install the Git folder elsewhere, for example in `C:\\Program Files (x86)`. You should have noted the installation location of Git when you installed it, as per the instructions above.
 
 If your installed Git folder is not in the location as listed below, please edit the Git Bash "path" attribute to the appropriate value when you copy the configurations.
-
 {% endhint %}
 
 ```json
@@ -196,7 +144,6 @@ If your installed Git folder is not in the location as listed below, please edit
   }
 }
 ```
-
 {% endtab %}
 {% endtabs %}
 
@@ -267,8 +214,7 @@ Please do not store code in folders synced to cloud storage such as Google Drive
 
 {% tabs %}
 {% tab title="MacOS" %}
-
-### Mac Folder Organisation
+#### Mac Folder Organisation
 
 Mac users can store all Bootcamp code in 1 place.
 
@@ -278,12 +224,10 @@ Mac users can store all Bootcamp code in 1 place.
 4. Within each day folder, create `prce` (pre-class), `ice` (in-class), and `poce` (post-class) folders for the respective exercises.
 5. Within each PRCE, ICE and POCE folder, keep a separate folder for every exercise you do that requires a new Git repo.
 6. Store projects within a `projects` folder directly within the `bootcamp` folder for easy accessibility.
-
 {% endtab %}
 
 {% tab title="Windows" %}
-
-### Windows Folder Organisation
+#### Windows Folder Organisation
 
 Windows users will need to store Bootcamp code in 2 places, 1 place for Module 1 and another place for Modules 2-5.
 
@@ -294,8 +238,7 @@ Windows users will need to store Bootcamp code in 2 places, 1 place for Module 1
 5. Within each PRCE, ICE and POCE folder, keep a separate folder for every exercise you do that requires a new Git repo.
 6. Store projects within a `projects` folder directly within the `bootcamp` folder for easy accessibility.
 7. For Module 2 onward we will store files inside the WSL part of the computer. Create a directory called `bootcamp` in the home (`~`) folder of the Ubuntu system.
-8. Organise modules, days, exercises and projects as above for Modules 2-5.
+8. Organise modules, days, exercises and projects as above for Modules 2-5.
 9. Do not save any of the files from Module 2 onward in the Windows side of the computer.
-
 {% endtab %}
 {% endtabs %}

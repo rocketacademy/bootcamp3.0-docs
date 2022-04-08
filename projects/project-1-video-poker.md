@@ -2,11 +2,11 @@
 
 ## Introduction
 
-[Video Poker](https://en.wikipedia.org/wiki/Video_poker) is single-player Poker where we try to optimise our score by getting the best possible hands. The gameplay is as follows.
+[Video Poker](https://en.wikipedia.org/wiki/Video\_poker) is single-player Poker where we try to optimise our score by getting the best possible hands. The gameplay is as follows.
 
 1. The user starts with 100 points.
 2. When they click the "Deal" button the computer deals a hand of 5 cards. The user can choose any number of their cards to replace with new, random cards.
-3. After the user finishes replacing cards, the game assigns points based on the resulting hand. See rankings of Poker hands [here](https://en.wikipedia.org/wiki/List_of_poker_hands#Hand-ranking_categories).
+3. After the user finishes replacing cards, the game assigns points based on the resulting hand. See rankings of Poker hands [here](https://en.wikipedia.org/wiki/List\_of\_poker\_hands#Hand-ranking\_categories).
 
 ## Setup
 
@@ -17,7 +17,7 @@ Fork and clone the [Video Poker Repo](https://github.com/rocketacademy/video-pok
 ### Primary Game Logic
 
 1. Create an empty helper function called `calcHandScore` that returns a fixed number of points for now, e.g. 1.
-   1. Use [JSDoc function commenting](../logistics/tools-syntax-and-glossary.md#jsdoc) with the following attributes.
+   1. Use [JSDoc function commenting](broken-reference) with the following attributes.
       1. Description of function
       2. Description of each parameter
       3. Description of return value
@@ -93,7 +93,7 @@ Implement 7 Card Stud rules for Poker instead of 5 Card Draw.
 
 ## Project Submission and Past Student Projects
 
-Once done with your project, please submit it by adding it to the [Rocket Bootcamp Projects spreadsheet](https://docs.google.com/spreadsheets/d/1YZ39naj5E6mNNkQ1akR_FgeFO_kM6aWCAr8zqrFOkt4/edit?usp=sharing) in your batch-specific sheet. Feel free to view past student projects in previous batches' sheets.
+Once done with your project, please submit it by adding it to the [Rocket Bootcamp Projects spreadsheet](https://docs.google.com/spreadsheets/d/1YZ39naj5E6mNNkQ1akR\_FgeFO\_kM6aWCAr8zqrFOkt4/edit?usp=sharing) in your batch-specific sheet. Feel free to view past student projects in previous batches' sheets.
 
 ## Disclaimer
 

@@ -54,7 +54,7 @@ In DSA problems, we don't need to implement a hash map class. _**We are normally
 
 ### Tallying Frequencies:
 
-Example card frequencies from module [0.4: JS Object as Tally](../../../0-language-and-tooling/0.4-js-object-as-tally.md):
+Example card frequencies from module [0.4: JS Object as Tally](broken-reference):
 
 ```javascript
 // Create shuffled deck
