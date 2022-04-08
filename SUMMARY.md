@@ -1,31 +1,23 @@
 # Table of contents
 
 - [🚀 Welcome to Bootcamp!](README.md)
-
 - [🛠 Logistics](logistics/README.md)
-
   - [Course Methodology](logistics/course-methodology.md)
   - [Required Software](logistics/required-software.md)
   - [LinkedIn Education Badge](logistics/linkedin-education-badge.md)
-
 - [📚 General Reference](general-reference/README.md)
-
   - [Naming, Casing, and Commenting Conventions](general-reference/naming-casing-and-commenting-conventions.md)
   - [VS Code Tips](general-reference/vs-code-tips.md)
   - [Tools, Syntax, and Glossary](general-reference/tools-syntax-and-glossary.md)
   - [Group Work Primer](general-reference/group-work-primer.md)
   - [Recommended Resources](general-reference/recommended-resources.md)
-
 - [🏞 Projects](projects/README.md)
-
   - [Project 1: Video Poker](projects/project-1-video-poker.md)
   - [Project 2: Server-Side App](projects/project-2-server-side-app.md)
   - [Project 3: Full-Stack Game](projects/project-3-full-stack-game.md)
   - [Project 4: Group React App](projects/project-4-group-react-app.md)
   - [Project 5: Capstone](projects/project-5-capstone.md)
-
-- [Foundations](0-foundations/README.md)
-
+- [0 Foundations](0-foundations/README.md)
   - [0.0: Module 0 Overview](0-foundations/0.0-module-0-overview.md)
   - [0.1: JavaScript](0-foundations/0.1-javascript/README.md)
     - [0.1.1: ES6](0-foundations/0.1-javascript/0.1.1-es6.md)
@@ -49,9 +41,7 @@
     - [0.4.4: Pull Request](0-foundations/0.4-github/0.4.4-pull-request.md)
   - [0.ICE: In-Class Exercises](0-foundations/0.ice-in-class-exercises/README.md)
     - [0.ICE.1: Git Branches](0-foundations/0.ice-in-class-exercises/0.ice.1-git-branches.md)
-
-- [Frontend](1-frontend/README.md)
-
+- [1 Frontend](1-frontend/README.md)
   - [1.0: Module 1 Overview](1-frontend/1.0-module-1-overview.md)
   - [1.1: HTML](1-frontend/1.1-html.md)
   - [1.2: DOM Manipulation](1-frontend/1.2-dom-manipulation/README.md)
@@ -92,25 +82,15 @@
     - [1.POCE.4: Timer](1-frontend/1.poce-post-class-exercises/1.poce.4-timer.md)
     - [1.POCE.5: Tic Tac Toe](1-frontend/1.poce-post-class-exercises/1.poce.5-tic-tac-toe.md)
   - [Additional Resources](1-frontend/additional-resources.md)
-
-- [Backend](2-backend/README.md)
-
+- [2 Backend](2-backend/README.md)
   - [Page 2](2-backend/page-2.md)
-
-- [Advanced Backend](3-advanced-backend/README.md)
-
+- [3 Advanced Backend](3-advanced-backend/README.md)
   - [Page 3](3-advanced-backend/page-3.md)
-
-- [Advanced Frontend](4-advanced-frontend/README.md)
-
+- [4 Advanced Frontend](4-advanced-frontend/README.md)
   - [Page 4](4-advanced-frontend/page-4.md)
-
-- [Capstone](5-capstone/README.md)
-
+- [5 Capstone](5-capstone/README.md)
   - [Page 5](5-capstone/page-5.md)
-
-- [Algorithms](algorithms/README.md)
-
+- [🧮 Algorithms](algorithms/README.md)
   - [A.0: Algorithms Overview](algorithms/a.0-algorithms-overview.md)
   - [A.1: Intro to SWE Interviews](algorithms/a.1-intro-to-swe-interviews.md)
   - [A.2: Intro to Algorithm Problems](algorithms/a.2-intro-to-algorithm-problems.md)
