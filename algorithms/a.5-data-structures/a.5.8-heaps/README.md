@@ -225,8 +225,8 @@ Please use the [Python `heapq` library](https://docs.python.org/3/library/heapq.
 
 1. Implement adding an element to the heap by implementing a `sift_up` function for the max heap example above (don't use a heapq). You can use the heap class example above as reference.
 2. [https://leetcode.com/problems/last-stone-weight/](https://leetcode.com/problems/last-stone-weight/)
-   1. RA Solution code: [https://pastebin.com/JCB78UG0](https://pastebin.com/JCB78UG0)
-   2. RA Solution video: [https://youtu.be/Zat3PE0j1bA?t=2092](https://youtu.be/Zat3PE0j1bA?t=2092)
+   1. Rocket Solution code: [https://pastebin.com/JCB78UG0](https://pastebin.com/JCB78UG0)
+   2. Rocket Solution video: [https://youtu.be/Zat3PE0j1bA?t=2092](https://youtu.be/Zat3PE0j1bA?t=2092)
 
 ### Part 1
 

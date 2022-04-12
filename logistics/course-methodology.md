@@ -38,7 +38,7 @@ Project management tools are often used in managing longer-term projects involvi
 
 ### Recommended Daily Order of Work
 
-On any given day in SWE Bootcamp, students will have to do post-class exercises for the current day, pre-class exercises for the upcoming day, and will possibly be working on a project on top of the usual daily exercises . RA recommends that students prioritize the material in the following order.
+On any given day in SWE Bootcamp, students will have to do post-class exercises for the current day, pre-class exercises for the upcoming day, and will possibly be working on a project on top of the usual daily exercises . Rocket recommends that students prioritize the material in the following order.
 
 1. Base section of post-class exercises / project
 2. Pre-class exercises

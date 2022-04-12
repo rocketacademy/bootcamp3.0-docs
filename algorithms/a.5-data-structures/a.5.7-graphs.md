@@ -156,8 +156,8 @@ graph = {
 4. [https://leetcode.com/problems/redundant-connection/](https://leetcode.com/problems/redundant-connection/) (Medium)
 5. [https://leetcode.com/problems/find-the-town-judge/](https://leetcode.com/problems/find-the-town-judge/)
    1. Hint: What additional data structures might be helpful for us to solve this problem?
-   2. RA solution code: [https://pastebin.com/3N4NUz8G](https://pastebin.com/3N4NUz8G)
-   3. RA solution video: [https://youtu.be/1xDBSlnUiUE?t=1308](https://youtu.be/1xDBSlnUiUE?t=1308)
+   2. Rocket solution code: [https://pastebin.com/3N4NUz8G](https://pastebin.com/3N4NUz8G)
+   3. Rocket solution video: [https://youtu.be/1xDBSlnUiUE?t=1308](https://youtu.be/1xDBSlnUiUE?t=1308)
 
 -
 
@@ -167,8 +167,8 @@ graph = {
 2. https://leetcode.com/problems/minesweeper/
 3. [https://leetcode.com/problems/all-paths-from-source-to-target/](https://leetcode.com/problems/all-paths-from-source-to-target/) (Medium)
    1. Hint: Would recursion be helpful?
-   2. RA solution code: [https://pastebin.com/AtwkRjBf](https://pastebin.com/AtwkRjBf)
-   3. RA solution video: [https://www.youtube.com/watch?v=dUhleIGC-D4](https://www.youtube.com/watch?v=dUhleIGC-D4)
+   2. Rocket solution code: [https://pastebin.com/AtwkRjBf](https://pastebin.com/AtwkRjBf)
+   3. Rocket solution video: [https://www.youtube.com/watch?v=dUhleIGC-D4](https://www.youtube.com/watch?v=dUhleIGC-D4)
 4. [https://leetcode.com/problems/minimum-number-of-vertices-to-reach-all-nodes/](https://leetcode.com/problems/minimum-number-of-vertices-to-reach-all-nodes/) (Medium)
 
 ## Further Reading

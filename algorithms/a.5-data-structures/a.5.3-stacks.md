@@ -6,9 +6,9 @@
 
 By the end of this lesson, you should:
 
-* be familiar with stack functionality time and space complexity
-* understand the difference between LIFO and FIFO
-* understand the python stack class example
+- be familiar with stack functionality time and space complexity
+- understand the difference between LIFO and FIFO
+- understand the python stack class example
 
 ## Introduction
 
@@ -113,20 +113,20 @@ Feel free to use the Python List to perform Stack operations. Once you've attemp
 1. [Reverse a string.](https://leetcode.com/problems/reverse-string/)
    1. Only use a list, `push` and `pop`!
 2. [https://leetcode.com/problems/crawler-log-folder/](https://leetcode.com/problems/crawler-log-folder/)
-   1. RA solution video: [https://youtu.be/y---RCHCdD4?t=2460](https://youtu.be/y---RCHCdD4?t=2460)
+   1. Rocket solution video: [https://youtu.be/y---RCHCdD4?t=2460](https://youtu.be/y---RCHCdD4?t=2460)
 3. [https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/)
-   1. RA strategy video: [https://youtu.be/y---RCHCdD4?t=4613](https://youtu.be/y---RCHCdD4?t=4613)
+   1. Rocket strategy video: [https://youtu.be/y---RCHCdD4?t=4613](https://youtu.be/y---RCHCdD4?t=4613)
 
 ### Part 1
 
 1. [https://leetcode.com/problems/backspace-string-compare/](https://leetcode.com/problems/backspace-string-compare/)
 2. [https://leetcode.com/problems/make-the-string-great/](https://leetcode.com/problems/make-the-string-great/)
-   1. RA strategy video: [https://youtu.be/y---RCHCdD4?t=4457](https://youtu.be/y---RCHCdD4?t=4457)
+   1. Rocket strategy video: [https://youtu.be/y---RCHCdD4?t=4457](https://youtu.be/y---RCHCdD4?t=4457)
 
 ### Part 2
 
 1. [https://leetcode.com/problems/valid-parentheses/](https://leetcode.com/problems/valid-parentheses/)
-   1. RA solution code: [https://pastebin.com/qGbG1BAN](https://pastebin.com/qGbG1BAN)
+   1. Rocket solution code: [https://pastebin.com/qGbG1BAN](https://pastebin.com/qGbG1BAN)
 2. [https://leetcode.com/problems/min-stack/](https://leetcode.com/problems/min-stack/)
 
 ### More Comfortable

@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This is the capstone project. The objective of this project is to allow you to pursue a specific interest or field and choose your own tech stack based on its applicability or merits, while under the guidance of RA instructors. At the end of this project you should be able to justify the technology choices you've made and understand some of the tradeoffs between the available options. You can choose to work alone or in teams of two.
+This is the capstone project. The objective of this project is to allow you to pursue a specific interest or field and choose your own tech stack based on its applicability or merits, while under the guidance of Rocket instructors. At the end of this project you should be able to justify the technology choices you've made and understand some of the tradeoffs between the available options. You can choose to work alone or in teams of two.
 
 ## Requirements
 

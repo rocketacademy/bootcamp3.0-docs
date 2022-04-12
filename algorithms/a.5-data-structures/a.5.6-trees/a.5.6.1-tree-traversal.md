@@ -4,10 +4,10 @@
 
 By the end of this lesson, you should:
 
-* be familiar with what a tree data structure is
-* understand the python implementation of a tree data structure
-* be familiar with the different tree traversal algorithms
-* be familiar with the time and space complexity of tree traversal algorithms
+- be familiar with what a tree data structure is
+- understand the python implementation of a tree data structure
+- be familiar with the different tree traversal algorithms
+- be familiar with the time and space complexity of tree traversal algorithms
 
 ## Introduction
 
@@ -229,17 +229,17 @@ See [Pre-Order, In-Order, and Post-Order section](./#pre-order-in-order-and-post
 3. [FTBC3 In-Class Discussion Part 2](https://youtu.be/L2gtfJBxKzE?t=6278)
 4. [https://leetcode.com/problems/find-mode-in-binary-search-tree/](https://leetcode.com/problems/find-mode-in-binary-search-tree/)
 5. [https://leetcode.com/problems/path-sum/](https://leetcode.com/problems/path-sum/)
-   1. RA solution code: [https://pastebin.com/wu9Xn6b3](https://pastebin.com/wu9Xn6b3)
+   1. Rocket solution code: [https://pastebin.com/wu9Xn6b3](https://pastebin.com/wu9Xn6b3)
    2. FTBC class video solution: [https://youtu.be/DUxsg2iDtuE?t=1226](https://youtu.be/DUxsg2iDtuE?t=1226)
 
 ### Part 6
 
 1. [https://leetcode.com/problems/sum-of-root-to-leaf-binary-numbers/](https://leetcode.com/problems/sum-of-root-to-leaf-binary-numbers/)
    1. Here's an [intuitive explanation of binary numbers](https://www.mathsisfun.com/binary-number-system.html).
-   2. Kai also explained binary numbers in a [prior FTBC3 class here](https://youtu.be/qewAXA\_vkpE?t=2372).
+   2. Kai also explained binary numbers in a [prior FTBC3 class here](https://youtu.be/qewAXA_vkpE?t=2372).
 2. [https://leetcode.com/problems/two-sum-iv-input-is-a-bst/](https://leetcode.com/problems/two-sum-iv-input-is-a-bst/)
 3. [https://leetcode.com/problems/range-sum-of-bst/](https://leetcode.com/problems/range-sum-of-bst/)
-   1. RA solution code (naive solution without pruning): [https://pastebin.com/5eGrpPSq](https://pastebin.com/5eGrpPSq)
+   1. Rocket solution code (naive solution without pruning): [https://pastebin.com/5eGrpPSq](https://pastebin.com/5eGrpPSq)
    2. [Solution video](https://youtu.be/3Dw3spVIk1w?t=4579) from FTBC3's class
 
 ### Part 7
@@ -270,11 +270,11 @@ See [Pre-Order, In-Order, and Post-Order section](./#pre-order-in-order-and-post
       3. `abs(root.val - maxValInLeftSubtree)`
       4. `abs(root.val - minValInRightSubtree))`
 7. [https://leetcode.com/problems/symmetric-tree/](https://leetcode.com/problems/symmetric-tree/)
-   1. RA solution code: [https://pastebin.com/a2buQJxv](https://pastebin.com/a2buQJxv)
-   2. [Solution video](https://youtu.be/AMpseCEX6\_A?t=2147) from FTBC3's class
+   1. Rocket solution code: [https://pastebin.com/a2buQJxv](https://pastebin.com/a2buQJxv)
+   2. [Solution video](https://youtu.be/AMpseCEX6_A?t=2147) from FTBC3's class
 8. [https://leetcode.com/problems/cousins-in-binary-tree/](https://leetcode.com/problems/cousins-in-binary-tree/)
    1. Rocket Academy solution code: [https://pastebin.com/wWYXg309](https://pastebin.com/wWYXg309)
-   2. Rocket Academy video solution: [https://youtu.be/SeNfZBAU\_f4?t=4088](https://youtu.be/SeNfZBAU\_f4?t=4088)
+   2. Rocket Academy video solution: [https://youtu.be/SeNfZBAU_f4?t=4088](https://youtu.be/SeNfZBAU_f4?t=4088)
 9. [https://leetcode.com/problems/diameter-of-binary-tree/](https://leetcode.com/problems/diameter-of-binary-tree/)
 10. [https://leetcode.com/problems/binary-tree-right-side-view/](https://leetcode.com/problems/binary-tree-right-side-view/) (Medium)
 11. [https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/) (Medium)

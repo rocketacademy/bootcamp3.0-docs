@@ -30,7 +30,7 @@ In the limited time we have at RA, we will want to strike a balance between prac
 
 ### Systems Design
 
-Systems Design \(SD\) interviews are less common among junior engineer interview processes and many RA grads may not encounter SD interviews until later in their SWE careers. SD interviews typically consist of designing software architecture, e.g. drawing a diagram of the various frontend and backend components in a software system and how the pieces fit together. Such interviews are crucial for more senior engineers, because senior engineers spend less time writing code and more time designing code architecture, determining how modules will divide responsibilities and interact. SD interviews are also a good way to test knowledge of software systems overall, whether a candidate could be counted on to lead a team that oversees the whole system.
+Systems Design \(SD\) interviews are less common among junior engineer interview processes and many Rocket grads may not encounter SD interviews until later in their SWE careers. SD interviews typically consist of designing software architecture, e.g. drawing a diagram of the various frontend and backend components in a software system and how the pieces fit together. Such interviews are crucial for more senior engineers, because senior engineers spend less time writing code and more time designing code architecture, determining how modules will divide responsibilities and interact. SD interviews are also a good way to test knowledge of software systems overall, whether a candidate could be counted on to lead a team that oversees the whole system.
 
 ### Language-Specific Questions
 
