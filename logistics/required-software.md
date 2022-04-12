@@ -92,12 +92,16 @@ ESLint is a JavaScript code formatter that helps us detect functional and stylis
 
 {% tabs %}
 {% tab title="MacOS" %}
+
 #### VS Code Settings for MacOS
 
 ```json
 {
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "[javascript]": {
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+  },
+  "[javascriptreact]": {
     "editor.defaultFormatter": "dbaeumer.vscode-eslint"
   },
   "editor.formatOnSave": true,
@@ -110,9 +114,11 @@ ESLint is a JavaScript code formatter that helps us detect functional and stylis
   "eslint.migration.2_x": "off"
 }
 ```
+
 {% endtab %}
 
 {% tab title="Windows" %}
+
 #### VS Code Settings for Windows
 
 {% hint style="warning" %}
@@ -125,6 +131,9 @@ If your installed Git folder is not in the location as listed below, please edit
 {
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "[javascript]": {
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+  },
+  "[javascriptreact]": {
     "editor.defaultFormatter": "dbaeumer.vscode-eslint"
   },
   "editor.formatOnSave": true,
@@ -144,6 +153,7 @@ If your installed Git folder is not in the location as listed below, please edit
   }
 }
 ```
+
 {% endtab %}
 {% endtabs %}
 
@@ -214,6 +224,7 @@ Please do not store code in folders synced to cloud storage such as Google Drive
 
 {% tabs %}
 {% tab title="MacOS" %}
+
 #### Mac Folder Organisation
 
 Mac users can store all Bootcamp code in 1 place.
@@ -224,9 +235,10 @@ Mac users can store all Bootcamp code in 1 place.
 4. Within each day folder, create `prce` (pre-class), `ice` (in-class), and `poce` (post-class) folders for the respective exercises.
 5. Within each PRCE, ICE and POCE folder, keep a separate folder for every exercise you do that requires a new Git repo.
 6. Store projects within a `projects` folder directly within the `bootcamp` folder for easy accessibility.
-{% endtab %}
+   {% endtab %}
 
 {% tab title="Windows" %}
+
 #### Windows Folder Organisation
 
 Windows users will need to store Bootcamp code in 2 places, 1 place for Module 1 and another place for Modules 2-5.
@@ -240,5 +252,5 @@ Windows users will need to store Bootcamp code in 2 places, 1 place for Module 1
 7. For Module 2 onward we will store files inside the WSL part of the computer. Create a directory called `bootcamp` in the home (`~`) folder of the Ubuntu system.
 8. Organise modules, days, exercises and projects as above for Modules 2-5.
 9. Do not save any of the files from Module 2 onward in the Windows side of the computer.
-{% endtab %}
-{% endtabs %}
+   {% endtab %}
+   {% endtabs %}

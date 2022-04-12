@@ -1,0 +1,977 @@
+{
+  "recipes": [
+    {
+      "source": "BBC Good Food",
+      "label": "Udon noodle soup",
+      "url": "http://www.edamam.com/recipe/udon-noodle-soup-bf283c727cd11fb8ce42b98f09dabbac/noodle",
+      "ingredients": "1 vegetable stock cube\n50ml teriyaki sauce\n1 tbsp vegetable oil\n140g chestnut mushroom, sliced\n½ bunch spring onions, thinly sliced\n140g udon noodle\n200g bag spinach",
+      "yield": 4,
+      "caution": "Sulfites",
+      "image": "https://www.edamam.com/web-img/7b2/7b24a14c8756cc1db75eb216fb593e6d.jpg",
+      "category": "Vegan"
+    },
+    {
+      "source": "Smitten Kitchen",
+      "label": "Noodle Kugel recipes",
+      "url": "http://www.edamam.com/recipe/noodle-kugel-recipes-d6452a86e2edb13bbeb305904fd2a7f1/noodle",
+      "ingredients": "1 pound wide egg noodles\n2 8-ounce packages cream cheese, softened\n1 pound (16 ounces) creamed cottage cheese, full fat\n1 1/2 cups sugar\n1 stick salted butter, melted, plus more for greasing the baking dish\n8 eggs\n2 teaspoons vanilla\n1 teaspoon cinnamon\n1 cup dried cherries",
+      "yield": 4,
+      "caution": "Sulfites",
+      "image": "https://www.edamam.com/web-img/129/1299cd9a98464c5f76952710aa71aaba",
+      "category": "Tree-Nut-Free"
+    },
+    {
+      "source": "101 Cookbooks",
+      "label": "Pomelo Noodle Salad",
+      "url": "http://www.edamam.com/recipe/pomelo-noodle-salad-e12bae27e714d81595c393266df43a98/noodle",
+      "ingredients": "6 ounces dried somen, or soba noodles\n8 ounces shelled edamame\n2 big handfuls salad or micro greens\nscant ½ teaspoon toasted sesame oil\na few tablespoons of ponzu sauce, to taste\n2/3 cup chopped toasted peanuts\n½ a medium pomelo, segments\nTopping: garlic or chive flowers, or chopped chives",
+      "yield": 5,
+      "caution": "Gluten",
+      "image": "https://www.edamam.com/web-img/95a/95a02fd8ece7cfb61b7348851262bd03.jpg",
+      "category": "Vegan"
+    },
+    {
+      "source": "Simply Recipes",
+      "label": "Chicken Noodle Soup recipes",
+      "url": "http://www.edamam.com/recipe/chicken-noodle-soup-recipes-c1348377891b4c1a81648e55b12ebd00/noodle",
+      "ingredients": "One 3 1/2-pound chicken, cut into parts—breast, thighs, backs, wings and neck (if available)\n5 carrots (2 carrots scrubbed clean, but not peeled, cut into 2 inch chunks for the stock, 3 carrots peeled and cut into 1/4-inch rounds for the soup)\n5 ribs of celery (2 ribs cut into 2 inch pieces for the stock, 3 ribs cut into 1/4-inch thick slices for the soup), including celery tops for the stock\n1 onion, quartered (for stock, peel on is okay)\n3 cloves of garlic, peel on, cut in half\n2 to 3 sprigs of fresh thyme (or a teaspoon of dried)\n1 bunch of parsley\n5 whole peppercorns\nsalt\n8 to 12 ounces of egg noodles (depending on how noodle-y you want your soup)\nground black pepper",
+      "yield": 12,
+      "caution": "FODMAP",
+      "image": "https://www.edamam.com/web-img/67d/67dc12e07a0159b512cfee39f807a5f0",
+      "category": "Peanut-Free"
+    },
+    {
+      "source": "Delish",
+      "label": "Skillet Noodle Pizza",
+      "url": "http://www.edamam.com/recipe/skillet-noodle-pizza-697f2c00f50ed64061ff4c385d2da931/noodle",
+      "ingredients": "8 c. water\n4 package any flavor ramen noodle soup\n1 tbsp. olive oil\n1 c. spaghetti sauce\n4 oz. mozzarella cheese\n17 slice pepperoni\n½ tsp. dried oregano",
+      "yield": 6,
+      "caution": "Sulfites",
+      "image": "https://www.edamam.com/web-img/5ab/5ab3511f9e23d59ee00bfbfe44f91bd2.jpg",
+      "category": "Alcohol-Free"
+    },
+    {
+      "source": "Epicurious",
+      "label": "Noodle Kugel",
+      "url": "http://www.edamam.com/recipe/noodle-kugel-4cf10eb76bde336aed05336ee3cbe31f/noodle",
+      "ingredients": "1 pound dried wide egg noodles\n1 stick (1/2 cup) unsalted butter, cut into pieces\n1 cup whole milk\n5 large eggs, lightly beaten\n1/2 cup sugar\n2 teaspoons vanilla\n1/2 teaspoon salt\n1 (1-pound) container sour cream\n1 (1-pound) container small curd cottage cheese (4% fat)\n1 (20-ounce) can crushed pineapple, drained\n2 cups cornflakes, coarsely crushed\n2 tablespoons sugar\n1/2 teaspoon cinnamon\n2 tablespoons unsalted butter, cut into bits",
+      "yield": 10,
+      "caution": "Sulfites",
+      "image": "https://www.edamam.com/web-img/54b/54b806ef135a8d850c21020dbfba18ee.jpg",
+      "category": "Tree-Nut-Free"
+    },
+    {
+      "source": "Big Girls Small Kitchen",
+      "label": "Noodle Kugel",
+      "url": "http://www.edamam.com/recipe/noodle-kugel-0396d5851e4edf2222750a628a57d7ef/noodle",
+      "ingredients": "1 pound broad egg noodles\n8 ounces cream cheese, room temp\n1 stick unsalted butter, melted\n1/2 cup sugar\n1 teaspoon vanilla\n7 large eggs\n1 pint (2 cups) sour cream\n1/4 cup sugar\n1 teaspoon cinnamon\n4 tablespoons unsalted butter, softened",
+      "yield": 10,
+      "caution": "Sulfites",
+      "image": "https://www.edamam.com/web-img/356/356d290b492aeb0a07efa250f57b356e.jpg",
+      "category": "Peanut-Free"
+    },
+    {
+      "source": "Food52",
+      "label": "Korean cold noodle salad",
+      "url": "http://www.edamam.com/recipe/korean-cold-noodle-salad-2b8306e74eb9ea3eae6e89560164e782/noodle",
+      "ingredients": "4 tablespoons water\n3 tablespoons light soy sauce\n1 tablespoon sugar\n3 tablespoons cider vinegar\n2 tablespoons sesame oil\n1 ripe kiwi\n1 teaspoon chili paste\n2 tablespoons chopped scallions\n2 tablespoons chopped cilantro\n1 tablespoon fish sauce\n3 cups boiled noodles (can use any that you like, soba, rice noodles, mung bean noodles, etc)\n0.5 cups julienned romaine\n0.5 cups julienned carrots\n0.5 cups julienned egg (beat 2 eggs, pour into an hot oiled none stick pan. remove from the pan when the egg is set and julienne the cooked egg)\n0.5 cups julienned ham",
+      "yield": 4,
+      "caution": "Gluten",
+      "image": "https://www.edamam.com/web-img/629/629ed6a2cfef5bc7fc99ed039f62fa24.JPG"
+    },
+    {
+      "source": "My Recipes",
+      "label": "Noodle Bowl",
+      "url": "http://www.edamam.com/recipe/noodle-bowl-a4d6a51b0acb9ae51267830cd011d39f/noodle",
+      "ingredients": "1 (3-oz.) package Oriental-flavored ramen noodle soup mix\n2 cups water\n1 chopped green onion\n2 tablespoons chopped fresh cilantro\n1/2 cup fresh snow peas, trimmed\n6 peeled and deveined medium-size raw shrimp (26/30 count)\n1/4 cup shredded napa cabbage\n1 to 2 Tbsp. chopped peanuts",
+      "yield": 1,
+      "caution": "Sulfites",
+      "image": "https://www.edamam.com/web-img/b88/b88acc0af1ce23b50042d7d24e8a33d7.jpg"
+    },
+    {
+      "source": "BBC Good Food",
+      "label": "Salmon noodle wraps",
+      "url": "http://www.edamam.com/recipe/salmon-noodle-wraps-01c1f8ceeaabee92c266ffffc2e99dd3/noodle",
+      "ingredients": "100g rice noodle\n2-3 spring onion, sliced\n50g fresh or frozen petits pois\n85g Chilli, coriander & lime butter (See 'Goes well with' below for the recipe)\n2 x 150g salmon fillets",
+      "yield": 2,
+      "image": "https://www.edamam.com/web-img/dd9/dd990c3d9f936fd3d399a226acba98c7.jpg",
+      "category": "Peanut-Free"
+    },
+    {
+      "source": "Jamie Oliver",
+      "label": "Pepper & noodle salad",
+      "url": "http://www.edamam.com/recipe/pepper-noodle-salad-183637d7be8ca7a08b47c45850d8a277/noodle",
+      "ingredients": "200 g rice noodles\n1 red pepper\n1 yellow pepper\n2 cloves of garlic\n2 fresh red chillies\n1 x 198 g tin of sweetcorn\n1 bunch of spring onions\n1 handful of salted peanuts\n3 tablespoons olive oil\n2 limes",
+      "yield": 4,
+      "caution": "Sulfites",
+      "image": "https://www.edamam.com/web-img/9b3/9b3f8781553ef7943727c019089c490b.jpg",
+      "category": "Tree-Nut-Free"
+    },
+    {
+      "source": "Martha Stewart",
+      "label": "Buckwheat-Noodle Salad",
+      "url": "http://www.edamam.com/recipe/buckwheat-noodle-salad-a7810995d93f21ecc4bb89bc413957a5/noodle",
+      "ingredients": "One 8-ounce package buckwheat soba noodles\n2 ounces pea shoots (watercress or mizuna can be substituted)\n1/2 mango, pitted, peeled, and cut into 1/2-inch dice\n3 tablespoons mango-lime glaze, from Mango and Lime-Glazed Chicken recipe\n3 tablespoons peanut butter, without sugar or salt\n1/3 cup rice-wine vinegar\n2 teaspoons soy sauce\n1 teaspoon Asian sesame oil\n3/4 teaspoon salt\n2 tablespoons roasted unsalted peanuts, coarsely chopped\n3/4 teaspoon salt\nOne 8 ounce package buckwheat soba noodles",
+      "yield": 4,
+      "caution": "Gluten",
+      "image": "https://www.edamam.com/web-img/cbc/cbc9ce4acab881cb586d1c121199bb92.jpg",
+      "category": "Tree-Nut-Free"
+    },
+    {
+      "source": "The Daily Meal",
+      "label": "Lemon Pepper Chicken Noodle Soup",
+      "url": "http://www.edamam.com/recipe/lemon-pepper-chicken-noodle-soup-9dc1150de0ab9ce11b8318a8f20ad0ae/noodle",
+      "ingredients": "12 Cups Chicken Broth\n4 Boneless Chicken Thighs\n2.5 Cups Wide Egg Noodle\n1/4 Cup Lemon Juice\n1/4 Cup Olive Oil\n1.5 Tablespoons Lemon Pepper\n1 Tablespoon Parsley\nTable Salt\nFresh-Ground Pepper",
+      "yield": 14,
+      "caution": "Sulfites",
+      "image": "https://www.edamam.com/web-img/e13/e13cdd4411a121aa3c03f07bd3a299bf.jpg",
+      "category": "Tree-Nut-Free"
+    },
+    {
+      "source": "Cookstr",
+      "label": "Noodle Kugel",
+      "url": "http://www.edamam.com/recipe/noodle-kugel-063dbdf0d740bd2ff854dae09588c9d2/noodle",
+      "ingredients": "2 cups creamed large-curd cottage cheese\n3 to 4 tablespoons sweet butter , for topping\nSour cream and cinnamon sugar (optional)\n1 teaspoon powdered cinnamon\n1½ teaspoons vanilla extract\n1 pound noodles between ½ and 1 inch wide, preferably the latter\n7 eggs\n½ cup sugar\n3 tablespoons raisins",
+      "yield": 8,
+      "caution": "Sulfites",
+      "image": "https://www.edamam.com/web-img/5dc/5dc2f91c789fc87aa465f7e7d71ed4e9.jpg",
+      "category": "Vegetarian"
+    },
+    {
+      "source": "EatingWell",
+      "label": "Chinese Chicken & Noodle Salad",
+      "url": "http://www.edamam.com/recipe/chinese-chicken-noodle-salad-6aa6919cfc90f1190bcdf5e9e3298617/noodle",
+      "ingredients": "3/4 teaspoon toasted sesame oil\n2 cups shredded green cabbage\n1/2 teaspoon salt\n3 tablespoons cider vinegar\n5 teaspoons reduced-sodium soy sauce\n1 tablespoon sesame seeds\n1 1/2 teaspoons canola oil\n1 medium carrot, shredded\n1 3-ounce package low-fat ramen-noodle soup mix , (see Note)\n3 1/4-inch-thick slices fresh ginger\n3 scallions, chopped\n1/4 cup slivered almonds\n3 tablespoons orange juice\n1 pound boneless, skinless chicken breasts, trimmed\n5 teaspoons sugar",
+      "yield": 4,
+      "caution": "Sulfites",
+      "image": "https://www.edamam.com/web-img/d4b/d4b612d7c7d43408d762c501d59ec524.jpg"
+    },
+    {
+      "source": "PBS Food",
+      "label": "Asian Noodle Salad",
+      "url": "http://www.edamam.com/recipe/asian-noodle-salad-a23e1c55c8dfff527b70a3fc625ff172/noodle",
+      "ingredients": "8 ounces green beans trimmed and cut into 2 inch pieces\n6 ounces soba noodles\n6 ounces tofu cut into 1/2 inch cubes\n3 tb fresh lime juice\n2 tablespoons soy sauce\n2 teaspoons toasted sesame oil\n2 scallions minced",
+      "yield": 2,
+      "caution": "Gluten",
+      "image": "https://www.edamam.com/web-img/0d0/0d089521608e6ebdac87d8302da3b1e4.jpg",
+      "category": "Tree-Nut-Free"
+    },
+    {
+      "source": "Good Housekeeping",
+      "label": "Noodle Pudding",
+      "url": "http://www.edamam.com/recipe/noodle-pudding-d57a035a0d384d7bfa64fea946da702c/noodle",
+      "ingredients": "1 c. panko bread crumbs\n1 tbsp. unsalted butter\n8 oz. wide egg noodles\n1 c. sour cream\n1 c. cottage cheese\n½ c. grated sharp Cheddar cheese\n1 medium onion\n1 clove garlic\n1 tbsp. Worcestershire sauce\n1 tsp. salt\n½ tsp. red pepper flakes",
+      "yield": 6,
+      "caution": "Sulfites",
+      "image": "https://www.edamam.com/web-img/9a4/9a47a0f8a3cc4bd688cea19524285c85.jpg",
+      "category": "Alcohol-Free"
+    },
+    {
+      "source": "Epicurious",
+      "label": "Zucchini Noodles with Anchovy Butter",
+      "url": "http://www.edamam.com/recipe/zucchini-noodles-with-anchovy-butter-06c0f2309a5bb361a032850fce103625/noodle",
+      "ingredients": "4 tablespoons (1/2 stick) unsalted butter\n6 oil-packed anchovy fillets\n2-3 large zucchini, thinly sliced into noodle-like ribbons with a vegetable peeler or mandoline (about 6 cups)\n1/2 cup grated Parmesan\n1 teaspoon crushed red pepper flakes",
+      "yield": 6,
+      "caution": "Sulfites",
+      "image": "https://www.edamam.com/web-img/c6f/c6f96bd8b5e0204483edfb872598d736.jpg",
+      "category": "Sugar-Conscious"
+    },
+    {
+      "source": "Donna Hay",
+      "label": "Vietnamese Noodle Soup",
+      "url": "http://www.edamam.com/recipe/vietnamese-noodle-soup-855f6ba55f00c3641e6fe9aad8534c43/noodle",
+      "ingredients": "2 litres beef stock\n1 teaspoon fish sauce\n1 tablespoon lime juice\n3 cm piece (15g) ginger, finely sliced\n1 stick cinnamon\n200 g thick rice noodles\n300 g bok choy, halved\n300 g beef fillet, thinly sliced+\n1 long red chilli, sliced\n5 green onions (scallions), thinly sliced\n¼ cup each Thai basil leaves and mint leaves",
+      "yield": 8,
+      "caution": "Shellfish",
+      "image": "https://www.edamam.com/web-img/692/692693f88665ac53ca6068168e90b701.jpg",
+      "category": "Tree-Nut-Free"
+    },
+    {
+      "source": "Elana's Pantry",
+      "label": "Chicken Noodle Soup",
+      "url": "http://www.edamam.com/recipe/chicken-noodle-soup-fb31ec66ba88e517c3c2fd9f77cb0161/noodle",
+      "ingredients": "1 quart chicken stock\n1 rib celery, diced\n1 large carrot, diced\n1 small zucchini, made into noodles with julienne slicer",
+      "yield": 4,
+      "caution": "Sulfites",
+      "image": "https://www.edamam.com/web-img/c07/c074239207070f4b39d3818e8475bb4d.jpg",
+      "category": "Alcohol-Free"
+    },
+    {
+      "source": "Food Network",
+      "label": "Noodle Kugel",
+      "url": "http://www.edamam.com/recipe/noodle-kugel-3d53464dc6d95a27f1dac79bc21417fe/noodle",
+      "ingredients": "1/2 pound wide kosher for Passover egg noodles\n1/2 stick butter, melted\n1 pound cottage cheese\n2 cups sour cream\n1/2 cup sugar\n6 eggs\n1 teaspoon ground cinnamon\n1/2 cup raisins",
+      "yield": 8,
+      "caution": "Sulfites",
+      "image": "https://www.edamam.com/web-img/ffc/ffc0ddc7b18753c16fe014cc2a23a87a.jpeg",
+      "category": "Tree-Nut-Free"
+    },
+    {
+      "source": "Martha Stewart",
+      "label": "Asian Noodle Salad",
+      "url": "http://www.edamam.com/recipe/asian-noodle-salad-b4f0a65c0298b724385915b5d997f77a/noodle",
+      "ingredients": "8 ounces green beans, trimmed and cut into 2-inch pieces\n6 ounces soba noodles\n6 ounces tofu, cut into 1/2-inch cubes\n3 tablespoons fresh lime juice\n2 tablespoons soy sauce\n2 teaspoons toasted sesame oil\n2 scallions, minced",
+      "yield": 2,
+      "caution": "Gluten",
+      "image": "https://www.edamam.com/web-img/e5b/e5bb9103fc2fa989d3af3174ec11868b.jpg",
+      "category": "Tree-Nut-Free"
+    },
+    {
+      "source": "Men's Health",
+      "label": "Chicken and Whole Grain Noodle Soup",
+      "url": "http://www.edamam.com/recipe/chicken-and-whole-grain-noodle-soup-8036779e96c55fb7ee85d91e0bb22fde/noodle",
+      "ingredients": "1 tablespoon olive oil\n1 large onion, chopped\n2 medium carrots, chopped\n2 parsnips, chopped\n2 ribs celery, chopped\n1/2 teaspoon dried thyme\n5 cups reduced-sodium chicken broth\n1 1/2 pounds bone-in, skinless split chicken breasts\n1 tablespoon chopped fresh parsley plus sprigs for garnish\n5 ounces medium egg less whole grain noodle-style pasta\n1/4 teaspoon salt\n1/4 teaspoon freshly ground black pepper",
+      "yield": 10,
+      "caution": "Gluten",
+      "image": "https://www.edamam.com/web-img/858/858b6ce053ee150817a932409a37149e.jpg",
+      "category": "Peanut-Free"
+    },
+    {
+      "source": "Delish",
+      "label": "Warm Noodle Salad",
+      "url": "http://www.edamam.com/recipe/warm-noodle-salad-4e908b3c90e301550701200528fafeb4/noodle",
+      "ingredients": "5 strip thin-sliced bacon\n2 package any flavor ramen noodle soup mix\n12 oz. red cabbage\n1 bag spinach\n1 small onion, halved\n⅓ c. red-wine vinegar\n2 tbsp. oil\n2 tsp. Dijon mustard",
+      "yield": 6,
+      "caution": "Sulfites",
+      "image": "https://www.edamam.com/web-img/0e7/0e73a86bfd01a7781ce3c05f5fc6b7f7.jpg",
+      "category": "Alcohol-Free"
+    },
+    {
+      "source": "BBC Good Food",
+      "label": "Salmon noodle soup",
+      "url": "http://www.edamam.com/recipe/salmon-noodle-soup-2c6a854b82797225070aa7ee9a87bf51/noodle",
+      "ingredients": "1l low-salt chicken stock\n2 tsp Thai red curry paste\n100g flat rice noodle\n150g pack shiitake mushroom, sliced\n125g pack baby corn, sliced\n2 skinless salmon fillets, sliced\njuice 2 limes\n1 tbsp reduced-salt soy sauce\npinch brown sugar\nsmall bunch coriander, chopped",
+      "yield": 4,
+      "caution": "Sulfites",
+      "image": "https://www.edamam.com/web-img/56b/56b51b1e41b337cf4126375c5ad90582.jpg",
+      "category": "Alcohol-Free"
+    },
+    {
+      "source": "Good Housekeeping",
+      "label": "Thai Noodle Bowl",
+      "url": "http://www.edamam.com/recipe/thai-noodle-bowl-afe4a1fe063ebfab802c274851963c0c/noodle",
+      "ingredients": "4 scallions\n½ red bell pepper\n1 lb. chicken tenders\n1 can light coconut milk\n½ c. water\n1 tbsp. each green curry paste and fish sauce (see Note)\n½ a 16-oz box rice noodles\n2 tsp. oil\n2 c. shredded carrots\n⅓ c. mint leaves\nLime wedges",
+      "yield": 4,
+      "caution": "Shellfish",
+      "image": "https://www.edamam.com/web-img/2ad/2adae0d2b3c7c17ba0d8bd0788e1228b.jpg"
+    },
+    {
+      "source": "Food Network",
+      "label": "Noodle Kugel",
+      "url": "http://www.edamam.com/recipe/noodle-kugel-fd283ac497aa279144ff5fb996e0c4b1/noodle",
+      "ingredients": "2 large onions, diced (to make 2 cups)\n2 tablespoons vegetable oil\n1 pound cream cheese\n12-ounce package egg noodles\n1 cup golden raisins\n1 cube chicken bouillon\n1 pound (pint) cottage cheese\n1 pint sour cream\n6 eggs\nSalt and pepper\n1 tablespoon butter or butter substitute",
+      "yield": 8,
+      "caution": "Gluten",
+      "image": "https://www.edamam.com/web-img/57f/57ffc03820799a388797ba0c55e5e2ba.jpeg",
+      "category": "Alcohol-Free"
+    },
+    {
+      "source": "Martha Stewart",
+      "label": "Noodle Pudding recipes",
+      "url": "http://www.edamam.com/recipe/noodle-pudding-recipes-391ed1073b61dc699bc6b18e613d4d3c/noodle",
+      "ingredients": "2 tablespoons unsalted butter, cut into small pieces, plus more for dish\ncoarse salt\n12 ounces wide egg noodles\n8 ounces cream cheese, room temperature\n1 1/2 cups sour cream\n1 1/2 cups cottage cheese\n1 1/2 cups milk\n1/3 cup sugar\n3 large eggs",
+      "yield": 10,
+      "caution": "Sulfites",
+      "image": "https://www.edamam.com/web-img/a48/a480477bc1b022397de502de03bb5b80",
+      "category": "Alcohol-Free"
+    },
+    {
+      "source": "Cookstr",
+      "label": "Noodle Pudding",
+      "url": "http://www.edamam.com/recipe/noodle-pudding-3d99adf1e43dc6250ff201c63304eb87/noodle",
+      "ingredients": "1 pound wide egg noodles, cooked 2 minutes less than the package directions call for, drained\n4 eggs\n½ cup sugar\n2 teaspoons baking powder\n½ cup sour cream\n1 cup cottage cheese\n½ cup apricot preserves\n1 teaspoon vanilla\n1 stick (4 ounces) sweet butter, melted\n1 cup golden raisins",
+      "yield": 10,
+      "caution": "Sulfites",
+      "image": "https://www.edamam.com/web-img/e11/e11175a3201705252bdbef26483ff841.jpg",
+      "category": "Alcohol-Free"
+    },
+    {
+      "source": "My Recipes",
+      "label": "Noodle Chicken Salad recipes",
+      "url": "http://www.edamam.com/recipe/noodle-chicken-salad-recipes-0b1e72920530ec611f412adfce8926f1/noodle",
+      "ingredients": "2 (3-ounce) packages chicken-flavored ramen noodle soup mix\n1 (2- to 3-pound) roasted whole chicken\n2 tablespoons butter or margarine, divided\n1/2 cup sliced almonds\n1/4 cup sesame seeds\n1/3 cup vegetable oil\n2 tablespoons sesame oil\n1/2 cup red wine vinegar\n1/4 cup sugar\n1/4 cup lite soy sauce\n1/2 teaspoon pepper\n1 head romaine lettuce, torn\n5 green onions, sliced\nOptional ingredients: 1 (10-ounce) can mandarin oranges, drained; 1 cup sliced mushrooms; 1/2 cup sliced celery\nOptional ingredients: 1 (10-ounce) can mandarin oranges, drained; 1 cup sliced mushrooms; 1/2 cup sliced celery\nOptional ingredients: 1 (10-ounce) can mandarin oranges, drained; 1 cup sliced mushrooms; 1/2 cup sliced celery",
+      "yield": 5,
+      "caution": "Sulfites",
+      "image": "https://www.edamam.com/web-img/69a/69ac5e467d0d5d0d57935c6d7f7c72df"
+    },
+    {
+      "source": "BBC Good Food",
+      "label": "Egg drop chicken noodle soup",
+      "url": "http://www.edamam.com/recipe/egg-drop-chicken-noodle-soup-f3b618e5c8ce253bb0fa7cbfa9988d07/noodle",
+      "ingredients": "2 skinless, boneless chicken breasts, diced\n1.2l low-salt chicken stock\n140g wholewheat noodle\n140g baby corn, halved lengthways, or frozen sweetcorn\n2 eggs, beaten\nsqueeze lemon juice\n½ tsp sherry vinegar\n2 spring onions, finely chopped",
+      "yield": 4,
+      "caution": "Sulfites",
+      "image": "https://www.edamam.com/web-img/001/001390dcb2d7c9c45e103b7796964038.jpg"
+    },
+    {
+      "source": "The Daily Meal",
+      "label": "Ramen Noodle Bowl with Chicken Thighs",
+      "url": "http://www.edamam.com/recipe/ramen-noodle-bowl-with-chicken-thighs-2ae56d34f431278ba881b31e4b69f6c6/noodle",
+      "ingredients": "1 Package Perdue Fit & Easy Boneless, Skinless Chicken Thigh Filets\n1 Tablespoon Olive Oil\n1/4 Teaspoon Chinese Five-Spice Powder\n1/4 Teaspoon Salt\n1/8 Teaspoon Black Pepper\n1 Tablespoon Minced Fresh Garlic\n1 Tablespoon Grated Ginger\n4 Cups Chicken Stock\n1 Tablespoon Soy Sauce\n2 Teaspoons Sugar\n1 Ounce Dried Shiitake Mushrooms, Soaked In Boiling Water For Twenty Minutes\n4 Baby Bok Choy, Cut in Half\n4 Large Eggs, Boiled and Cut in Half\n4 Nest of Dried Ramen Noodle, Cooked (Two Onces)\n4 Tablespoons Sliced Scallions\nSriracha for Serving\nLime Wedges for Serving",
+      "yield": 6,
+      "caution": "Sulfites",
+      "image": "https://www.edamam.com/web-img/57d/57db20f69fe4335d0ffeced73a250190.jpg",
+      "category": "Peanut-Free"
+    },
+    {
+      "source": "Delish",
+      "label": "Noodle Chicken Salad",
+      "url": "http://www.edamam.com/recipe/noodle-chicken-salad-f000b7d1d4992eedff36265a2b67696c/noodle",
+      "ingredients": "2 package chicken-flavored ramen noodle soup mix\n1 roasted whole chicken\n2 tbsp. butter or margarine\n½ c. sliced almonds\n¼ c. sesame seeds\n⅓ c. vegetable oil\n2 tbsp. sesame oil\n½ c. red wine vinegar\n¼ c. sugar\n¼ c. reduced-sodium soy sauce\n½ tsp. Pepper\n1 head romaine lettuce\n5 green onions\n1 can mandarin oranges\n1 c. sliced mushrooms\n½ c. sliced celery",
+      "yield": 18,
+      "caution": "Sulfites",
+      "image": "https://www.edamam.com/web-img/6f7/6f789415d1692a1c1b73c84aaf0b979b.jpg",
+      "category": "Peanut-Free"
+    },
+    {
+      "source": "Food Network",
+      "label": "Noodle Kugel",
+      "url": "http://www.edamam.com/recipe/noodle-kugel-d78bede72b3542ec102c97c2a7627fd5/noodle",
+      "ingredients": "1 pound wide egg noodles\n5 extra-large eggs\n4 cups half-and-half\n1/4 cup light brown sugar, packed\n2 teaspoons pure vanilla extract\n1/2 teaspoon ground cinnamon\n1 1/2 tablespoons kosher salt\n1/2 teaspoon freshly ground black pepper\n1 cup ricotta cheese\n1 cup golden raisins",
+      "yield": 10,
+      "caution": "Sulfites",
+      "image": "https://www.edamam.com/web-img/996/996cab2b07b63abbb6dcda8cd94cdafc.jpeg",
+      "category": "Alcohol-Free"
+    },
+    {
+      "source": "My Recipes",
+      "label": "Shrimp with Ginger-Garlic Red Noodle Beans",
+      "url": "http://www.edamam.com/recipe/shrimp-with-ginger-garlic-red-noodle-beans-bfd8a0f983e132ecf4d7312f792733a3/noodle",
+      "ingredients": "1 pound red noodle or Chinese long beans, trimmed and cut into 4-inch pieces\n2 tablespoons canola oil\n1 (3-inch) piece fresh ginger, peeled and thinly sliced\n3 garlic cloves, chopped\n1 pound medium shrimp, peeled and deveined\n1/4 cup mirin (sweet rice wine)\n2 tablespoons lower-sodium soy sauce\n2 teaspoons Sriracha (hot chile sauce, such as Huy Fong)\n1/3 cup sliced green onions\n1 tablespoon toasted sesame seeds",
+      "yield": 4,
+      "caution": "Sulfites",
+      "image": "https://www.edamam.com/web-img/8e7/8e7d5f2f3a58eae3e111f6e85e3f55b0.jpg"
+    },
+    {
+      "source": "Martha Stewart",
+      "label": "Turkey Noodle Soup",
+      "url": "http://www.edamam.com/recipe/turkey-noodle-soup-6b48c516a3f01219a074e0462a8b75f1/noodle",
+      "ingredients": "2 tablespoons unsalted butter\n2 celery stalks, diced medium\n3 carrots, cut into 1/4-inch-thick rounds\n1 medium white onion, diced medium\nCoarse salt and ground pepper\n8 cups Easy Turkey Stock\n2 cups wide egg noodles\n1 sprig rosemary, about 2 inches long\n3/4 pound shredded cooked turkey",
+      "yield": 6,
+      "caution": "Sulfites",
+      "image": "https://www.edamam.com/web-img/150/150bfcbaf09a4b7e7838cd7fe6974124.jpg",
+      "category": "Alcohol-Free"
+    },
+    {
+      "source": "Good Housekeeping",
+      "label": "Chicken Noodle Soup",
+      "url": "http://www.edamam.com/recipe/chicken-noodle-soup-e04f945ab68c40a4190e057fd1144daa/noodle",
+      "ingredients": "6 c. chicken broth\n1 lb. boneless, skinless chicken thighs\n1 c. each chopped celery and onion\n1 c. baby carrots\n1 large parsnip\n1 tsp. minced garlic\n1 bay leaf\n¼ tsp. pepper\n2 c. uncooked medium egg noodles\n¼ c. snipped fresh dill",
+      "yield": 6,
+      "caution": "Sulfites",
+      "image": "https://www.edamam.com/web-img/385/385fa4ae8356e03b74c74d77b941c509.jpg",
+      "category": "Tree-Nut-Free"
+    },
+    {
+      "source": "BBC Good Food",
+      "label": "Crunchy prawn noodle salad",
+      "url": "http://www.edamam.com/recipe/crunchy-prawn-noodle-salad-ab9c872df596eccd3ec982b1ff232e9e/noodle",
+      "ingredients": "100g rice noodle\n100g sugar snap pea, shredded\n2 carrot, coarsely grated\n100g baby spinach\n85g peeled, cooked prawn, defrosted if frozen\n1 red chilli, deseeded and finely chopped\n3 tbsp rice vinegar\n1 tsp caster sugar\n1 tsp fish sauce\n1 tbsp roughly chopped mint",
+      "yield": 2,
+      "caution": "Shellfish",
+      "image": "https://www.edamam.com/web-img/b6d/b6de5e29003bd07429203942f2e26196.jpg",
+      "category": "Peanut-Free"
+    },
+    {
+      "source": "Cookstr",
+      "label": "Noodle Paella",
+      "url": "http://www.edamam.com/recipe/noodle-paella-38a342781d979d251b6ef48465ecb6ce/noodle",
+      "ingredients": "¼ cup Achiote Oil\n4 cloves garlic, thinly sliced\n¾ pound angel-hair pasta or two 6-ounce packages thin egg noodles\n1 pound medium (about 30 per pound) shrimp, peeled and deveined\n1 pound sea scallops\n1 pound mussels\n2½ cups (or as needed) bottled clam juice, hot\nFine sea or kosher salt to taste\nFreshly ground pepper to taste\nChopped fresh flat-leaf parsley",
+      "yield": 8,
+      "caution": "Sulfites",
+      "image": "https://www.edamam.com/web-img/dda/ddadc112b26dad7a148fcec9d91c1708.jpg",
+      "category": "Sugar-Conscious"
+    },
+    {
+      "source": "Food Network",
+      "label": "Noodle Salad",
+      "url": "http://www.edamam.com/recipe/noodle-salad-0a93916fe46c8f4257d2fc60b2992e67/noodle",
+      "ingredients": "1 1/2 tablespoons honey\n1 tablespoon Dijon mustard\n1 tablespoon Greek yogurt\n2 teaspoons apple cider vinegar\n3 large carrots, peeled\n1/2 teaspoon kosher salt\n1 English cucumber, peeled\n1 red pepper, seeded and julienned\n6 ounces sweet potato starch noodles, cooked according to package directions and rinsed\n1/2 cup dried cranberries",
+      "yield": 6,
+      "image": "https://www.edamam.com/web-img/f1d/f1d7ae8db05ae4cdb764924e96cf4ab0.jpeg",
+      "category": "Alcohol-Free"
+    },
+    {
+      "source": "Delish",
+      "label": "Crispy Noodle Pancake With Barbecued Pork",
+      "url": "http://www.edamam.com/recipe/crispy-noodle-pancake-with-barbecued-pork-7bc9d8e1ca9cbc827da2da1a228d9c2b/noodle",
+      "ingredients": "1 tbsp. brown sugar\n3 tbsp. hoisin sauce\n3 tbsp. ketchup\n2 tbsp. soy sauce\n½ tsp. Asian sesame oil\n3 package any flavor ramen-noodle soup mix\n2 package Japanese curly noodles (chuka soba)\n3 tbsp. vegetable oil\n1 medium red pepper\n4 oz. snow peas\n1 whole pork tenderloin\n1 tbsp. fresh ginger\n2 clove garlic\n3 green onions",
+      "yield": 4,
+      "caution": "Sulfites",
+      "image": "https://www.edamam.com/web-img/947/9478a517a09a6c19c0045b632897c7eb.jpg",
+      "category": "Alcohol-Free"
+    },
+    {
+      "source": "My Recipes",
+      "label": "Sesame Noodle Salad",
+      "url": "http://www.edamam.com/recipe/sesame-noodle-salad-329b606f20750a080ae78610525d64ab/noodle",
+      "ingredients": "12 ounces dried soba (Japanese buckwheat) noodles, dried Asian wheat noodles, or angel hair pasta\n3 tablespoons sesame seeds\n3 tablespoons vegetable oil\n1/4 cup soy sauce\n1/4 cup rice vinegar\n1 tablespoon sugar\n1/2 teaspoon cayenne\n1 red bell pepper (8 oz.), rinsed, stemmed, seeded, and cut into thin, short slivers\n3/4 cup shredded carrots\n3/4 cup thinly sliced green onions\nSalt",
+      "yield": 10,
+      "caution": "Gluten",
+      "image": "https://www.edamam.com/web-img/7d1/7d1b5c1c363e78c60dd81d0a188b733b.jpg",
+      "category": "Sugar-Conscious"
+    },
+    {
+      "source": "Cookstr",
+      "label": "Chicken Noodle Soup",
+      "url": "http://www.edamam.com/recipe/chicken-noodle-soup-a8ef75d1fd9de0b532a417d0dc793ee1/noodle",
+      "ingredients": "2 cups chicken stock (good-quality instant or canned is fine)\n1 boneless chicken breast, about 5oz, cut into strips\n1 tablespoon soy sauce\n¼ cup (about 4 or 5) baby corn, cut into 1 inch pieces\n8oz fresh or ready-cooked udon noodles\n½ cup sugar-snap peas\n½ cup slender green beans",
+      "yield": 2,
+      "caution": "Sulfites",
+      "image": "https://www.edamam.com/web-img/4d3/4d353ed134ff1f555c1f1bffee01b75a.jpg",
+      "category": "Peanut-Free"
+    },
+    {
+      "source": "BBC Good Food",
+      "label": "Crunchy prawn & noodle salad",
+      "url": "http://www.edamam.com/recipe/crunchy-prawn-noodle-salad-02ad4c82ea071d6913149ab7c45dfecc/noodle",
+      "ingredients": "100g rice noodle\n2 small carrot, cut into thin matchsticks\n2 spring onion, thinly sliced\nsmall handful each coriander and mint, chopped\n140g cooked prawn in chilli, lime and coriander (we used Waitrose)\n2 tsp reduced-salt soy sauce\n1 tsp fish sauce\n2 tsp light soft brown sugar\nzest and juice 1 lime",
+      "yield": 2,
+      "caution": "Shellfish",
+      "image": "https://www.edamam.com/web-img/a3b/a3be283272d452b513113ce234973009.jpg",
+      "category": "Tree-Nut-Free"
+    },
+    {
+      "source": "Food Network",
+      "label": "Noodle Kugel",
+      "url": "http://www.edamam.com/recipe/noodle-kugel-580f33802bcaaed289e87ca10c472575/noodle",
+      "ingredients": "1 stick unsalted butter, plus more for the dish\n1 large onion, chopped\n1 tablespoon plus 1/4 teaspoon sugar\nKosher salt\n12 ounces wide egg noodles\nFreshly ground pepper\n3 large eggs\n2 cups small-curd cottage cheese\n2 cups sour cream\n2 cups whole milk\nPinch of ground cinnamon\n1/2 teaspoon grated orange zest\n3 cups cornflakes, coarsely crushed",
+      "yield": 8,
+      "caution": "Sulfites",
+      "image": "https://www.edamam.com/web-img/bae/bae22311cb298fb7ae8c0ae48df1579b.jpeg",
+      "category": "Alcohol-Free"
+    },
+    {
+      "source": "My Recipes",
+      "label": "Chicken Noodle Bowl with Peanut-Ginger Sauce",
+      "url": "http://www.edamam.com/recipe/chicken-noodle-bowl-with-peanut-ginger-sauce-bc40235eace1787a77e72f1165f22f70/noodle",
+      "ingredients": "PEANUT-GINGER SAUCE\n1/2 cup creamy peanut butter\n4 1/2 tablespoons fresh lime juice\n3 tablespoons soy sauce\n3 tablespoons honey\n2 tablespoons peeled and chopped fresh ginger\n1 1/2 teaspoons sesame oil\n1/4 teaspoon crushed red pepper\n3 tablespoons rice vinegar\n1/4 teaspoon kosher salt\nCHICKEN NOODLE BOWL\n8 cups water\n2 tablespoons rice vinegar\n1 tablespoon kosher salt\n6 ounces rice noodles or bean threads\n3 cups shredded cooked chicken\n3 cups shredded napa cabbage\n1 1/2 cups halved and thinly sliced seedless cucumber\n1 1/2 cups matchstick carrots\n1 1/2 cups thinly sliced red bell pepper\n6 tablespoons chopped lightly salted dry-roasted peanuts",
+      "yield": 6,
+      "caution": "Sulfites",
+      "image": "https://www.edamam.com/web-img/8b9/8b90d6d61bc736ebab223f85828d0727.jpg"
+    },
+    {
+      "source": "BBC Good Food",
+      "label": "Chicken noodle laksa",
+      "url": "http://www.edamam.com/recipe/chicken-noodle-laksa-eef79f29ee97b89f822bb3b2c766d12b/noodle",
+      "ingredients": "1 medium chicken, jointed into pieces and skinned\n1 tbsp coriander seed\n3cm piece ginger, sliced\n2 lemongrass stalks, crushed\nzest and juice 1 lime\n2 tbsp fish sauce\n1 tbsp low-salt soy sauce\n200ml light coconut milk\n3 garlic clove, sliced\n3 red chilli, deseeded and sliced\nhandful coriander, chopped (leaves and stalks kept separate)\nbunch spring onions, sliced\n300g cooked rice noodle\nhandful mint leaves, chopped\n1 tbsp sesame oil (optional)",
+      "yield": 6,
+      "caution": "Shellfish",
+      "image": "https://www.edamam.com/web-img/e27/e2762621334d5f97837c97a6d3080e4c.jpg",
+      "category": "Peanut-Free"
+    },
+    {
+      "source": "Delish",
+      "label": "Chicken Noodle Soup",
+      "url": "http://www.edamam.com/recipe/chicken-noodle-soup-8e1b12bfa7f87581e0aaefebb14978c5/noodle",
+      "ingredients": "8 c. water\n4 medium carrots\n4 medium stalks celery\n1 small onion\n2 bay leaves\n½ tsp. dried thyme\nsalt\nground black pepper\n1 whole Chicken\n3 c. egg noodles",
+      "yield": 6,
+      "caution": "FODMAP",
+      "image": "https://www.edamam.com/web-img/cc5/cc587d2cbdad8da0efcb39d724b20c33.jpg",
+      "category": "Alcohol-Free"
+    },
+    {
+      "source": "My Recipes",
+      "label": "Egg Noodle Scramble",
+      "url": "http://www.edamam.com/recipe/egg-noodle-scramble-4a11da4f9669cc47df834af3afcc926b/noodle",
+      "ingredients": "1 1/2 cups uncooked egg noodles\n1 tablespoon sugar\n1/2 teaspoon cinnamon\n8 large eggs\n1/2 cup milk\nPinch of salt\n2 tablespoons unsalted butter\n1/4 cup raisins",
+      "yield": 4,
+      "caution": "Sulfites",
+      "image": "https://www.edamam.com/web-img/cb8/cb829cde1a861f6acf58bc37fa3489e4.jpg",
+      "category": "Alcohol-Free"
+    },
+    {
+      "source": "Food Network",
+      "label": "Lasagna Noodle Kugel",
+      "url": "http://www.edamam.com/recipe/lasagna-noodle-kugel-f604ec1a8ccc8fada0a36013ed9d215e/noodle",
+      "ingredients": "Nonstick cooking spray\n8 ounces lasagna noodles (9 to 10 noodles)\n4 tablespoons unsalted butter, melted, cooled slightly, and divided\n8 ounces cream cheese, room temperature\n8 ounces sour cream, room temperature\n4 whole eggs, room temperature\n1/3 cup plus 2 tablespoons sugar\n1 teaspoon vanilla extract\n1/2 teaspoon kosher salt\n6 ounces dried apricots, coarsely chopped\n4 ounces golden raisins\n1 teaspoon freshly grated nutmeg",
+      "yield": 10,
+      "caution": "Sulfites",
+      "image": "https://www.edamam.com/web-img/83f/83fdfcf510c15aec17ca9e0c36c2de79.jpeg",
+      "category": "Vegetarian"
+    },
+    {
+      "source": "BBC Good Food",
+      "label": "Crab noodle salad",
+      "url": "http://www.edamam.com/recipe/crab-noodle-salad-6b27f0770fe9d791a46640549300dc9a/noodle",
+      "ingredients": "100g fine rice noodle\n½ courgette, coarsely grated\n100g fresh white crabmeat\n½ cucumber, halved lengthways, deseeded and thinly sliced\n1 small red chilli, deseeded and finely chopped\n4 spring onion, thinly sliced\nhandful coriander leaves\nhandful mint leaves, torn if large\n2 tbsp rice wine vinegar\n2 tbsp tamari (wheat-free alternative to soy sauce)\n1 tsp toasted sesame oil\n1 tsp soft brown sugar\njuice and zest 1 lime, plus wedges to serve",
+      "yield": 2,
+      "caution": "Sulfites",
+      "image": "https://www.edamam.com/web-img/1b9/1b9ac5a850d29033052a92e3bd133aa8.jpg"
+    },
+    {
+      "source": "Cookstr",
+      "label": "Udon Noodle Soup",
+      "url": "http://www.edamam.com/recipe/udon-noodle-soup-2b744ab3097f774c9c03436f4c1c4ab2/noodle",
+      "ingredients": "6 cups cold water\n1½ pounds chicken necks, wings, and backs\n6 slices fresh ginger\n2 leeks, washed, including 2 inches of the green\n1½ teaspoons salt\n½ teaspoon freshly ground black pepper\n2 egg whites, beaten\n4 ounces udon noodles\n1 bunch radishes, thinly sliced\n1 bunch scallions, thinly sliced on the diagonal, including 2 inches of the green\n4 ounces Chinese cabbage, thinly sliced",
+      "yield": 10,
+      "image": "https://www.edamam.com/web-img/77f/77f47f5f878228fde83061784d302bae.jpg",
+      "category": "Alcohol-Free"
+    },
+    {
+      "source": "My Recipes",
+      "label": "Beef Noodle Soup",
+      "url": "http://www.edamam.com/recipe/beef-noodle-soup-748325092db1787e8e5faabfc3ef5096/noodle",
+      "ingredients": "1 pound(s) ground beef\n1 46-ounce can(s) V8 juice\n1 envelope(s) onion soup mix\n1 3-ounce package(s) beef ramen noodles\n1 16-ounce package(s) frozen mixed vegetables",
+      "yield": 10,
+      "caution": "Sulfites",
+      "image": "https://www.edamam.com/web-img/855/855b4d68b6159a0e374870d041d49edf.jpg",
+      "category": "Peanut-Free"
+    },
+    {
+      "source": "Food Network",
+      "label": "Nicoise Noodle Cake",
+      "url": "http://www.edamam.com/recipe/nicoise-noodle-cake-adc2eb5be4b22af5b6cdcf58b3241e87/noodle",
+      "ingredients": "2 3-ounce packages ramen noodles, seasoning packets discarded\n3 tablespoons extra-virgin olive oil\nKosher salt\n1 bunch Swiss chard, leaves only, thinly sliced\n1/2 cup fresh parsley, coarsely chopped\n5 large eggs\n1/4 cup coarsely grated Parmesan cheese\nFreshly ground pepper",
+      "yield": 6,
+      "caution": "Sulfites",
+      "image": "https://www.edamam.com/web-img/abd/abda2264b59eded3b05571cd013455d3.jpeg",
+      "category": "Vegetarian"
+    },
+    {
+      "source": "BBC Good Food",
+      "label": "Prawn & pink grapefruit noodle salad",
+      "url": "http://www.edamam.com/recipe/prawn-pink-grapefruit-noodle-salad-4f250a701e5445dcd7af2b2c408ccf41/noodle",
+      "ingredients": "200g thin rice noodle (vermicelli)\n12 cherry tomato, halved\n1 tbsp fish sauce\njuice 1 lime\n2 tsp palm sugar or soft brown sugar\n1 large red chilli, ½ diced, ½ sliced\n2 pink grapefruit, segmented\n½ cucumber, peeled, deseeded and thinly sliced\n2 carrot, cut into matchsticks\n3 spring onion, thinly sliced\n400g cooked large prawn\nlarge handful mint, leaves picked\nlarge handful coriander, leaves picked",
+      "yield": 6,
+      "caution": "Shellfish",
+      "image": "https://www.edamam.com/web-img/cdf/cdf06ebe076eff3d4f765614a0b43119.jpg"
+    },
+    {
+      "source": "Food Network",
+      "label": "Chicken Noodle Soup",
+      "url": "http://www.edamam.com/recipe/chicken-noodle-soup-916c9abbc560f11c23c31f0a0c836c2d/noodle",
+      "ingredients": "4 cups chicken stock, homemade or store-bought\n3/4 cup diced onion\n3/4 cup diced celery\n1 tablespoon minced garlic\n2 ounces dried egg noodles, cooked to al dente\n1/2 teaspoon finely chopped fresh tarragon leaves\n2 teaspoons finely chopped fresh parsley leaves\nLemon halves, for serving",
+      "yield": 4,
+      "caution": "Sulfites",
+      "image": "https://www.edamam.com/web-img/16b/16ba214ee3d82d2e5b9674546a36822b.jpeg",
+      "category": "Peanut-Free"
+    },
+    {
+      "source": "Delish",
+      "label": "Chicken Noodle Soup",
+      "url": "http://www.edamam.com/recipe/chicken-noodle-soup-8f431e0423e39de922f1400365c3bccd/noodle",
+      "ingredients": "2 tbsp. extra-virgin olive oil\n3 leeks\ncoarse sea salt\nFreshly ground pepper\n7 c. chicken broth\n1 clove garlic\n1¼ c. wide noodles\n3 c. sliced roast chicken\n2 c. frozen peas\n2 tbsp. finely chopped fresh dill",
+      "yield": 6,
+      "caution": "Sulfites",
+      "image": "https://www.edamam.com/web-img/fa3/fa3bfa1e6406dce6a5d02de2ce5f034e.jpg",
+      "category": "Alcohol-Free"
+    },
+    {
+      "source": "BBC Good Food",
+      "label": "Citrus soba noodles",
+      "url": "http://www.edamam.com/recipe/citrus-soba-noodles-073fbcfaca82b84278ed21ac03913146/noodle",
+      "ingredients": "250g soba noodle (see know-how below)\n4 spring onion, shredded\nzest and juice 1 lime\n1 tbsp soy sauce",
+      "yield": 6,
+      "caution": "Gluten",
+      "image": "https://www.edamam.com/web-img/fb0/fb0616bf579ff1ced2db75ea45ebf905.jpg",
+      "category": "Peanut-Free"
+    },
+    {
+      "source": "BBC Good Food",
+      "label": "Vietnamese prawn & noodle salad with crispy shallots",
+      "url": "http://www.edamam.com/recipe/vietnamese-prawn-noodle-salad-with-crispy-shallots-bc34bc706cb249b1511e05ec0062d430/noodle",
+      "ingredients": "200g thin rice noodle\n200g large cooked, peeled prawn\n1 small red onion, halved and sliced\n1 small red chilli, sliced\n1 small cucumber, shaved into ribbons (use a peeler)\n1 large handful each coriander and mint\n2 tbsp roasted peanut, roughly chopped\njuice 3 limes\n1 tbsp soft brown sugar\n2 tsp fish sauce\n1 garlic clove, crushed\n5 shallot, thinly sliced\nvegetable oil, for frying\nflour, for dusting",
+      "yield": 4,
+      "caution": "Shellfish",
+      "image": "https://www.edamam.com/web-img/2b4/2b448c31efb6b7617c4fe97fe79c359f.jpg"
+    },
+    {
+      "source": "Delish",
+      "label": "Miso Noodle Soup",
+      "url": "http://www.edamam.com/recipe/miso-noodle-soup-98e700c4395a8716c262a3110485482c/noodle",
+      "ingredients": "2 tbsp. canola oil or olive oil\n2 leeks (white part only)\n2 clove garlic\n1 bunch chard (about 1/2 pound)\n4 medium carrots\n4 oz. buckwheat (soba) noodles\n1 c. edamame (fresh or frozen)\n½ c. miso\n1 c. chicken (optional)\n2 scallions",
+      "yield": 12,
+      "caution": "Gluten",
+      "image": "https://www.edamam.com/web-img/f41/f41c8cd64475d398d0496d5b227779cf.jpg",
+      "category": "Alcohol-Free"
+    },
+    {
+      "source": "BBC Good Food",
+      "label": "Salmon Noodle Wraps",
+      "url": "http://www.edamam.com/recipe/salmon-noodle-wraps-5f8c1db832f3fe6ba4d2ce11ba728cec/noodle",
+      "ingredients": "50.0g fresh or frozen petits pois\n2-3 spring onion , sliced\n85.0g Chilli, coriander & lime butter (See 'Goes well with' below for the recipe)\n100.0g rice noodles\n2 x 150g salmon fillets",
+      "yield": 2,
+      "image": "https://www.edamam.com/web-img/3f0/3f02487348890529eaa6f718df05426a.jpg",
+      "category": "Tree-Nut-Free"
+    },
+    {
+      "source": "Delish",
+      "label": "Chicken Noodle Soup",
+      "url": "http://www.edamam.com/recipe/chicken-noodle-soup-7b9ed001d6d6c071c2b381991e89754b/noodle",
+      "ingredients": "6 c. chicken broth\n1 lb. boneless, skinless chicken thighs\n1 c. chopped celery\n1 c. chopped onion\n1 c. baby carrots\n1 large parsnip\n1 tsp. minced garlic\n1 bay leaf\n¼ tsp. Pepper\n2 c. uncooked medium egg noodles\n¼ c. snipped fresh dill",
+      "yield": 6,
+      "caution": "Sulfites",
+      "image": "https://www.edamam.com/web-img/3de/3de56476c49d856768729ea93990b201.jpg"
+    },
+    {
+      "source": "BBC Good Food",
+      "label": "Teriyaki prawns & broccoli noodles",
+      "url": "http://www.edamam.com/recipe/teriyaki-prawns-broccoli-noodles-31fdc2bde99f0b8d451cb2466203edc1/noodle",
+      "ingredients": "50ml low-sodium soy sauce\n50ml mirin\n2 tbsp lemon juice\n1½ tbsp caster sugar\n200g soba noodle\n140g thin-stemmed broccoli\n140g cooked prawn\n1 small red chilli, thinly sliced",
+      "yield": 2,
+      "caution": "Gluten",
+      "image": "https://www.edamam.com/web-img/f45/f457cfe90c228e8b6731a158bf34ad38.jpg"
+    },
+    {
+      "source": "Delish",
+      "label": "Vietnamese Noodle Salad",
+      "url": "http://www.edamam.com/recipe/vietnamese-noodle-salad-d31805708918ad22afd4c35309ad365c/noodle",
+      "ingredients": "8 oz. thin rice noodles\n3 tbsp. fish sauce\n2 tbsp. sugar\n2 tbsp. white vinegar\n1 tbsp. vegetable oil\n1 lb. ground pork\n1 jalapeño chile, finely chopped\n1 romaine heart, sliced\n1/4 c. chopped peanuts and fresh herbs (such as mint, cilantro, and basil)\n3 cloves garlic, crushed",
+      "yield": 4,
+      "caution": "Shellfish",
+      "image": "https://www.edamam.com/web-img/6a2/6a2108171aaf8640a76b32d765c52f31.jpeg"
+    },
+    {
+      "source": "BBC Good Food",
+      "label": "Turkey noodle soup",
+      "url": "http://www.edamam.com/recipe/turkey-noodle-soup-c215ad51f5dc566be61012fcaa55c4fe/noodle",
+      "ingredients": "1.2l low-sodium chicken stock\n4 small carrot, peeled and chopped\n140g medium egg noodles\n200g/7oz shredded, cooked turkey or chicken\n200g frozen peas\n1 bunch spring onions, sliced, white and green parts separated",
+      "yield": 4,
+      "caution": "Gluten",
+      "image": "https://www.edamam.com/web-img/dd3/dd357d3f0efccc635ecc197aad126fc5.jpg",
+      "category": "Alcohol-Free"
+    },
+    {
+      "source": "BBC Good Food",
+      "label": "Quick & easy hot-and-sour chicken noodle soup",
+      "url": "http://www.edamam.com/recipe/quick-easy-hot-and-sour-chicken-noodle-soup-c8b565c5992f850dd74e117a3a3c27f2/noodle",
+      "ingredients": "140g dried wholewheat noodle\n1 tbsp groundnut oil\n2 tbsp grated ginger\n1 medium red chilli, deseeded and finely chopped\n4 skinless, boneless chicken thigh, chopped into small chunks\n1 tbsp Shaohsing rice wine\n700ml hot vegetable stock\n4 chestnut mushroom, sliced\n1 tsp dark soy sauce\n2 tbsp light soy sauce\n2 tbsp rice vinegar\n1 tbsp cornflour mixed with 2 tbsp cold water to make a paste\n1 handful beansprouts\n2 spring onion, sliced",
+      "yield": 2,
+      "caution": "Sulfites",
+      "image": "https://www.edamam.com/web-img/2ba/2ba4eadb773b66a1c0b4646b11505195.jpg"
+    },
+    {
+      "source": "BBC Good Food",
+      "label": "Warm chicken noodle salad",
+      "url": "http://www.edamam.com/recipe/warm-chicken-noodle-salad-2d7898bd6cf1dc0a7dee844fb6733446/noodle",
+      "ingredients": "50g bundle of rice noodles (we used Sharwood's Thai stir-fry noodles)\n100g sugar snap peas, halved lengthways\n1 small red pepper, seeded and thinly sliced\nhandful fresh basil\n2 cooked chicken breasts\n3 tbsp olive oil\nfinely grated zest and juice of ½ lemon\n1 heaped tbsp mayonnaise",
+      "yield": 2,
+      "caution": "Sulfites",
+      "image": "https://www.edamam.com/web-img/e74/e74fca846e39913039fc46b3c9d76b0e.jpg",
+      "category": "Tree-Nut-Free"
+    },
+    {
+      "source": "BBC Good Food",
+      "label": "Singapore noodles",
+      "url": "http://www.edamam.com/recipe/singapore-noodles-7998a12bdad01bc5ed421c93e8f92f7b/noodle",
+      "ingredients": "3 tbsp teriyaki sauce\n½ tsp Chinese five-spice powder\n2 tsp medium Madras curry powder\n300g/11oz pork tenderloin, trimmed of any fat\n140g medium egg noodle\n1 tbsp sunflower oil\n2 x 300g packs fresh mixed stir-fry vegetables\n100g cooked prawn, thawed if frozen",
+      "yield": 4,
+      "caution": "Sulfites",
+      "image": "https://www.edamam.com/web-img/a16/a16157b8230965fbcd305f2570d3c1b9.jpg",
+      "category": "Sugar-Conscious"
+    },
+    {
+      "source": "BBC Good Food",
+      "label": "Warm Chicken Noodle Salad",
+      "url": "http://www.edamam.com/recipe/warm-chicken-noodle-salad-05cb5e64d51a5706cb78e4aa9952b592/noodle",
+      "ingredients": "50 g or 1 bundle of rice noodles (we used Sharwood's Thai stir-fry noodles)\nfinely grated zest and juice of ½ lemon\nhandful fresh basil\n1 small red pepper , seeded and thinly sliced\n2 cooked chicken breasts\n1 heaped tbsp mayonnaise\n100.0g sugar snap peas , halved lengthways\nFOR THE DRESSING\n3.0 tbsp olive oil",
+      "yield": 2,
+      "caution": "Sulfites",
+      "image": "https://www.edamam.com/web-img/3a9/3a975c9e9277faa962304937103a2128.jpg",
+      "category": "Sugar-Conscious"
+    },
+    {
+      "source": "BBC Good Food",
+      "label": "Vietnamese Noodle Soup",
+      "url": "http://www.edamam.com/recipe/vietnamese-noodle-soup-01ee560c8e691f9143a01ce39b399475/noodle",
+      "ingredients": "2 star anise\n100.0g flat rice noodles\n1 lime , juiced\ncoriander , to serve\n2.0 tsp fish sauce\n1.0 tsp root ginger , peeled and chopped\n100.0g sugar snap peas\n500.0ml vegetable stock\n12 Chantenay carrots or other small carrots, peeled and halved\nmint , to serve\n1 small red chilli , sliced\na pinch sugar",
+      "yield": 2,
+      "caution": "Shellfish",
+      "image": "https://www.edamam.com/web-img/763/7630f3e60247c75aa411d2f8710d53c9.jpg"
+    },
+    {
+      "source": "BBC Good Food",
+      "label": "Veggie noodle pot",
+      "url": "http://www.edamam.com/recipe/veggie-noodle-pot-7102a83491c6c3975b47c5bfcb4c6268/noodle",
+      "ingredients": "100g noodles (rice, soba or egg)\n3 tbsp frozen peas\nhandful sugar snap peas or mangetout, halved lengthways\nhandful baby corn, halved lengthways\n1 spring onion, sliced\n½ red pepper, deseeded and chopped\n1 tbsp reduced-salt soy sauce\n1 tsp clear honey\n½ garlic clove, crushed\njuice ½ lemon\ngrating of fresh ginger (optional)\n1 tbsp olive oil\nsplash of milk\n2 eggs, beaten",
+      "yield": 2,
+      "caution": "Sulfites",
+      "image": "https://www.edamam.com/web-img/cf8/cf8daf6d2da89dc8337b608d5c6db9bb.jpg",
+      "category": "Peanut-Free"
+    },
+    {
+      "source": "BBC Good Food",
+      "label": "Japanese noodles with sesame dressing",
+      "url": "http://www.edamam.com/recipe/japanese-noodles-with-sesame-dressing-6bb3719b8cdf633e087f404f9e2fb653/noodle",
+      "ingredients": "200g soba noodle\n100g sugar snap pea, halved lengthways\n1 red pepper, deseeded and thinly sliced\n½ cucumber, sliced or peeled into ribbons\n2 tsp sesame seed, toasted\n2 tbsp tahini paste\n2 tbsp soy sauce\n2 tbsp rice vinegar\n1 tbsp sugar",
+      "yield": 2,
+      "caution": "Gluten",
+      "image": "https://www.edamam.com/web-img/22d/22dded0708c966a33ac15d538773564e.jpg",
+      "category": "Tree-Nut-Free"
+    },
+    {
+      "source": "BBC Good Food",
+      "label": "15-Minute Noodle Supper",
+      "url": "http://www.edamam.com/recipe/15-minute-noodle-supper-d34ed4fe5d8cd8f636188f157871b1b5/noodle",
+      "ingredients": "2.0 tbsp soy sauce\n4 peppered smoked mackerel fillets, broken into large flakes\nsmall knob of fresh root ginger , grated\n1/2 cucumber , halved then sliced\n1 large garlic clove , crushed\nbunch of spring onions , sliced\n250.0g pack of medium rice noodles\nhandful of coriander leaves",
+      "yield": 4,
+      "image": "https://www.edamam.com/web-img/dd1/dd1048325138a2e48d3f60401b2bd132.jpg",
+      "category": "Peanut-Free"
+    },
+    {
+      "source": "The Daily Meal",
+      "label": "Shirataki Vegetable Noodle Soup",
+      "url": "http://www.edamam.com/recipe/shirataki-vegetable-noodle-soup-b9cc3e8e02f78ca69f4b7d66e2fb69f4/noodle",
+      "ingredients": "1 package shirataki fettuccine noodles, such as Nasoya Pasta Zero\n2 Cups reduced sodium vegetable broth\n½ Cup chopped carrots\n½ Cup chopped green beans\n¼ Cup chopped onions\n¼ Cup chopped celery\nSalt and pepper",
+      "yield": 2,
+      "caution": "FODMAP",
+      "image": "https://www.edamam.com/web-img/3bc/3bcff779385506503d05590d8fb7c124.jpg",
+      "category": "Vegetarian"
+    },
+    {
+      "source": "Real Simple",
+      "label": "Asian Noodle Soup",
+      "url": "http://www.edamam.com/recipe/asian-noodle-soup-8340eb75ed26374ea977748ac493130d/noodle",
+      "ingredients": "5 cups low-sodium chicken broth\n1 teaspoon dried lemongrass\n1 2-inch piece of ginger, cut in half\n4 ounces dry rice noodles\n1/2 cup shiitake or cremini mushrooms, thinly sliced\n2 scallions, trimmed and thinly sliced (white and light green parts only)\n1 cup fresh bean sprouts\n1/2 cup fresh basil leaves\nhot chili oil (optional)",
+      "yield": 4,
+      "caution": "Gluten",
+      "image": "https://www.edamam.com/web-img/da1/da1540024a45e77b5a12188e1fb1d956.jpg",
+      "category": "Alcohol-Free"
+    },
+    {
+      "source": "BBC Good Food",
+      "label": "Easy noodle soup",
+      "url": "http://www.edamam.com/recipe/easy-noodle-soup-704d50058e6152d27d0329b77afda826/noodle",
+      "ingredients": "500ml low salt vegetable stock (from a cube is fine)\nsmall piece fresh root ginger, grated\n1 garlic clove, grated\n2 tsp soy sauce and 2 tsp sugar\n85g leftover cooked chicken, shredded\nhandful mixed vegetables (try beansprouts, sweetcorn, sliced carrot and mangetout)\n150g pack straight-to-wok noodles (or use 85g/3oz dried, cooked according to pack instructions)\n2 spring onion, sliced, to serve\njuice 1 lime",
+      "yield": 2,
+      "caution": "Sulfites",
+      "image": "https://www.edamam.com/web-img/a72/a7270630b1e4fae2f9b20aacef66f8a7.jpg",
+      "category": "Tree-Nut-Free"
+    },
+    {
+      "source": "BBC Good Food",
+      "label": "Chicken Noodle Soup",
+      "url": "http://www.edamam.com/recipe/chicken-noodle-soup-1b5270c59459803714867c06d1508b2a/noodle",
+      "ingredients": "1 tsp chopped fresh root ginger\nmint or basil leaves and a little shredded chilli (optional), to serve\n2 spring onions , shredded\n2 tsp soy sauce , plus extra for serving\n2-3 mushrooms , thinly sliced\n900.0ml chicken or vegetable stock (or Miso soup mix)\n50.0g rice or wheat noodles\n2 tbsp sweetcorn , canned or frozen\n1 boneless, skinless chicken breast, about 175g/6oz\n1 garlic clove , finely chopped",
+      "yield": 4,
+      "caution": "Sulfites",
+      "image": "https://www.edamam.com/web-img/55b/55b256fa40592da6def0309f4dae31a3.jpg"
+    },
+    {
+      "source": "BBC Good Food",
+      "label": "Chinese noodles with tofu & hazelnuts",
+      "url": "http://www.edamam.com/recipe/chinese-noodles-with-tofu-hazelnuts-b14f20f31676270281066d43ffcc4163/noodle",
+      "ingredients": "250g packet medium egg noodle\n2 tbsp olive oil\nhandful coriander, roughly chopped\n300g mangetout\n1 red chilli, seeded and finely chopped\nhandful toasted hazelnuts, roughly chopped\n349g pack silken tofu, cut into cubes\n3 tbsp Chinese yellow bean sauce",
+      "yield": 4,
+      "caution": "Gluten",
+      "image": "https://www.edamam.com/web-img/6e5/6e5a56f9ffb8ecaaadcccba26814b404.jpg",
+      "category": "Peanut-Free"
+    },
+    {
+      "source": "Donna Hay",
+      "label": "Coconut Noodle Soup",
+      "url": "http://www.edamam.com/recipe/coconut-noodle-soup-79af9716c9d3574633fa81e6572ef3b9/noodle",
+      "ingredients": "100 g vermicelli rice noodles\n1 tablespoon vegetable oil\n1 tablespoon finely chopped coriander (cilantro) root\n2 cloves garlic, crushed\n2 green onions (scallions), sliced\n1 large red chilli, seeded and sliced\n2 x 400 ml cans coconut milk\n¼ cup finely sliced bamboo shoots\n100 g green beans, halved and blanched\n100 g snow peas (mange tout), blanched\n½ cup coriander (cilantro) leaves",
+      "yield": 8,
+      "caution": "Tree-Nuts",
+      "image": "https://www.edamam.com/web-img/a72/a725ced7fa7b4b7c4d9eb56a47678c28.jpg",
+      "category": "Peanut-Free"
+    },
+    {
+      "source": "Whole Foods",
+      "label": "Quick Noodle Salad",
+      "url": "http://www.edamam.com/recipe/quick-noodle-salad-baad69172c7793d92cea2133577d907e/noodle",
+      "ingredients": "1 (8-ounce) package pad Thai-style rice noodles or whole wheat linguine\n1/2 cup chopped green onions\n1 cup mung bean sprouts\n1 large carrot, grated\n1/4 cup chopped roasted and salted peanuts\n1/4 cup chopped cilantro\n1/2 cup prepared peanut sauce or Asian salad dressing\nSalt\n1 (8-ounce) package baked tofu, cut into small cubes",
+      "yield": 4,
+      "caution": "Gluten",
+      "image": "https://www.edamam.com/web-img/7cc/7ccd828f9dca2aa7948a8667ba0d7625.jpg",
+      "category": "Tree-Nut-Free"
+    },
+    {
+      "source": "BBC Good Food",
+      "label": "Seafood Noodle Soup",
+      "url": "http://www.edamam.com/recipe/seafood-noodle-soup-01b822e1744a30e789917e7e64e96d38/noodle",
+      "ingredients": "50 g dried egg noodles\n100 g mushrooms (chestnut are good, but any will do), sliced\n1 tsp fish sauce\n25 g squid rings\n100 g mange tout, halved\n50 g cooked mussels\nchilli to taste\n40 g red pepper, sliced\n1/2 tsp garlic paste\n100 g carrot, sliced\n1 tsp olive oil\n50 g baby sweetcorn, halved\n1 tsp vegetable buillion powder",
+      "yield": 1,
+      "caution": "Shellfish",
+      "image": "https://www.edamam.com/web-img/c07/c07efdfcc1d4a76fdf517280d2410f0b.jpg"
+    },
+    {
+      "source": "Donna Hay",
+      "label": "Chicken And Noodle Salad",
+      "url": "http://www.edamam.com/recipe/chicken-and-noodle-salad-858ef06c6b0a94a5241b0ab7455bb491/noodle",
+      "ingredients": "1 teaspoon peanut oil\n2 small red chillies, seeds removed and finely chopped\n2 cloves garlic, chopped\n⅓ cup (80ml) lime juice\n150 g vermicelli rice noodles\n2 cooked chicken breast fillets, thinly sliced\n2 Lebanese cucumbers, thinly sliced\n½ cup mint leaves, halved lengthwise",
+      "yield": 4,
+      "caution": "Sulfites",
+      "image": "https://www.edamam.com/web-img/58e/58e47558095f9723aad440718ae35265.jpg",
+      "category": "Tree-Nut-Free"
+    },
+    {
+      "source": "Donal Skehan",
+      "label": "Tahini Noodle Toss",
+      "url": "http://www.edamam.com/recipe/tahini-noodle-toss-44cf778c2bcf83752244e34b4137fd1d/noodle",
+      "ingredients": "250 g/9oz wholewheat noodles\n4 spring onions, finely sliced\n1 large garlic clove, finely chopped\n1 chilli, deseeded and finely chopped\n4 tablespoons of tahini paste\n1 tablespoon of sunflower oil\n1 tablespoon of soya sauce\n1 tablespoon of oyster sauce\n1 tablespoon of rice wine vinegar\n1 teaspoon of sesame oil\nA good handful of bean sprouts\nToasted sesame seeds\nA small handful of coriander, freshly chopped",
+      "yield": 2,
+      "caution": "Sulfites",
+      "image": "https://www.edamam.com/web-img/b3f/b3f852964bdcbba214766fbe08409d63.jpg"
+    },
+    {
+      "source": "BBC Good Food",
+      "label": "Easy Noodle Soup",
+      "url": "http://www.edamam.com/recipe/easy-noodle-soup-212fc4d35caa28523ce7ebebc3745077/noodle",
+      "ingredients": "85.0g leftover cooked chicken , shredded\njuice 1 lime\n2 tsp soy sauce and 2 tsp sugar\n2 spring onions , sliced, to serve\n1 garlic clove , grated\n150.0g pack straight-to-wok noodles (or use 85g/3oz dried, cooked according to pack instructions)\nsmall piece fresh root ginger , grated\n500.0ml low salt vegetable stock (from a cube is fine)\nhandful mixed vegetables (try beansprouts, sweetcorn, sliced carrot and mangetout)",
+      "yield": 2,
+      "caution": "Sulfites",
+      "image": "https://www.edamam.com/web-img/b7a/b7ac38eab5bdb860def0f94a641695d7.jpg",
+      "category": "Tree-Nut-Free"
+    },
+    {
+      "source": "BBC Good Food",
+      "label": "Chinese Noodles With Tofu & Hazelnuts",
+      "url": "http://www.edamam.com/recipe/chinese-noodles-with-tofu-hazelnuts-557b57873bb5766268712632cc55596e/noodle",
+      "ingredients": "3.0 tbsp Chinese yellow beans sauce\n2.0 tbsp olive oil\n349 g pack silken tofu , cut into cubes\nhandful toasted hazelnuts , roughly chopped\n1 red chilli , seeded and finely chopped\n250 g packet medium egg noodle\nhandful coriander , roughly chopped\n300.0g mangetout",
+      "yield": 4,
+      "caution": "Gluten",
+      "image": "https://www.edamam.com/web-img/02a/02a9e30c1b79feedd957c2116c520487.jpg",
+      "category": "Alcohol-Free"
+    },
+    {
+      "source": "Cookstr",
+      "label": "Noodle Pudding with Apple",
+      "url": "http://www.edamam.com/recipe/noodle-pudding-with-apple-ea7ba8574ec53bd32d9635f0f1119fb4/noodle",
+      "ingredients": "¾ cup (100 g) currants or raisins, black or golden\n4 tablespoons rum\n½ lb (250 g) medium egg noodles\nSalt\n3 eggs\n2/3 cup (125 g) sugar\n¾ cup (75 g) walnuts or almonds, coarsely chopped\nZest of 1 orange or 1 lemon\n4 tart apples, such as Granny Smiths\nJuice of ½ lemon",
+      "yield": 6,
+      "caution": "Wheat",
+      "image": "https://www.edamam.com/web-img/c23/c234b2fa083b70bd17bc9491540f8448.jpg"
+    },
+    {
+      "source": "Food52",
+      "label": "Savory Noodle Kugel",
+      "url": "http://www.edamam.com/recipe/savory-noodle-kugel-08b9d92a8b511ce55c9df2e4c32fb7fa/noodle",
+      "ingredients": "8 ounces egg noodles, cooked al dente according to the package directions, rinsed and cooled\n3 tablespoons unsalted butter, melted\n2 large eggs, lightly beaten\n1 cup organic sour cream\n1/2 cup organic cottage cheese\n1 cup gruyere cheese, grated, divided into half cup portions\n3 tablespoons fresh chives, minced\nkosher salt and fresh ground white pepper\n1/2 cup plain bread crumbs, mixed with a tablespoon of unsalted butter and seasoned with salt and pepper",
+      "yield": 8,
+      "caution": "Sulfites",
+      "image": "https://www.edamam.com/web-img/9c2/9c2eb97ffcdeee33f42e74e93bb3aa76.jpg",
+      "category": "Sugar-Conscious"
+    },
+    {
+      "source": "My Recipes",
+      "label": "Miso Noodle Soup",
+      "url": "http://www.edamam.com/recipe/miso-noodle-soup-fe2a16741057ec951b4b0b890e54cfe2/noodle",
+      "ingredients": "1 tablespoon white miso\n1 tablespoon warm water\n1 teaspoon toasted sesame oil\n1/2 small garlic clove, grated\n1/3 cup thinly sliced red cabbage\n1/2 cup cooked flat brown rice (pad Thai) noodles (about 1 oz. uncooked)\n2 shiitake mushroom caps, thinly sliced\n1 tablespoon chopped green onions\n4 thin slices red jalapeño\n1 tablespoon chopped fresh cilantro\n1/2 hard-cooked large egg",
+      "yield": 1,
+      "caution": "Gluten",
+      "image": "https://www.edamam.com/web-img/57a/57a08db80f149389905e060f730db827.jpg",
+      "category": "Alcohol-Free"
+    },
+    {
+      "source": "Martha Stewart",
+      "label": "Noodle Kugel recipes",
+      "url": "http://www.edamam.com/recipe/noodle-kugel-recipes-9ef8fbbbcdb9dc870355165189d658c5/noodle",
+      "ingredients": "1 cup (2 sticks) unsalted butter, melted, plus more for dish\ncoarse salt\n1 pound broad egg noodles\n6 large eggs\n2 cups (16 ounces) sour cream, room temperature\n1 cup sugar\n12 ounces cream cheese, room temperature\n1/2 teaspoon ground cinnamon\n1/4 teaspoon ground nutmeg\n2 large Granny Smith apples, (about 12 ounces total), peeled, cored, and chopped into 1/2-inch pieces (about 3 cups)",
+      "yield": 10,
+      "caution": "Sulfites",
+      "image": "https://www.edamam.com/web-img/93b/93b61ff0fc65962d467b10a9532a6b57",
+      "category": "Alcohol-Free"
+    },
+    {
+      "source": "Food Network",
+      "label": "Ramen Noodle Frittata",
+      "url": "http://www.edamam.com/recipe/ramen-noodle-frittata-2b4926c83a4faa0cce8454de555476b5/noodle",
+      "ingredients": "1 3-ounce package ramen noodles (seasoning packet discarded)\n1 1/2 teaspoons toasted sesame oil\n2 tablespoons vegetable oil\n8 ounces ground chicken\n1 tablespoon oyster sauce\nKosher salt and freshly ground pepper\n2 cups shredded coleslaw mix\n6 scallions, chopped\n8 large eggs\n2 tablespoons pickled ginger, sliced into thin strips\n12 ounces baby bok choy, halved lengthwise",
+      "yield": 4,
+      "caution": "Soy",
+      "image": "https://www.edamam.com/web-img/277/2771200ec9ac90e1f24c88386a218c94.jpeg",
+      "category": "Tree-Nut-Free"
+    },
+    {
+      "source": "Food Network",
+      "label": "Chicken Noodle Soup",
+      "url": "http://www.edamam.com/recipe/chicken-noodle-soup-aa1bc9866d0015b540481b2ef1334386/noodle",
+      "ingredients": "Olive oil, for frying\n2 boneless, skinless chicken breasts\nKosher salt and freshly ground black pepper\n2 carrots, peeled, halved and sliced crosswise\n2 stalks celery, thinly sliced\n1 medium onion, finely diced\n1 clove garlic, grated\n3/4 teaspoon ground thyme\n2 cups low-sodium chicken broth\n2 chicken bouillon cubes\n4 cups cooked egg noodles\n2 to 3 tablespoons finely minced fresh parsley",
+      "yield": 6,
+      "caution": "Gluten",
+      "image": "https://www.edamam.com/web-img/c9f/c9f3e39b478e4e49998b1f7575cf0790.jpeg",
+      "category": "Sugar-Conscious"
+    },
+    {
+      "source": "BBC Good Food",
+      "label": "Prawn & Herb Noodle Salad",
+      "url": "http://www.edamam.com/recipe/prawn-herb-noodle-salad-d2dd2e02ad820fa22cf461280cb17e7a/noodle",
+      "ingredients": "tbsp olive oil\n1 crushed garlic clove\n100.0g medium dried rice noodles\n1 small cucumber\n400.0g cooked, peeled tiger prawns\na small handful each of coriander and mint leaves\nfinely grated zest and juice of a lime",
+      "yield": 4,
+      "caution": "Sulfites",
+      "image": "https://www.edamam.com/web-img/154/1543ac1f9cb71ed8be0327b9ea166619.jpg",
+      "category": "Peanut-Free"
+    },
+    {
+      "source": "Pioneer Woman",
+      "label": "Peach Noodle Kugel",
+      "url": "http://www.edamam.com/recipe/peach-noodle-kugel-8c429f0001e634b1d331c404e8043951/noodle",
+      "ingredients": "16 ounces weight Egg Noodles, Cooked For Half The Cooking Time\n1/4 cup Butter\nZest Of One Lemon\n3/4 cup Sugar\n1 1/2 tsp Cinnamon\n1 1/2 tsp Salt\n4 whole Eggs Beaten\n1 1/2 can 20 To 22 Ounces Total Peach Halves, Chopped Into Large Chunks\n2 cups Whole Milk\n2 cups Corn Flakes, Slightly Crushed\n1/4 cup Butter, Melted\n1/4 cup Brown Sugar",
+      "yield": 12,
+      "caution": "Sulfites",
+      "image": "https://www.edamam.com/web-img/4a6/4a68943fb55af9fb80b0afa459011826.jpg",
+      "category": "Alcohol-Free"
+    },
+    {
+      "source": "Delish",
+      "label": "Egg-Drop Noodle Soup",
+      "url": "http://www.edamam.com/recipe/egg-drop-noodle-soup-0d78a93a7ec86b7220629213b7ca916f/noodle",
+      "ingredients": "½ tsp. salt\n3 package ramen noodles\n10½ c. chicken broth\n1 piece ginger\n3 clove garlic\n1 tbsp. soy sauce\n6 small scallions\n3 large eggs\n1 tbsp. sesame oil",
+      "yield": 6,
+      "caution": "Sulfites",
+      "image": "https://www.edamam.com/web-img/916/9161ab937e26925fb7060fed97c3a326.jpg",
+      "category": "Alcohol-Free"
+    },
+    {
+      "source": "Smitten Kitchen",
+      "label": "Chicken Noodle Soup",
+      "url": "http://www.edamam.com/recipe/chicken-noodle-soup-65dd36cb933464c424c10592e0d98cea/noodle",
+      "ingredients": "1 tablespoon vegetable oil\n1 large onion, chopped\n3-pound chicken, in parts or 3 pounds chicken pieces of your choice\n8 cups water\n1 bay leaf\n2 teaspoons table salt\nFreshly ground black pepper\n1 large carrot, diced (1/3-inch)\n1 medium parsnip, diced (1/3-inch) (optional)\n1 large celery stalk, diced (1/3-inch)\n3 ounces dried egg noodles, I prefer wide ones\n1 tablespoon chopped fresh dill or flat-leaf parsley",
+      "yield": 4,
+      "caution": "FODMAP",
+      "image": "https://www.edamam.com/web-img/e2f/e2f218367f08839d0481b8bafc799235.jpg",
+      "category": "Peanut-Free"
+    },
+    {
+      "source": "BBC",
+      "label": "Chicken noodle soup",
+      "url": "http://www.edamam.com/recipe/chicken-noodle-soup-1186dd3702e8ec9761125d793d566d2d/noodle",
+      "ingredients": "3 chicken carcasses, plus 6 chicken drumsticks\n2.5 litres/4 pints 8fl oz water\n3 carrots, peeled, chopped\n2 celery stalks, trimmed, chopped\n1 large leek, trimmed, sliced\n2 large onions, peeled, chopped\n2 fresh bay leaves\n1 small bunch fresh thyme\n1 tsp black peppercorns\n1 tsp salt flakes\n150g/5oz rice noodles\n1 tbsp chopped fresh parsley\n1-2 tbsp chopped fresh chives, to serve",
+      "yield": 6,
+      "caution": "FODMAP",
+      "image": "https://www.edamam.com/web-img/de1/de15d011e5f379cf880f47a53ceb0985.jpg",
+      "category": "Peanut-Free"
+    },
+    {
+      "source": "BBC Good Food",
+      "label": "Ginger & Chicken Noodles",
+      "url": "http://www.edamam.com/recipe/ginger-chicken-noodles-31c797b533e59fdd6f2fcbc740a238a2/noodle",
+      "ingredients": "2 bunches spring onion , cut into diagonal strips\n3.0 tbsp soy sauce\n100.0g fresh root ginger , peeled and cut into small slithers\n200.0ml saké or dry sherry\n3.0 tbsp vegetable oil\n3 eggs\n6 garlic cloves , finely sliced\n4 skinless boneless chicken breast fillets\n3 x 200g packs straight-to-wok noodle",
+      "yield": 8,
+      "image": "https://www.edamam.com/web-img/b2b/b2b933d8b8babf31035ff1a39c78461e.jpg",
+      "category": "Tree-Nut-Free"
+    },
+    {
+      "source": "BBC Good Food",
+      "label": "Gingery shiitake noodles",
+      "url": "http://www.edamam.com/recipe/gingery-shiitake-noodles-2d8be82d9e4ab586109eac447ded1875/noodle",
+      "ingredients": "375g pack medium dried egg noodle\ncouple dashes toasted sesame oil\n2 tbsp groundnut oil\nfinger-length piece fresh root ginger, grated\n300g fresh shiitake mushroom, sliced\n8 spring onion, cut into thirds, then thinly sliced into lengthways strips\n2 tbsp good-quality oyster sauce\n2 tbsp light soy sauce",
+      "yield": 8,
+      "caution": "Sulfites",
+      "image": "https://www.edamam.com/web-img/ef9/ef9ad6a29d6827fbbf7eeed91cfd0d19.jpg",
+      "category": "Tree-Nut-Free"
+    },
+    {
+      "source": "Delish",
+      "label": "Ramen Chicken Noodle",
+      "url": "http://www.edamam.com/recipe/ramen-chicken-noodle-66105b10c2c0ecff9c4b0516006c625e/noodle",
+      "ingredients": "1 tbsp. extra-virgin olive oil\n2 bell peppers, chopped\n2 large carrots, peeled and chopped\n1/2 c. Thinly sliced green onions\n3 garlic cloves, minced\nkosher salt\nFreshly ground black pepper\n4 c. low-sodium chicken broth\n2 packages ramen noodles (seasoning packets discarded)\n2 c. shredded rotisserie chicken\n1/4 c. freshly chopped cilantro\nJuice of 1 lime, plus lime wedges for serving",
+      "yield": 4,
+      "caution": "Gluten",
+      "image": "https://www.edamam.com/web-img/a7f/a7f6c47efdecf532c9b7e3ec0bffddb4.jpg",
+      "category": "Alcohol-Free"
+    },
+    {
+      "source": "BBC Good Food",
+      "label": "Prawn & Ginger Noodle Salad",
+      "url": "http://www.edamam.com/recipe/prawn-ginger-noodle-salad-320e81878afa0dcd1e1caa75c052b610/noodle",
+      "ingredients": "1 lime , juiced\n250.0g large, cooked, peeled prawns\n1 small mango , peeled and sliced\n4.0 tbsp light soy sauce\n250.0g pack rice noodles\na large bunch of fresh coriander , roughly chopped\n2-inch piece of root ginger , finely grated",
+      "yield": 4,
+      "caution": "Sulfites",
+      "image": "https://www.edamam.com/web-img/65a/65a50a9c91f85661f015f79aa6e6d076.jpg"
+    }
+  ]
+}
