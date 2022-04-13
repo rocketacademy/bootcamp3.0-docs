@@ -146,7 +146,7 @@ def post_order_traversal(node):
 
 ### Time Complexity: _`O(V+E)`_ where V is all the vertexes in the tree and E are all the edges.
 
-BFS is a fancier form of tree traversal that typically involves queues. As a recap of BFS, consider the following `level_order` traversal solution from RA's tree traversal exercises. The following algorithm enables us to access nodes in a tree in level order.
+BFS is a fancier form of tree traversal that typically involves queues. As a recap of BFS, consider the following `level_order` traversal solution from Rocket's tree traversal exercises. The following algorithm enables us to access nodes in a tree in level order.
 
 Consider using Python's built-in `deque` data structure [here](https://docs.python.org/3/library/collections.html#collections.deque) for a more efficient queue implementation than `list`. `deque` is implemented with a doubly-linked list, thus dequeue is a O(1) operation. Specifically, see the [`popleft` method](https://docs.python.org/3/library/collections.html#collections.deque.popleft).
 
@@ -188,15 +188,15 @@ Please fork starter code Repls and attempt solutions there. Feel free to compare
 
 ### Pre-Class
 
-1. [https://repl.it/@kaiyuanneo/treeintro#main.py](https://repl.it/@kaiyuanneo/treeintro#main.py)
-   1. [https://repl.it/@kaiyuanneo/treeintrosoln#main.py](https://repl.it/@kaiyuanneo/treeintrosoln#main.py)
+1. [https://repl.it/@neokaiyuan/treeintro#main.py](https://repl.it/@neokaiyuan/treeintro#main.py)
+   1. [https://repl.it/@neokaiyuan/treeintrosoln#main.py](https://repl.it/@neokaiyuan/treeintrosoln#main.py)
    2. [FTBC3 class video ](https://youtu.be/3Dw3spVIk1w?t=3001)where we solved the 1st 2 problems together.
 
 ### Part 1
 
-1. [https://repl.it/@kaiyuanneo/treetraversals#main.py](https://repl.it/@kaiyuanneo/treetraversals#main.py)
+1. [https://repl.it/@neokaiyuan/treetraversals#main.py](https://repl.it/@neokaiyuan/treetraversals#main.py)
    1. Hint: Level-order traversal requires BFS techniques that are not recursive.
-   2. [https://repl.it/@kaiyuanneo/treetraversals-soln#main.py](https://repl.it/@kaiyuanneo/treetraversals-soln#main.py)
+   2. [https://repl.it/@neokaiyuan/treetraversals-soln#main.py](https://repl.it/@neokaiyuan/treetraversals-soln#main.py)
 
 ### Part 2
 

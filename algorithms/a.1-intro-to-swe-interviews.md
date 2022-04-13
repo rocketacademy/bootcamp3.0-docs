@@ -26,7 +26,7 @@ The good news is that DS&A problems follow a set number of standard patterns, an
 
 The bad news is that DS&A problems are unlike most programming one does at SWE Bootcamps \(i.e. building practical projects\), thus most bootcamp graduates are less prepared for D&SA problems than the average university CS grad. Top companies tend to interview more uni grads than bootcamp grads, thus their benchmarks are biased more toward uni grads. Uni CS grads have an additional advantage in that most uni CS curriculums teach DS&A as part of their core curriculum. Stanford requires all CS students to take [CS161](https://www.coursera.org/specializations/algorithms), whose curriculum includes almost all common DS&A interview patterns one would encounter, albeit with additional theory.
 
-In the limited time we have at RA, we will want to strike a balance between practical projects \(which will be more useful for on-the-job work\) and DS&A practice \(mostly useful for interviews\). Neither should be discounted, and depending on the types of companies one wants to work with one might want to emphasise one or the other slightly more.
+In the limited time we have at Rocket, we will want to strike a balance between practical projects \(which will be more useful for on-the-job work\) and DS&A practice \(mostly useful for interviews\). Neither should be discounted, and depending on the types of companies one wants to work with one might want to emphasise one or the other slightly more.
 
 ### Systems Design
 

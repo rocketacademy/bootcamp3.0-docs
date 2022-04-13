@@ -399,7 +399,7 @@ display_ll(head)
 
 We will be working through these exercises over multiple days. Please see your batch schedule for which exercises to do on which days.
 
-We will complete the Learn Python Recursion Repl. Please start with [this empty starter repl](https://repl.it/@kaiyuanneo/Recursion#main.py). Rocket created this repl by copying the @Learnpython Recursion Repl and removing answers.
+We will complete the Learn Python Recursion Repl. Please start with [this empty starter repl](https://repl.it/@neokaiyuan/Recursion#main.py). Rocket created this repl by copying the @Learnpython Recursion Repl and removing answers.
 
 1. Pressing the Play button (`Ctrl+Enter` on Windows, `Cmd+Enter` on Mac) in Repl to run `main.py` will execute all problems against the provided test cases.
 2. To limit the problems that Repl executes at any given time, see instructions in the Repl document to edit the `problems` array in the `main` function.
@@ -447,7 +447,7 @@ Please attempt to solve each problem on your own before reviewing each problem's
 7. Str Count
 8. Str Copies
 9. Str Dist
-   1. [RA Solution Code](https://pastebin.com/xVFqzPrj)
+   1. [Rocket Solution Code](https://pastebin.com/xVFqzPrj)
    2. [FTBC3 Solution Video](https://youtu.be/CnKOLqJ2THc?t=3092)
 
 ### Optional Reading

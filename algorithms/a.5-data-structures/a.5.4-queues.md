@@ -1,14 +1,14 @@
 # A.5.4: Queues
 
-![](../../.gitbook/assets/1\_axag3gn3s-xjn3dvqw6afw.png)
+![](../../.gitbook/assets/1_axag3gn3s-xjn3dvqw6afw.png)
 
 ## Learning Objectives
 
 By the end of this lesson, you should:
 
-* be familiar with queue functionality time and space complexity
-* understand the difference between LIFO and FIFO
-* understand the python queue class example
+- be familiar with queue functionality time and space complexity
+- understand the difference between LIFO and FIFO
+- understand the python queue class example
 
 ## Introduction
 
@@ -130,8 +130,8 @@ Please fork starter code Repls and attempt solutions there. Feel free to compare
 
 ### Pre-Class
 
-1. [https://replit.com/@kaiyuanneo/queues#main.py](https://replit.com/@kaiyuanneo/queues#main.py)
-   1. Solutions: [https://repl.it/@kaiyuanneo/queuessoln#main.py](https://repl.it/@kaiyuanneo/queuessoln#main.py)
+1. [https://replit.com/@neokaiyuan/queues#main.py](https://replit.com/@neokaiyuan/queues#main.py)
+   1. Solutions: [https://repl.it/@neokaiyuan/queuessoln#main.py](https://repl.it/@neokaiyuan/queuessoln#main.py)
 
 ### Comfortable
 

@@ -6,9 +6,9 @@
 
 By the end of this lesson, you should:
 
-* be familiar with linked list functionality time and space complexity
-* understand what a pointer is within the examples
-* understand the mechanics of linking and unlinking a linked list node
+- be familiar with linked list functionality time and space complexity
+- understand what a pointer is within the examples
+- understand the mechanics of linking and unlinking a linked list node
 
 ## Introduction
 
@@ -28,7 +28,7 @@ Linked lists, like arrays, store ordered lists of data. Unlike arrays, linked li
 
 1. [Here](https://www.youtube.com/watch?v=R9PTBwOzceo) is a short and intuitive introduction to linked lists.
 2. Read pages 104-106 in the [Cracking the Coding Interview PDF](../../a.0-algorithms-overview.md#resources).
-3. [FTBC3's class video](https://youtu.be/qewAXA\_vkpE?t=1596) when we introduced linked lists.
+3. [FTBC3's class video](https://youtu.be/qewAXA_vkpE?t=1596) when we introduced linked lists.
    1. I forgot to record it during class so I re-recorded the key points afterward.
 
 ## Use Cases
@@ -41,19 +41,19 @@ Please fork starter code Repls and attempt solutions there. Feel free to compare
 
 ### Pre-Class
 
-1. [https://repl.it/@kaiyuanneo/singly-linked-list](https://repl.it/@kaiyuanneo/singly-linked-list)
-   1. [https://repl.it/@kaiyuanneo/singly-linked-list-soln](https://repl.it/@kaiyuanneo/singly-linked-list-soln)
-   2. [FTBC3 class video](https://youtu.be/qewAXA\_vkpE?t=2004) where we covered the 1st 2 problems (re-recorded after class)
+1. [https://repl.it/@neokaiyuan/singly-linked-list](https://repl.it/@neokaiyuan/singly-linked-list)
+   1. [https://repl.it/@neokaiyuan/singly-linked-list-soln](https://repl.it/@neokaiyuan/singly-linked-list-soln)
+   2. [FTBC3 class video](https://youtu.be/qewAXA_vkpE?t=2004) where we covered the 1st 2 problems (re-recorded after class)
 
 ### Part 1
 
-1. [https://repl.it/@kaiyuanneo/doubly-linked-list](https://repl.it/@kaiyuanneo/doubly-linked-list)
-   1. [https://repl.it/@kaiyuanneo/doubly-linked-list-soln](https://repl.it/@kaiyuanneo/doubly-linked-list-soln)
-2. [https://repl.it/@kaiyuanneo/circular-doubly-linked-list](https://repl.it/@kaiyuanneo/circular-doubly-linked-list)
-   1. [https://repl.it/@kaiyuanneo/circular-doubly-linked-list-soln](https://repl.it/@kaiyuanneo/circular-doubly-linked-list-soln)
+1. [https://repl.it/@neokaiyuan/doubly-linked-list](https://repl.it/@neokaiyuan/doubly-linked-list)
+   1. [https://repl.it/@neokaiyuan/doubly-linked-list-soln](https://repl.it/@neokaiyuan/doubly-linked-list-soln)
+2. [https://repl.it/@neokaiyuan/circular-doubly-linked-list](https://repl.it/@neokaiyuan/circular-doubly-linked-list)
+   1. [https://repl.it/@neokaiyuan/circular-doubly-linked-list-soln](https://repl.it/@neokaiyuan/circular-doubly-linked-list-soln)
 3. [https://leetcode.com/problems/convert-binary-number-in-a-linked-list-to-integer/](https://leetcode.com/problems/convert-binary-number-in-a-linked-list-to-integer/)
    1. Here's an [intuitive introduction to binary numbers](https://www.mathsisfun.com/binary-number-system.html).
-   2. [FTBC3 class video solution](https://youtu.be/qewAXA\_vkpE?t=2372) (re-recorded after class)
+   2. [FTBC3 class video solution](https://youtu.be/qewAXA_vkpE?t=2372) (re-recorded after class)
       1. This video also explains binary numbers.
 
 ### Part 2
