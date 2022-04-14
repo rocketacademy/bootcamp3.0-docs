@@ -120,7 +120,7 @@ Please deploy your app to EC2 \*before\* feature freeze. You may find the follow
 
 1. [3.POCE.10: EC2 Deployment with Postgres](../3-backend-applications/3.poce-post-class-exercises/3.poce.10-ec2-deployment-with-postgres.md) (culmination of the following 2 modules)
 2. [2.11: Deploy Server to Cloud](../2-backend-basics/2.11-deploy-server-to-cloud.md)
-3. [3.4.1: PostgreSQL, psql (psql Setup)](../3-backend-applications/3.4-sql-applications/3.4.1-postgresql-psql.md#ubuntu-for-windows-users-in-wsl-and-ec2-installation)
+3. [2.5.2.1: PostgreSQL, psql (psql Setup)](../3-backend-applications/3.4-sql-applications/2.5.2.1-postgresql-psql.md#ubuntu-for-windows-users-in-wsl-and-ec2-installation)
 
 ### Refactoring
 
