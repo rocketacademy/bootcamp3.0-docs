@@ -1,4 +1,4 @@
-# 3.6: Heroku
+# 2.7: Heroku
 
 ## Introduction
 
@@ -21,4 +21,3 @@ See detailed docs on the entire platform architecture [here.](https://devcenter.
 ## Add-ons
 
 Heroku also allows a system of Heroku internal "add-ons" to connect to your fleet of app dynos. These encapsulate common web application patterns for data storage, app monitoring, search engines, etc. Postgres is one add-on we will provision for every app. See a [full list of add-ons here.](https://elements.heroku.com/addons)
-

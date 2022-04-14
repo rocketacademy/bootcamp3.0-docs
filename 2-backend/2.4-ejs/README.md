@@ -1,4 +1,4 @@
-# 3.2: EJS
+# 2.4: EJS
 
 ## Introduction
 
