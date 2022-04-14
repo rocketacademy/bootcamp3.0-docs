@@ -51,7 +51,7 @@ Given the relative restrictions of a server-side app that renders HTML pages, th
 
 ### File Uploading
 
-If your app idea involves file uploading, [3.5.11: File Uploads](../2-backend/2.3-express.js/2.3.5-file-uploads.md) is a primer on how to accomplish this using the technologies we have learned so far.
+If your app idea involves file uploading, [2.3.5: File Uploads](../2-backend/2.3-express.js/2.3.5-file-uploads.md) is a primer on how to accomplish this using the technologies we have learned so far.
 
 ### 3rd-Party APIs
 

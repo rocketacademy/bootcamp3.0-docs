@@ -19,9 +19,9 @@ dictionary = {
 print(dictionary["height"])
 ```
 
-Before we can dive into the storing of the data itself we need to talk about the association of the key with the value inside the hash map data structure. We've already seen the idea of "hashing" a value is JavaScript in [Password Hashing 3.5.3](../../../3-backend-applications/3.5-authentication/3.5.3-password-hashing.md). We'll use a very similar algorithm to associate hash map keys with hash map values.
+Before we can dive into the storing of the data itself we need to talk about the association of the key with the value inside the hash map data structure. We've already seen the idea of "hashing" a value is JavaScript in [Password Hashing 2.6.3](../../../2-backend/2.6-authentication/2.6.3-password-hashing.md). We'll use a very similar algorithm to associate hash map keys with hash map values.
 
-We saw in section 3.5.3 that cryptographic hashing functions have 4 properties:
+We saw in section 2.6.3 that cryptographic hashing functions have 4 properties:
 
 1. Consistency - always give back the same value
 2. Consistent length - in the context of hash maps, "fixed length" hash output
