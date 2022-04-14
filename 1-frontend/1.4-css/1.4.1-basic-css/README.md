@@ -12,7 +12,7 @@ CSS helps us change visual properties of HTML elements, such as fonts, backgroun
 
 #### Layout&#x20;
 
-CSS can help us divide our UI into visual sections. This is one of the most tricky aspects of CSS, because CSS was not originally intended for layout design. CSS content in RA's Bootcamp will focus on implementing UI layouts.
+CSS can help us divide our UI into visual sections. This is one of the most tricky aspects of CSS, because CSS was not originally intended for layout design. CSS content in Rocket's Bootcamp will focus on implementing UI layouts.
 
 ### How CSS Works&#x20;
 

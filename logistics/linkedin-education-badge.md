@@ -12,7 +12,7 @@ Software Engineering Bootcamp students can add Rocket Academy to the Education s
 
 ![](../.gitbook/assets/jie-ping-20210401-12.42.04.png)
 
-## 3. Fill in RA's SWE Bootcamp course details
+## 3. Fill in Rocket's SWE Bootcamp course details
 
 1. Notify network
    1. On
@@ -23,9 +23,9 @@ Software Engineering Bootcamp students can add Rocket Academy to the Education s
 4. Field of study
    1. Full-Stack Software Engineering and Algorithms
 5. Start Date
-   1. The month you enrolled in RA's Bootcamp
+   1. The month you enrolled in Rocket's Bootcamp
 6. End Date
-   1. The month you graduated from RA's Bootcamp
+   1. The month you graduated from Rocket's Bootcamp
 7. Description
    1. 6-month full-time / 12-month part-time SWE Bootcamp covering frontend, backend, cloud infrastructure and algorithms. See my portfolio here: &lt;INSERT-MY-PORTFOLIO-LINK&gt;
    2. Feel free to customise this as you wish :\)
