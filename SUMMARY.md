@@ -146,11 +146,11 @@
 
     - [2.5.4: SQL Tools](2-backend/2.5-sql/2.5.4-sql-tools/README.md)
 
-      - [2.5.1.6: SQL Schema Design](2-backend/2.5-sql/2.5.1-sql-language/2.5.1.6-sql-schema-design.md)
-      - [3.4.8: SQL Clients](2-backend/3.4-sql-applications/3.4.8-sql-clients.md)
+      - [2.5.4.1: SQL Schema Design](2-backend/2.5-sql/2.5.4-sql-tools/2.5.4.1-sql-schema-design.md)
+      - [2.5.4.2: SQL Clients](2-backend/2.5-sql/2.5.4-sql-tools/2.5.4.2-sql-clients.md)
 
     - [2.5.5: Advanced SQL](2-backend/2.5-sql/2.5.5-advanced-sql/README.md)
-      - [3.4.12: SQL Indexes](2-backend/3.4-sql-applications/3.4.12-sql-indexes.md)
+      - [2.5.5.1: SQL Indexes](2-backend/2.5-sql/2.5.5-advanced-sql/2.5.5.1-sql-indexes.md)
 
   - [3.5: Authentication](2-backend/3.5-authentication/README.md)
     - [3.5.1: Cookies](2-backend/3.5-authentication/3.5.1-cookies.md)
