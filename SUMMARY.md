@@ -137,12 +137,12 @@
 
     - [2.5.3: SQL Techniques](2-backend/2.5-sql/2.5.3-sql-techniques/README.md)
 
-      - [3.4.3: Nested SQL Queries](2-backend/3.4-sql-applications/3.4.3-nested-sql-queries.md)
-      - [3.4.5: Forms for One-to-Many Relationships](2-backend/3.4-sql-applications/3.4.5-forms-for-one-to-many-relationships.md)
-      - [3.4.6: Forms for Many-to-Many Relationships](2-backend/3.4-sql-applications/3.4.6-forms-for-many-to-many-relationships.md)
-      - [3.4.7: pg Promises](2-backend/3.4-sql-applications/3.4.7-pg-promises.md)
-      - [3.4.9: Database Setup Files](2-backend/3.4-sql-applications/3.4.9-database-setup-files.md)
-      - [3.4.10: Dates in SQL and JS](2-backend/3.4-sql-applications/3.4.10-dates-in-sql-and-js.md)
+      - [2.5.3.1: Nested SQL Queries](2-backend/2.5-sql/2.5.3-sql-techniques/2.5.3.1-nested-sql-queries.md)
+      - [2.5.3.2: Forms for One-to-Many Relationships](2-backend/2.5-sql/2.5.3-sql-techniques/2.5.3.2-forms-for-one-to-many-relationships.md)
+      - [2.5.3.3: Forms for Many-to-Many Relationships](2-backend/2.5-sql/2.5.3-sql-techniques/2.5.3.3-forms-for-many-to-many-relationships.md)
+      - [2.5.3.4: pg Promises](2-backend/2.5-sql/2.5.3-sql-techniques/2.5.3.4-pg-promises.md)
+      - [2.5.3.5: Database Setup Files](2-backend/2.5-sql/2.5.3-sql-techniques/2.5.3.5-database-setup-files.md)
+      - [2.5.3.6: Dates in Postgres and JS](2-backend/2.5-sql/2.5.3-sql-techniques/2.5.3.6-dates-in-postgres-and-js.md)
 
     - [2.5.4: SQL Tools](2-backend/2.5-sql/2.5.4-sql-tools/README.md)
 
