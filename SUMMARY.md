@@ -113,30 +113,45 @@
     - [2.3.4: PUT, DELETE Requests](2-backend/2.3-express.js/2.3.4-put-delete-requests.md)
     - [2.3.5: File Uploads](2-backend/2.3-express.js/2.3.5-file-uploads.md)
   - [2.4: EJS](2-backend/2.4-ejs/README.md)
+
     - [2.4.1: EJS Loops](2-backend/2.4-ejs/2.4.1-ejs-loops.md)
     - [2.4.2: EJS Conditionals](2-backend/2.4-ejs/2.4.2-ejs-conditionals.md)
     - [2.4.3: EJS Partials](2-backend/2.4-ejs/2.4.3-ejs-partials.md)
-  - [3.3: SQL Language](2-backend/2.5-sql-language/README.md)
-    - [2.5.1: Basic SQL Commands](2-backend/2.5-sql-language/2.5.1-basic-sql-commands.md)
-    - [2.5.2: SQL Relationships (One to Many)](2-backend/2.5-sql-language/2.5.2-sql-relationships-one-to-many.md)
-    - [2.5.3: SQL Relationships (Many to Many)](2-backend/2.5-sql-language/2.5.3-sql-relationships-many-to-many.md)
-    - [2.5.4: Inner Join](2-backend/2.5-sql-language/2.5.4-inner-join.md)
-    - [2.5.5: Non-FK Relationship Data in Join Table](2-backend/2.5-sql-language/2.5.5-non-fk-relationship-data-in-join-table.md)
-    - [2.5.6: SQL Schema Design](2-backend/2.5-sql-language/2.5.6-sql-schema-design.md)
-    - [2.5.7: Self-Referencing Foreign Keys](2-backend/2.5-sql-language/2.5.7-self-referencing-foreign-keys.md)
-  - [3.4: SQL Applications](2-backend/3.4-sql-applications/README.md)
-    - [3.4.1: PostgreSQL, psql](2-backend/3.4-sql-applications/3.4.1-postgresql-psql.md)
-    - [3.4.2: PostgreSQL Node App](2-backend/3.4-sql-applications/3.4.2-postgresql-node-app.md)
-    - [3.4.3: Nested SQL Queries](2-backend/3.4-sql-applications/3.4.3-nested-sql-queries.md)
-    - [3.4.4: PostgreSQL Express App](2-backend/3.4-sql-applications/3.4.4-postgresql-express-app.md)
-    - [3.4.5: Forms for One-to-Many Relationships](2-backend/3.4-sql-applications/3.4.5-forms-for-one-to-many-relationships.md)
-    - [3.4.6: Forms for Many-to-Many Relationships](2-backend/3.4-sql-applications/3.4.6-forms-for-many-to-many-relationships.md)
-    - [3.4.7: pg Promises](2-backend/3.4-sql-applications/3.4.7-pg-promises.md)
-    - [3.4.8: SQL Clients](2-backend/3.4-sql-applications/3.4.8-sql-clients.md)
-    - [3.4.9: Database Setup Files](2-backend/3.4-sql-applications/3.4.9-database-setup-files.md)
-    - [3.4.10: Dates in SQL and JS](2-backend/3.4-sql-applications/3.4.10-dates-in-sql-and-js.md)
-    - [2.3.5: File Uploads](2-backend/3.4-sql-applications/2.3.5-file-uploads.md)
-    - [3.4.12: SQL Indexes](2-backend/3.4-sql-applications/3.4.12-sql-indexes.md)
+
+  - [2.5: SQL](2-backend/2.5-sql/README.md)
+
+    - [2.5.1: SQL Language](2-backend/2.5-sql/2.5.1-sql-language/README.md)
+
+      - [2.5.1.1: Basic SQL Commands](2-backend/2.5-sql/2.5.1-sql-language/2.5.1.1-basic-sql-commands.md)
+      - [2.5.1.2: SQL Relationships (One to Many)](2-backend/2.5-sql/2.5.1-sql-language/2.5.1.2-sql-relationships-one-to-many.md)
+      - [2.5.1.3: SQL Relationships (Many to Many)](2-backend/2.5-sql/2.5.1-sql-language/2.5.1.3-sql-relationships-many-to-many.md)
+      - [2.5.1.5: Non-Foreign-Key Relationship Data in Join Table](2-backend/2.5-sql/2.5.1-sql-language/2.5.1.5-non-foreign-key-relationship-data-in-join-table.md)
+      - [2.5.1.4: Inner Join](2-backend/2.5-sql/2.5.1-sql-language/2.5.1.4-inner-join.md)
+      - [2.5.1.7: Self-Referencing Foreign Keys](2-backend/2.5-sql/2.5.1-sql-language/2.5.1.7-self-referencing-foreign-keys.md)
+
+    - [2.5.2: PostgreSQL](2-backend/2.5-sql/2.5.2-postgresql/README.md)
+
+      - [3.4.1: PostgreSQL, psql](2-backend/3.4-sql-applications/3.4.1-postgresql-psql.md)
+      - [3.4.2: PostgreSQL Node App](2-backend/3.4-sql-applications/3.4.2-postgresql-node-app.md)
+      - [3.4.4: PostgreSQL Express App](2-backend/3.4-sql-applications/3.4.4-postgresql-express-app.md)
+
+    - [2.5.3: SQL Techniques](2-backend/2.5-sql/2.5.3-sql-techniques/README.md)
+
+      - [3.4.3: Nested SQL Queries](2-backend/3.4-sql-applications/3.4.3-nested-sql-queries.md)
+      - [3.4.5: Forms for One-to-Many Relationships](2-backend/3.4-sql-applications/3.4.5-forms-for-one-to-many-relationships.md)
+      - [3.4.6: Forms for Many-to-Many Relationships](2-backend/3.4-sql-applications/3.4.6-forms-for-many-to-many-relationships.md)
+      - [3.4.7: pg Promises](2-backend/3.4-sql-applications/3.4.7-pg-promises.md)
+      - [3.4.9: Database Setup Files](2-backend/3.4-sql-applications/3.4.9-database-setup-files.md)
+      - [3.4.10: Dates in SQL and JS](2-backend/3.4-sql-applications/3.4.10-dates-in-sql-and-js.md)
+
+    - [2.5.4: SQL Tools](2-backend/2.5-sql/2.5.4-sql-tools/README.md)
+
+      - [2.5.1.6: SQL Schema Design](2-backend/2.5-sql/2.5.1-sql-language/2.5.1.6-sql-schema-design.md)
+      - [3.4.8: SQL Clients](2-backend/3.4-sql-applications/3.4.8-sql-clients.md)
+
+    - [2.5.5: Advanced SQL](2-backend/2.5-sql/2.5.5-advanced-sql/README.md)
+      - [3.4.12: SQL Indexes](2-backend/3.4-sql-applications/3.4.12-sql-indexes.md)
+
   - [3.5: Authentication](2-backend/3.5-authentication/README.md)
     - [3.5.1: Cookies](2-backend/3.5-authentication/3.5.1-cookies.md)
     - [3.5.2: User Auth](2-backend/3.5-authentication/3.5.2-user-auth.md)

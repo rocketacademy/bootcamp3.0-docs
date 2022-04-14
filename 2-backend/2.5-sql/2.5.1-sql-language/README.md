@@ -1,12 +1,12 @@
-# 3.3: SQL Language
+# 2.5.1: SQL Language
 
 ## Databases
 
 So far we've seen some different ways of storing data:&#x20;
 
-* Data stored in a plain file, separated by line endings (\n)&#x20;
-* Data stored as JSON&#x20;
-* Binary data, such as images&#x20;
+- Data stored in a plain file, separated by line endings (\n)&#x20;
+- Data stored as JSON&#x20;
+- Binary data, such as images&#x20;
 
 Here we’ll be introducing databases as a store for our data.&#x20;
 
