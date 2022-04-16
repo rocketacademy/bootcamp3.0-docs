@@ -51,7 +51,7 @@
 
   - [1.0: Module 1 Overview](1-frontend/1.0-module-1-overview.md)
   - [1.1: HTML](1-frontend/1.1-html.md)
-  - [1.2: React](1-frontend/1.2-react.md)
+  - [1.2: React](1-frontend/1.2-react/README.md)
 
     - [1.2.1: JSX](1-frontend/1.2-react/1.2.1-jsx/README.md)
       - [1.2.1.1: Conditional Rendering](1-frontend/1.2-react/1.2.1-jsx/1.2.1.1-conditional-rendering.md)
