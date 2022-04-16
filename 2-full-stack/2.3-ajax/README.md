@@ -1,4 +1,4 @@
-# 7.7.1: AJAX Requests from Components
+# 2.3: AJAX
 
 ## Introduction
 
@@ -23,4 +23,3 @@ A new controller that accepts the POST request has been created. It creates the 
 ## Cart Component
 
 A button has been added to the Cart component that "checks out" the user. This button makes the request to check out. After the request response has come back, we empty the cart and display a message: [https://github.com/rocketacademy/react-ecom-bootcamp/compare/orders?expand=1\#diff-5b736dbb0110ddcf3dd6a76d9abaa8d1ad9311a4516693a5d7c948053aa9aad1R37](https://github.com/rocketacademy/react-ecom-bootcamp/compare/orders?expand=1#diff-5b736dbb0110ddcf3dd6a76d9abaa8d1ad9311a4516693a5d7c948053aa9aad1R37)
-

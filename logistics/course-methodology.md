@@ -137,7 +137,7 @@ No need to record a video for project 1, video poker.
 3. Explain features of the app in the context of what the user wants to accomplish and why they want to accomplish it.
 4. The video _**should not go into any technical details**_ that would be incomprehensible to someone non-technical.
 
-For example, when demoing an e-commerce app, discuss the process of the user selecting an item they want to buy and ordering it, instead of how when the button gets clicked that it creates an HTTP POST request.
+For example, when demoing an ecommerce app, discuss the process of the user selecting an item they want to buy and ordering it, instead of how when the button gets clicked that it creates an HTTP POST request.
 
 ### Focus On What You Did, Not What You Didn't Do
 
