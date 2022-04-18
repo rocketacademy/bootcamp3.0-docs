@@ -1,4 +1,4 @@
-# 3.3: Express.js
+# 3.1: Express.js
 
 ## Introduction
 
