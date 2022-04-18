@@ -17,7 +17,7 @@ Sometimes we want to change the name of a variable in our code, a common practic
 ### Within a Single File
 
 1. Move your cursor to the first instance of the variable
-2. Press/hold `Ctrl+D` on Windows or `Cmd+D` on Mac until all instances of that variable are selected\`\`\`
+2. Press/hold `Ctrl+D` on Windows or `Cmd+D` on Mac until all instances of that variable are selected
 3. Use left or right arrow keys to enable cursors on each instance of that variable and edit them simultaneously
 
 ### Across Multiple Files
@@ -26,4 +26,4 @@ VS Code has a [search and replace feature](https://code.visualstudio.com/docs/ed
 
 ## Hide Minimap
 
-The [VS Code minimap](https://code.visualstudio.com/docs/getstarted/userinterface#\_minimap) is displayed by default in VS Code to show one's vertical position within a file. This may not be necessary in Coding Basics and we can hide the minimap for more space in VS Code. Hide the minimap by toggling View > Show Minimap in the menu bar.
+The [VS Code minimap](https://code.visualstudio.com/docs/getstarted/userinterface#\_minimap) is displayed by default in VS Code to show one's vertical position within a file. This may not be necessary and we can hide the minimap for more space in VS Code. Hide the minimap by toggling View > Show Minimap in the menu bar.
