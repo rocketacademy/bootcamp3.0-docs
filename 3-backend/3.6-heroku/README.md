@@ -1,4 +1,4 @@
-# 3.7: Heroku
+# 3.6: Heroku
 
 ## Introduction
 
