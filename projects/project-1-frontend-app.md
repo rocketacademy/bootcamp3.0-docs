@@ -1,4 +1,4 @@
-# Project 1: Video Poker
+# Project 1: Frontend App
 
 ## Introduction
 
@@ -95,8 +95,40 @@ Implement 7 Card Stud rules for Poker instead of 5 Card Draw.
 
 Once done with your project, please submit it by adding it to the [Rocket Bootcamp Projects spreadsheet](https://docs.google.com/spreadsheets/d/1YZ39naj5E6mNNkQ1akR\_FgeFO\_kM6aWCAr8zqrFOkt4/edit?usp=sharing) in your batch-specific sheet. Feel free to view past student projects in previous batches' sheets.
 
-## Disclaimer
+## Project Management
 
-{% hint style="danger" %}
-**Rocket Academy does not endorse gambling.** We chose Video Poker as a project because of its complex rules that help facilitate coding instruction.
-{% endhint %}
+### User Stories
+
+The user stories are the first part of planning that state what the app should give the user the ability to accomplish, and why the user wants to accomplish that task.
+
+* The user is going on a trip. They can create it within the app.
+* The user wants to invite their friends. The app allows them to enter their friend's names.
+* The user wants to keep track of all the places they want to go. The app allows them to record each place.
+
+### Wireframes
+
+Wireframes show visually how the user will accomplish the tasks described in the users stories. If a wireframe has a UX element that is not used for a task described in a user story, it should be removed.
+
+### Kanban Board
+
+![Trello board with Agile workflow](<../.gitbook/assets/image (3).png>)
+
+A Kanban board is a team document that is used for planning, to show what each team member is working on, and to show what parts of the project are already done.
+
+You'll be using Trello to hold your Kanban board. The board will have the following three sections:
+
+#### Backlog
+
+The backlog section is the set of tasks that have to be done. When planning, the team will break the larger features / user stories of the app into small pieces that can be completed by one person in a relatively small amount of time.
+
+Each team member will assign themselves a task in the board and move it to "**in progress**".
+
+When planning try to avoid adding every single task that could ever conceivably be done in the future. This should be for features that have already been planned out in the user stories and wireframes.
+
+#### In Progress
+
+For tasks in progress.
+
+#### Done
+
+For done tasks.
