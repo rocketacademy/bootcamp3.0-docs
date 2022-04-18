@@ -8,7 +8,6 @@
 * [📚 General Reference](general-reference/README.md)
   * [Naming, Casing, and Commenting Conventions](general-reference/naming-casing-and-commenting-conventions.md)
   * [VS Code Tips](general-reference/vs-code-tips.md)
-  * [Tools, Syntax, and Glossary](general-reference/tools-syntax-and-glossary.md)
   * [Group Work Primer](general-reference/group-work-primer.md)
   * [Recommended Resources](general-reference/recommended-resources.md)
 * [🏞 Projects](projects/README.md)

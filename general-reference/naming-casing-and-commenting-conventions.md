@@ -80,4 +80,18 @@ SQL column names should be in snake\_case. SQL is case-insensitive, and SQL comm
 
 ### Function-Level Comments
 
-For function-level comments in JS, consider using [JSDoc format](https://jsdoc.app/about-getting-started.html#adding-documentation-comments-to-your-code) for clearer identification of functions and what they do.
+For function-level comments in JS, consider using [JSDoc format](https://jsdoc.app/about-getting-started.html#adding-documentation-comments-to-your-code) for clearer identification of functions and what they do. JSDoc is a standard format for JS comments, as well as a tool that auto-generates HTML pages that document code files.
+
+```javascript
+/**
+ * A function that sums numbers
+ * @param  a {number} number to add together
+ * @param  b {number} number to add together
+ * @return {number}   a and b added together
+ */
+var add = function (a, b) {
+  return a + b;
+};
+```
+
+The `@` symbol in JSDocs signifies a "tag"- some structure of the code to document. In Rocket Academy JavaScript documentation we will be almost exclusively using only the `param` and `return` tags in JSDoc formatted comments. See the full list of tags [here](https://jsdoc.app/index.html#block-tags).
