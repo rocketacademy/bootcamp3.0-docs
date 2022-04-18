@@ -4,31 +4,30 @@ Past students have found the following resources helpful.
 
 ## Books
 
-{% file src="../.gitbook/assets/clean-code.pdf" %}
-How to Write High Quality Code
+{% file src="../.gitbook/assets/Cracking-the-Coding-Interview-6th-Edition-189-Programming-Questions-and-Solutions.pdf" %}
+How to pass coding interviews
 {% endfile %}
 
-{% file src="../.gitbook/assets/cracking-the-coding-interview-6th-edition-189-programming-questions-and-solutions (1).pdf" %}
-How to Pass Coding Interviews
+{% file src="../.gitbook/assets/Data Structures and Algorithms in Python.pdf" %}
+Algos in Python
 {% endfile %}
 
-{% file src="../.gitbook/assets/data-structures-and-algorithms-in-python.pdf" %}
-DS\&A In Python
+{% file src="../.gitbook/assets/Clean Code.pdf" %}
+How to write high-quality code
 {% endfile %}
 
-{% file src="../.gitbook/assets/kyle-simpson-you-dont-know-js_-up-and-going-oreilly-media-2015-.pdf" %}
-JS Deep Dive
+{% file src="../.gitbook/assets/Kyle Simpson - You Don't Know JS_ Up & Going-O'Reilly Media (2015).pdf" %}
+JS deep dive
 {% endfile %}
 
-{% file src="../.gitbook/assets/swe-at-google.pdf" %}
-Software Engineering at Google
+{% file src="../.gitbook/assets/SWE At Google.pdf" %}
+Software engineering at Google
 {% endfile %}
 
-## Useful Videos
+## Videos
 
-Fireship: 100 second concept explainer videos [playlist](https://www.youtube.com/playlist?list=PL0vfts4VzfNiI1BsIK5u7LpPaIDKMJIDN)
+1. [Fireship: 100-second explainer videos](https://youtube.com/playlist?list=PL0vfts4VzfNiI1BsIK5u7LpPaIDKMJIDN)
 
 ## Interview Guides
 
-1. [https://github.com/yangshun/front-end-interview-handbook](https://github.com/yangshun/front-end-interview-handbook)
-2. [https://github.com/getify/You-Dont-Know-JS](https://github.com/getify/You-Dont-Know-JS)
+1. [Tech Interview Handbook](https://www.techinterviewhandbook.org)
