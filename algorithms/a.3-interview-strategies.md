@@ -57,6 +57,6 @@ If we find our code is still failing on more complex test cases, gradually incre
 
 ## Read and Understand Solutions
 
-To maximise chances of success in DS&A interviews, always review and understand solutions after attempting each problem. Commit the strategies to memory, because there is a good chance we will encounter a similar problem in the future. There are a finite number of patterns in DS&A problems, and even fewer for common DS&A problems used in interviews. We will cover a majority of these common patterns in SWE Bootcamp's DS&A curriculum. If the platform you are using does not provide a solution for a given problem, Google almost always will have one.
+To maximise chances of success in DS&A interviews, always review and understand solutions after attempting each problem. Commit the strategies to memory, because there is a good chance we will encounter a similar problem in the future. There are a finite number of patterns in DS&A problems, and even fewer for common DS&A problems used in interviews. We will cover a majority of these common patterns in Coding Bootcamp's DS&A curriculum. If the platform you are using does not provide a solution for a given problem, Google almost always will have one.
 
 Past students have found the spaced-repetition flashcard software [Anki](https://apps.ankiweb.net/) helpful in revising and keeping warm on DS&A concepts during and after Rocket's bootcamp. They would store problems and solutions in flashcards to revise them periodically.

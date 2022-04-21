@@ -12,7 +12,7 @@ Software Engineering Bootcamp students can add Rocket Academy to the Education s
 
 ![](<../.gitbook/assets/image (2).png>)
 
-## 3. Fill in Rocket's SWE Bootcamp course details
+## 3. Fill in Rocket's Coding Bootcamp course details
 
 1. Notify network
    1. On

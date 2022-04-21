@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This document outlines required software for SWE Bootcamp. Please install this software before starting the course unless instructed otherwise.
+This document outlines required software for Coding Bootcamp. Please install this software before starting the course unless instructed otherwise.
 
 ## Complete Coding Basics setup
 
@@ -51,6 +51,7 @@ sudo apt-get install git
 # Verify correct installation by checking Git version
 git --version
 ```
+
 {% endtab %}
 
 {% tab title="MacOS" %}
@@ -60,15 +61,11 @@ git --version
 brew install git
 ```
 
-
-
 2\. Verify Git is installed by running `git --version` in the [VS Code terminal](https://code.visualstudio.com/docs/editor/integrated-terminal). This should print out a version number on the next line, e.g., `git version 2.9.2`.
 
 ```
 git --version
 ```
-
-
 
 3\. Download and install the [Git Credential Manager](https://github.com/microsoft/Git-Credential-Manager-Core/releases/download/v2.0.498/gcmcore-osx-2.0.498.54650.pkg)
 
@@ -114,6 +111,7 @@ Open an Ubuntu terminal in VS Code and run the following commands.
 curl -fsSL https://deb.nodesource.com/setup_16.x | sudo -E bash -
 sudo apt-get install -y nodejs
 ```
+
 {% endtab %}
 
 {% tab title="MacOS" %}
@@ -123,6 +121,7 @@ Install Node.js using Homebrew using the following commands. `install` installs 
 brew install node@16
 brew link node@16
 ```
+
 {% endtab %}
 {% endtabs %}
 
@@ -151,6 +150,7 @@ ESLint is a JavaScript code formatter that helps us detect functional and stylis
 5. Restart VS Code to apply settings
 
 {% code title="settings.json" %}
+
 ```json
 {
   "editor.defaultFormatter": "esbenp.prettier-vscode",
@@ -168,9 +168,10 @@ ESLint is a JavaScript code formatter that helps us detect functional and stylis
   "eslint.migration.2_x": "off"
 }
 ```
+
 {% endcode %}
 
-## Setup folder structure for SWE Bootcamp
+## Setup folder structure for Coding Bootcamp
 
 Rocket recommends the following folder structure to keep ourselves organised during Bootcamp.
 

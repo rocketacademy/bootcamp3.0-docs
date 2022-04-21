@@ -2,7 +2,7 @@
 
 ## Overview
 
-Welcome! Software Engineering (SWE) Bootcamp is Rocket Academy's flagship career-conversion course. It builds on concepts from Rocket's intro coding course [Coding Basics](https://codingbasics.rocketacademy.co). On successful completion of SWE Bootcamp, students can expect to get jobs as software engineers (SWEs).
+Welcome! Software Engineering (SWE) Bootcamp is Rocket Academy's flagship career-conversion course. It builds on concepts from Rocket's intro coding course [Coding Basics](https://codingbasics.rocketacademy.co). On successful completion of Coding Bootcamp, students can expect to get jobs as software engineers (SWEs).
 
 ## Learning Objectives
 
@@ -27,7 +27,7 @@ What makes a good SWE? Rocket aims to teach both hard and soft skills one needs 
 
 ## Curriculum Outline
 
-Rocket's Bootcamp contains 4 modules of 16 course days each, each of which culminates in a project. Rocket requires students complete module projects to continue in SWE Bootcamp.
+Rocket's Bootcamp contains 4 modules of 16 course days each, each of which culminates in a project. Rocket requires students complete module projects to continue in Coding Bootcamp.
 
 1. Frontend
    1. Build UI with HTML, React and CSS (individual project)
