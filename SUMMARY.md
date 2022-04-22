@@ -2,6 +2,7 @@
 
 * [🚀 Welcome to Bootcamp!](README.md)
 * [🛠 Logistics](logistics/README.md)
+  * [Course Schedules](logistics/course-schedules.md)
   * [Course Methodology](logistics/course-methodology.md)
   * [Required Software](logistics/required-software.md)
   * [LinkedIn Education Badge](logistics/linkedin-education-badge.md)
