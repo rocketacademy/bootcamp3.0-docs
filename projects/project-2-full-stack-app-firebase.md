@@ -2,9 +2,7 @@
 
 ## Introduction
 
-This app is a continuation of [Project 2: Server Side App](broken-reference). We are spreading the logic and computation across 2 computers, the server computer and the user's computer. The underlying mechanic of request and response happening across the network is still the same.
-
-You will implement a card game or turn based card-type game. The user or users will be identified by the system and be able to play a game where the server remembers something about the user and the game cannot be cheated by opening the browser dev tools.
+Build an app that solves a problem you have using React and Firebase. Feel free to use any 3rd-party frontend libraries and all Firebase features such as Realtime Database, Storage, Authentication and Hosting.
 
 ## Requirements
 
