@@ -2,11 +2,11 @@
 
 ## Overview
 
-Welcome! Coding Bootcamp is Rocket Academy's flagship career-conversion course. It builds on concepts from Rocket's intro coding course [Coding Basics](https://codingbasics.rocketacademy.co). On successful completion of Coding Bootcamp, students can expect to get jobs as software engineers (SWEs).
+Welcome! Coding Bootcamp is Rocket Academy's flagship career-conversion course. It builds on concepts from Rocket's intro coding course [Coding Basics](https://codingbasics.rocketacademy.co). On successful completion of Coding Bootcamp, students can expect to get jobs as software engineers.
 
 ## Learning Objectives
 
-What makes a good SWE? Rocket aims to teach both hard and soft skills one needs to succeed.
+What makes a good software engineer? Rocket aims to teach both hard and soft skills one needs to succeed.
 
 1. Hard skills (base competency)
    1. General software knowledge
