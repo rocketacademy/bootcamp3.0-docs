@@ -2,45 +2,34 @@
 
 ## Introduction
 
-This app is a continuation of [Project 2: Server Side App](broken-reference). We are spreading the logic and computation across 2 computers, the server computer and the user's computer. The underlying mechanic of request and response happening across the network is still the same.
-
-You will implement a card game or turn based card-type game. The user or users will be identified by the system and be able to play a game where the server remembers something about the user and the game cannot be cheated by opening the browser dev tools.
+Build an app that solves a problem you have using React and Firebase. Feel free to use any 3rd-party libraries and all Firebase features beyond the ones we have learnt.
 
 ## Requirements
 
-1. Features
-   1. Single or multi player is ok
-   2. The gameplay should happen on a single HTML page
-   3. Interactivity using client-side JS
-   4. Users cannot cheat by looking in the browser console
-   5. Some game state must be saved in the database server-side
-   6. User login (full-stack or server-side)
-2. Technologies
-   1. Use CSS
-   2. Use Express.js
-   3. Use Webpack
+### App
 
-The game you implement does not have to have a score or winners. It must be completely playable for the stated rules. i.e., if a rule of the game is stated, the game must implement it.
+1. React app with Create React App
+2. Data storage with Firebase Realtime Database or Firebase Firestore
+3. Async/await syntax to manage asynchronous functionality such as HTTP requests
+4. 1 or more requests to an external API using Axios or Fetch libraries
+5. `useEffect` hook to retrieve data or perform other "side effect" on component load for 1 or more components
+6. File upload with Firebase Storage
+7. Authentication with Firebase Authentication
+8. App routing with React Router
+9. At least 1 custom higher-order component
+10. State management with React Context
 
-If you choose to implement a card game with a known set of rules, you as the game implementer can state a lesser set of rules if you want.
+### Other
 
-Note that you can choose to implement user authentication completely in AJAX requests, or you can choose to implement user authentication as in Project 2, where the user is restricted from visiting the game page.
+1. Deployment with Firebase Hosting
+2. Naming, casing and commenting [best practices](../general-reference/naming-casing-and-commenting-conventions.md)
+3. Git commits for each feature with descriptive commit messages
+4. App description in README with user stories and low-fidelity wireframes
+5. Instructions in README to run app
 
-Your app must be complete in the sense that it cannot rely on the theoretical existence of another system, e.g. an API that doesn't exist. You are free to use any 3rd-party APIs available on the internet, e.g. NPM libraries.
+## Ideas
 
-## Starter Code
-
-Consider starting with this starter repo: [https://github.com/rocketacademy/webpack-mvc-base-bootcamp](https://github.com/rocketacademy/webpack-mvc-base-bootcamp). Don't fork the repo because we may be using it for multiple projects and exercises. You can copy the code to a new repo, or clone it and remove the `.git` directory to create a new repo.
-
-## App Ideas
-
-### General Ideas
-
-Here is a list of card games: [https://bicyclecards.com/rules/](https://bicyclecards.com/rules/)
-
-Also acceptable are turn based board type games such as Battleship or Connect Four.
-
-Avoid any ideas the depend on timing between players or if another player must be immediately notified of some game state.
+TBD
 
 ## Project Timeline
 

@@ -18,7 +18,7 @@ Build an app that solves a problem you have using HTML, React and CSS. We will n
 ### Other
 
 1. Deployment with GitHub Pages
-2. Naming and commenting [best practices](../general-reference/naming-casing-and-commenting-conventions.md)
+2. Naming, casing and commenting [best practices](../general-reference/naming-casing-and-commenting-conventions.md)
 3. Git commits for each feature with descriptive commit messages
 4. App description in README with user stories and low-fidelity wireframes
 5. Instructions in README to run app
@@ -76,8 +76,6 @@ Example wireframes by Figma
 After user stories and wireframes, Rocket recommends using a [kanban board](https://blog.trello.com/kanban-data-nave) to track implementation progress. A kanban board is a progress-tracking board that contains broadly 3 lists of tasks: To Do, Doing and Done. Rocket recommends [Trello](https://trello.com) for its simplicity, and the [Trello Engineering Kanban Template](https://trello.com/templates/engineering/kanban-template-LGHXvZNL) for its relevance to SWE.
 
 Each task on your board should take no more than 1 day to complete. If you think it will take longer than 1 day, break it down into smaller tasks. This will help you stay motivated and track progress more accurately. Move in-progress tasks to the Doing lists and completed tasks to Done.
-
-
 
 ## Setup
 
