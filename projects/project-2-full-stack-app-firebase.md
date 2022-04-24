@@ -52,8 +52,6 @@ You will have roughly 8 course days to complete this project. We will observe th
 |      9      | <p><strong>Project presentations</strong></p><p>Practise <a href="../logistics/course-methodology.md#presentations">explaining your work</a> to others. Other batches will join and we will celebrate each others' hard work.</p> | SL to review code in GitHub, share feedback in 30-minute [post-mortem meeting](../logistics/course-methodology.md#post-mortem) |
 |      10     | <p><strong>Demo video</strong><br><strong></strong>Record a <a href="../logistics/course-methodology.md#demo-video">demo video</a> for employers and the public, embed in README</p>                                              |                                                                                                                                |
 
-###
-
 ## Project Management Suggestions
 
 In addition to user story, wireframe and kanban board suggestions [shared during Project 1](project-1-frontend-app.md#project-management-suggestions), now that we have a database (DB), Rocket recommends we plan the DB schema before starting. Our DB schema will change during app development, but planning ahead can reduce the number of changes.

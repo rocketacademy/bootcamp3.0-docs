@@ -1,91 +1,52 @@
-# Project 5: Group React App
+# Project 3: Full-Stack App (Express)
 
 ## Introduction
 
-Build a full-stack app in a team setting.
-
-This project will incorporate group work into building a complete full-stack React app.
-
-The required technologies are not any different from the previous project, although it is heavily recommended to implement a reduce/context store for the data in the React app.
-
-The backend should be derived the same standard Express MVC app: [https://github.com/rocketacademy/base-mvc-bootcamp](https://github.com/rocketacademy/base-mvc-bootcamp)
-
-Remember that you need to add CORS to this repo.
+Build an app that solves a problem you have using React and Express. Feel free to also use any 3rd-party libraries, Firebase features, or other technologies. This project can be done individually or in a group.
 
 ## Requirements
 
-The app must fulfill the following requirements.
+### App
 
-- Use React
-- Use AJAX to get and set data from the server
-- At least 1 full set of CRUD routes (create, retrieve, update, delete)
-- At least 2 SQL tables
-- At least 1 one-to-many and 1 many-to-many SQL relationship
-- Use CSS
+1. React App with CRA
+2. Express API server that processes GET and POST requests
+3. PostgreSQL DB to store data
+4. Sequelize ORM to interface between API server and DB
+5. At least 1 1-M and 1 M-M SQL relationship in DB schema
+6. Seed data in DB seed migrations
+7. JWT authentication for user login
 
-The app must be complete in the sense that it cannot rely on the theoretical existence of another system, e.g. an API that doesn't exist. Any 3rd-party APIs available on the internet can be used, e.g. NPM libraries.
+### Other
 
-Any seed data your app would need to run needs to be included in the repo. The final version of the app must be populated with data that looks at least semi-realistic. For example, a social media app would have more than 1 post, 1 comment and 1 like in the system.
+1. Frontend deployed with provider of your choice (e.g. GitHub Pages, Firebase Hosting, Netlify)
+2. Backend deployed with Heroku
+3. Naming, casing and commenting [best practices](../general-reference/naming-casing-and-commenting-conventions.md)
+4. Git commits for each feature with descriptive commit messages
+5. App description in README with user stories and low-fidelity wireframes
+6. Instructions in README to run app
 
-## Project Timeline
+## Timeline
 
-### Summary
+| Project Day | Checkpoint                                                                                                                                                                                                                        | Feedback                                                                                                                       |
+| :---------: | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------ |
+|      0      | <p><strong>Ideation phase 1</strong></p><p>Post project ideas in Slack for feedback</p>                                                                                                                                           | SL to review ideas and share feedback                                                                                          |
+|      1      | <p><strong>Ideation phase 2</strong><br><strong></strong>Create planning docs: user stories, wireframes, kanban board</p>                                                                                                         | SL to review planning docs and share feedback                                                                                  |
+|      2      | **Start implementation**                                                                                                                                                                                                          | -                                                                                                                              |
+|      3      | -                                                                                                                                                                                                                                 | -                                                                                                                              |
+|      4      | -                                                                                                                                                                                                                                 | -                                                                                                                              |
+|      5      | <p><strong>MVP deadline</strong><br><strong></strong>Users can complete the primary user story</p>                                                                                                                                | SL to review code in GitHub, share feedback                                                                                    |
+|      6      | -                                                                                                                                                                                                                                 | -                                                                                                                              |
+|      7      | <p><strong>Feature freeze</strong></p><p>No new features, focus on polishing existing features and code to be presentable</p>                                                                                                     | SL to review progress and share post-feature-freeze suggestions                                                                |
+|      8      | -                                                                                                                                                                                                                                 | -                                                                                                                              |
+|      9      | <p><strong>Project presentations</strong></p><p>Practise <a href="../logistics/course-methodology.md#presentations">explaining your work</a> to others. Other batches will join and we will celebrate each others' hard work.</p> | SL to review code in GitHub, share feedback in 30-minute [post-mortem meeting](../logistics/course-methodology.md#post-mortem) |
+|      10     | <p><strong>Demo video</strong><br><strong></strong>Record a <a href="../logistics/course-methodology.md#demo-video">demo video</a> for employers and the public, embed in README</p>                                              |                                                                                                                                |
 
-| Course Day | Deliverable                                                                                                                                                                               | Instructor Feedback                                                                 |
-| ---------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------- |
-| CD17.3     | **Start: Ideation Phase 1.** Introduce project, post project ideas in Slack for feedback                                                                                                  | Instructor to share feedback on project ideas in Slack.                             |
-| CD18.1     | \*\*Start: Ideation Phase 2. \*\*Create planning docs: user stories, wireframes, and DB ERD.                                                                                              |                                                                                     |
-| CD18.4     | **Due: Ideation Phase 2.** Finalise project idea and share planning docs in GitHub repo over Slack.                                                                                       | Instructor to review planning docs over Slack and over Zoom if necessary.           |
-| CD18.4     | **Due: Peer Planning Review.**                                                                                                                                                            |                                                                                     |
-| CD18.4     | **Start: Project Start.**                                                                                                                                                                 | Begin Project Implementation.                                                       |
-| CD19.3     | <p><strong>Due: MVP deadline.</strong></p><p>Users should be able to perform the primary user story. Please deploy your app to Heroku. Students to review code in pairs during class.</p> | Instructor to review code on GitHub, share feedback in Slack and Zoom if necessary. |
-| CD20.1     | <p><strong>Due: Feature freeze.</strong></p><p>No more developing new app functionality. Use remaining time to focus on polish, i.e. fixing UX/UI, refactoring code.</p>                  | Quick project review in class to discuss improvements post-feature freeze.          |
-| CD20.3     | **Due: Project presentations.**                                                                                                                                                           | 30-minute post-mortem with instructor. Instructor to review code in PR on GitHub.   |
-| CD20.4     | **Project Peer Review Exercise.**                                                                                                                                                         |                                                                                     |
-| CD20.5     | **Due: Video demo.**                                                                                                                                                                      |                                                                                     |
+## Setup
 
-### Recommended Order of Implementation
+Use Rocket's base CRA repo for the frontend app. Use Rocket's base Express repo for the API server.
 
-Implement the core user story first. What are users coming to your app to do? Make sure they are able to accomplish that, before adding authentication and nice-to-have features.
+TODO(kai): Include deployment instructions, how to manage CORS
 
-1. CRUD functionality
-2. Login functionality
-3. Any stretch functionality, e.g. AI APIs or file uploading
+## Submission
 
-## Ideation Phase 1
-
-Brainstorm app ideas. What problem does the app solve, for whom? How does the app solve the problem? What data does the app handle? Feel free to use [Rocket's project planning template](https://docs.google.com/document/d/1klyi92bVHUKjxgD_Saou_u6yoEZFbzkvbttj2izh8xg/edit?usp=sharing), and share your ideas with your SL in Slack to get feedback.
-
-## Ideation Phase 2
-
-Plan the app implementation with the following planning docs.
-
-1. [User-flow diagram](https://careerfoundry.com/en/blog/ux-design/what-are-user-flows/)
-2. Wireframes of minimal UIs that enable our user flows
-3. Database ERD to support our user flows and wireframes.
-
-Save these planning docs in a project GitHub repo and share it in Slack. Instructors will review these planning documents with you before you begin implementation.
-
-## MVP Deadline
-
-A user should be able to play the game through once without encountering errors. App should be deployed to Heroku. Peer code review during class.
-
-## Feature Freeze
-
-The app and all its features should run without errors. Brief demo in class to demonstrate user experience and clarify work to do before presentations. Latest app should be deployed.
-
-## Project Presentations
-
-Presentations should cover the [topics in this list](../logistics/course-methodology.md#project-presentations).
-
-## Post-Mortem Meeting
-
-Please answer the [project post-mortem questions](../logistics/course-methodology.md#project-post-mortem-meeting) before the post-mortem meeting with your instructor. These questions will be similar to the presentation questions, but we will dig deeper into your code.
-
-## Video Demo
-
-Please follow [video demo guidelines here](../logistics/course-methodology.md#project-videos).
-
-## Project Submission and Past Student Projects
-
-Once done with your project, please submit it by adding it to the [Rocket Bootcamp Projects spreadsheet](https://docs.google.com/spreadsheets/d/1YZ39naj5E6mNNkQ1akR_FgeFO_kM6aWCAr8zqrFOkt4/edit?usp=sharing) in your batch-specific sheet. Feel free to view past student projects in previous batches' sheets.
+Once done with your project, please submit it by adding it to the [Rocket Bootcamp Projects spreadsheet](https://docs.google.com/spreadsheets/d/1YZ39naj5E6mNNkQ1akR\_FgeFO\_kM6aWCAr8zqrFOkt4/edit?usp=sharing) in your batch-specific sheet. Feel free to view past student projects in previous batches' sheets.
