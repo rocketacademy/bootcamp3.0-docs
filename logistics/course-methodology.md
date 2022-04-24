@@ -18,6 +18,24 @@ Deepest exercises that Rocket offers for each concept. For students that wish to
 
 ## Project Methodology
 
+### Ideation Phase 1
+
+Brainstorm app ideas and solicit feedback from your section in Slack. What problem does the app solve, for whom? How does the app solve the problem? What data does the app handle? Feel free to use [Rocket's project planning template](https://docs.google.com/document/d/1klyi92bVHUKjxgD\_Saou\_u6yoEZFbzkvbttj2izh8xg/edit?usp=sharing) to guide you.
+
+### Ideation Phase 2
+
+Create the following planning docs, save them in the project GitHub repo and share them with your section in Slack for feedback. Your SL will review your planning docs with you before you begin implementation.
+
+#### All Projects
+
+1. User stories
+2. Wireframes
+3. Kanban board
+
+#### Project 2 Onward
+
+1. DB schema outline (NoSQL) or DB ERD (SQL)
+
 ### Scrum
 
 Professional tech teams typically run using [Agile Scrum Methodology](https://www.atlassian.com/agile/scrum). Rocket simulates this during Bootcamp project weeks. Each course day students will share the following with their section to keep each other on track.

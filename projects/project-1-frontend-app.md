@@ -63,9 +63,9 @@ Above user stories may not require persisting user data beyond the current sessi
 
 ### Wireframes
 
-After user stories, create simple wireframes to visually describe how our users will accomplish their user stories with our app. Rocket recommends [Figma](https://www.figma.com) for user stories because it is a relatively simple tool widely used by designers in industry. Only include what is needed for the user stories, no more and no less.
+After user stories, create simple wireframes to visually describe how users accomplish user stories with our app. Connect wireframes to form [user flows](https://careerfoundry.com/en/blog/ux-design/what-are-user-flows/) for each user story. Only include what is needed to accomplish user stories, no more and no less. Rocket recommends [Figma](https://www.figma.com), a relatively simple and popular design tool.
 
-[Here](https://www.figma.com/blog/how-to-wireframe/) is an introduction to wireframing with Figma. Rocket recommends only low-fidelity wireframes for our projects due to limited time. Below are example wireframes by Figma; we can visualise [user flows](https://careerfoundry.com/en/blog/ux-design/what-are-user-flows/) by navigating to the Prototype tab in the right sidebar and adding connections.
+[Here](https://www.figma.com/blog/how-to-wireframe/) is an introduction to wireframing with Figma. Rocket recommends only low-fidelity wireframes for our projects due to limited time. Below are example wireframes by Figma; we can create user flows by navigating to the Prototype tab in the right sidebar and adding connections between wireframes.
 
 {% embed url="https://www.figma.com/file/NkdUszMYMFqhMX31HGUH0o/Wireframing-in-Figma?node-id=0%3A1" %}
 Example wireframes by Figma
@@ -80,6 +80,8 @@ Each task on your board should take no more than 1 day to complete. If you think
 ## Setup
 
 Start by forking Rocket's base CRA repo. This will make it easier for SLs to review your code via pull requests.
+
+TODO(kai): Link to Rocket's base CRA repo
 
 ## Submission
 
