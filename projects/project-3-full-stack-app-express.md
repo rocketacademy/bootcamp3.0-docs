@@ -25,6 +25,10 @@ Build an app that solves a problem you have using React and Express. Feel free t
 5. App description in README with user stories and low-fidelity wireframes
 6. Instructions in README to run app
 
+## Ideas
+
+As always, try to solve a problem you have. Now that we know SQL, what ideas require stricter data integrity that SQL would be helpful for? Our ideas need not be novel; they primarily need to demonstrate our ability to code well.
+
 ## Timeline
 
 | Project Day | Checkpoint                                                                                                                                                                                                                        | Feedback                                                                                                                       |
