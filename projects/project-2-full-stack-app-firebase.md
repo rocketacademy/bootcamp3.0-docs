@@ -2,7 +2,7 @@
 
 ## Introduction
 
-Build an app that solves a problem you have using React and Firebase. Feel free to use any 3rd-party libraries and Firebase features beyond the ones we have learnt.
+Build an app in a group of 2 or 3 that solves a problem you have using React and Firebase. Feel free to use any 3rd-party libraries and Firebase features beyond the ones we have learnt.
 
 ## Requirements
 
@@ -21,11 +21,12 @@ Build an app that solves a problem you have using React and Firebase. Feel free 
 
 ### Other
 
-1. Deployment with Firebase Hosting
-2. Naming, casing and commenting [best practices](../general-reference/naming-casing-and-commenting-conventions.md)
-3. Git commits for each feature with descriptive commit messages
-4. App description in README with user stories and low-fidelity wireframes
-5. Instructions in README to run app
+1. 2 or 3 group members each contributing at least 1 feature
+2. Deployment with Firebase Hosting
+3. Naming, casing and commenting [best practices](../general-reference/naming-casing-and-commenting-conventions.md)
+4. Git commits for each feature with descriptive commit messages
+5. App description in README with user stories and low-fidelity wireframes
+6. Instructions in README to run app
 
 ## Ideas
 
@@ -99,6 +100,5 @@ Once done with your project, please submit it by adding it to the [Rocket Bootca
 
 ## General Tips
 
-### Recommended Order of Implementation
-
-Implement the primary user story first. What are users coming to your app to do? Ensure they are able to accomplish that before adding authentication and nice-to-have features.
+1. Code the foundation of the app together before splitting up to code individual features. This will reduce merge conflicts and help everyone gain a common understanding of how the app should work.
+2. Implement the primary user story first. What are users coming to your app to do? Ensure they are able to accomplish that before adding authentication and nice-to-have features.
