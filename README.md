@@ -38,4 +38,4 @@ Rocket's Bootcamp contains 4 modules of 16 course days each, each of which culmi
 4. Capstone
    1. Build app with new technology (individual or group project)
 
-Rocket expects students to spend a minimum of 20 hrs/wk (PTBC) or 40 hrs/wk (FTBC) on coursework. This includes live class time.
+Rocket expects students to spend a minimum of 40 hrs/wk (FTBC) or 20 hrs/wk (PTBC) on coursework, including live class time.
