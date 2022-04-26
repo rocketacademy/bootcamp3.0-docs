@@ -1,5 +1,9 @@
 # Course Methodology
 
+## Flipped Classroom
+
+Rocket adopts a flipped-classroom model where Rocket expects students to review lectures and course materials before class, and spend class time clarifying concepts and completing exercises with the guidance of a section leader.
+
 ## Difficulty Levels
 
 Rocket provides multiple levels of difficulty to accommodate different learning speeds and prior experience. Students can complete Bootcamp without attempting Comfortable, but students that complete Comfortable may have a firmer grasp of concepts. Rocket recommends completing Base for all of each day's post-class and pre-class exercises before attempting Comfortable.
