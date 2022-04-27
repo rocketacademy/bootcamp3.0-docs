@@ -23,7 +23,7 @@
     * [0.1.3: Reference vs Value](0-foundations/0.1-javascript/0.1.3-reference-vs-value.md)
     * [0.1.4: Destructuring and Spread Operator](0-foundations/0.1-javascript/0.1.4-destructuring-and-spread-operator.md)
     * [0.1.5: Promises](0-foundations/0.1-javascript/0.1.5-promises/README.md)
-      * [0.1.5.1: Promise.catch, Promise.all](0-foundations/0.1-javascript/0.1.5-promises/0.1.5.1-promise.catch-promise.all.md)
+      * [0.1.5.1: .catch, Promise.all](0-foundations/0.1-javascript/0.1.5-promises/0.1.5.1-.catch-promise.all.md)
       * [0.1.5.2: Try Catch](0-foundations/0.1-javascript/0.1.5-promises/0.1.5.2-try-catch.md)
       * [0.1.5.3: Async Await](0-foundations/0.1-javascript/0.1.5-promises/0.1.5.3-async-await.md)
     * [0.1.6: Classes](0-foundations/0.1-javascript/0.1.6-classes.md)
