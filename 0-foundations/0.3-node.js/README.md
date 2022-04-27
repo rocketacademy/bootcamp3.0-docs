@@ -1,158 +1,59 @@
 # 0.3: Node.js
 
+## Learning Objectives
+
+1. Node.js is a JavaScript runtime that enables us to run JavaScript programs from the command line
+2. Node.js provides a JavaScript development console in the command line
+3. Node.js provides a `process` variable we can use to access program parameters such as command line parameters
+
 ## Introduction
 
-We have seen the browser interact with several parts of our computers.
+Node.js (Node for short) is a JavaScript "runtime" that runs JS on our computers (as opposed to a user's browser). Node is popular because it enables SWEs to build both frontends and backends in JS, which has simplified feature development, attracted more developers to JS, and resulted in a large number of JS libraries available for both frontend and backend.
 
-1. The computer display
-2. The computer hard disk.
-3. The internet, or the networking hardware of the computer.
-4. Drivers receiving signals from keyboard and mouse hardware, playing sounds on speakers
+During Coding Bootcamp we will use Node for both frontend and backend applications. We will use it with Create React App on the frontend to generate static HTML, CSS and JS files for browsers through React, and we will use it with Express.js on the backend to create API servers that serve data for our apps.
 
-We will now start to run JavaScript outside the browser, to interact more directly with our computers.
+## Warmup: Node console in command line
 
-## What is Node.js
-
-We are going to shift gears to run JavaScript in a new environment: Node.js. Node.js is a JavaScript runtime environment that runs directly on our computers and can interact directly with our computers. Node.js uses the [JavaScript V8 engine](<https://en.wikipedia.org/wiki/V8_(JavaScript_engine)>) used in Chrome, which was extracted to run independent of the browser environment.
-
-Node.js is a popular backend framework because it enables developers to build both frontends and backends in JavaScript. This reduces friction for feature development, and has enabled a sizeable community of developers building libraries for JavaScript on both frontend and backend.
-
-For the purposes of this course there are two important parts of the computer we want our Node.js programs to interact with:
-
-1. The hard drive of the computer.
-2. The networking hardware (that is connected to the internet).
-
-Before we integrate these other aspects of the computer, first we are going to prove that we can run a whole complete JavaScript program directly on our computer.
-
-## Computer Programs
-
-Programs written to run directly on a computer use and have access to different parts of the system. Depending on what kind of program you are trying to create, you might use a different language or library to work with the computer. Languages or libraries give you useful tools and abstractions to build upon in your code.
-
-For instance, Photoshop needs access to the hard drive and the screen. The browser needs access to the network and the screen. (Although these very large programs use all of the functionalities of a computer, their main focus is around a few parts).
-
-Node.js is optimised for interacting with the hard drive and the networking hardware.
-
-![Node.js and other programs accessing the conceptual parts of a computer's hardware.](../.gitbook/assets/computer-diagram.jpg)
-
-## Where We Are Going
-
-We will use the Node.js environment to create "**application servers**_"_ that listen for incoming network requests from the Internet, save data onto a computer hard drive, and send back responses that can be HTML pages. We will learn how browsers use HTTP requests to retrieve HTML and trigger logic to manipulate data.
-
-{% hint style="warning" %}
-Note that the terms "disk", "hard drive", and "disk drive" are interchangeable for the purposes of Coding Bootcamp. This is the conceptual description of hardware that stores data that persists even after a computer is powered off.
-{% endhint %}
-
-## Javascript Development Console Environment
+To warm up with Node, run the following command on the command line.
 
 ```bash
 node
 ```
 
-This takes you into an environment like the Dev Tools Console. Except that there are no files loaded or related to the environment.
+This should open a JS console on the command line similar to the Chrome DevTools console. We can test JS syntax in this console similar to how we might in Chrome.
 
-Try typing some Javascript operations like:
-
-```js
-2 + 2;
-7 * 6;
-"hello" + "world";
+```
+% node
+Welcome to Node.js v16.14.2.
+Type ".help" for more information.
+> a = [1,2,3]
+[ 1, 2, 3 ]
+> b = [4,5,6]
+[ 4, 5, 6 ]
+> a+b
+'1,2,34,5,6'
+> a.concat(b)
+[ 1, 2, 3, 4, 5, 6 ]
 ```
 
-Type `Ctrl+C` to exit out.
+Type `Ctrl+D` to exit, which sends an "end of file" signal to Node to close the program.
 
-## My First Node Program
+## Run JS files with Node
 
-Create a directory and put a single file inside.
+Node is primarily used to run JS files. Try running the following `index.js` file with Node.
 
-```bash
-mkdir my-first-node
-cd my-first-node
-touch index.js
-```
-
-Inside of `index.js`:
-
+{% code title="index.js" %}
 ```javascript
-console.log("hello");
+console.log("hello world");
 ```
-
-Run the program:
+{% endcode %}
 
 ```bash
 node index.js
 ```
 
-## Command Line Programs
+Over Bootcamp we will build increasingly complex programs executed with Node.
 
-The environment of the command line is just a way to interface with the operating system, and to run programs.
+## Additional Resources
 
-Just like the `git` command is an application we downloaded and installed on our computers, `node index.js` is a program that we created, and will run on our computers just like anything else.
-
-## Process
-
-### What is a Process?
-
-A process is an operating system representation of a single program. Each Chrome window is a process on your computer. Typically every single application or application part will have its own process.
-
-When we run our Node.js programs, they will also have their own process.
-
-We can prove that this is true by typing `node` into the command line again. We will be able to see this program running on the computer.
-
-Open the Task Manager (Windows) or Activity Monitor (Mac).
-
-Look for or search for `node` and highlight the process. Type `Ctrl+C` in the command line. The process in the Task Manager / Activity Monitor will disappear.
-
-### See Your Own Node.js program in the Activity Monitor
-
-Normally your JavaScript runs so fast that you won't see the process begin and end in the Activity Monitor.
-
-We can fix this by having the program run an artificially long time.
-
-**index.js**
-
-```javascript
-let counter = 0;
-while (true) {
-  counter = counter + 1;
-}
-```
-
-Now when we run this program from the command line it will continue to run forever until we kill it.
-
-```bash
-node index.js
-```
-
-Look for this process in your Activity Monitor. It should be taking up 100% of one core.
-
-Type `Ctrl+C` to exit.
-
-### `process` Variable
-
-In the DOM - the other context of running JavaScript we saw before, the variables that _**represented**_ our running environment (a browser window/tab) were the two variables `window` and `document`.
-
-To refresh on this concept, open any page in your Chrome browser and open the Dev Tools. Type `document` and `window` in the console.
-
-For `window` click the triangle to see the keys inside this object. What are two keys that represent the state of the window or some data about the current page?
-
-In Node.js we also have one variable that represents the environment our code is running in: `process`.
-
-Create a new node program with one line:
-
-```javascript
-console.log(process);
-```
-
-Run it:
-
-```bash
-node index.js
-```
-
-Find some relevant keys in the `process` object.
-
-## Further Reading
-
-V8 engine: [https://blog.sessionstack.com/how-javascript-works-inside-the-v8-engine-5-tips-on-how-to-write-optimized-code-ac089e62b12e](https://blog.sessionstack.com/how-javascript-works-inside-the-v8-engine-5-tips-on-how-to-write-optimized-code-ac089e62b12e)
-
-runtime environment: [https://www.codecademy.com/articles/introduction-to-javascript-runtime-environments](https://www.codecademy.com/articles/introduction-to-javascript-runtime-environments)
+1. Introduction to runtime environments: [https://www.codecademy.com/articles/introduction-to-javascript-runtime-environments](https://www.codecademy.com/articles/introduction-to-javascript-runtime-environments)
