@@ -4,12 +4,6 @@
 
 Rocket adopts a flipped-classroom model where Rocket expects students to review lectures and course materials before class, and spend class time clarifying concepts and completing exercises with the guidance of a section leader.
 
-## Using Google as a Resource
-
-Students will need to use Google as a resource to solve problems not explained in Rocket's curriculum. Rocket will do our best to document the most common mistakes, but it would be impossible to document all. Professional SWEs spend most time finding answers on Google, and googling effectively may be your most important takeaway from Bootcamp.
-
-With experience you will know when you are on the right track. Often it takes multiple permutations of Google search keywords to find the answer we are looking for. The goal when reading documentation, Stack Overflow or forum answers is to find relevant information as quickly as possible without reading more than necessary.
-
 ## Difficulty Levels
 
 Rocket provides multiple levels of difficulty to accommodate different learning speeds and prior experience. Students can complete Bootcamp without attempting Comfortable, but students that complete Comfortable may have a firmer grasp of concepts. Rocket recommends completing Base for all of each day's post-class and pre-class exercises before attempting Comfortable.
@@ -141,3 +135,9 @@ Occasionally we will review each others' code to learn from each other. Start by
 
 1. Review learnings from individual code reviews
 2. Pair program on 1 person's code to get a working version. The person with the weaker understanding of the current concepts should be the driver. For more info on pair programming, read [Rocket's primer on pair programming in Coding Basics](https://codingbasics.rocketacademy.co/logistics/course-methodology/course-components#pair-programming).
+
+## Using Google as a Resource
+
+Students will need to use Google as a resource to solve problems not explained in Rocket's curriculum. Rocket will do our best to document the most common mistakes, but it would be impossible to document all. Professional SWEs spend most time finding answers on Google, and googling effectively may be your most important takeaway from Bootcamp.
+
+With experience you will know when you are on the right track. Often it takes multiple permutations of Google search keywords to find the answer we are looking for. The goal when reading documentation, Stack Overflow or forum answers is to find relevant information as quickly as possible without reading more than necessary.
