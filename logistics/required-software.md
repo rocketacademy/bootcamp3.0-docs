@@ -51,7 +51,6 @@ sudo apt-get install git
 # Verify correct installation by checking Git version
 git --version
 ```
-
 {% endtab %}
 
 {% tab title="MacOS" %}
@@ -87,7 +86,15 @@ Set the default Git branch to `main` as per GitHub's (and Rocket's) latest conve
 git config --global init.defaultBranch main
 ```
 
-#### Configure Git and GitHub Credentials
+#### Configure Git default editor
+
+Set the default Git code editor to VS Code to avoid Git's default command line editor Vim, which requires learning Vim-specific keyboard shortcuts. We may need to use Vim on remote servers as SWEs, but to keep things simple during Bootcamp we will stick to VS Code.
+
+```shell
+git config --global core.editor "code --wait"
+```
+
+#### Configure Git and GitHub credentials
 
 Set your GitHub account credentials on your computer through the command line. This will enable us to interact with GitHub via the command line, which we will do a lot. Please replace `<YOUR_GITHUB_USERNAME>` and `<YOUR_GITHUB_EMAIL>` with your GitHub username and email.
 
@@ -111,7 +118,6 @@ Open an Ubuntu terminal in VS Code and run the following commands.
 curl -fsSL https://deb.nodesource.com/setup_16.x | sudo -E bash -
 sudo apt-get install -y nodejs
 ```
-
 {% endtab %}
 
 {% tab title="MacOS" %}
@@ -121,7 +127,6 @@ Install Node.js using Homebrew using the following commands. `install` installs 
 brew install node@16
 brew link node@16
 ```
-
 {% endtab %}
 {% endtabs %}
 
@@ -150,7 +155,6 @@ ESLint is a JavaScript code formatter that helps us detect functional and stylis
 5. Restart VS Code to apply settings
 
 {% code title="settings.json" %}
-
 ```json
 {
   "editor.defaultFormatter": "esbenp.prettier-vscode",
@@ -168,7 +172,6 @@ ESLint is a JavaScript code formatter that helps us detect functional and stylis
   "eslint.migration.2_x": "off"
 }
 ```
-
 {% endcode %}
 
 ## Setup folder structure for Coding Bootcamp
