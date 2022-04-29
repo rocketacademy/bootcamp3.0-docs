@@ -36,7 +36,7 @@
     - [0.4.1: Branches](0-foundations/0.4-git/0.4.1-branches.md)
   - [0.5: GitHub](0-foundations/0.5-github/README.md)
     - [0.5.1: Forking, Cloning, Pulling, Pushing](0-foundations/0.5-github/0.5.1-forking-cloning-pulling-pushing.md)
-    - [0.5.2: Pull Request](0-foundations/0.5-github/0.5.2-pull-requests.md)
+    - [0.5.1: Pull Requests](0-foundations/0.5-github/0.5.1-pull-requests.md)
   - [0.ICE: In-Class Exercises](0-foundations/0.ice-in-class-exercises/README.md)
     - [0.ICE.1: Git Branches](0-foundations/0.ice-in-class-exercises/0.ice.1-git-branches.md)
 - [1: Frontend](1-frontend/README.md)

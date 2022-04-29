@@ -34,3 +34,95 @@ Intro to GitHub video from prior version of Rocket's Coding Basics course
 {% embed url="https://youtu.be/a-flBCpOmBU" %}
 GitHub Repo Browsing video from prior version of Rocket's Coding Basics course
 {% endembed %}
+
+# 0.5.1: Forking, Cloning, Pulling, Pushing
+
+## Learning Objectives
+
+At the end of this lesson, you should:
+
+- Be able to use the GitHub Fork feature.
+- Be able to use the `git clone` command.
+- Be able to use the `git push` command.
+
+## Introduction
+
+We will learn more features of Git and GitHub to start and submit projects. As a reminder, Git is the _version control system_ and GitHub is the code-hosting website built on top of Git. GitHub extends the capabilities of Git by adding visual code browsing, social features, and collaboration features.
+
+{% hint style="warning" %}
+In the below video we demonstrate `git push origin master`, but for Coding Basics `git push` will suffice. `origin` refers to the target Git remote, and `master` refers to the target branch. **Rocket Academy has updated our repos to use `main` as the default branch** name as per GitHub's latest convention, so if you wanted to specify the full command including remote and branch for Basics, you could use **`git push origin main`**.
+{% endhint %}
+
+{% embed url="https://youtu.be/uMNcnLWTmZU" %}
+
+### GitHub Fork
+
+"Fork" is the GitHub term for _copying_ a repo from one GitHub account to another. We can fork a repo by clicking the Fork button on a given GitHub repo page. Forking allows us to make changes to a repo and save those changes to _our own_ GitHub account's copy of the repo. Our account's repo is essentially _**independent**_ from the original, forked repo.
+
+![How to find the fork button on a repo page.](<../../0-foundations/.gitbook/assets/screen-shot-2020-08-19-at-10.23.10-pm%20(1)%20(2)%20(3)%20(1)%20(1).png>)
+
+"Fork" is a GitHub concept. Forking is not built-in to the Git version control system.
+
+![A "fork" is when we copy a repo from another account to our own inside of GitHub.](../../0-foundations/.gitbook/assets/github-fork.png)
+
+## Git Clone
+
+We'll use a Git command to download or "clone" a copy of Coding Basics starter code. `<REPO_DOWNLOAD_URL>` is the download URL of our repo, obtained by clicking the Download Code button on the repo's [GitHub page](https://github.com/rocketacademy/basics-starter-code). `<LOCAL_REPO_FOLDER_NAME>` is the name of the destination folder that is created (containing the contents of the repo) when we run the Git command.
+
+**Command Template**
+
+```
+git clone <REPO_DOWNLOAD_URL> <LOCAL_REPO_FOLDER_NAME>
+```
+
+**Sample Command**
+
+```
+git clone https://github.com/rocketacademy/basics-starter-code.git basics-starter-code-test
+```
+
+![Clone a repo onto your computer from GitHub](../../0-foundations/.gitbook/assets/github-clone.png)
+
+GitHub enables us to coordinate differences between local and "official" versions of the code, but we won't concern ourselves with that just yet.
+
+### Git Push
+
+We will learn 1 new Git command `push` to send local code commits from our computers to GitHub. `push` can also be used as a general command to move code between "remote" repos, but during Coding Basics we will only be using `push` to push code to GitHub.
+
+![The "git push" command can be used to send local code commits to GitHub.](../../0-foundations/.gitbook/assets/github-push.png)
+
+## Cheatsheet
+
+Here is the workflow for Coding Basics projects:
+
+1. Go to the project repo page. Click the "Fork" button to copy the repo to our own GitHub account.
+2. In the command line on our local computer, **clone the repo from our own Github account's copy of the repo.**
+3. Once the repo is on our computer, make the changes we want, and follow the Git workflow to commit those changes.
+4. `git push` our changes to our repo. **Refresh** the repo page to see our commits in the repo.
+5. Create a [pull request](0.5.1-pull-requests.md) in GitHub. This connects our work on the repo _in our account_ to the original Rocket Academy repo. Fill in the survey and submit.
+
+## Exercise
+
+1. Fork a copy of the [Basics _Beat That_! repo](https://drive.google.com/drive/u/0/folders/16hSoY_ldzSWCWP2VaAZlcyE9np1McymR) as setup for Project 2.
+2. Clone the repo into a folder on your local machine.
+3. Once you start working on your project, make frequent commits and use `git push` to update your GitHub repo.
+
+## Learning Objectives
+
+1. Know how to pull latest changes from a remote Git repository, e.g. on GitHub
+
+## Introduction
+
+So far we've learned to create, fork, clone, and push repo changes to GitHub.
+
+Now that we have a 2nd copy of our repo on EC2, we need to keep code in sync between the 2. Specifically, after making changes locally and pushing them to GitHub, we may wish to sync those changes to EC2 without cloning the repo again.
+
+The solution is `git pull`. Pull retrieves all new changes from a remote repo.
+
+## Exercise
+
+While SSH'ed into the EC2 instance and in the relevant repo folder, run `git pull`. If it says there are no changes to pull, push new changes to your repo on GitHub and try `git pull` again.
+
+## Further Reading
+
+Git pull in 100 Seconds video [here](https://www.youtube.com/watch?v=8lGpZkjnkt4)
