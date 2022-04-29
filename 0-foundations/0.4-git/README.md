@@ -2,235 +2,67 @@
 
 ## Learning Objectives
 
-By the end of this lesson, you should be able to:
-
-1. Explain what version control is
-2. Briefly explain what Git is, and why it is used
-3. Be familiar with common Git commands
-4. Initialise a Git repository and make commits
-5. Refer to the Git Cheat Sheet when needed
+1. All SWEs use version control, and Git is the most popular version control system
+2. Version control allows us to track which versions of our code have which features, and to write code in teams
+3. Know how to add and commit files to "commits", i.e. versions of our code
+4. Know when to commit changes during project development
 
 ## Introduction
 
-{% hint style="info" %}
-Before following along, make sure you have your git settings setup correctly as per [Required Software](../../0-foundations/course-logistics/required-hardware-and-software/required-software-2.md#intro-to-git). Ask in your section slack channel if you are unsure about any settings. Ensure that the default branch name for a new git repository is `main` and not `master`, by setting:
+All SWEs use version control to manage and review project versions and to write code in teams. Git is the most popular version control system.
 
-```
-git config --global init.defaultBranch main
-```
+Version control is not strictly necessary to create programs, but it makes software development easier by reducing the fear of breaking code. If we break code when using version control, we can compare our changes to the last working version, making it easier to find bugs and roll back if needed.
 
-This will help us avoid problems when working with GitHub later. You can input this command more than once with no adverse effects, so you can always re-type it to be sure, or check all global settings:
-
-```
-git config -l
-```
-
-You can read more about why GitHub recently changed their default branch name from master to main [here](https://www.theserverside.com/feature/Why-GitHub-renamed-its-master-branch-to-main).
-{% endhint %}
-
-{% embed url="https://youtu.be/GudllO59HJQ" %}
-
-## Version Control
-
-Version control is a system that allows us to track changes over the lifetime of a file. A system like this isn't limited to code, and isn't limited to text files. It could be used for video files or other assets, or other text files such as contracts or articles.
-
-The system of version control is a fundamental part of being a software engineer, and of developing a complex software project. In this course we'll use version control to keep track of our work, and submit our assignments using the web app GitHub.
-
-## Git
-
-Git is the most popular software version control system. The inventor of Linux invented Git to coordinate complex software projects between distributed teams of engineers.
-
-In this submodule we'll learn how to record code versions. We will learn how to retrieve previous versions in a later submodule. We will build on our Git knowledge throughout the course, and we do not need to understand everything about Git upfront.
-
-### Why Do We Need Git?
-
-In order to do programming it's not strictly necessary to use Git or any version control. We want to use it mainly because, even though there is a lot of overhead for understanding the command line interface and learning the basic Git concepts, we want to _**eliminate the fear of breaking a given set of code**_. As we'll soon see, the main task of programming is to incrementally build up code that will _inevitably_ have errors. One of the main uses of version control (for all programmers, not only in Basics) is to make sure that introducing a new error is not catastrophic. When all new small changes are carefully saved in Git versions, we can be sure that whatever new code we try won't result in an unfixable error.
+In this submodule we will learn how to create code versions, more commonly known as "commits". We will continue to learn Git techniques as we progress through Bootcamp.
 
 ## Git Terminology
 
-![Parts of a Git repository](../../0-foundations/.gitbook/assets/git.png)
-
-### Repository
-
-A core concept in Git is the "Repository", or "Repo" for short. This is a folder that holds all the code for one project.
-
-### Commits
-
-A Git Repo consists of a time series of commits in the order that they were recorded in the Git system. A commit contains a set of changes to one or more files. These changes can be changes to contents of a file, but also include addition of a new file, deletion of a file, or renaming or moving a file.
-
-### Staging
-
-With Git, changes need to be staged before they can be committed. Staging is useful for when we may wish to make multiple commits out of the changes we have made locally. We can choose which changes go in which commit by staging the files we wish to add to each commit before running the commit command. For example, if I've changed files A and B for features A and B respectively, I could first stage only A and commit A, then stage only B and commit B. I would then have 2 independent commits for A and B that I could inspect or revert independently.
+| Term         | What it is                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
+| ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Repository   | A Git "repo" is a folder that contains code for a given project. We typically have separate repos for each project, such that each repo only tracks changes to the code for its project.                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
+| Commit       | A Git "commit" is a version of our code that records a set of changes to 1 or more files. These changes can include changes within existing files, but also include addition, deletion, renaming and moving of files. Each Git repo stores a time series of commits since the creation of the repo.                                                                                                                                                                                                                                                                                                                                                     |
+| Staging area | <p>Git requires us to "stage" changes before we commit them. This allows us to easier control which changes go in which commit, especially if we have made multiple changes that belong to multiple features.<br><br>For example, I may have renamed a word across my app for a branding change (Feature A) and added payment functionality (Feature B) all at once, but I do not wish to commit them together because they are separate features. With Git's staging area I would only stage and commit the changes for 1 feature at a time, allowing me to keep Feature A if there is a bug that requires rollback with Feature B and vice versa.</p> |
 
 ## Git Commands
 
-In this course we'll be using the command line to manipulate Git. There are other ways to manipulate Git, including several GUI applications, but the command line is the most canonical and widely-used way to manipulate Git.
+The command line is the most common and canonical way to manipulate Git. There are GUI tools, but SWEs often work with Git on remote servers that are only accessible via command line.
 
-### init
+The following are common Git commands we will use as SWEs.
 
-```
-git init
-```
+| Command                          | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+| -------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `git clone <target-repo-url>`    | Download a copy of the target repo into the current folder.                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+| `git status`                     | View which files have changed since the latest commit, and which files are in the staging area.                                                                                                                                                                                                                                                                                                                                                                                                                       |
+| `git diff <filepath>`            | <p>Review changes made in each file at given file path since latest commit. If file path not specified, show changes made to all files in repo.</p><p></p><p>This allows us to verify we made intended changes. If changes are longer than window height, use <code>Enter</code> to browse downward. Press <code>q</code> to exit. </p>                                                                                                                                                                               |
+| `git add <filepath>`             | <p>Stage files in specified file path for commit by adding them to the staging area. Files added to staging are not committed yet.<br><br>Often (but not always) we will want to add all changed files to staging. We can do this with <code>git add .</code>, where <code>.</code> is an alias for the current folder. </p>                                                                                                                                                                                          |
+| `git commit -m <commit-message>` | <p>Commit all files in staging to a new Git commit. The <code>-m</code> flag allows us to enter a mandatory commit message in the command line instead of in an editor. Commit messages should be short and descriptive, describing what changed and why.<br><br>Running <code>git commit</code> without the <code>-m</code> flag may bring us to Git's default editor, which we should have set to VS Code. If we get stuck in a command line editor, type <code>:q</code> and press <code>Enter</code> to exit.</p> |
+| `git log`                        | View a list of all commits in this repo. Use `Enter` to scroll downward and `q` to exit if output longer than screen height. Use `--oneline` flag for a more concise list of commits.                                                                                                                                                                                                                                                                                                                                 |
 
-`git init` is the command to create a new Git repository. We will not be using this command often in Coding Basics. Most of the time we will download starter code with `git clone`.
+## When to commit changes?
 
-{% hint style="danger" %}
-Creating a repo inside a repo can cause problems. If we are in the command line and running `git status` doesn't throw an error, we are already inside a Git repo. Don't do `git init` or `git clone` in this directory.
-{% endhint %}
+1. We should strive to keep commits relatively small so it is easy for our team to review the changes in each commit
+2. We should strive to only commit code when it is in a state that others would find useful; not in a broken state or with commented-out scratch code
 
-### status
+## Exercise: Git Poetry
 
-```
-git status
-```
+The following exercise should help familiarise you with Git. We use text instead of code, but the Git functionality is the same. You may wish to have 3 windows open on your screen: VS Code, the Git Commands table above, and the following instructions.
 
-`git status` is the command to see the current status of the repo. This is typically used to see which files are "staged for commit" in green, and which files are "not staged for commit", in red. To be staged means that if we were to run `git commit` at that moment, the changes to the staged files would be included in the commit.
-
-![Example of git status output. script.js is "not staged for commit".](../../0-foundations/.gitbook/assets/screen-shot-2020-08-13-at-3.00.28-pm.png)
-
-### diff
-
-`git diff` is the command that shows the changes made within a given file or directory.
-
-```
-git diff <path>
-```
-
-![](../../0-foundations/.gitbook/assets/screen-shot-2020-08-13-at-4.07.03-pm.png)
-
-{% hint style="info" %}
-Often our changes will be longer than the terminal window height, and `git diff` will open a special menu to navigate these changes. To exit this menu, use `q`.
-{% endhint %}
-
-### add
-
-`git add` is the command that _**stages**_ files for commits. _**Staging**_ is a label for a group of files, where all "_**staged**_" files will be included in the next commit. `git status` will show us which files are _**staged**_ and not _**staged**_. _**Staged**_ files will appear in green, and files that have not been staged, in red. In Git, creating a commit happens in 2 steps.
-
-1. At least one file is labeled as "staged" with the `add` command.
-2. A commit is created that includes the staged files with the `commit` command
-
-```
-git add <path>
-```
-
-![](../../0-foundations/.gitbook/assets/screen-shot-2020-08-13-at-4.03.22-pm.png)
-
-### commit
-
-`git commit` creates the commit record in the repo. We must use the `-m` option to include a "commit message", a short sentence about what we changed. Commit messages typically include **what** was changed and **why** a change was made.
-
-```
-git commit -m "message that describes the changes"
-```
-
-{% hint style="warning" %}
-Running `git commit` without `-m` might bring you into the `vi` editor. If you get stuck in `vi` type `Esc` and `:q!`, followed by `Enter` to get out.
-
-`vi` looks like the following.
-
-![](../../0-foundations/.gitbook/assets/screen-shot-2021-07-06-at-7.20.58-pm.png)
-{% endhint %}
-
-{% hint style="warning" %}
-The first time you make a Git commit you may encounter an error asking you to run the following commands:
-
-```
-git config --global user.name "First Name Last Name"
-git config --global user.email "example@example.com"
-```
-
-This is normal. Git is asking us to set our Git identity so that any commits we make are tied to our name and email. Once you run those commands, you should be able to make commits as expected.
-{% endhint %}
-
-### log
-
-Finally, to see a list of the commits in this repo (including the one you just created) use `git log`
-
-```
-git log
-```
-
-{% hint style="info" %}
-Eventually our list of commits will be longer than the terminal window height, and `git log` will open a special menu to navigate this list. To exit this menu, use `q`.
-{% endhint %}
-
-## Cheat Sheet
-
-Create a Git repo
-
-```
-git init
-```
-
-Check repo status, e.g. which files are staged
-
-```
-git status
-```
-
-View changes in unstaged files
-
-```
-git diff
-```
-
-Mark file(s) as "staged" to prepare them for commit
-
-```
-git add <FILE_NAME>
-```
-
-Create a commit with currently-staged files
-
-```
-git commit -m "fixed spelling error"
-```
-
-View past commits
-
-```
-git log
-```
-
-{% hint style="warning" %}
-Git version control is a deep topic. We are covering a small portion of Git functionality to expose you to developer workflow and version control. Don't worry if you don't understand everything yet!
-{% endhint %}
-
-## Exercises
-
-You may wish to refer to the [command line cheatsheet](../../0-foundations/0.4-git/0.2-command-line.md#cheat-sheet) and [Git cheatsheet](0.4.1-intro-to-git.md#cheat-sheet), and use window snapping to position 3 windows on your screen simultaneously: VS Code, the relevant cheatsheet, and these instructions.
-
-### Create a Haiku
-
-We will create poetry, save and edit it using the command line and Git.
-
-1. Open the command line and create a folder for our poetry using `mkdir`.
+1. Open today's folder in terminal and create a folder with `mkdir`
 2. `cd` into the folder, and initialise it as a git repo using `git init`
-3. Create a text file in the command line using `touch haiku.txt` and open it in VS Code with the command `code haiku.txt`
-4. Write a [haiku](https://en.wikipedia.org/wiki/Haiku) about trees in the text file and save the file. A haiku is a Japanese poem that follows the convention of 5 syllables, 7 syllables, and 5 syllables on each of 3 lines respectively.
-   1. If writing poetry is difficult, feel free to make up something :) The content isn't particularly important for this exercise.
-5. Stage and commit your new text file.
-6. Edit our poem to reference leaves. Make a commit for our changes.
-7. Add a 2nd poem about winter in another file. Commit this file to the repo.
-8. Add a title to our poem about trees. Add the title above the text in the file, and change the filename to reflect the title. Note here that we can change more than one file, and only stage the trees file for committing. In this way we can say which files go into a given commit. Don't stage or commit the winter poem.
-9. Use `git log` to see the change log of the current repository.
+3. Create a text file in the command line using `touch spring-poem.txt` and open it in VS Code with `code spring-poem.txt`
+4. Write a poem about spring (or anything) in `spring-poem.txt` and save the file
+5. Stage and commit `spring-poem.txt` with `git add` and `git commit -m`
+6. Edit our poem to reference leaves (or anything). Stage and commit the edits
+7. Add a 2nd poem about winter (or anything) in a new file `winter-poem.txt`
+8. Add a title to our spring poem above the poem in the file
+9. Commit the latest changes to `winter-poem.txt` and `spring-poem.txt` in 2 commits by adding 1 of them to the staging area and committing before adding the other
+10. Use `git log` to review commits in our repo
 
-{% hint style="info" %}
-**Hint:** When typing in the command line we can press the `tab` key and the command line will try to auto-complete the current command, file, or folder name. This can help reduce unnecessary typing and typos
-{% endhint %}
+## Additional Resources
 
-### Committing and Tracking Changes to Project 1
+1. [Intro to Version Control by Git](https://git-scm.com/book/en/v2/Getting-Started-About-Version-Control)
+2. (Below): Intro to Git video from a prior version of Rocket Academy's Coding Basics course
 
-Navigate to your _Scissors Paper Stone_ directory, and initialise it as a git repo. Make your first commit with a meaningful, but brief message describing your current progress on the project. As you continue adding to the project, make meaningful commits at each checkpoint. Approach your Section Leader if you have any questions. When we learn how to use and navigate GitHub, we will be able to visualise our progress, and travel through time via these commits.
-
-## Further Reading
-
-1. [What is Version Control Systems?](https://www.youtube.com/watch?v=8oRjP8yj2Wo)
-2. [Getting Started: About Version Control](https://git-scm.com/book/en/v2/Getting-Started-About-Version-Control)
-3. [W3S: Git Exercises](https://www.w3schools.com/git/git_exercises.asp)
-
-## Set default Git text editor to VS Code
-
-This configures Git to make VS Code our default editor, helpful in situations such as forgetting to use the ‘-m’ flag when committing. Once set, if we forget to use the `-m` flag, a text file will open in VS Code and we can type our message in that file, save and close the file to complete the commit.
-
-Run the following command in terminal: `git config --global core.editor "code --wait"`. `--wait` will configure Git commands that open editors to wait for the relevant editor window to close before returning, ensuring we have time to type our commit messages, for example.
+{% embed url="https://youtu.be/GudllO59HJQ" %}
+Intro to Git video from a prior version of Rocket's Coding Basics course
+{% endembed %}

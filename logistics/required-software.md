@@ -87,6 +87,14 @@ Set the default Git branch to `main` as per GitHub's (and Rocket's) latest conve
 git config --global init.defaultBranch main
 ```
 
+#### Configure Git default editor
+
+Set the default Git code editor to VS Code to avoid Git's default command line editor Vim, which requires learning Vim-specific keyboard shortcuts. We may need to use Vim on remote servers as SWEs, but to keep things simple during Bootcamp we will stick to VS Code.
+
+```shell
+git config --global core.editor "code --wait"
+```
+
 #### Configure Git and GitHub Credentials
 
 Set your GitHub account credentials on your computer through the command line. This will enable us to interact with GitHub via the command line, which we will do a lot. Please replace `<YOUR_GITHUB_USERNAME>` and `<YOUR_GITHUB_EMAIL>` with your GitHub username and email.
