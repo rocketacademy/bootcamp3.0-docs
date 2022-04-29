@@ -2,26 +2,19 @@
 
 ## Learning Objectives
 
-At the end of this lesson, you should:
-
-- Be familiar with GitHub
-- Understand how GitHub extends Git's capabilities
+1. GitHub is a code-hosting website that hosts Git repositories for individuals or teams to review and collaborate on
+2. GitHub (and other code-hosting platforms such as BitBucket, GitLab) serve as the source of truth for project repos shared among teams
 
 ## Introduction
 
-{% embed url="https://www.youtube.com/watch?v=dn7r4333c4g" %}
+We'll use GitHub to download starter code, and after we learn forking, pushing, pulling and pull requests, we'll use it to submit projects and store our code online.
 
-GitHub is a web application that hosts Git repositories on the internet. It is a centralised set of repositories developers use to hold "official" copies of their code.
-
-### Why Use GitHub?
-
-We'll use GitHub to download starter code, and after we cover forking and pull requests we'll use it to submit projects and store our code online.
-
-![A Git "remote" is a shared copy of a code repository, typically hosted on a platform like GitHub](../../0-foundations/.gitbook/assets/remotes.png)
-
-## Further Reading
+## Additional Resources
 
 1. [Git and GitHub in Plain English](https://blog.red-badger.com/2016/11/29/gitgithub-in-plain-english) (blog post)
-2. [GitHub for Noobs](https://www.youtube.com/watch?v=1h9_cB9mPT8&t=13s) (video playlist)
-3. [Git and GitHub by The Coding Train](https://youtube.com/playlist?list=PLRqwX-V7Uu6ZF9C0YMKuns9sLDzK6zoiV) (video playlist)
-4. [The Git & GitHub Bootcamp on Udemy](https://www.udemy.com/course/git-and-github-bootcamp/) (Udemy course)
+2. [Git and GitHub by The Coding Train](https://youtube.com/playlist?list=PLRqwX-V7Uu6ZF9C0YMKuns9sLDzK6zoiV) (video playlist)
+3. (Below) Intro to GitHub video from prior version of Rocket Academy's Coding Basics course
+
+{% embed url="https://www.youtube.com/watch?v=dn7r4333c4g" %}
+Intro to GitHub video from prior version of Rocket's Coding Basics course
+{% endembed %}
