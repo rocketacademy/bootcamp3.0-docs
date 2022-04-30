@@ -13,6 +13,13 @@
 
 GitHub is a code-hosting website that hosts Git repos for individuals or teams to review and collaborate on. Team members can easily review latest code changes and commit history, making software development more transparent and thorough.
 
+## GitHub Workflow Summary
+
+1. **Fork** repos we do not have edit access to to suggest changes or maintain our own copy
+2. **Clone** repos to download local copies of GitHub repos
+3. Once we have committed the changes we want locally, **push** our changes to GitHub to share them with others. Refresh the GitHub repo page to see those changes.
+4. If we are working with teammates and wish to download their code while keeping local changes, **pull** their code from GitHub after committing our local changes.
+
 ## GitHub Fork
 
 A GitHub "fork" is a copy of another GitHub repo. SWEs typically "fork" repos they do not have edit access to either to make improvements to merge back into original repos, or to create and maintain independent versions of repos. At Rocket Academy we will fork Rocket exercise repos to complete and submit assignments.&#x20;
@@ -43,39 +50,29 @@ Resolving deltas: 100% (144768/144768), done.
 bootcamp % 
 ```
 
+Once we've cloned the repo we can make edits to it and track our changes with Git.
+
 ## Git Push
 
-We will learn 1 new Git command `push` to send local code commits from our computers to GitHub. `push` can also be used as a general command to move code between "remote" repos, but during Coding Basics we will only be using `push` to push code to GitHub.
+`git push` allows us to share local changes by "pushing" local commits to GitHub for others to view. Video demo below.
 
-![The "git push" command can be used to send local code commits to GitHub.](../.gitbook/assets/github-push.png)
+{% embed url="https://youtu.be/BJojbCFfOHU" %}
+Demonstration of how to push local changes to GitHub
+{% endembed %}
 
 ## Git Pull
 
-## GitHub Workflow Summary
-
-Here is the workflow for Coding Basics projects:
-
-1. Go to the project repo page. Click the "Fork" button to copy the repo to our own GitHub account.
-2. In the command line on our local computer, **clone the repo from our own Github account's copy of the repo.**
-3. Once the repo is on our computer, make the changes we want, and follow the Git workflow to commit those changes.
-4. `git push` our changes to our repo. **Refresh** the repo page to see our commits in the repo.
-5. Create a [pull request](0.5.1-pull-requests.md) in GitHub. This connects our work on the repo _in our account_ to the original Rocket Academy repo. Fill in the survey and submit.
+`git pull` allows us to download new changes in a shared GitHub repo (e.g. by teammates) while keeping our local changes. Git will automatically merge downloaded and local changes, and let us know if there are "merge conflicts", for example if downloaded and local changes edit the same lines of code. We will work more with `git pull` once we start group projects.
 
 ## How to view commit history in GitHub
 
-Reviewing commit history is one of the most useful features of GitHub. For example, if we are wondering which commit changed a line of code that caused a bug, we can easily find which commits changed that line, who made those commits and what else was in those commits.
+GitHub provides an easy way to view past changes to a repo. For example, if we are wondering which commit changed a line of code that caused a bug, we can easily find which commits changed that line, who made those commits and what other changes were in those commits.
 
 ![Click the number of commits on a repo's GitHub page to view a list of all its commits](<../../.gitbook/assets/0.5 - GitHub - 1) View Commits.png>)
 
 ![Click on any commits in the repo's commit history to view the details of that commit](<../../.gitbook/assets/0.5 - GitHub - 2) Commit List.png>)
 
 ![We can review complete details of each commit in GitHub](<../../.gitbook/assets/0.5 - GitHub - 3) Commit Contents.png>)
-
-## Exercise
-
-1. Fork a copy of the [Basics _Beat That_! repo](https://drive.google.com/drive/u/0/folders/16hSoY\_ldzSWCWP2VaAZlcyE9np1McymR) as setup for Project 2.
-2. Clone the repo into a folder on your local machine.
-3. Once you start working on your project, make frequent commits and use `git push` to update your GitHub repo.
 
 ## Additional Resources
 
