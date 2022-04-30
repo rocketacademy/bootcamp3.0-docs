@@ -1,18 +1,18 @@
 # A.5.3: Stacks
 
-![stack meme](../../.gitbook/assets/stack_meme.jpeg)
+![stack meme](../../.gitbook/assets/stack\_meme.jpeg)
 
 ## Learning Objectives
 
 By the end of this lesson, you should:
 
-- be familiar with stack functionality time and space complexity
-- understand the difference between LIFO and FIFO
-- understand the python stack class example
+* be familiar with stack functionality time and space complexity
+* understand the difference between LIFO and FIFO
+* understand the python stack class example
 
 ## Introduction
 
-SImilar to hash tables, we are going to be employing the concept of a stack data structure to work with certain kinds of data. A stack is a data structure that supports adding and removing only from the end/top of the stack. They are often referred to as a FILO \(first in last out\) or LIFO \(last in first out\) data structure.
+SImilar to hash tables, we are going to be employing the concept of a stack data structure to work with certain kinds of data. A stack is a data structure that supports adding and removing only from the end/top of the stack. They are often referred to as a FILO (first in last out) or LIFO (last in first out) data structure.
 
 #### History of Stacks
 
@@ -22,7 +22,7 @@ Within this historical context, arrays can do everything a list can do, but stac
 
 #### Big-O of Stacks
 
-Even when using a Python `list` we'll limit ourselves to only writing code that uses the stack operations. This means that our stack code will have a constant **O\(1\)** time complexity.
+Even when using a Python `list` we'll limit ourselves to only writing code that uses the stack operations. This means that our stack code will have a constant **O(1)** time complexity.
 
 ### LIFO
 
@@ -141,9 +141,9 @@ Feel free to use the Python List to perform Stack operations. Once you've attemp
 
 1. [This](https://www.youtube.com/watch?v=k1PX5LxFfTo) is a concise, high-level overview of the stack data structure concept, methods, and use cases.
 2. [This](https://www.youtube.com/watch?v=F1F2imiOJfk) is a slightly more detailed video covering the same concepts.
-3. Read pages 108-109 in the [Cracking the Coding Interview PDF](../a.0-algorithms-overview.md#resources).
+3. Read pages 108-109 in the [Cracking the Coding Interview PDF](broken-reference).
 4. [FTBC3 class video ](https://youtu.be/y---RCHCdD4?t=559)introducing Stacks.
 
 #### Pushdown Automata
 
-Turing's theoretical computers used stacks as part of it's basic behaviours. See more about them here: [https://en.wikipedia.org/wiki/Pushdown_automaton](https://en.wikipedia.org/wiki/Pushdown_automaton)
+Turing's theoretical computers used stacks as part of it's basic behaviours. See more about them here: [https://en.wikipedia.org/wiki/Pushdown\_automaton](https://en.wikipedia.org/wiki/Pushdown\_automaton)
