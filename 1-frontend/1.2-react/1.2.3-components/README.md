@@ -1,4 +1,4 @@
-# 1.2.3: React Components
+# 1.3.3: React Components
 
 ## Introduction
 
@@ -29,7 +29,7 @@ function BigAnnouncement() {
 }
 ```
 
-In the above example we moved JSX from [Module 1.2.1: JSX Intro](../1.2.1-jsx#jsx-with-multiple-elements) into a function. Note that component functions are declared using the `function` keyword and named with UpperCamelCase by convention. React won't work if the function name isn't in UpperCamelCase.
+In the above example we moved JSX from [Module 1.3.1: JSX Intro](../1.3.1-jsx#jsx-with-multiple-elements) into a function. Note that component functions are declared using the `function` keyword and named with UpperCamelCase by convention. React won't work if the function name isn't in UpperCamelCase.
 
 ## Using Components
 

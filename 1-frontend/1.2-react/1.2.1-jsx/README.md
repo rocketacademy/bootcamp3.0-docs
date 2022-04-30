@@ -1,4 +1,4 @@
-# 1.2.1: JSX
+# 1.3.1: JSX
 
 ## Introduction
 

@@ -1,4 +1,4 @@
-# 1.3.2: CSS Layout
+# 1.2.2: CSS Layout
 
 CSS Layout refers to creating a web page that is designed with sections that are visually differentiated.
 

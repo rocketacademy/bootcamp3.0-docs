@@ -1,4 +1,4 @@
-# 1.2.4: React State
+# 1.3.4: React State
 
 ## Introduction
 
@@ -43,7 +43,7 @@ In order to get React to manipulate the DOM on state variable changes, we have t
 
 ## Hooks and `useState`
 
-In React class components (see [1.2.3.3: Class Components](1.2.3-react-components/1.2.3.3-class-components.md)), there is a special class property `this.state` that is an object that stores the local state for that component. When properties in `this.state` change, the JSX that depends on those properties gets re-rendered.
+In React class components (see [1.3.3.3: Class Components](1.3.3-react-components/1.3.3.3-class-components.md)), there is a special class property `this.state` that is an object that stores the local state for that component. When properties in `this.state` change, the JSX that depends on those properties gets re-rendered.
 
 In React functional components, `this.state` is replaced by what is known as "**hooks**". Hooks are the more modern React system for DOM manipulation, replacing both `this.state` and what were known as "component lifecycle methods" that we will learn about in Module 8: Advanced React. The React team launched hooks in Feb 2019, thus many companies that used React before 2019 still rely on class components.
 
