@@ -34,8 +34,6 @@
   * [1.1: HTML](1-frontend/1.1-html.md)
   * [1.2: CSS](1-frontend/1.2-css/README.md)
     * [1.2.2: CSS Layout](1-frontend/1.2-css/1.2.2-css-layout/README.md)
-      * [1.2.2.1: No Layout](1-frontend/1.2-css/1.2.2-css-layout/1.2.2.1-no-layout.md)
-      * [1.2.2.2: Display: Inline and Block](1-frontend/1.2-css/1.2.2-css-layout/1.2.2.2-display-inline-and-block.md)
       * [1.2.2.3: Box Model](1-frontend/1.2-css/1.2.2-css-layout/1.2.2.3-box-model.md)
       * [1.2.2.4: Layout: Fixed, Percent and Max Width](1-frontend/1.2-css/1.2.2-css-layout/1.2.2.4-layout-fixed-percent-and-max-width.md)
       * [1.2.2.5: Display: Inline Block](1-frontend/1.2-css/1.2.2-css-layout/1.2.2.5-display-inline-block.md)

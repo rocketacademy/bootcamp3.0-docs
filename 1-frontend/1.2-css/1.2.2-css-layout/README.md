@@ -1,33 +1,23 @@
 # 1.2.2: CSS Layout
 
-CSS Layout refers to creating a web page that is designed with sections that are visually differentiated.
+## Learning Objectives
 
-In graphic design layout refers to the two-dimensional laying out each of the content sections in a clear and aesthetically pleasing way. This refers to web pages but also print or anything else that is a flat media.
+1. CSS layout is about organising HTML elements into nested boxes and determining their positions
 
-In this course we won't be concerned much with the aesthetic qualities of a design, but we will be concerned clarity of how each piece of information and/or data is presented.
+## Introduction
 
-## How to do CSS Layout
+![Organise HTML elements into conceptual boxes before planning how to use CSS for layout. Source: W3Schools](<../../../.gitbook/assets/1.3 - CSS Layout - 1 - Layout Example.gif>)
 
-When constructing the layout of a webpage, the first task is to break down each section of the page into nested parts. Every website layout breaks down into these nested boxes. Can you find these sets of nested boxes in the web page examples below?
+When determining how to layout elements with CSS, first organise elements into nested boxes, then determine which CSS styles need to apply to which boxes. By default browsers will render all HTML elements in a single vertical column.
 
-{% hint style="info" %}
-Even if you don't see the clearly defined set of boxes on a given website, CSS / HTML still contains the same structure. There may be hidden lines that separate sections, or tricks to make the lines appear skewed or mis-aligned. But, the underlying structure of every webpage layout is still composed of right-angle boxes.
-{% endhint %}
+## `display` CSS Property
 
-![](../../../.gitbook/assets/layout.gif)
+The `display` CSS property determines whether HTML elements follow inline (width of element only) or block (full screen width) layout. By default, every HTML element follows either inline or block layout. We cannot customise vertical spacing above and below inline elements.
 
-![](../../../.gitbook/assets/zillow-desk.png)
+![Block layout stacks vertically; Inline layout stacks horizontally. Inline Block layout is a hybrid. Source: Stack Overflow](<../../../.gitbook/assets/1.3 - CSS Layout - 2 - Inline and Block.png>)
 
-![](../../../.gitbook/assets/adobe.com.png)
+## CSS Box Model
 
-## Exercise
+![Margin is spacing outside the content's border. Padding is spacing inside the content's border. Source: W3Schools](<../../../.gitbook/assets/1.3 - CSS Layout - 3 - Box Model.png>)
 
-### Tribute Page
-
-Use the above technique to divide the page below into its constituent boxes.
-
-{% hint style="warning" %}
-No need to do user story #8 because it will be covered later. You may find the `text-align: center` style rule helpful for this exercise.
-{% endhint %}
-
-[https://www.freecodecamp.org/learn/responsive-web-design/responsive-web-design-projects/build-a-tribute-page](https://www.freecodecamp.org/learn/responsive-web-design/responsive-web-design-projects/build-a-tribute-page)
+​
