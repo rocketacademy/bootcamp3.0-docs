@@ -1,8 +1,8 @@
-# 1 Frontend
+# 1: Frontend
 
 ## Learning Objectives
 
-1. Learn how to construct webpages with HTML, React and CSS
+1. Learn how to build web pages and applications with HTML, CSS and React
 2. Learn how to use and architect React Components, Props and State
 3. Learn how to customise UI with CSS
 4. Learn how to use React UI frameworks such as React Bootstrap and Material UI
