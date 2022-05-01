@@ -1,9 +1,11 @@
-# 7.0: Module 7 Overview
+# 1.3: React
 
-## What is React?
+## Learning Objectives
 
-[React](https://reactjs.org) is a [frontend JavaScript (JS) library](https://skillcrush.com/blog/javascript-frameworks-vs-libraries/) that allows us to create custom, nestable UI elements with a combination of HTML and JS syntax (JSX syntax). The HTML-like nature of JSX makes visualising React UI elements in code easier than with pure JS DOM manipulation. The JS functionality in JSX makes it easy to write logic for rendering dynamic data in React. Other less popular but not uncommon frontend frameworks that accomplish similar functionality include Vue and Angular.
+1. React is a JavaScript library that allows us to create custom, nest-able UI elements with a combination of HTML and JS syntax (JSX)
 
-Browsers do not natively read React code (i.e. browsers natively read HTML, CSS, JS; not JSX). This is why we need Webpack to translate our React code into vanilla HTML, CSS and JS for our browsers to understand.
+## Introduction
 
-There is a mobile framework called [React Native](https://reactnative.dev) that, while not React, utilises and repurposes React code for native development. React Native allows us to create mobile apps for iOS and Android using JSX.
+[React](https://reactjs.org) is a JavaScript library that allows us to create custom, nest-able UI elements with a combination of HTML and JS syntax (JSX). React's HTML-like structure makes it easy to visualise, and its integrated JS makes it easy to render dynamic data. Alternative but less popular frontend libraries include [Vue](https://vuejs.org) and [Angular](https://angularjs.org).&#x20;
+
+We will use a React app-builder library [Create React App](https://create-react-app.dev) to build React apps. Browsers do not read React code (they read HTML, CSS and JS, not JSX), and we need a tool called Webpack to translate React to HTML, CSS and JS. Webpack is built into Create React App.

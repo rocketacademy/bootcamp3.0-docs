@@ -4,6 +4,7 @@
 
 1. CSS enables us to style HTML pages by applying styles and layout properties on HTML elements
 2. Know how to apply CSS styles to HTML elements via type, class and ID selectors
+3. Understand the concept of CSS specificity
 
 ## Introduction
 
