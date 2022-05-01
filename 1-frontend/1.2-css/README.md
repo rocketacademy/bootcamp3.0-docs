@@ -15,7 +15,7 @@ The following CSS rule applies `text-align` and `colour` properties to all HTML 
 p {
   text-align: center;
   colour: red;
-} 
+}
 ```
 
 ## CSS Rules
@@ -62,7 +62,7 @@ Generally, styles applied to ID selectors take precedence over styles applied to
 
 In the following example, the 1st paragraph will have colour red, the 2nd green, the 3rd blue. This is because styles applied to CSS IDs take precedence over styles applied to CSS classes, which take precedence over styles applied to HTML tags.
 
-```markup
+```html
 <!DOCTYPE html>
 <html>
   <head>
@@ -92,7 +92,7 @@ Regardless of selector type (ID, class or type selector), CSS rules that apply m
 
 In the following example, the paragraph text will be red even though its parent element's CSS rule specifies the colour blue. This is because the `p` selector applies more directly to the `p` tag than the `div-id` selector.
 
-```markup
+```html
 <!DOCTYPE html>
 <html>
   <head>
@@ -120,14 +120,17 @@ CSS rules declared inline (aka "inline" styles) take precedence over CSS rules d
 Inline styles can be convenient for testing styles in development but are troublesome to maintain because it becomes difficult to keep track of which styles are declared where.
 
 {% code title="Inline styles" %}
+
 ```html
 <p style="color: red;">This text is red</p>
 ```
+
 {% endcode %}
 
 Internal styles allow us to centralise styles for a given HTML file in `head`. Not often used because internal styles cannot be re-used across HTML files.
 
 {% code title="Internal styles" %}
+
 ```html
 <html>
   <head>
@@ -142,40 +145,46 @@ Internal styles allow us to centralise styles for a given HTML file in `head`. N
   </body>
 </html>
 ```
+
 {% endcode %}
 
 External styles are styles declared in CSS-specific files and "imported" with `link` tags in relevant HTML files. Most apps use external styles to re-use CSS styles across multiple HTML files.
 
 {% code title="External styles" %}
+
 ```html
 <html>
   <head>
-    <link rel=“stylesheet” hrf="styles.css"/>
+    <link rel="“stylesheet”" hrf="styles.css" />
   </head>
   <body>
     <p>This text is blue</p>
   </body>
 </html>
 ```
+
 {% endcode %}
 
 {% code title="styles.css" %}
+
 ```css
 p {
   color: blue;
 }
 ```
+
 {% endcode %}
 
 Unless we have a strong reason not to, Rocket recommends using external styles for all CSS to keep our CSS rules centralised in CSS files that can be re-used across HTML files.
 
-Unless we plan to be CSS specialists, we do not need to memorise exact CSS specificity of every permutation of selectors and HTML elements. Most browsers provide precise tools to debug CSS specificity, and [W3Schools documents](https://www.w3schools.com/css/css\_specificity.asp) how to calculate CSS specificity when we need to.
+Unless we plan to be CSS specialists, we do not need to memorise exact CSS specificity of every permutation of selectors and HTML elements. Most browsers provide precise tools to debug CSS specificity, and [W3Schools documents](https://www.w3schools.com/css/css_specificity.asp) how to calculate CSS specificity when we need to.
 
 ## Exercise: Apply CSS to HTML
 
 Apply CSS to an HTML file. Create an `index.html` file with the contents below and open it in Chrome.
 
 {% code title="index.html" %}
+
 ```html
 <html>
   <head>
@@ -186,6 +195,7 @@ Apply CSS to an HTML file. Create an `index.html` file with the contents below a
   </body>
 </html>
 ```
+
 {% endcode %}
 
 Notice what the un-styled HTML looks like. Now insert the following `style` HTML element within the `head` tags in `index.html`.
