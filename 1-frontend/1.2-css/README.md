@@ -204,7 +204,7 @@ Notice what the un-styled HTML looks like. Now insert the following `style` HTML
 
 Refresh `index.html` in Chrome and observe the change to the `h1` element.
 
-### Codecademy Learn CSS
+### \[Post-Class Exercise] Codecademy Learn CSS
 
 Complete the following lessons in Codecademy's Learn CSS course. You will need to register for an account if you haven't already.
 

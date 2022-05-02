@@ -3,6 +3,13 @@
 ## Learning Objectives
 
 1. React is a frontend framework and library that allows us to create custom, nest-able UI elements with a combination of HTML and JavaScript syntax (JSX)
+2. How to write JSX
+3. How to write and render React components
+4. How to use props
+5. How to use state
+6. What are component lifecycles and lifecycle methods
+7. How to handle JS events in React
+8. How to design component architecture
 
 ## Introduction
 
@@ -94,3 +101,24 @@ If you finish the React Guide pages above early, feel free to start and finish t
 1. Rocket recommends starting with Setup Option 1 (Write Code in Browser) to focus on understanding React. If you finish the tutorial and have time, do Setup Option 2 (Local Development Environment) and port your code over to understand how to use Create React App. We will use Create React App to develop all frontend projects at Rocket.
 2. Rocket recommends using [React DevTools](https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi?hl=en) whenever developing React apps. It can help us debug quicker.
 3. Note the tutorial's recommendation to use `on[Event]` naming convention for props that represent events and `handle[Event]` for methods that handle events.
+
+## Post-Class Exercises: Codecademy React 101
+
+Complete all exercises in the following lessons after class when they are assigned in the course schedule.
+
+1. JSX
+   1. [Intro to JSX](https://www.codecademy.com/courses/react-101/lessons/react-jsx-intro/exercises/why-react)
+   2. [Advanced JSX](https://www.codecademy.com/courses/react-101/lessons/react-jsx-advanced/exercises/jsx-classname-class)
+2. React Components
+   1. [Your First React Component](https://www.codecademy.com/courses/react-101/lessons/your-first-react-component/exercises/hello-world-component)
+   2. [Components and Advanced JSX](https://www.codecademy.com/courses/react-101/lessons/react-components-advanced-jsx/exercises/render-multiline-jsx)
+3. Components Interacting
+   1. [Components Render Other Components](https://www.codecademy.com/courses/react-101/lessons/components-render-each-other/exercises/components-interacting-intro)
+   2. [this.props](https://www.codecademy.com/courses/react-101/lessons/this-props/exercises/this-props-intro)
+   3. [this.state](https://www.codecademy.com/courses/react-101/lessons/this-state/exercises/this-state-intro)
+4. [Component Lifecycle Methods](https://www.codecademy.com/courses/react-101/lessons/component-lifecycle-methods/exercises/the-component-lifecycle)
+5. [React Forms](https://www.codecademy.com/courses/react-101/lessons/react-forms/exercises/react-forms-intro)
+6. Stateless Components from Stateful Components
+   1. [Stateless Components From Stateful Components](https://www.codecademy.com/courses/react-101/lessons/stateless-inherit-stateful-intro/exercises/stateless-inherit-stateful)
+   2. [Child Components Update Their Parents' state](https://www.codecademy.com/courses/react-101/lessons/child-updates-parents-state/exercises/child-updates-parents-state-intro)
+   3. [Child Components Update Their Siblings' props](https://www.codecademy.com/courses/react-101/lessons/child-updates-sibling/exercises/child-updates-sibling-intro)
