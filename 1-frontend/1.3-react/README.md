@@ -104,7 +104,7 @@ If you finish the React Guide pages above early, feel free to start and finish t
 
 ## Post-Class Exercises: Codecademy React 101
 
-Complete all exercises in the following lessons after class when they are assigned in the course schedule.
+Complete all exercises in the following Codecademy lessons when they are assigned in the Rocket course schedule.
 
 1. JSX
    1. [Intro to JSX](https://www.codecademy.com/courses/react-101/lessons/react-jsx-intro/exercises/why-react)
