@@ -37,7 +37,7 @@ The following sections provide Rocket's annotations to React's official [guide](
 
 {% embed url="https://reactjs.org/docs/components-and-props.html" %}
 
-1. "ES6 classes" are the same concept we learnt about in [0.1.6: Classes](../0-foundations/0.1-javascript/0.1.6-classes.md)
+1. "ES6 classes" are the same concept we learnt about in [0.1.6: Classes](../../0-foundations/0.1-javascript/0.1.6-classes.md)
 2. [User-defined components must be capitalised](https://reactjs.org/docs/jsx-in-depth.html#user-defined-components-must-be-capitalized). Otherwise React will think they are HTML tags.
 
 ## 5: State and Lifecycle
@@ -89,7 +89,7 @@ The following sections provide Rocket's annotations to React's official [guide](
 
 {% embed url="https://reactjs.org/tutorial/tutorial.html" %}
 
-If you finish the React Guide pages above early, feel free to start and finish this tutorial early to have more time for [Project 1](1.proj-frontend-app.md).
+If you finish the React Guide pages above early, feel free to start and finish this tutorial early to have more time for [Project 1](../1.proj-frontend-app.md).
 
 1. Rocket recommends starting with Setup Option 1 (Write Code in Browser) to focus on understanding React. If you finish the tutorial and have time, do Setup Option 2 (Local Development Environment) and port your code over to understand how to use Create React App. We will use Create React App to develop all frontend projects at Rocket.
 2. Rocket recommends using [React DevTools](https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi?hl=en) whenever developing React apps. It can help us debug quicker.
