@@ -172,7 +172,9 @@ Unless we have a strong reason not to, Rocket recommends using external styles f
 
 Unless we plan to be CSS specialists, we do not need to memorise exact CSS specificity of every permutation of selectors and HTML elements. Most browsers provide precise tools to debug CSS specificity, and [W3Schools documents](https://www.w3schools.com/css/css\_specificity.asp) how to calculate CSS specificity when we need to.
 
-## Exercise: Apply CSS to HTML
+## Exercises
+
+### Apply CSS to HTML
 
 Apply CSS to an HTML file. Create an `index.html` file with the contents below and open it in Chrome.
 
@@ -201,3 +203,13 @@ Notice what the un-styled HTML looks like. Now insert the following `style` HTML
 ```
 
 Refresh `index.html` in Chrome and observe the change to the `h1` element.
+
+### Codecademy Learn CSS
+
+Complete the following lessons in Codecademy's Learn CSS course. You will need to register for an account if you haven't already.
+
+1. [Setup and Syntax](https://www.codecademy.com/courses/learn-css/lessons/learn-css-setup-and-syntax/exercises/intro-to-css)
+2. [Selectors](https://www.codecademy.com/courses/learn-css/lessons/learn-css-selectors/exercises/type)
+3. [Visual Rules](https://www.codecademy.com/courses/learn-css/lessons/css-visual-rules/exercises/font-family)
+4. [The Box Model](https://www.codecademy.com/courses/learn-css/lessons/box-model-intro/exercises/box-model)
+5. [Changing the Box Model](https://www.codecademy.com/courses/learn-css/lessons/box-model-new/exercises/box-content)

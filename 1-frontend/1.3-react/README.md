@@ -3,13 +3,6 @@
 ## Learning Objectives
 
 1. React is a frontend framework and library that allows us to create custom, nest-able UI elements with a combination of HTML and JavaScript syntax (JSX)
-2. How to write JSX
-3. How to write and render React components
-4. How to use props
-5. How to use state
-6. What are component lifecycles and lifecycle methods
-7. How to handle JS events in React
-8. How to design component architecture
 
 ## Introduction
 
