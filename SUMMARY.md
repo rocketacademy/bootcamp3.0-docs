@@ -38,7 +38,7 @@
   * [1.ICE: In-Class Exercises](1-frontend/1.ice-in-class-exercises/README.md)
     * [1.ICE.1: Product Rendering](1-frontend/1.ice-in-class-exercises/1.ice.1-product-rendering.md)
   * [1.POCE: Post-Class Exercises](1-frontend/1.poce-post-class-exercises/README.md)
-    * [1.POCE.1: Recipe Site](1-frontend/1.poce-post-class-exercises/1.poce.1-recipe-site.md)
+    * [1.POCE.1: Recipe Site](1-frontend/1.poce-post-class-exercises/1.poce.1-noodle-recipe-website.md)
     * [1.POCE.2: Portfolio Page](1-frontend/1.ice-in-class-exercises/1.ice.5-portfolio-page.md)
     * [1.POCE.3: High Card](1-frontend/1.poce-post-class-exercises/1.poce.2-high-card.md)
     * [1.POCE.4: Guess the Word](1-frontend/1.ice-in-class-exercises/1.ice.4-guess-the-word.md)
