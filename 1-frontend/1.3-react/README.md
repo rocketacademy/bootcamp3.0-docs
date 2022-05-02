@@ -6,6 +6,81 @@
 
 ## Introduction
 
-[React](https://reactjs.org) is a frontend framework and library that allows us to create custom, nest-able UI elements with a combination of HTML and JavaScript syntax (JSX). React's HTML-like structure makes it easy to visualise, and its integrated JS makes it easy to render dynamic data. Alternative but less popular frontend libraries include [Vue](https://vuejs.org) and [Angular](https://angularjs.org).&#x20;
+[React](https://reactjs.org) is a frontend framework and library that allows us to create custom, nest-able UI elements with a combination of HTML and JavaScript syntax (JSX). React's HTML-like structure makes it easy to visualise, and its integrated JS makes it easy to render dynamic data. Alternative but less popular frontend libraries include [Vue](https://vuejs.org) and [Angular](https://angularjs.org).
 
-At Rocket we will use a React app-builder library [Create React App](https://create-react-app.dev) to build React apps. Browsers do not read React code (they read HTML, CSS and JS, not JSX), and we need a tool called Webpack to translate React to HTML, CSS and JS. Webpack is built into Create React App.
+We will use React's official [guide](https://reactjs.org/docs/hello-world.html) and [tutorial](https://reactjs.org/tutorial/tutorial.html) to learn React, and React's official app-starter kit [Create React App](https://create-react-app.dev) to build React apps. Browsers do not read React code natively (they read HTML, CSS and JS, not JSX), and we need a tool called Webpack to translate React to HTML, CSS and JS. Webpack is built into Create React App.
+
+The following sections provide Rocket's annotations to React's official [guide](https://reactjs.org/docs/hello-world.html) and [tutorial](https://reactjs.org/tutorial/tutorial.html) to explain concepts that the React team assumes readers know.
+
+## 1: Hello World
+
+{% embed url="https://reactjs.org/docs/hello-world.html" %}
+
+1. Rocket recommends playing with as many of the provided CodePen examples as you need to understand the relevant concepts
+2. Rocket recommends completing the "Main Concepts" guide before attempting the "practical tutorial" so that the "practical tutorial" concepts sink in better
+3. If there is anything you do not understand in the guide overall, please feel free to google and/or ask your section leader!
+
+## 2: Introducing JSX
+
+{% embed url="https://reactjs.org/docs/introducing-jsx.html" %}
+
+1. DOM stands for "Document Object Model", which is a JavaScript representation of HTML rendered on a web page. Frontend frameworks like React use the DOM to programmatically manipulate UI without manually specifying HTML. Rocket recommends [W3School's intro to JavaScript HTML DOM](https://www.w3schools.com/js/js\_htmldom.asp) (just the 1st page) for a primer. For Rocket's Bootcamp we can stop at DOM Intro without reading W3School's subsequent pages on DOM.
+2. To apply CSS classes to JSX elements we will need to use the `className` keyword instead of `class`, which we used with vanilla HTML. This is because `class` is a reserved keyword in JS used to declare classes (which we will see in 4: Components and Props below).
+
+## 3: Rendering Elements
+
+{% embed url="https://reactjs.org/docs/rendering-elements.html" %}
+
+1. React follows what we call a "declarative" UI paradigm, where we tell our computers how the UI should look, but not how to achieve that look. In the clock example on this page, we tell React that the latest time should always be in the `h2` element, but we never explicitly tell React to update the value in the `h2` element. The declarative paradigm is a layer on top of the "imperative" paradigm of DOM manipulation more commonly used before React.
+
+## 4: Components and Props
+
+{% embed url="https://reactjs.org/docs/components-and-props.html" %}
+
+1. "ES6 classes" are the same concept we learnt about in [0.1.6: Classes](../../0-foundations/0.1-javascript/0.1.6-classes.md)
+2. [User-defined components must be capitalised](https://reactjs.org/docs/jsx-in-depth.html#user-defined-components-must-be-capitalized). Otherwise React will think they are HTML tags.
+
+## 5: State and Lifecycle
+
+{% embed url="https://reactjs.org/docs/state-and-lifecycle.html" %}
+
+1. ``[`setInterval`](https://www.w3schools.com/jsref/met\_win\_setinterval.asp) is a function that runs a given "callback function" at a specified time interval. A callback function is a function that runs at a later time when triggered by an event, such as the timer in `setInterval`.
+2. The `super` function in the class `constructor` function runs the `constructor` function of the class' parent class, if any. In the `Clock` example, `super` runs the `constructor` function of the `React.Component` class. This helps the classes we create that "inherit" `React.Component` have all the functionality of `React.Component` without us having to declare that functionality.
+
+## 6: Handling Events
+
+{% embed url="https://reactjs.org/docs/handling-events.html" %}
+
+1. "Events on DOM elements" are the same as [JavaScript events or HTML events](https://www.w3schools.com/js/js\_events.asp). JS events allow us to perform logic on events that happen on our web pages such as mouse clicks. React supports a [wide range of events](https://reactjs.org/docs/events.html#supported-events).
+2. Rocket recommends using the "public class fields syntax" to define callback methods (functions are called methods when inside classes) inside class components. We will be using Create React App to build React apps which enables this syntax by default.
+
+## 7: Conditional Rendering
+
+{% embed url="https://reactjs.org/docs/conditional-rendering.html" %}
+
+## 8: Lists and Keys
+
+{% embed url="https://reactjs.org/docs/lists-and-keys.html" %}
+
+## 9: Forms
+
+{% embed url="https://reactjs.org/docs/forms.html" %}
+
+1. An [HTML form](https://www.w3schools.com/html/html\_forms.asp) is an HTML element that either refreshes the page or navigates to a new page when the user submits the form. We often do not want this behaviour in React, opting to update UI on submit without refresh. To disable "refresh on submit" behaviour, Rocket recommends the technique in the React docs, to provide the `form` a `handleSubmit` callback function that calls `event.preventDefault`.
+
+## 10: Lifting State Up
+
+{% embed url="https://reactjs.org/docs/lifting-state-up.html" %}
+
+1. It is important that we pass both the temperature value and handle-change function from `Calculator` to `TemperatureInput` so the app can maintain only 1 "source of truth" state for temperature value in `Calculator`. If it helps, Rocket recommends drawing the component hierarchy to visualise how data flows in the application and verifying our understanding with our classmates and section leader.
+
+## 11: Composition vs Inheritance
+
+{% embed url="https://reactjs.org/docs/composition-vs-inheritance.html" %}
+
+## 12: Thinking In React
+
+{% embed url="https://reactjs.org/docs/thinking-in-react.html" %}
+
+1. [JSON](https://www.w3schools.com/js/js\_json\_intro.asp) (JavaScript Object Notation) is a data format similar to JavaScript Objects, except can be used in text or file form. An API (Application Programming Interface) is typically a URL that manipulates and/or returns data. A JSON API is an API that returns data in JSON format, one of the most common formats to send and receive data on the internet.
+2. Review 10: Lifting State Up above for a refresher on passing "callbacks" (i.e. callback functions) to descendant components to update shared state in ancestor components.
