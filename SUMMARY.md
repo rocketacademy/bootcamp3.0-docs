@@ -40,7 +40,7 @@
     * [1.POCE.2: Portfolio Page](1-frontend/1.ice-in-class-exercises/1.ice.5-portfolio-page.md)
     * [1.POCE.3: High Card](1-frontend/1.poce-post-class-exercises/1.poce.2-high-card.md)
     * [1.POCE.4: Guess the Word](1-frontend/1.ice-in-class-exercises/1.ice.4-guess-the-word.md)
-  * [1.PROJ: Frontend App](1-frontend/1.proj-frontend-app.md)
+  * [Project 1: Frontend App](1-frontend/1.proj-frontend-app.md)
 * [2: Full Stack](2-full-stack/README.md)
   * [2.1: Computer Networking](2-full-stack/2.1-computer-networking/README.md)
     * [2.1.1: Internet 101](2-full-stack/2.1-computer-networking/2.1.1-internet-101.md)
