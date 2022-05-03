@@ -138,11 +138,10 @@ brew link node@16
 Prettier is a code formatter that will auto-format our code and make it more readable when we save our files.
 
 1. Install the Prettier extension for VS Code [here](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode).
-2. Restart VS Code to activate Prettier.
 
 ### Install ESLint
 
-ESLint is a JavaScript code formatter that helps us detect functional and stylistic errors in our code prior to running it.
+ESLint is a JavaScript code linter that helps us detect functional errors in our code prior to running it.
 
 1. Install ESLint on your computer by running `sudo npm i -g eslint` from the terminal in VS Code. Enter your computer's password if prompted.
 2. Install the ESLint VS Code extension [here](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint).
@@ -159,18 +158,9 @@ ESLint is a JavaScript code formatter that helps us detect functional and stylis
 ```json
 {
   "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "[javascript]": {
-    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
-  },
-  "[javascriptreact]": {
-    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
-  },
   "editor.formatOnSave": true,
   "editor.formatOnPaste": true,
   "editor.tabSize": 2,
-  "eslint.format.enable": true,
-  "eslint.lintTask.enable": true,
-  "eslint.migration.2_x": "off"
 }
 ```
 {% endcode %}
