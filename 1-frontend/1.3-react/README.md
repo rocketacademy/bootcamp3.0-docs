@@ -31,7 +31,7 @@ The following sections provide Rocket's annotations to React's official [guide](
 
 {% embed url="https://reactjs.org/docs/introducing-jsx.html" %}
 
-1. DOM stands for "Document Object Model", which is a JavaScript representation of HTML rendered on a web page. Frontend frameworks like React use the DOM to programmatically manipulate UI without manually specifying HTML. Rocket recommends [W3School's intro to JavaScript HTML DOM](https://www.w3schools.com/js/js\_htmldom.asp) (just the 1st page) for a primer. For Rocket's Bootcamp we can stop at DOM Intro without reading W3School's subsequent pages on DOM.
+1. DOM stands for "Document Object Model", which is a JavaScript representation of HTML rendered on a web page. Frontend frameworks like React use the DOM to programmatically manipulate UI without manually specifying HTML. Rocket recommends [W3School's intro to JavaScript HTML DOM](https://www.w3schools.com/js/js_htmldom.asp) (just the 1st page) for a primer. For Rocket's Bootcamp we can stop at DOM Intro without reading W3School's subsequent pages on DOM.
 2. To apply CSS classes to JSX elements we will need to use the `className` keyword instead of `class`, which we used with vanilla HTML. This is because `class` is a reserved keyword in JS used to declare classes (which we will see in 4: Components and Props below).
 
 ## 3: Rendering Elements
@@ -44,7 +44,7 @@ The following sections provide Rocket's annotations to React's official [guide](
 
 {% embed url="https://reactjs.org/docs/components-and-props.html" %}
 
-1. "ES6 classes" are the same concept we learnt about in [0.1.6: Classes](../../0-foundations/0.1-javascript/0.1.6-classes.md)
+1. "ES6 classes" are the same concept we learnt about in [0.4.6: Classes](../../0-foundations/0.4-javascript/0.4.6-classes.md)
 2. [User-defined components must be capitalised](https://reactjs.org/docs/jsx-in-depth.html#user-defined-components-must-be-capitalized). Otherwise React will think they are HTML tags.
 
 ## 5: State and Lifecycle
@@ -58,7 +58,7 @@ The following sections provide Rocket's annotations to React's official [guide](
 
 {% embed url="https://reactjs.org/docs/handling-events.html" %}
 
-1. "Events on DOM elements" are the same as [JavaScript events or HTML events](https://www.w3schools.com/js/js\_events.asp). JS events allow us to perform logic on events that happen on our web pages such as mouse clicks. React supports a [wide range of events](https://reactjs.org/docs/events.html#supported-events).
+1. "Events on DOM elements" are the same as [JavaScript events or HTML events](https://www.w3schools.com/js/js_events.asp). JS events allow us to perform logic on events that happen on our web pages such as mouse clicks. React supports a [wide range of events](https://reactjs.org/docs/events.html#supported-events).
 2. Rocket recommends using the "public class fields syntax" to define callback methods (functions are called methods when inside classes) inside class components. We will be using Create React App to build React apps which enables this syntax by default.
 
 ## 7: Conditional Rendering
@@ -73,7 +73,7 @@ The following sections provide Rocket's annotations to React's official [guide](
 
 {% embed url="https://reactjs.org/docs/forms.html" %}
 
-1. An [HTML form](https://www.w3schools.com/html/html\_forms.asp) is an HTML element that either refreshes the page or navigates to a new page when the user submits the form. We often do not want this behaviour in React, opting to update UI on submit without refresh. To disable "refresh on submit" behaviour, Rocket recommends the technique in the React docs, to provide the `form` a `handleSubmit` callback function that calls `event.preventDefault`.
+1. An [HTML form](https://www.w3schools.com/html/html_forms.asp) is an HTML element that either refreshes the page or navigates to a new page when the user submits the form. We often do not want this behaviour in React, opting to update UI on submit without refresh. To disable "refresh on submit" behaviour, Rocket recommends the technique in the React docs, to provide the `form` a `handleSubmit` callback function that calls `event.preventDefault`.
 
 ## 10: Lifting State Up
 
@@ -89,7 +89,7 @@ The following sections provide Rocket's annotations to React's official [guide](
 
 {% embed url="https://reactjs.org/docs/thinking-in-react.html" %}
 
-1. [JSON](https://www.w3schools.com/js/js\_json\_intro.asp) (JavaScript Object Notation) is a data format similar to JavaScript Objects, except can be used in text or file form. An API (Application Programming Interface) is typically a URL that manipulates and/or returns data. A JSON API is an API that returns data in JSON format, one of the most common formats to send and receive data on the internet.
+1. [JSON](https://www.w3schools.com/js/js_json_intro.asp) (JavaScript Object Notation) is a data format similar to JavaScript Objects, except can be used in text or file form. An API (Application Programming Interface) is typically a URL that manipulates and/or returns data. A JSON API is an API that returns data in JSON format, one of the most common formats to send and receive data on the internet.
 2. Review 10: Lifting State Up above for a refresher on passing "callbacks" (i.e. callback functions) to descendant components to update shared state in ancestor components.
 
 ## Tutorial: Intro to React

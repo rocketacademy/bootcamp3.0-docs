@@ -1,4 +1,4 @@
-# 0.4: Git
+# 0.2: Git
 
 ## Learning Objectives
 

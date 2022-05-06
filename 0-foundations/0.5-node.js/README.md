@@ -1,4 +1,4 @@
-# 0.3: Node.js
+# 0.5: Node.js
 
 ## Learning Objectives
 
@@ -43,9 +43,11 @@ Type `Ctrl+D` to exit, which sends an "end of file" signal to Node to close the 
 Node is primarily used to run JS files. Try running the following `index.js` file with Node.
 
 {% code title="index.js" %}
+
 ```javascript
 console.log("hello world");
 ```
+
 {% endcode %}
 
 ```bash
