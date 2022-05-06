@@ -34,7 +34,7 @@
   - [1.1: HTML](1-frontend/1.1-html.md)
   - [1.2: CSS](1-frontend/1.2-css/README.md)
     - [1.2.1: Layout](1-frontend/1.2-css/1.2.1-layout.md)
-  - [1.3: React](1-frontend/1.3-react/README.md)
+  - [1.3: React](1-frontend/1.3-react.md)
   - [1.POCE: Post-Class Exercises](1-frontend/1.poce-post-class-exercises/README.md)
     - [1.POCE.1: Recipe Site](1-frontend/1.poce-post-class-exercises/1.poce.1-noodle-recipe-website.md)
     - [1.POCE.2: Portfolio Page](1-frontend/1.poce-post-class-exercises/1.poce.2-portfolio-page.md)
