@@ -3,7 +3,7 @@
 ## Learning Objectives
 
 1. Know what Big-O notation is and how we use it to measure algorithmic time and space complexity
-2. Know common Big-O complexities (e.g. O(n), O(nlogn), O(n^2)) and what kinds of algorithms have each complexity for time and space.
+2. Know common Big-O complexities (e.g. `O(n)`, `O(nlogn)`, `O(n^2)`) and what kinds of algorithms have each complexity for time and space.
 
 ## Introduction
 

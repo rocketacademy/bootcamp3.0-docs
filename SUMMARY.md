@@ -152,7 +152,7 @@
 * [🧮 Algorithms](algorithms/README.md)
   * [A.1: Intro to SWE Interviews](algorithms/a.1-intro-to-swe-interviews.md)
   * [A.2: Intro to Algorithm Problems](algorithms/a.2-intro-to-algorithm-problems.md)
-  * [A.3: Algorithm Interview Strategies](algorithms/a.3-algorithm-interview-strategies.md)
+  * [A.3: Algorithm Interview Strategies](algorithms/a.3-interview-strategies.md)
   * [A.4: Complexity Analysis, Big-O Notation](algorithms/a.4-complexity-analysis-big-o-notation.md)
   * [A.5: Data Structures](algorithms/a.5-data-structures/README.md)
     * [A.5.1: Arrays](algorithms/a.5-data-structures/a.5.1-arrays.md)
