@@ -1,4 +1,8 @@
-# A.5.2.1: Hash Table Data Structure
+# D.5.2.1: Hash Table Data Structure
+
+![](../../../.gitbook/assets/hash_meme.jpeg)
+
+We've been using dictionaries as built-in Python data structures, but in this section we'll build a hash map class from scratch.
 
 ### Hash Functions
 

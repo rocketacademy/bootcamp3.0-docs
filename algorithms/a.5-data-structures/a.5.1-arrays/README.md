@@ -25,7 +25,7 @@ const arr = [2, 1, 3];
 
 ## Exercises
 
-Once you've attempted each problem, find solutions in either the Solution or Discuss tabs on that problem's page. If you are stuck for more than 15 minutes, review and understand solutions and move on. Come back to the problem in a few days and re-attempt the problem.
+After attempting each problem, find solutions in either Solution or Discuss tabs on that problem's page. If you get stuck for more than 15 minutes, review and understand the solutions and move on. Come back and re-attempt the problem after a few days.
 
 ### Pre-Class
 
