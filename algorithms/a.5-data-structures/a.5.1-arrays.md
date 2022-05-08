@@ -1,9 +1,14 @@
 # A.5.1: Arrays
 
+![array meme](../../.gitbook/assets/array-meme.gif)
+
 ## Learning Objectives
 
-1. Understand common array functions and their runtimes
-2. Get familiar with solving algorithm problems with arrays
+By the end of this lesson, you should:
+
+* be familiar with array functionality time and space complexity
+* understand new python array slice syntax
+* understand how the basic syntax of Leetcode problems work
 
 ## Introduction
 
@@ -17,7 +22,7 @@ Given:
 arr = [2,1,3,4,5]
 ```
 
-#### Constant O(1)
+#### Constant O\(1\)
 
 `append`
 
@@ -35,7 +40,7 @@ len(arr) # 5
 
 Python stores the length of the list inside the list itself as a running counter.
 
-#### Linear O(_n_)
+#### Linear O\(_n_\)
 
 `clear`, `max`, `copy`, `index`, `insert`, `remove`, `reverse,` slice operations.
 
@@ -45,7 +50,7 @@ max(arr) # 5
 
 Each of these functions must look at every array element in the worst case.
 
-#### Loglinear O(_n\_log\_n_)
+#### Loglinear O\(_n_log_n_\)
 
 ```python
 sort(arr) # [1,2,3,4,5]
@@ -57,7 +62,7 @@ Python uses Timsort sorting algorithm to sort lists.
 
 ### Useful Python List Syntax
 
-#### Basic Python list methods: [https://www.w3schools.com/python/python\_arrays.asp](https://www.w3schools.com/python/python\_arrays.asp)
+#### Basic Python list methods: [https://www.w3schools.com/python/python_arrays.asp](https://www.w3schools.com/python/python_arrays.asp)
 
 #### Python list slice syntax: [https://stackoverflow.com/a/509295](https://stackoverflow.com/a/509295)
 
@@ -90,7 +95,7 @@ a[-3::-1]  # everything except the last two items, reversed
 
 Leetcode problems are encapsulated in classes. We will learn more about classes in [D.6: Object-Oriented Programming](../a.8-intro-to-object-oriented-programming.md), but without going into too much detail here, the following are what we need to know to solve and submit problems in Leetcode.
 
-* **Every method inside a Python class requires `self` as the 1st parameter in the method definition.** This is so that the method has access to other attributes and methods within the class instance via `self`.
+- **Every method inside a Python class requires `self` as the 1st parameter in the method definition.** This is so that the method has access to other attributes and methods within the class instance via `self`.
 
 ```python
 class Solution:
@@ -98,7 +103,7 @@ class Solution:
         print("yay")
 ```
 
-* **To call Python class methods (i.e. methods inside the class), we will need to prefix the method name with** `self.`. For example `self.myMethodName()`. There is no need to pass `self` as the 1st parameter to class methods, even though `self` is the 1st param in the method definition.
+- **To call Python class methods \(i.e. methods inside the class\), we will need to prefix the method name with** `self.`. For example `self.myMethodName()`. There is no need to pass `self` as the 1st parameter to class methods, even though `self` is the 1st param in the method definition.
 
 ```python
 class Solution:
@@ -108,7 +113,7 @@ class Solution:
         self.say_something()
 ```
 
-* **Leetcode problems specify variable types in function parameters to help us understand the inputs and outputs of the function we need to implement.** This optional syntax is part of Python 3, so that function parameters can specify variable types.
+- **Leetcode problems specify variable types in function parameters to help us understand the inputs and outputs of the function we need to implement.** This optional syntax is part of Python 3, so that function parameters can specify variable types.
 
 ```python
 class Solution:
@@ -117,7 +122,7 @@ class Solution:
         pass
 ```
 
-* **There is no need for us to call the function we define.** For example `validMountainArray`. Leetcode will call the function, we just need to implement it.
+- **There is no need for us to call the function we define.** For example `validMountainArray`. Leetcode will call the function, we just need to implement it.
 
 ```python
 class Solution:
