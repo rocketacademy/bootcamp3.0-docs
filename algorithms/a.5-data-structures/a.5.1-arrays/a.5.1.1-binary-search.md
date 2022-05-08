@@ -1,4 +1,4 @@
-# A.5.1: Binary Search
+# A.5.1.1: Binary Search
 
 ## Learning Objectives
 
