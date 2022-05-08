@@ -138,10 +138,11 @@ brew link node@16
 Prettier is a code formatter that will auto-format our code and make it more readable when we save our files.
 
 1. Install the Prettier extension for VS Code [here](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode).
+2. Restart VS Code to activate Prettier.
 
 ### Install ESLint
 
-ESLint is a JavaScript code linter that helps us detect functional errors in our code prior to running it.
+ESLint is a JavaScript code formatter that helps us detect functional and stylistic errors in our code prior to running it.
 
 1. Install ESLint on your computer by running `sudo npm i -g eslint` from the terminal in VS Code. Enter your computer's password if prompted.
 2. Install the ESLint VS Code extension [here](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint).
@@ -158,9 +159,18 @@ ESLint is a JavaScript code linter that helps us detect functional errors in our
 ```json
 {
   "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[javascript]": {
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+  },
   "editor.formatOnSave": true,
   "editor.formatOnPaste": true,
   "editor.tabSize": 2,
+  "eslint.format.enable": true,
+  "eslint.lintTask.enable": true,
+  "eslint.migration.2_x": "off"
 }
 ```
 {% endcode %}
@@ -184,11 +194,3 @@ Please do not store code in folders synced to cloud storage such as Google Drive
 5. Within `d1`, create `prce` (pre-class), `ice` (in-class), and `poce` (post-class) folders for the respective exercises
 6. Make 15 copies of `d1` within `m1` and rename them `d2`, `d3`, ..., `d16`, 1 folder for each day in the module
 7. Make 3 copies of `m1` within `bootcamp` and rename them `m2`, `m3`, and `m4`, 1 folder for each module in Bootcamp
-
-## Sign up for accounts
-
-We will use the following software accounts during Bootcamp.
-
-1. [Codecademy](https://www.codecademy.com)
-2. [LeetCode](https://leetcode.com)
-3. [HackerRank](https://www.hackerrank.com)
