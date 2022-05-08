@@ -1,7 +1,5 @@
 # A.5.8.1: Heap Sort
 
-In [D.7](../../a.10-sorting-algorithms) we mentioned heap sort that runs in `O(nlogn) time.` Now that we've covered heaps we can look at this algo again.
-
 ### Heap Sort
 
 - Runtime: _**O(nlogn)**_

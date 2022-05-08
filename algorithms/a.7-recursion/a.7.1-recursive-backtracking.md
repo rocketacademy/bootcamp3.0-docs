@@ -1,4 +1,4 @@
-# A.9.1: Recursive Backtracking
+# A.7.1: Recursive Backtracking
 
 ## Introduction
 

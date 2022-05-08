@@ -1,4 +1,4 @@
-# A.10: Sorting Algorithms
+# A.5.1.3: Sorting Algorithms
 
 ![](../../.gitbook/assets/sort-ar.jpeg)
 

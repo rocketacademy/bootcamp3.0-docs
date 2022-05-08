@@ -1,4 +1,4 @@
-# A.10.1: Divide and Conquer Sorting
+# A.5.1.3.1: Divide and Conquer Sorting
 
 ## Merge Sort
 
