@@ -1,60 +1,38 @@
 # A.5.2: Hash Tables
 
-![hash browns](../../../.gitbook/assets/hashbrowns.png)
-
 ## Learning Objectives
 
-By the end of this lesson, you should:
-
-- be familiar with hash functionality time and space complexity
-- understand some basic python algorithm techniques with hashes
+1. Understand pros and cons of using hash tables
+2. Understand common use cases of hash tables in algorithm problems
 
 ## Introduction
 
-This section will eventually discuss the Hash Table, which is an abstract computer science data structure.
+A "hash table" is a data structure that stores key-value pairs with constant time (`O(1)`) lookup and insertion. It is also the computer science concept behind JavaScript objects. Every popular programming language has their own implementation of the hash table, such as Python Dictionaries and Java HashMaps.
 
-### Hash Table as Object / Dictionary
+We will use JS objects in new ways to solve algorithm problems. So far we have used JS objects primarily to store compound data such as playing cards, where it made sense to group card attributes such as name, rank and suit in a single data structure. We will now also use objects as frequency tallies and maps between multiple data formats.&#x20;
 
-The first simple implementation we'll work with is a Python dictionary, which is an implementation of a hash map.
+## Pros and cons of hash tables
 
-#### Keys and Values
+| Pros                               | Cons                    |
+| ---------------------------------- | ----------------------- |
+| `O(1)` lookup, insertion, deletion | `O(n)` space complexity |
 
-Access to data given the crucial behavior of a hash table / Python dictionary / JavaScript object. Access to a value through a key is an **O(1)** operation, so it is a good way to store and retrieve data.
+Generally the speed benefits of using a hash table outweigh the impact of additional space required, and when there is algorithmic benefit to using a hash table we should use it.
 
-```javascript
-var obj = {
-  age: 12,
-  height: 25,
-};
-// access a value
-console.log(obj["height"]);
-```
+## How does a hash table work?
 
-```python
-dictionary = {
-    "age":12,
-    "height":25
-}
-# access a value
-print(dictionary["height"])
-```
+Hash tables achieve `O(1)` lookup and insertion by "hashing" keys (typically strings) into array indexes with a constant-time "hash function", such that given a key it knows exactly where to retrieve or insert the relevant data and can access that data in constant time. Hash table implementations typically maintain a larger array size than number of key-value pairs to minimise "collisions" (multiple keys hashing to the same index) and maintain `O(1)` lookup and insertion.
 
-#### Why isn't a dictionary called a Hash Map?
+## Common uses of hash tables for algorithms
 
-The Python dictionary data structure is way to access a value through a key in **O(1)** time. In the easy Leetcode problems below we can assume that dictionary and hash map are synonymous because we are only thinking about the key/value access behaviour of the hash map data structure.
-
-In a computer science context the importance of the hash map data structure references a point in the history of the field and in programming languages where such a key/value store did not exist by default- you had to create your own or use a library (for example in the C programming language). At the end of this section we'll have rebuilt everything needed for a dictionary using only primitive types like lists, strings and integers. This will also be similar for other very basic data structures we'll see where things like stacks, queues and linked lists, which do have more modern Python equivalents but for DS\&A we are more concerned with conceptual understanding rather than easy to write code. Also [see D.5.2.1](a.5.2.1-hash-table-data-structure.md) for how Python dictionaries and JavaScript objects work under the hood.
-
-## Hash Table Usage Examples
-
-In DSA problems, we don't need to implement a hash map class. _**We are normally just going to use Python's built-in dictionary.**_ They are typically used for 1 of 2 purposes.
+Hash tables are typically used for 1 of 2 reasons in algorithm problems.
 
 1. Tally frequencies of elements in a collection
-2. Creating mappings between values and relevant metadata, for example between values in an array and their corresponding indices.
+2. Create mappings between values and relevant metadata, e.g. between values in an array and their corresponding indexes
 
-### Tallying Frequencies:
+### Tally Frequencies
 
-Example card frequencies from module [0.4: JS Object as Tally](broken-reference):
+In the following example we count the frequency of each playing card name in a 5-card hand. This can help us determine what kind of poker hand this player has.
 
 ```javascript
 // Create shuffled deck
@@ -66,7 +44,7 @@ for (let i = 0; i < 5; i += 1) {
   hand.push(deck.pop());
 }
 
-// Create Object as tally
+// Create object as tally
 var cardNameTally = {};
 
 // Loop over hand
