@@ -1,14 +1,14 @@
 # A.5.3: Stacks
 
-![stack meme](../../.gitbook/assets/stack\_meme.jpeg)
+![stack meme](../../.gitbook/assets/stack_meme.jpeg)
 
 ## Learning Objectives
 
 By the end of this lesson, you should:
 
-* be familiar with stack functionality time and space complexity
-* understand the difference between LIFO and FIFO
-* understand the python stack class example
+- be familiar with stack functionality time and space complexity
+- understand the difference between LIFO and FIFO
+- understand the python stack class example
 
 ## Introduction
 
@@ -146,4 +146,4 @@ Feel free to use the Python List to perform Stack operations. Once you've attemp
 
 #### Pushdown Automata
 
-Turing's theoretical computers used stacks as part of it's basic behaviours. See more about them here: [https://en.wikipedia.org/wiki/Pushdown\_automaton](https://en.wikipedia.org/wiki/Pushdown\_automaton)
+Turing's theoretical computers used stacks as part of it's basic behaviours. See more about them here: [https://en.wikipedia.org/wiki/Pushdown_automaton](https://en.wikipedia.org/wiki/Pushdown_automaton)

@@ -33,8 +33,8 @@ def binarySearch(arr, x):
       right_index = mid_index - 1
   # If x is not found, return -1
   return -1
-  
-mylist = [2,3,4,5,6,7,8,9,10,11,12]  
+
+mylist = [2,3,4,5,6,7,8,9,10,11,12]
 result = binarySearch(my_list, 6)  # 4
 ```
 

@@ -40,7 +40,7 @@ Input: “AAB”, Output: 8. Explanation: "A", "B", "AA", "AB", "BA", "AAB", "AB
 def numTilePossibilities(self, tiles: str):
     # Store the possible sequences in a set to ensure no duplicates
     sequences = set()
-    
+
     # Perform depth-first search
     # current is an array of tiles chosen so far
     # remaining is an array of remaining tiles
@@ -49,26 +49,26 @@ def numTilePossibilities(self, tiles: str):
         # Convert it to string and add to sequences.
         if current != []:
             sequences.add("".join(current))
-            
+
         # If there are no letters remaining, we have exhausted all possible
         # sequences in this subtree and can return.
         if remaining == "":
             return
-        
+
         # For each letter in remaining, add it to current and find
         # possibilities that start with letters in the new current.
-        for i in range(len(remaining)): 
+        for i in range(len(remaining)):
             current.append(remaining[i])
             find_possibilities(current, remaining[:i] + remaining[i+1:])
             # After finding possibilities for new current, reset current
             # by popping the last-added letter, before appending the next
             # letter in remaining. This is the backtracking step.
-            current.pop() 
-    
-    # Kick off our search by providing an empty array for current and 
+            current.pop()
+
+    # Kick off our search by providing an empty array for current and
     # the original tiles string containing possible letters.
     find_possibilities([], tiles)
-    
+
     # Return the number of unique sequences that we found from our search.
     return len(sequences)
 ```
@@ -78,7 +78,7 @@ def numTilePossibilities(self, tiles: str):
 ### Pre-Class
 
 1. [https://leetcode.com/problems/generate-parentheses/](https://leetcode.com/problems/generate-parentheses/)
-   1. Hint: Consider [this slide](https://docs.google.com/presentation/d/1rpY5NnOvN7MKVLSI5NoU7LYySGVNRTC9Yptl9mtaXRY/edit#slide=id.g81c439b50b\_0\_93) on how we can prune invalid subtrees.
+   1. Hint: Consider [this slide](https://docs.google.com/presentation/d/1rpY5NnOvN7MKVLSI5NoU7LYySGVNRTC9Yptl9mtaXRY/edit#slide=id.g81c439b50b_0_93) on how we can prune invalid subtrees.
    2. Rocket Academy solution code: [https://pastebin.com/HMxZjpM7](https://pastebin.com/HMxZjpM7)
    3. Rocket Academy solution video: [https://youtu.be/MTqylosJ1ow?t=2022](https://youtu.be/MTqylosJ1ow?t=2022) until 57:25
 
@@ -91,4 +91,4 @@ def numTilePossibilities(self, tiles: str):
 
 ## Further Reading
 
-[Geeks for Geeks article](https://www.geeksforgeeks.org/backtracking-introduction/#:\~:text=Backtracking%20is%20an%20algorithmic%2Dtechnique,reaching%20any%20level%20of%20the). https://brilliant.org/wiki/recursive-backtracking/ https://www.hackerearth.com/practice/basic-programming/recursion/recursion-and-backtracking/tutorial/
+[Geeks for Geeks article](https://www.geeksforgeeks.org/backtracking-introduction/#:~:text=Backtracking%20is%20an%20algorithmic%2Dtechnique,reaching%20any%20level%20of%20the). https://brilliant.org/wiki/recursive-backtracking/ https://www.hackerearth.com/practice/basic-programming/recursion/recursion-and-backtracking/tutorial/

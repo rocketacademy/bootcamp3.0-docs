@@ -6,8 +6,8 @@
 
 By the end of this lesson, you should:
 
-* be familiar with hash functionality time and space complexity
-* understand some basic python algorithm techniques with hashes
+- be familiar with hash functionality time and space complexity
+- understand some basic python algorithm techniques with hashes
 
 ## Introduction
 
@@ -27,7 +27,7 @@ var obj = {
   height: 25,
 };
 // access a value
-console.log(obj['height']);
+console.log(obj["height"]);
 ```
 
 ```python

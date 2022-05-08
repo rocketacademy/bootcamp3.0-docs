@@ -6,11 +6,11 @@ Non-comparison sorting algorithms are interesting because if all the avlues in t
 
 # Counting Sort
 
-* Runtime: _**O(kn)**_
+- Runtime: _**O(kn)**_
 
 **k** is the highest integer in the array.
 
-```
+```python
 def countingSort(inputArray):
     # Find the maximum element in the inputArray
     maxEl = max(inputArray)
@@ -54,13 +54,13 @@ print("Counting sort result = ", sortedArray)
 
 # Radix Sort
 
-* Runtime: _**O(dkn)**_
+- Runtime: _**O(dkn)**_
 
 **d** is the number of times counting sort is run.
 
 Use the numbers in each "radix" or place to know how to sort the array.
 
-```
+```python
 def countingSortForRadix(inputArray, placeValue):
     # We can assume that the number of digits used to represent
     # all numbers on the placeValue position is not grater than 10

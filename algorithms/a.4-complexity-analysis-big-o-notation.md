@@ -16,17 +16,17 @@ We'll begin with this simple example and describe its properties.
 ```javascript
 // a function that takes an array as a parameter
 // and returns true if the array contains the integer 2
-function arrayHasTwo(arr){
-    // set a default value of not found
-    var found = false;
-    for(var i=0; i<arr.length; i++){
-        if( arr[i] === 2 ){
-            // if 2 is found, set to true
-            found = true;
-        }
+function arrayHasTwo(arr) {
+  // set a default value of not found
+  var found = false;
+  for (var i = 0; i < arr.length; i++) {
+    if (arr[i] === 2) {
+      // if 2 is found, set to true
+      found = true;
     }
-    // return result
-    return found;
+  }
+  // return result
+  return found;
 }
 ```
 
@@ -35,12 +35,12 @@ function arrayHasTwo(arr){
 When we run this code it could take differing amounts of time.
 
 ```javascript
-var list = [1,2,3,3];
+var list = [1, 2, 3, 3];
 
 // the function iterates 4 times in the loop
 var result = arrayHasTwo(list);
 
-var list2 = [1,2,3,4,5,6,7,8,9,3];
+var list2 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 3];
 
 // the function iterates 10 times in the loop
 var result2 = arrayHasTwo(list2);
@@ -56,17 +56,17 @@ If we plotted the growth of time and of data in _**n**_ on a graph it would look
 
 #### What are We Measuring?
 
-The Computer Science analysis of this speed / complexity makes no assumptions about the properties of this data, so it always assumes that the input data to the function can be zero to infinity length, as opposed to real-world data, which is very dependant on the specific case. The code that looks for a letter in the alphabet needs to be very different from the code that looks for a name amongst millions of users. Also note the lack of graph axis units in the figure above. The kind of measurement we're doing is called [asymptotic analysis.](https://en.wikipedia.org/wiki/Asymptotic\_analysis) It also assumes a theoretical "unit" of computation where the absolute time in seconds or hours doesn't matter. When we use Big-O to analyze code a naive approach would be to count each line of code and count each loop iteration or if a function is called that has a loop in it. Sometimes we'll count built-in functions such as `Array.unshift` because we'll know that the built-in function already has some inherent run-time complexity. (We'll note each of these special cases when they come up.)
+The Computer Science analysis of this speed / complexity makes no assumptions about the properties of this data, so it always assumes that the input data to the function can be zero to infinity length, as opposed to real-world data, which is very dependant on the specific case. The code that looks for a letter in the alphabet needs to be very different from the code that looks for a name amongst millions of users. Also note the lack of graph axis units in the figure above. The kind of measurement we're doing is called [asymptotic analysis.](https://en.wikipedia.org/wiki/Asymptotic_analysis) It also assumes a theoretical "unit" of computation where the absolute time in seconds or hours doesn't matter. When we use Big-O to analyze code a naive approach would be to count each line of code and count each loop iteration or if a function is called that has a loop in it. Sometimes we'll count built-in functions such as `Array.unshift` because we'll know that the built-in function already has some inherent run-time complexity. (We'll note each of these special cases when they come up.)
 
 ## Big-O
 
 So generally speaking, we measure the speed of a function or given section of code by counting the:
 
-* number of lines of code
-* iterations in a loop
-* also count functions that we know contain loops
+- number of lines of code
+- iterations in a loop
+- also count functions that we know contain loops
 
-In Computer Science, the definition of speed is more specific than that. There are several specific measures of speed, [including Big Theta and Big Omega](https://en.wikipedia.org/wiki/Big\_O\_notation#Related\_asymptotic\_notations), but we'll only be talking about Big-O. All of these notations define a mathematical expression for the speed behaviour of a function. We won't really be concerned with the mathematical definition of these, since for non-theoretical programs, Big-O is the most useful.
+In Computer Science, the definition of speed is more specific than that. There are several specific measures of speed, [including Big Theta and Big Omega](https://en.wikipedia.org/wiki/Big_O_notation#Related_asymptotic_notations), but we'll only be talking about Big-O. All of these notations define a mathematical expression for the speed behaviour of a function. We won't really be concerned with the mathematical definition of these, since for non-theoretical programs, Big-O is the most useful.
 
 ### Worst Case
 
@@ -77,29 +77,29 @@ If we edit our function above we can see how it becomes more efficient, but that
 ```javascript
 // a function that takes an array as a parameter
 // and returns true if the array contains the integer 2
-function arrayHasTwo(arr){
-    // set a default value of not found
-    // var found = false;
-    for(var i=0; i<arr.length; i++){
-        if( arr[i] === 2 ){
-            // if 2 is found, set to true
-            return true;
-        }
+function arrayHasTwo(arr) {
+  // set a default value of not found
+  // var found = false;
+  for (var i = 0; i < arr.length; i++) {
+    if (arr[i] === 2) {
+      // if 2 is found, set to true
+      return true;
     }
-    // return result
-    return false;
+  }
+  // return result
+  return false;
 }
 ```
 
 Then we can run our function:
 
 ```javascript
-var list = [1,2,4,4];
+var list = [1, 2, 4, 4];
 
 // the function iterates 4 times in the loop
 var result = arrayHasTwo(list);
 
-var list2 = [1,2,3,4,5,6,7,8,0,3];
+var list2 = [1, 2, 3, 4, 5, 6, 7, 8, 0, 3];
 
 // the function iterates 10 times in the loop
 var result2 = arrayHasTwo(list2);
@@ -122,35 +122,35 @@ When calculating the Big-O of a function we would consider whether the _iteratio
 ```javascript
 // a function that takes an array as a parameter
 // and returns true if the array contains the integer 2
-function arraysHaveTwo(arr1, arr2){
-    // set a default value of not found
-    var found1 = false;
-    for(let i=0; i<arr.length; i++){
-        if( arr[i] === 2 ){
-            // if 2 is found, set to true
-            found1 = true;
-        }
+function arraysHaveTwo(arr1, arr2) {
+  // set a default value of not found
+  var found1 = false;
+  for (let i = 0; i < arr.length; i++) {
+    if (arr[i] === 2) {
+      // if 2 is found, set to true
+      found1 = true;
     }
-    
-    var found2 = false;
+  }
 
-    for(let i=0; i<arr.length; i++){
-        if( arr[i] === 2 ){
-            // if 2 is found, set to true
-            found2 = true;
-        }
+  var found2 = false;
+
+  for (let i = 0; i < arr.length; i++) {
+    if (arr[i] === 2) {
+      // if 2 is found, set to true
+      found2 = true;
     }
-    return found1 && found2;
+  }
+  return found1 && found2;
 }
 ```
 
 Run the code:
 
 ```javascript
-var list = [1,2,4,4];
-var list2 = [1,2,3,4,5,6,7,8,0,3];
+var list = [1, 2, 4, 4];
+var list2 = [1, 2, 3, 4, 5, 6, 7, 8, 0, 3];
 
-var result = arraysHaveTwo(list1,list2);
+var result = arraysHaveTwo(list1, list2);
 ```
 
 Nor does _**n**_ necessarily increase if the loops are nested. In this example the loop will only ever run twice. So _**c**_ is 2, and for Big-O we would reduce **O(2**_**n**_**)** to **O(**_**n**_**)**.
@@ -158,31 +158,31 @@ Nor does _**n**_ necessarily increase if the loops are nested. In this example t
 ```javascript
 // a function that takes an array as a parameter
 // and returns true if the array contains the integer 2
-function arrayHasZeroOrOne(arr){
-    var found = false;
-    // run the array search twice
-    // once for zero, once for 1
-    for(let i=0; i<2; i++){
-        // set the value we want to find
-        var find = i;
-        
-        // look through the array
-        for(let i=0; i<arr.length; i++){
-            if( arr[i] === find ){
-                // if 2 is found, set to true
-                found = true;
-            }
-        }        
+function arrayHasZeroOrOne(arr) {
+  var found = false;
+  // run the array search twice
+  // once for zero, once for 1
+  for (let i = 0; i < 2; i++) {
+    // set the value we want to find
+    var find = i;
+
+    // look through the array
+    for (let i = 0; i < arr.length; i++) {
+      if (arr[i] === find) {
+        // if 2 is found, set to true
+        found = true;
+      }
     }
-    
-    return found;
+  }
+
+  return found;
 }
 ```
 
 Run the code:
 
 ```javascript
-var list = [1,2,3,4,5,6,7,8,0,3];
+var list = [1, 2, 3, 4, 5, 6, 7, 8, 0, 3];
 
 var result = arraysHaveTwo(list);
 ```
@@ -194,7 +194,7 @@ We'll be describing code (Python and JavaScript) functions and the mathematical 
 
 Although technically incorrect, we'll talk about _time, speed and complexity_ interchangeably, because, in the end, Big-O is telling us about the amount of time our code runs in. We don't need to worry about the theoretical distinction between these three words.
 
-The "O" in Big-O [apparently stands for "Order".](https://en.wikipedia.org/wiki/Big\_O\_notation#History\_\(Bachmann%E2%80%93Landau,\_Hardy,\_and\_Vinogradov\_notations\))
+The "O" in Big-O [apparently stands for "Order".](<https://en.wikipedia.org/wiki/Big_O_notation#History_(Bachmann%E2%80%93Landau,_Hardy,_and_Vinogradov_notations)>)
 {% endhint %}
 
 ### Space Complexity
@@ -204,13 +204,13 @@ The other thing we can measure with Big-O is the amount of space, or memory a fu
 ```javascript
 // a function that takes an array as a parameter
 // and returns true if the array contains the integer 2
-function buildArray(count){
-    // set a default value of not found
-    var result = [];
-    for(var i=0; i<count; i++){
-        result.push(Math.random());
-    }
-    return result
+function buildArray(count) {
+  // set a default value of not found
+  var result = [];
+  for (var i = 0; i < count; i++) {
+    result.push(Math.random());
+  }
+  return result;
 }
 ```
 
@@ -221,44 +221,44 @@ We can say that this function has **O(**_**n**_**)** complexity and also takes u
 Manipulating an array is also not the same as "taking up space". In the following code, although we create new variables for each loop iteration, we are not allocating any new space with this function. Thus it has a space complexity of **O(1)**.
 
 ```javascript
-function shuffleArray(array){
-    for(var i=0; i<array.length; i++){
-        // save the first element value
-        var temp = array[0];
-        var tempIndex = Math.floor( Math.random() * array.length );
-        // switch a random location into the first element
-        array[0] = array[tempIndex];
-        // replace the value in that random location
-        array[tempIndex] = temp;
-    }
-    // no need to return bc we did not allocate a
-    // new array- we manipulated this array by value.
-    //return array;
+function shuffleArray(array) {
+  for (var i = 0; i < array.length; i++) {
+    // save the first element value
+    var temp = array[0];
+    var tempIndex = Math.floor(Math.random() * array.length);
+    // switch a random location into the first element
+    array[0] = array[tempIndex];
+    // replace the value in that random location
+    array[tempIndex] = temp;
+  }
+  // no need to return bc we did not allocate a
+  // new array- we manipulated this array by value.
+  //return array;
 }
 ```
 
 When we call this function we don't need to capture the return value- we manipulated the array by reference- running the function hasn't taken any new space.
 
 ```javascript
-var list = [1,2,3,4,5,6,7,8,0,3];
+var list = [1, 2, 3, 4, 5, 6, 7, 8, 0, 3];
 console.log(list); //this is the original version of the array.
 shuffleArray(list);
-console.log(list); // this will be the shuffled array. 
+console.log(list); // this will be the shuffled array.
 ```
 
 ## Big-O Order of Complexity
 
 From the following chart by [Geeks for Geeks](https://www.geeksforgeeks.org/analysis-algorithms-big-o-analysis/), we can visualise the differences in complexity for various Big-O values from **O(1)** to **O(**_**n**_**!)**. This shows us that there is indeed a large difference between each level of Big-O complexity.
 
-![](../.gitbook/assets/image%20\(4\).png)
+![](<../.gitbook/assets/image%20(4).png>)
 
 ## What is a "good" algorithm?
 
-![](../.gitbook/assets/travelling\_salesman\_problem.png)
+![](../.gitbook/assets/travelling_salesman_problem.png)
 
 As defined above, the Big-O of a given function may seem like it's unviable or a "wrong" solution. However, many algorithms in the real-world run in "_bad_" or "_worst_" time complexity. The nature of the problem itself dictates the complexity of the solution, and there is no correct or incorrect solution to a problem.
 
-One of the most classically intractable Computer Science algorithm problems, the [Travelling Salesman Problem](https://en.wikipedia.org/wiki/Travelling\_salesman\_problem) is a kind of problem that has to be solved constantly in real life. [There is no perfect work-around](https://shotl.com/news/the-travelling-salesman-problem-in-the-modern-era) for the fact that it runs in a minimum of exponential time.
+One of the most classically intractable Computer Science algorithm problems, the [Travelling Salesman Problem](https://en.wikipedia.org/wiki/Travelling_salesman_problem) is a kind of problem that has to be solved constantly in real life. [There is no perfect work-around](https://shotl.com/news/the-travelling-salesman-problem-in-the-modern-era) for the fact that it runs in a minimum of exponential time.
 
 ## Big-O Common Functions
 
@@ -284,7 +284,7 @@ Also known as logarithmic or logn ("log n") time, **O(**_**logn**_**)** complexi
 
 #### Example: Find the element with value `x` in a sorted array
 
-Given a sorted input array of length _**n**_, find the position of an element with value **x**. A naïve solution would be to iterate over every element in the array until we find **x**, but this would run in **O(**_**n**_**) or linear time because we would need to search through n elements at most, in the event that x were at the end of the array. A more optimal solution would be to perform binary search over the array, which runs in O(log\_n**_\*\*) \*\*time. Binary search works by splitting a sorted array into halves recursively until it finds the relevant element. This would require us to compare at most on the order of **log(**_**n**_**) elements. For example, if my input array were numbers from 1 to 1000, e.g. \[1, 2, ..., 1000], to perform binary search on this array, I would first look for the middle element at index \_n**_**/2,** and compare it with **x**. If `x == arr[n/2]`, return `n/2` as the index of x. If `x > arr[n/2]`, repeat the same process on the right half of arr. If `x < arr[n/2]`, repeat the same process on the left half of `arr`. Read more about binary search [here](https://www.geeksforgeeks.org/binary-search/).
+Given a sorted input array of length _**n**_, find the position of an element with value **x**. A naïve solution would be to iterate over every element in the array until we find **x**, but this would run in **O(**_**n**_**) or linear time because we would need to search through n elements at most, in the event that x were at the end of the array. A more optimal solution would be to perform binary search over the array, which runs in O(log_n**_\*\*) \*\*time. Binary search works by splitting a sorted array into halves recursively until it finds the relevant element. This would require us to compare at most on the order of **log(**_**n**_**) elements. For example, if my input array were numbers from 1 to 1000, e.g. \[1, 2, ..., 1000], to perform binary search on this array, I would first look for the middle element at index \_n**_**/2,** and compare it with **x**. If `x == arr[n/2]`, return `n/2` as the index of x. If `x > arr[n/2]`, repeat the same process on the right half of arr. If `x < arr[n/2]`, repeat the same process on the left half of `arr`. Read more about binary search [here](https://www.geeksforgeeks.org/binary-search/).
 
 The above algorithm runs in **O(1)** space because it does not require additional variables beyond the input elements.
 
@@ -308,7 +308,7 @@ The above algorithm runs in **O(1)** space because it does not require additiona
 
 #### Example: Sort an unsorted array of numbers
 
-It's rare to invent a sorting algorithm from scratch. Computer scientists have been working on efficient sorting algorithms since the start of the field, and so far they have concluded that [Merge Sort](https://en.wikipedia.org/wiki/Merge\_sort) is the fastest sorting algorithm (in the worst case) that exists today, and it runs in **O(**_**n**_**log**_**n**_**)** time. Thus whenever we are given a problem to sort an unordered list, our first instinct should be to think that this could run in **O(**_**n**_**log**_**n**_**)** time.
+It's rare to invent a sorting algorithm from scratch. Computer scientists have been working on efficient sorting algorithms since the start of the field, and so far they have concluded that [Merge Sort](https://en.wikipedia.org/wiki/Merge_sort) is the fastest sorting algorithm (in the worst case) that exists today, and it runs in **O(**_**n**_**log**_**n**_**)** time. Thus whenever we are given a problem to sort an unordered list, our first instinct should be to think that this could run in **O(**_**n**_**log**_**n**_**)** time.
 
 Companies rarely ask candidates to implement sorting algorithms such as merge sort in interviews because it's the kind of answer that can be memorised. It doesn't hurt to memorise how common sorting algorithms such as merge sort work, but there's no need to spend too much time on them other than to understand how they work.
 

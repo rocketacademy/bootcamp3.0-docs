@@ -11,7 +11,7 @@ Sliding window algorithms typically allow us to iterate through an array or stri
 ### Pre-Class
 
 1. [https://leetcode.com/problems/sum-of-all-odd-length-subarrays/](https://leetcode.com/problems/sum-of-all-odd-length-subarrays/)
-   1. Hint: Would nested loops be helpful, an outer loop that determines the length of the subarray, and  an inner loop that sums all subarrays of a given length?
+   1. Hint: Would nested loops be helpful, an outer loop that determines the length of the subarray, and an inner loop that sums all subarrays of a given length?
    2. Rocket Academy solution code: [https://pastebin.com/apxLUSQh](https://pastebin.com/apxLUSQh)
 2. [https://leetcode.com/problems/max-consecutive-ones-iii/](https://leetcode.com/problems/max-consecutive-ones-iii/)
    1. Hint: What determines the start and end of the sliding window?
@@ -34,4 +34,3 @@ Sliding window algorithms typically allow us to iterate through an array or stri
 5. [https://leetcode.com/problems/number-of-subsequences-that-satisfy-the-given-sum-condition/](https://leetcode.com/problems/number-of-subsequences-that-satisfy-the-given-sum-condition/)
 6. [https://leetcode.com/problems/minimum-operations-to-reduce-x-to-zero/](https://leetcode.com/problems/minimum-operations-to-reduce-x-to-zero/)
 7. [https://leetcode.com/problems/longest-substring-without-repeating-characters/](https://leetcode.com/problems/longest-substring-without-repeating-characters/)
-

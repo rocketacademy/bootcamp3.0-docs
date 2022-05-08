@@ -14,16 +14,16 @@ There is no need to memorise the below sorting algorithms' implementation. Just 
 
 ### Selection Sort
 
-* Runtime: _**O(n²)**_
-* Space: _**O(1)**_
-* Sort In-Place: Yes
-* Stable: No
+- Runtime: _**O(n²)**_
+- Space: _**O(1)**_
+- Sort In-Place: Yes
+- Stable: No
 
 #### Attributes
 
-* good space complexity
-* simple code
-* slow for large lists / fast for small lists
+- good space complexity
+- simple code
+- slow for large lists / fast for small lists
 
 #### Selection Sort Pseudo Code
 
@@ -38,7 +38,7 @@ for each element in the array
 
 #### Selection Sort
 
-```
+```python
 from pprint import pprint
 
 A = [64, 25, 12, 22, 11]
@@ -73,7 +73,7 @@ pprint( result)
 
 #### Selection Sort with Prints
 
-```
+```python
 from pprint import pprint
 
 A = [64, 25, 12, 22, 11]
@@ -126,24 +126,24 @@ pprint( result)
 
 [https://www.programiz.com/dsa/selection-sort](https://www.programiz.com/dsa/selection-sort)
 
-[https://www.tutorialspoint.com/data\_structures\_algorithms/selection\_sort\_algorithm.htm](https://www.tutorialspoint.com/data\_structures\_algorithms/selection\_sort\_algorithm.htm)
+[https://www.tutorialspoint.com/data_structures_algorithms/selection_sort_algorithm.htm](https://www.tutorialspoint.com/data_structures_algorithms/selection_sort_algorithm.htm)
 
-[https://en.wikipedia.org/wiki/Insertion\_sort](https://en.wikipedia.org/wiki/Insertion\_sort)
+[https://en.wikipedia.org/wiki/Insertion_sort](https://en.wikipedia.org/wiki/Insertion_sort)
 
 ### Insertion Sort
 
-* Runtime: _**O(n²)**_
-* Space: _**O(1)**_
-* Sort In-Place: Yes
-* Stable: Yes
+- Runtime: _**O(n²)**_
+- Space: _**O(1)**_
+- Sort In-Place: Yes
+- Stable: Yes
 
 #### Attributes
 
-* good space complexity
-* simple code
-* slow for large lists / fast for small lists
-* good for nearly sorted lists - will exit early if list is done ("adaptive")
-* can sort while new items are being added to list ("online")
+- good space complexity
+- simple code
+- slow for large lists / fast for small lists
+- good for nearly sorted lists - will exit early if list is done ("adaptive")
+- can sort while new items are being added to list ("online")
 
 #### Insertion Sort Pseudo Code
 
@@ -159,7 +159,7 @@ for each element in the array, starting with the second element
 
 #### Insertion Sort
 
-```
+```python
 from pprint import pprint
 
 A = [64, 25, 12, 22, 11]
@@ -192,7 +192,7 @@ pprint( result)
 
 #### Insertion Sort with Prints
 
-```
+```python
 from pprint import pprint
 
 A = [64, 25, 12, 22, 11]
@@ -244,16 +244,16 @@ pprint( result)
 
 ### Bubble Sort
 
-* Runtime: _**O(n²)**_
-* Space: _**O(1)**_
-* Sort In-Place: Yes
-* Stable: Yes
+- Runtime: _**O(n²)**_
+- Space: _**O(1)**_
+- Sort In-Place: Yes
+- Stable: Yes
 
 #### Attributes
 
-* good space complexity
-* simple code
-* slow for large lists / fast for small lists
+- good space complexity
+- simple code
+- slow for large lists / fast for small lists
 
 Bubble sort is considered the "beginner's" sorting algorithm. It is slow and lacks the features of other naive algorithms. However, the pseudocode is simple and so it is used to introduce concepts of sorting algorithms.
 
@@ -270,7 +270,7 @@ for each element in an array
 
 #### Bubble Sort
 
-```
+```python
 from pprint import pprint
 
 A = [64, 25, 12, 22, 11]
@@ -302,7 +302,7 @@ pprint( result)
 
 #### Bubble Sort with Print
 
-```
+```python
 from pprint import pprint
 
 A = [64, 25, 12, 22, 11]
@@ -356,4 +356,4 @@ See more here: [https://stackoverflow.com/a/17271911/271932](https://stackoverfl
 
 [https://www.geeksforgeeks.org/bubble-sort/](https://www.geeksforgeeks.org/bubble-sort/)
 
-[https://en.wikipedia.org/wiki/Bubble\_sort](https://en.wikipedia.org/wiki/Bubble\_sort)
+[https://en.wikipedia.org/wiki/Bubble_sort](https://en.wikipedia.org/wiki/Bubble_sort)

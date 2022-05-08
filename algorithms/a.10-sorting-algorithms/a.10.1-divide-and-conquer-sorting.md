@@ -2,15 +2,15 @@
 
 ## Merge Sort
 
-* Runtime: _**O(nlogn)**_
-* Space: _**O(n)**_
-* Sort In-Place: No
-* Stable: Yes
+- Runtime: _**O(nlogn)**_
+- Space: _**O(n)**_
+- Sort In-Place: No
+- Stable: Yes
 
 **Attributes**
 
-* fast
-* usually implemented recursively
+- fast
+- usually implemented recursively
 
 **Divide and Conquer**
 
@@ -42,7 +42,7 @@ For every value in returned left_array, compare it to returned right_array
 
 **Merge Sort**
 
-```
+```python
 from pprint import pprint
 
 A = [64, 25, 12, 22, 11]
@@ -124,18 +124,18 @@ pprint( result)
 
 ## Quick Sort
 
-* Runtime: _**O(nlogn)**_
-* Space: _**O(1)**_
-* Sort In-Place: Yes
-* Stable: Yes
+- Runtime: _**O(nlogn)**_
+- Space: _**O(1)**_
+- Sort In-Place: Yes
+- Stable: Yes
 
 **Attributes**
 
-* fast
-* good space complexity
-* was used for the `sort` method in JavaScript
+- fast
+- good space complexity
+- was used for the `sort` method in JavaScript
 
-```
+```python
 from pprint import pprint
 
 A = [64, 25, 12, 22, 11]
@@ -159,7 +159,7 @@ def partition(array, begin_idx, end_idx):
             array[least_idx], array[j] =  array[j], array[least_idx]
             # advance least_idx
             least_idx = least_idx + 1
-            
+
 
     # put the pivot one ahead of the last least item found
     array[least_idx],array[end_idx] = array[end_idx],array[least_idx]
@@ -191,7 +191,7 @@ print(A)
 
 **Quick Sort with Comments**
 
-```
+```python
 from pprint import pprint
 
 A = [64, 25, 12, 22, 11]
@@ -210,7 +210,7 @@ def partition(array, begin_idx, end_idx):
         print(f'{array[j]} <= pivot|{pivot}|')
         # current element is less than pivot
         if array[j] <= pivot:
-            
+
             # swap j with this least item
             array[least_idx], array[j] =  array[j], array[least_idx]
             # advance least_idx bc we are about to put something there
@@ -275,10 +275,10 @@ print(A)
 
 #### Heap Sort
 
-* Runtime: _**O(nlogn)**_
-* Space: _**O(1)**_
-* Sort In-Place: Yes
-* Stable: Yes
+- Runtime: _**O(nlogn)**_
+- Space: _**O(1)**_
+- Sort In-Place: Yes
+- Stable: Yes
 
 Heap sort is on average slower and less commonly used than Merge Sort and Quick Sort
 
