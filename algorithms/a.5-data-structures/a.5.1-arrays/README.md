@@ -7,7 +7,7 @@
 
 ## Common array functions and runtimes
 
-Assume we start with the following example array `arr`.
+Assume we start with the following example array `arr`. Scroll right in the table below to see explanations.
 
 ```javascript
 const arr = [2, 1, 3];
