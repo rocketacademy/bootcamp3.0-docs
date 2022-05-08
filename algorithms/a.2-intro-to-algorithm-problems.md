@@ -8,6 +8,8 @@
 
 ## Introduction
 
+An algorithm is a series of steps to transform an input to an output. Algorithm problems require us to create an algorithm to perform a specific transformation.
+
 Algorithms are the most common SWE interview type and test for 3 things:
 
 1. Have we worked hard enough to get good at algos
