@@ -8,19 +8,19 @@
 
 ## Introduction
 
-Algorithm problems test 3 things:
+Algorithms are the most common SWE interview type and test for 3 things:
 
 1. Have we worked hard enough to get good at algos
-2. Are we able to logically deduce a solution to an algorithmic problem
-3. Are we able to communicate our thought processes clearly when solving a problem
+2. Can we logically deduce a solution
+3. Can we communicate our thought processes clearly
 
-Understanding the problem is half the battle, and we encourage asking as many questions as we need to our interviewer until we understand the problem.
+Understanding the problem is half the battle, and we encourage asking as many questions as needed to our interviewer until we understand the problem.
 
-Below are simple algorithm problems for us to understand their format and what to expect.
+Below are basic algorithm problems to understand their format and what to expect.
 
 ## Exercises
 
-Solve each exercise by writing a function that satisfies the requirements. You will need to create LeetCode and HackerRank accounts if you haven't already.
+Solve each exercise by writing a function that satisfies the requirements. You will need to create LeetCode and HackerRank accounts if you have not already.
 
 {% hint style="info" %}
 **Recommended learning strategy**
