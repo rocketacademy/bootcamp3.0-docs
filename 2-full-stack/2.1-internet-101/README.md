@@ -3,8 +3,8 @@
 ## Learning Objectives
 
 1. The internet is wires that connect computers
-2. The internet uses protocols such as TCP/IP and HTTP to transmit data reliably
-3. DNS translates human-readable URLs to IP addresses
+2. The internet uses protocols such as HTTP to transmit data reliably
+3. DNS translates human-readable URLs to IP addresses that identify computers on the network
 
 ## Introduction
 
@@ -12,43 +12,25 @@
 
 The internet consists of computers, wires and software that sends data between computers through wires.
 
+Internet pioneers developed software protocols that allow us to transmit arbitrary data across the internet reliably. [Internet governing bodies](https://www.ietf.org) are continuously upgrading these protocols.
 
+As app developers we do not need to understand these protocols in depth; this page runs through the most important aspects of internet protocols we need to know to build apps effectively.
 
-For Rocket's Bootcamp we'll focus on how to send and receive data across the Internet through Node.js. We will not delve too deep into the physical infrastructure or the networking software protocols used to connect computers. If you would like to read more about those topics, consider the [Further Reading](../2.1-computer-networking/2.7-internet-101.md#further-reading) section at the bottom of this page.
+## HTTP
 
-The majority of computer networking happens at the operating system level, i.e. underneath our programs, which translates data from our apps to and from "packets" that can be sent across the Internet. Before we learn to send data across the Internet in JS (which is relatively simple), we'll learn some core concepts about how this data transfer happens.
+[HTTP](https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview) (Hypertext Transfer Protocol) is the most common internet data-transfer protocol. We will use it to send data between our app frontends and backends, as well as between our apps and any 3rd-party [API](https://www.mulesoft.com/resources/api/what-is-an-api#:\~:text=API%20is%20the%20acronym%20for,you're%20using%20an%20API.) (Application Programming Interface) services to store or retrieve data.
 
-## What You Should Know
+HTTP consists of "requests" and "responses". Frontends (e.g. browsers, mobile apps, aka "clients") typically send "requests" to backends (aka "servers") to create, retrieve, update or delete data from a database. Backends send back "responses" with confirmations and relevant data.
 
-The software and protocols that connect together all the computers on the internet is very complicated. In this section we'll be going over some of the basic mechanisms that we'll need as we write actual JavaScript code, like TCP port. Most of the concepts we won't ever be writing code for and are just a demonstration of different networking properties, such as DNS, LANs and WANs and `ping` and `traceroute`. These inner workings of the internet are key concepts to absorb but are not directly related to application code that we will be doing in any projects. Hopefully our work with the [Chrome Networking Tools](../2.1-computer-networking/2.2.2-chrome-networking.md) and `ping` and `traceroute` will demonstrate the mechanics of how the internet works in a more concrete way.
+## Internet Addressing
 
-## Networking Protocols
+### URLs
 
-The Internet started as a small computer network where engineers designed "protocols" for computers to "talk" to each other. These protocols answered questions like the following.
+URLs (Uniform Resource Locators) are internet addresses. We will send HTTP requests with URLs to retrieve our frontends and communicate with our backends and 3rd-party APIs.
 
-1. What signals would the computers send?
-2. How would these signals handle slow or unreliable connections?
-3. What would happen when the receiving machine was turned off?
+![A URL consists of these key components. Source: Rocket Academy](<../../.gitbook/assets/2.1 - URL.jpg>)
 
-Networking protocols are rules for how computers talk to each other, implemented by the operating system so that any program can interface with the network. Files on our file systems work in a similar way, in that each operating system has rules for how it stores and manages files on the hard drive. When those rules are broken, files can become "corrupted" and un-openable. Similarly, when internet protocols are not followed, "packets" of data can become corrupted and un-readable.
-
-## TCP/IP
-
-There are multiple layers of protocols running on every computer to make apps like Chrome work. The lowest-level protocol we'll describe is **TCP/IP**, which stands for Transmission Control Protocol / Internet Protocol. This is the software that takes arbitrary data, splits it up into smaller, more manageable "packets", sends those packets across the network, and reconstructs them at the destination computer.
-
-During Rocket's Bootcamp we won't interface with TCP/IP directly, but we will want to understand some key concepts that make TCP/IP work.
-
-## IP Addresses
-
-![IP addresses allow any computer to reach any other computer on the network.](../.gitbook/assets/internet-2.jpg)
-
-TCP/IP defines addresses for each computer on the network such that each computer can be reached by any other computer. These addresses are known as **IP addresses**. IP addresses typically look like this: `126.234.123.5`, 4 sets of numbers from 0-255 separated by full stops. These are known as IPv4 addresses.
-
-There is a newer version of IP addresses [called IPv6](https://en.wikipedia.org/wiki/IPv6) with longer addresses and larger numbers. IPv6 addresses are less common today but will eventually become standard because IPv4 will not have enough addresses for all the computers on the Internet. IPv6 addresses look like this: `2001:db8:0:0:0:ff00:42:8329`.
-
-In Rocket's Bootcamp and when building apps, we will mostly only work with IP addresses directly when configuring cloud infrastructure. In other situations when we access data across the Internet, we will use domain names like www.rocketacademy.co as more user-friendly proxies for IP addresses. We will learn how domain names translate to IP addresses and vice versa with DNS.
-
-## Ports
+TODO: Ports
 
 On a given computer, many programs can be sending and receiving data across the Internet simultaneously, such as WhatsApp, Spotify, Windows Updates, Mac Updates, etc. When each computer only has 1 IP address, how does the operating system determine which data is for which application?
 
@@ -60,65 +42,19 @@ Ports are typically displayed as a number after IP addresses followed by a colon
 lsof -i -P -n | grep LISTEN
 ```
 
-![Apps communicate with addresses that include IP addresses and port numbers.](../.gitbook/assets/ports.jpg)
-
 When building apps, the servers that we host on the Internet to manage data will use ports to "listen" for requests from clients (e.g. browsers or apps). These requests will be like "commands" that tell our servers how to handle data. The port number in a destination address helps the server computer decide which server application to send the request to. For example, in the diagram above where there are 2 Node.js server applications running on the computer, the port numbers 3004 and 80 help the server computer decide which Node app to send the request to.
 
-## DNS
+### IP Addresses
 
-[DNS](https://en.wikipedia.org/wiki/Domain\_Name\_System) (Domain Name System) is a TCP/IP protocol that translates IP addresses to human-readable domain names and vice versa. DNS exists because most humans would find it easier to remember domain names like google.com and facebook.com than their respective IP addresses.
+URLs map to IP (Internet Protocol) addresses that identify individual or networks of computers on the internet. IP addresses are network-based, not computer-based, so if we connect our computer to a different network it will have a different IP address.
 
-The DNS system keeps a database of every domain name's IP address. When we enter google.com into our browser, the browser looks up the associated IP address so it can make the request to the correct computer.
+IP addresses typically consist of 4 numbers from 0-255 separated by `.`, for example `192.158.1.38`. These are known as "[IPv4](https://en.wikipedia.org/wiki/IPv4)" addresses and route most internet traffic today. The world is running out of IPv4 addresses and plans to transition to "[IPv6](https://en.wikipedia.org/wiki/IPv6\_address)" in the coming decades.
 
-The lookup happens in stages. For example, for www.google.com, the browser would following the following steps.
+### DNS
 
-1. Find the IP address of the top-level domain (also known as TLD), i.e. .com. TLD IP addresses are typically stored in our browsers because they do not change often.
-2. At the server representing .com, the DNS system would then find the address of google.com.
-3. At the server representing google.com, the DNS system would then try to look up www.google.com.
-4. Once the entire domain name has been "resolved", the browser sends a request to the final IP address for the relevant website data.
+[DNS](https://www.cloudflare.com/en-gb/learning/dns/what-is-dns/) (Domain Name System) translates domain names in URLs to IP addresses so our requests can reach the right servers. It's helpful to have domain names decoupled from IP addresses so we can change servers without changing domain names.&#x20;
 
-When we buy a domain name, e.g. mysite.com, and wish to host our web app there, we need to link our web app server's IP address with that domain name so that the global DNS system knows at which IP address to find our web app. Many website builders enable clickable configuration for this, but under the hood they are all creating "DNS Records" that map domain names to IP addresses in a global DNS system. We can buy domains from domain marketplaces like the one [here](https://www.namecheap.com/promos/99-cent-domain-names/).
-
-![Simplified diagram of DNS lookup for google.com before sending a request to google.com.](../.gitbook/assets/dns.jpg)
-
-Browsers typically save or "cache" IP addresses to frequently-visited websites to reduce DNS lookup time. Browsers also try to cache the contents of those sites for faster website load times. These cache entries are invalidated at regular intervals to ensure we always get the latest data.
-
-### Example
-
-The following command on the command line performs DNS lookup for the specified domain name (also known as host name).
-
-```
-host google.com
-```
-
-Notice there is more than 1 IP address for google.com. Google does this because google.com is a popular website that needs multiple computers to respond to requests. If 1 fails or is overloaded, the browser can try another.
-
-## HTTP
-
-HTTP (Hypertext Transfer Protocol) is a protocol built on top of TCP/IP to transfer data from 1 computer to another over the Internet. HTTP was invented to send HTML (Hypertext Markup Language); Today we use HTTP for all kinds of data.
-
-### Requests and Responses
-
-The original concept of HTTP was that a person would want to view an HTML page on their browser, and that person would "request" that page by sending an HTTP Request for the relevant HTML file at the relevant IP address. The server at that IP address would receive the request and send back the HTML file as part of an HTTP Response. The browser would then parse the HTML file render it. HTTP is now used for all kinds of data, but the underlying request and response mechanic is the same.
-
-In Rocket's Bootcamp and most of the applications we build in general, we will be using HTTP requests and responses to retrieve data across the Internet. This could be requests for HTML files triggered by typing rocketacademy.co in our browser, or requests for user data triggered by a login button in our app.
-
-### Other Protocols
-
-HTTP is the most popular but not the only protocol used on top of TCP/IP. The following are some others.
-
-1. [DHCP](https://en.wikipedia.org/wiki/Dynamic\_Host\_Configuration\_Protocol) configures our computers when they connect to routers.
-2. [SMTP](https://en.wikipedia.org/wiki/Simple\_Mail\_Transfer\_Protocol#:\~:text=The%20Simple%20Mail%20Transfer%20Protocol,send%20and%20receive%20mail%20messages.) is a default protocol for email.
-
-There have been many protocols that are now obsolete. [QOTD](https://en.wikipedia.org/wiki/QOTD) was a protocol to get a quote of the day.
-
-## URLs
-
-URLs (Uniform Resource Locators) are a standard way to reference resources on the internet. The following image is a URL with each of its components highlighted. We may not see all of these components in all URLs because many are implied. For example, if we type `rocketacademy.co` in our browsers, the https:// protocol and index.html path are implied.
-
-![Full URL with all its components](../.gitbook/assets/urls.jpg)
-
-The path component of a URL can be a path to a file on the server, e.g. index.html, or a designated address of a product, e.g. facebook.com/timeline. We typically use URL query parameters (the right-most component) to customise the result from the server at the given path.
+When we rent or buy a domain name and want to host our website or server there, we will need to add 1 or more "DNS records" to our domain to let DNS know where to find the server for our domain.
 
 ## LAN vs. WAN
 
@@ -172,6 +108,15 @@ Try `ping` and `traceroute` on the following domains. How long do each of the re
 8. rwandatel.rw
 
 ## Further Reading
+
+### Other Protocols
+
+1. [DHCP](https://en.wikipedia.org/wiki/Dynamic\_Host\_Configuration\_Protocol) configures our computers when they connect to routers.
+2. [SMTP](https://en.wikipedia.org/wiki/Simple\_Mail\_Transfer\_Protocol#:\~:text=The%20Simple%20Mail%20Transfer%20Protocol,send%20and%20receive%20mail%20messages.) is a default protocol for email.
+
+There have been many protocols that are now obsolete. [QOTD](https://en.wikipedia.org/wiki/QOTD) was a protocol to get a quote of the day.
+
+## Additional Resources
 
 1. See Stanford's [Intro to Networking course CS144](http://cs144.stanford.edu) for further reading on these topics. [Here](https://www.youtube.com/playlist?list=PLEAYkSg4uSQ2dr0XO\_Nwa5OcdEcaaELSG) is a playlist of past CS144 videos that past Coding Bootcamp students have found helpful.
 2. Past students have found [this video](https://www.youtube.com/watch?v=RDotMcs0Erg) helpful in introducing ports and how they are used.
