@@ -43,7 +43,7 @@
   * [Project 1: Frontend App](1-frontend/1.proj-frontend-app.md)
 * [2: Full Stack](2-full-stack/README.md)
   * [2.1: Internet 101](2-full-stack/2.1-internet-101/README.md)
-    * [2.1.1: Chrome Networking](2-full-stack/2.1-internet-101/2.1.1-chrome-networking.md)
+    * [2.1.1: Chrome DevTools Network Panel](2-full-stack/2.1-internet-101/2.1.1-chrome-devtools-network-panel.md)
     * [2.1.2: HTTP Requests and Responses](2-full-stack/2.1-internet-101/2.1.2-http-requests-and-responses.md)
     * [2.1.3: HTTP File Server](2-full-stack/2.1-internet-101/2.1.3-http-file-server.md)
     * [2.1.4: Thunder Client](2-full-stack/2.1-internet-101/2.1.4-thunder-client.md)
