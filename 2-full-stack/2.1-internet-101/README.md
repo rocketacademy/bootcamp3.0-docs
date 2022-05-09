@@ -1,22 +1,26 @@
-# 2.1: Computer Networking
+# 2.1: Internet 101
+
+## Learning Objectives
+
+1. The internet is wires that connect computers
+2. The internet uses protocols such as TCP/IP and HTTP to transmit data reliably
+3. DNS translates human-readable URLs to IP addresses
 
 ## Introduction
 
-![Map of the global undersea fiberoptic cables that carry internet traffic across the world.](../.gitbook/assets/image-20151102-16507-fs65z0.png)
+![Global map of submarine internet cables. Source: Ars Technica](<../../.gitbook/assets/2.1 - World Submarine Cable Map.png>)
 
-The Internet consists of the following 3 components.
+The internet consists of computers, wires and software that sends data between computers through wires.
 
-1. Computers.
-2. Physical infrastructure \(e.g. cables, modems, routers\) that connects these computers.
-3. Software on the computers that enables communication across this physical infrastructure.
 
-For Rocket's Bootcamp we'll focus on how to send and receive data across the Internet through Node.js. We will not delve too deep into the physical infrastructure or the networking software protocols used to connect computers. If you would like to read more about those topics, consider the [Further Reading](2.7-internet-101.md#further-reading) section at the bottom of this page.
 
-The majority of computer networking happens at the operating system level, i.e. underneath our programs, which translates data from our apps to and from "packets" that can be sent across the Internet. Before we learn to send data across the Internet in JS \(which is relatively simple\), we'll learn some core concepts about how this data transfer happens.
+For Rocket's Bootcamp we'll focus on how to send and receive data across the Internet through Node.js. We will not delve too deep into the physical infrastructure or the networking software protocols used to connect computers. If you would like to read more about those topics, consider the [Further Reading](../2.1-computer-networking/2.7-internet-101.md#further-reading) section at the bottom of this page.
+
+The majority of computer networking happens at the operating system level, i.e. underneath our programs, which translates data from our apps to and from "packets" that can be sent across the Internet. Before we learn to send data across the Internet in JS (which is relatively simple), we'll learn some core concepts about how this data transfer happens.
 
 ## What You Should Know
 
-The software and protocols that connect together all the computers on the internet is very complicated. In this section we'll be going over some of the basic mechanisms that we'll need as we write actual JavaScript code, like TCP port. Most of the concepts we won't ever be writing code for and are just a demonstration of different networking properties, such as DNS, LANs and WANs and `ping` and `traceroute`. These inner workings of the internet are key concepts to absorb but are not directly related to application code that we will be doing in any projects. Hopefully our work with the [Chrome Networking Tools](2.2.2-chrome-networking.md) and `ping` and `traceroute` will demonstrate the mechanics of how the internet works in a more concrete way.
+The software and protocols that connect together all the computers on the internet is very complicated. In this section we'll be going over some of the basic mechanisms that we'll need as we write actual JavaScript code, like TCP port. Most of the concepts we won't ever be writing code for and are just a demonstration of different networking properties, such as DNS, LANs and WANs and `ping` and `traceroute`. These inner workings of the internet are key concepts to absorb but are not directly related to application code that we will be doing in any projects. Hopefully our work with the [Chrome Networking Tools](../2.1-computer-networking/2.2.2-chrome-networking.md) and `ping` and `traceroute` will demonstrate the mechanics of how the internet works in a more concrete way.
 
 ## Networking Protocols
 
@@ -48,27 +52,27 @@ In Rocket's Bootcamp and when building apps, we will mostly only work with IP ad
 
 On a given computer, many programs can be sending and receiving data across the Internet simultaneously, such as WhatsApp, Spotify, Windows Updates, Mac Updates, etc. When each computer only has 1 IP address, how does the operating system determine which data is for which application?
 
-TCP/IP uses **ports** to determine which application receives which data. [Here](https://en.wikipedia.org/wiki/List_of_TCP_and_UDP_port_numbers) is a comprehensive list. Occasionally multiple applications will use the same port, in which case we may need to close the others for any to work. This is rare for popular applications.
+TCP/IP uses **ports** to determine which application receives which data. [Here](https://en.wikipedia.org/wiki/List\_of\_TCP\_and\_UDP\_port\_numbers) is a comprehensive list. Occasionally multiple applications will use the same port, in which case we may need to close the others for any to work. This is rare for popular applications.
 
-Ports are typically displayed as a number after IP addresses followed by a colon \(`:`\). We can use the following command to see all processes listening on specific ports on our computers.
+Ports are typically displayed as a number after IP addresses followed by a colon (`:`). We can use the following command to see all processes listening on specific ports on our computers.
 
-```text
+```
 lsof -i -P -n | grep LISTEN
 ```
 
 ![Apps communicate with addresses that include IP addresses and port numbers.](../.gitbook/assets/ports.jpg)
 
-When building apps, the servers that we host on the Internet to manage data will use ports to "listen" for requests from clients \(e.g. browsers or apps\). These requests will be like "commands" that tell our servers how to handle data. The port number in a destination address helps the server computer decide which server application to send the request to. For example, in the diagram above where there are 2 Node.js server applications running on the computer, the port numbers 3004 and 80 help the server computer decide which Node app to send the request to.
+When building apps, the servers that we host on the Internet to manage data will use ports to "listen" for requests from clients (e.g. browsers or apps). These requests will be like "commands" that tell our servers how to handle data. The port number in a destination address helps the server computer decide which server application to send the request to. For example, in the diagram above where there are 2 Node.js server applications running on the computer, the port numbers 3004 and 80 help the server computer decide which Node app to send the request to.
 
 ## DNS
 
-[DNS](https://en.wikipedia.org/wiki/Domain_Name_System) \(Domain Name System\) is a TCP/IP protocol that translates IP addresses to human-readable domain names and vice versa. DNS exists because most humans would find it easier to remember domain names like google.com and facebook.com than their respective IP addresses.
+[DNS](https://en.wikipedia.org/wiki/Domain\_Name\_System) (Domain Name System) is a TCP/IP protocol that translates IP addresses to human-readable domain names and vice versa. DNS exists because most humans would find it easier to remember domain names like google.com and facebook.com than their respective IP addresses.
 
 The DNS system keeps a database of every domain name's IP address. When we enter google.com into our browser, the browser looks up the associated IP address so it can make the request to the correct computer.
 
 The lookup happens in stages. For example, for www.google.com, the browser would following the following steps.
 
-1. Find the IP address of the top-level domain \(also known as TLD\), i.e. .com. TLD IP addresses are typically stored in our browsers because they do not change often.
+1. Find the IP address of the top-level domain (also known as TLD), i.e. .com. TLD IP addresses are typically stored in our browsers because they do not change often.
 2. At the server representing .com, the DNS system would then find the address of google.com.
 3. At the server representing google.com, the DNS system would then try to look up www.google.com.
 4. Once the entire domain name has been "resolved", the browser sends a request to the final IP address for the relevant website data.
@@ -81,9 +85,9 @@ Browsers typically save or "cache" IP addresses to frequently-visited websites t
 
 ### Example
 
-The following command on the command line performs DNS lookup for the specified domain name \(also known as host name\).
+The following command on the command line performs DNS lookup for the specified domain name (also known as host name).
 
-```text
+```
 host google.com
 ```
 
@@ -91,7 +95,7 @@ Notice there is more than 1 IP address for google.com. Google does this because 
 
 ## HTTP
 
-HTTP \(Hypertext Transfer Protocol\) is a protocol built on top of TCP/IP to transfer data from 1 computer to another over the Internet. HTTP was invented to send HTML \(Hypertext Markup Language\); Today we use HTTP for all kinds of data.
+HTTP (Hypertext Transfer Protocol) is a protocol built on top of TCP/IP to transfer data from 1 computer to another over the Internet. HTTP was invented to send HTML (Hypertext Markup Language); Today we use HTTP for all kinds of data.
 
 ### Requests and Responses
 
@@ -103,22 +107,22 @@ In Rocket's Bootcamp and most of the applications we build in general, we will b
 
 HTTP is the most popular but not the only protocol used on top of TCP/IP. The following are some others.
 
-1. [DHCP](https://en.wikipedia.org/wiki/Dynamic_Host_Configuration_Protocol) configures our computers when they connect to routers.
-2. [SMTP](https://en.wikipedia.org/wiki/Simple_Mail_Transfer_Protocol#:~:text=The%20Simple%20Mail%20Transfer%20Protocol,send%20and%20receive%20mail%20messages.) is a default protocol for email.
+1. [DHCP](https://en.wikipedia.org/wiki/Dynamic\_Host\_Configuration\_Protocol) configures our computers when they connect to routers.
+2. [SMTP](https://en.wikipedia.org/wiki/Simple\_Mail\_Transfer\_Protocol#:\~:text=The%20Simple%20Mail%20Transfer%20Protocol,send%20and%20receive%20mail%20messages.) is a default protocol for email.
 
 There have been many protocols that are now obsolete. [QOTD](https://en.wikipedia.org/wiki/QOTD) was a protocol to get a quote of the day.
 
 ## URLs
 
-URLs \(Uniform Resource Locators\) are a standard way to reference resources on the internet. The following image is a URL with each of its components highlighted. We may not see all of these components in all URLs because many are implied. For example, if we type `rocketacademy.co` in our browsers, the https:// protocol and index.html path are implied.
+URLs (Uniform Resource Locators) are a standard way to reference resources on the internet. The following image is a URL with each of its components highlighted. We may not see all of these components in all URLs because many are implied. For example, if we type `rocketacademy.co` in our browsers, the https:// protocol and index.html path are implied.
 
 ![Full URL with all its components](../.gitbook/assets/urls.jpg)
 
-The path component of a URL can be a path to a file on the server, e.g. index.html, or a designated address of a product, e.g. facebook.com/timeline. We typically use URL query parameters \(the right-most component\) to customise the result from the server at the given path.
+The path component of a URL can be a path to a file on the server, e.g. index.html, or a designated address of a product, e.g. facebook.com/timeline. We typically use URL query parameters (the right-most component) to customise the result from the server at the given path.
 
 ## LAN vs. WAN
 
-Our computers typically connect to the Internet via a router provided by our ISP \(Internet Service Provider\). All computers connected to the same router are typically connected via LAN \(Local Area Network\). The router forwards traffic from the LAN to the WAN \(Wide Area Network\), i.e. the broader Internet. This helps prevents unwanted traffic from accessing our computers, and aggregate Internet connections for simplicity of the Internet.
+Our computers typically connect to the Internet via a router provided by our ISP (Internet Service Provider). All computers connected to the same router are typically connected via LAN (Local Area Network). The router forwards traffic from the LAN to the WAN (Wide Area Network), i.e. the broader Internet. This helps prevents unwanted traffic from accessing our computers, and aggregate Internet connections for simplicity of the Internet.
 
 ![Our routers forward requests to the ISP, which is directly connected to the internet.](../.gitbook/assets/wan-lan.jpg)
 
@@ -126,11 +130,11 @@ Our computers typically connect to the Internet via a router provided by our ISP
 
 Computers typically have a LAN IP address, and routers typically have a WAN IP address. The LAN IP address is used by routers to send responses from the Internet to the correct computers in the LAN. The WAN IP address is shared by computers connected to our router, and is how computers on the Internet identify us.
 
-`ifconfig` \(interface configuration\) is a command line program that reveals the LAN IP address of our computer. If on Windows and running Ubuntu, we will need to [install `ifconfig`](http://geekstuff.org/2018/06/09/ifconfig-missing-in-ubuntu-18-04/#:~:text=You%20may%20install%20ifconfig%20utility,information%20about%20your%20network%20configuration.) with `sudo apt install net-tools` before running it. `en0` is typically the interface with our current LAN IP address.
+`ifconfig` (interface configuration) is a command line program that reveals the LAN IP address of our computer. If on Windows and running Ubuntu, we will need to [install `ifconfig`](http://geekstuff.org/2018/06/09/ifconfig-missing-in-ubuntu-18-04/#:\~:text=You%20may%20install%20ifconfig%20utility,information%20about%20your%20network%20configuration.) with `sudo apt install net-tools` before running it. `en0` is typically the interface with our current LAN IP address.
 
 ![Akira's computer has LAN IP address 192.168.0.195. Not accessible on Internet because LAN.](../.gitbook/assets/screen-shot-2020-11-02-at-9.13.00-pm.png)
 
-We can visit [https://whatismyipaddress.com/](https://whatismyipaddress.com/) to verify what our current WAN IP address is. When we visit websites, those sites have access to the source of our requests, i.e. our WAN address, but not our LAN address.
+We can visit [https://whatismyipaddress.com/](https://whatismyipaddress.com) to verify what our current WAN IP address is. When we visit websites, those sites have access to the source of our requests, i.e. our WAN address, but not our LAN address.
 
 Notice LAN and WAN IP addresses are different. This is to protect our privacy and to streamline the Internet.
 
@@ -140,7 +144,7 @@ Notice LAN and WAN IP addresses are different. This is to protect our privacy an
 
 [Ping](https://linux.die.net/man/8/ping) is a networking utility used to test if a computer is reachable on the network. It does not use a port because it is not trying to reach an application inside the computer, only that computer's networking software. Different domains may take a different amounts of time to respond, depending on how far away the servers are.
 
-```text
+```
 ping google.com
 ```
 
@@ -148,7 +152,7 @@ ping google.com
 
 [Traceroute](https://en.wikipedia.org/wiki/Traceroute) reveals the servers our TCP/IP packets travel through on the way to their destination.
 
-```text
+```
 traceroute google.com
 ```
 
@@ -169,6 +173,6 @@ Try `ping` and `traceroute` on the following domains. How long do each of the re
 
 ## Further Reading
 
-1. See Stanford's [Intro to Networking course CS144](http://cs144.stanford.edu/) for further reading on these topics. [Here](https://www.youtube.com/playlist?list=PLEAYkSg4uSQ2dr0XO_Nwa5OcdEcaaELSG) is a playlist of past CS144 videos that past Coding Bootcamp students have found helpful.
+1. See Stanford's [Intro to Networking course CS144](http://cs144.stanford.edu) for further reading on these topics. [Here](https://www.youtube.com/playlist?list=PLEAYkSg4uSQ2dr0XO\_Nwa5OcdEcaaELSG) is a playlist of past CS144 videos that past Coding Bootcamp students have found helpful.
 2. Past students have found [this video](https://www.youtube.com/watch?v=RDotMcs0Erg) helpful in introducing ports and how they are used.
 3. Past students have found [this video](https://youtu.be/AEaKrq3SpW8) helpful as a crash course to the Internet.
