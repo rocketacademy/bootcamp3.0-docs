@@ -1,4 +1,4 @@
-# 0.4.5: Promises
+# 0.4.6: Promises
 
 ## Learning Objectives
 
@@ -7,7 +7,7 @@
 
 ## Introduction
 
-JavaScript Promises allow us to program logic to run after asynchronous function calls return, for example if we wanted to highlight a like button after we have saved the "like" in our database. The same logic would be possible with callback functions, but promises allow us to achieve the same functionality with at most 1 level of nesting.&#x20;
+JavaScript Promises allow us to program logic to run after asynchronous function calls return, for example if we wanted to highlight a like button after we have saved the "like" in our database. The same logic would be possible with callback functions, but promises allow us to achieve the same functionality with at most 1 level of nesting.
 
 ## Example with Axios
 
@@ -15,7 +15,7 @@ JavaScript Promises allow us to program logic to run after asynchronous function
 
 ### `.then` Method
 
-The function `axios.get` sends a GET request and returns a promise, on which we then call the promise's `.then` method to perform certain logic only when the GET request is complete, i.e. when we receive a response. 3rd-party asynchronous functions such as `axios.get` often return promises for this purpose, and when unsure we can check their [online documentation](https://axios-http.com/docs/api_intro).
+The function `axios.get` sends a GET request and returns a promise, on which we then call the promise's `.then` method to perform certain logic only when the GET request is complete, i.e. when we receive a response. 3rd-party asynchronous functions such as `axios.get` often return promises for this purpose, and when unsure we can check their [online documentation](https://axios-http.com/docs/api\_intro).
 
 The following code sends a request, then `console.log`s the response when the response is received.
 
@@ -47,7 +47,7 @@ const getRequestPromise = axios.get("http://dog.ceo/api/breeds/image/random");
 getRequestPromise.then(handleResponse);
 ```
 
-Note that `handleResponse` receives a `response` parameter. Because the above promise is for an Axios request, the callback function receives an [Axios response object](https://axios-http.com/docs/res_schema) as a parameter.
+Note that `handleResponse` receives a `response` parameter. Because the above promise is for an Axios request, the callback function receives an [Axios response object](https://axios-http.com/docs/res\_schema) as a parameter.
 
 ### Sequential Promises
 
@@ -65,7 +65,7 @@ axios
   .then((response) => console.log("success!"));
 ```
 
-`.then` always returns a promise, regardless of whether the callback function passed to `.then` returns nothing, a promise, or anything else. Hence we can always call `.then` on the return value of any `.then` call. See [`.then` docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise/then) for a more detailed description of this behaviour.
+`.then` always returns a promise, regardless of whether the callback function passed to `.then` returns nothing, a promise, or anything else. Hence we can always call `.then` on the return value of any `.then` call. See [`.then` docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global\_Objects/Promise/then) for a more detailed description of this behaviour.
 
 ## Additional Resources
 
