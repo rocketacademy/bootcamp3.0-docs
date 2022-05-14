@@ -18,7 +18,7 @@ Rocket recommends the following 3 steps to unblock ourselves when blocked on a p
 
 Students will need to use Google as a resource to solve problems not explained in Rocket's curriculum. Rocket will do our best to document the most common mistakes, but it would be impossible to document all. Professional SWEs spend most time finding answers on Google, and googling effectively may be your most important takeaway from Bootcamp.
 
-When searching on Google, generally search for a combination of your error message and relevant technology name. For example, "Trying to access property of undefined JavaScript". This will allow Google to share results for the specific error we are seeing for the specific technology.
+When searching on Google, generally search for a combination of your error message and relevant technology name. For example, "Uncaught TypeError: Cannot read properties of null JavaScript" (JavaScript is the technology in this example). This will allow Google to share results for the specific error we are seeing for the specific technology.
 
 With experience you will know when you are on the right track. Often it takes multiple permutations of Google search keywords to find the answer we are looking for. The goal when reading documentation, Stack Overflow or forum answers is to find relevant information as quickly as possible without reading more than necessary.
 
