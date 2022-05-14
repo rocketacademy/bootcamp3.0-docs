@@ -30,4 +30,4 @@ Software engineering at Google
 
 ## Interview Guides
 
-1. [Tech Interview Handbook](https://www.techinterviewhandbook.org)
+1. [Tech Interview Handbook](https://www.techinterviewhandbook.org/)
