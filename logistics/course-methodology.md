@@ -4,52 +4,11 @@
 
 Rocket adopts a flipped-classroom model where Rocket expects students to review lectures and course materials before class, and spend class time clarifying concepts and completing exercises with the guidance of a section leader.
 
-## How to unblock yourself
-
-### General tips
-
-Rocket recommends the following 3 steps to unblock ourselves when blocked on a problem.
-
-1. Trace the error message. What could be causing this error message? If we address that and there is another error message, keep addressing until there are no more error messages. If you do not see an error message, find where it is and/or find a way to give yourself more clues, e.g. with `console.log` statements.
-2. Google the error message and context, e.g. "PropTypes not defined React". Skim through Google results and dig deeper in results that seem more promising.
-3. Ask your peers and section leader in your section Slack channel, sharing context about the problem and what you've learnt from Steps 1 and 2 above. Context will allow them to help you. Rocket mostly uses mainstream technologies and our problems will not be overly difficult.
-
-### How to use Google
+## Using Google as a Resource
 
 Students will need to use Google as a resource to solve problems not explained in Rocket's curriculum. Rocket will do our best to document the most common mistakes, but it would be impossible to document all. Professional SWEs spend most time finding answers on Google, and googling effectively may be your most important takeaway from Bootcamp.
 
-When searching on Google, generally search for a combination of your error message and relevant technology name. For example, "Uncaught TypeError: Cannot read properties of null JavaScript" (JavaScript is the technology in this example). This will allow Google to share results for the specific error we are seeing for the specific technology.
-
 With experience you will know when you are on the right track. Often it takes multiple permutations of Google search keywords to find the answer we are looking for. The goal when reading documentation, Stack Overflow or forum answers is to find relevant information as quickly as possible without reading more than necessary.
-
-### How to ask questions to get help
-
-Always provide context with questions. Helpful context for technical questions can include:
-
-1. What is the error message?
-2. What do you think is the problem?
-3. What have you learnt from debugging and googling?
-4. What is the relevant code causing the problem?
-
-Compare the following 3 questions. Notice how it becomes much easier to help someone the more context we have about their problem.
-
-#### Question 1: No context
-
-> "My code is not working. Please help!"
-
-#### Question 2: Incomplete context
-
-> "My code is not working. I'm getting the error "Uncaught TypeError: Cannot read properties of null (reading 'rank')". Please help!"
-
-#### Question 3: Full context
-
-> "I'm getting the error 'Uncaught TypeError: Cannot read properties of null (reading 'rank')' on line 3. On line 3 I'm accessing a property of object `card` from my card deck. Googling tells me that `card` must be `null`, but I am not sure why. I've attached the relevant code below. Any suggestions?"
->
-> ```javascript
-> const cardDeck = [null];
-> const card = cardDeck[0];
-> console.log(card.rank);
-> ```
 
 ## Difficulty Levels
 
