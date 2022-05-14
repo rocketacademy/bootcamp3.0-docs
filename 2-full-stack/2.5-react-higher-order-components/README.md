@@ -1,4 +1,4 @@
-# 2.5: React Higher-Order Components
+# 2.3.3: Higher-Order Components
 
 ## Introduction
 
