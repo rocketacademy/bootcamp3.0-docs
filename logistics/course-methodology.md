@@ -10,7 +10,7 @@ Rocket adopts a flipped-classroom model where Rocket expects students to review 
 
 Rocket recommends the following 3 steps to unblock ourselves when blocked on a problem.
 
-1. Trace the error message. What could be causing this error message? If we address that and there is another error message, keep addressing until there are no more error messages. If you do not see an error message, where can we find the relevant error message?
+1. Trace the error message. What could be causing this error message? If we address that and there is another error message, keep addressing until there are no more error messages. If you do not see an error message, find where it is and/or find a way to give yourself more clues, e.g. with `console.log` statements.
 2. Google the error message and context, e.g. "PropTypes not defined React". Skim through Google results and dig deeper in results that seem more promising.
 3. Ask your peers and section leader in your section Slack channel, sharing context about the problem and what you've learnt from Steps 1 and 2 above. Context will allow them to help you. Rocket mostly uses mainstream technologies and our problems will not be overly difficult.
 
