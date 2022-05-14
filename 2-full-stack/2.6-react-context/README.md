@@ -1,4 +1,4 @@
-# 2.3.4: Context
+# 2.6: React Context
 
 ## Introduction
 

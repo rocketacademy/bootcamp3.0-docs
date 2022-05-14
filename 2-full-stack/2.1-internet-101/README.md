@@ -12,13 +12,13 @@
 
 The internet consists of computers, wires and software that sends data between computers through wires.
 
-Internet pioneers developed software protocols that allow us to transmit data across the internet reliably. [Internet governing bodies](https://www.ietf.org/) are continuously upgrading these protocols.
+Internet pioneers developed software protocols that allow us to transmit data across the internet reliably. [Internet governing bodies](https://www.ietf.org) are continuously upgrading these protocols.
 
 As app developers we do not need to understand these protocols in depth. This page runs through the most important aspects of internet protocols we need to build apps effectively.
 
 ## HTTP
 
-[HTTP](https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview) (Hypertext Transfer Protocol) is the most common internet data-transfer protocol. We will use it to send data between our app frontends and backends, as well as between our apps and any 3rd-party [API](https://www.mulesoft.com/resources/api/what-is-an-api) (Application Programming Interface) services to store or retrieve data.
+[HTTP](https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview) (Hypertext Transfer Protocol) is the most common internet data-transfer protocol. We will use it to send data between our app frontends and backends, as well as between our apps and any 3rd-party [API](https://www.mulesoft.com/resources/api/what-is-an-api#:\~:text=API%20is%20the%20acronym%20for,you're%20using%20an%20API.) (Application Programming Interface) services to store or retrieve data.
 
 HTTP consists of "requests" and "responses". Frontends (e.g. browsers, mobile apps, aka "clients") typically send "requests" to backends (aka "servers") to create, retrieve, update or delete data from a database. Backends send back "responses" with confirmations and relevant data.
 

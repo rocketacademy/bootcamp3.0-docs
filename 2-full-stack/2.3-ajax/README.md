@@ -1,4 +1,4 @@
-# 2.4: AJAX
+# 2.3: AJAX
 
 ## Introduction
 
@@ -14,12 +14,12 @@ Note that using AJAX means we don't need to encapsulate our input elements in HT
 
 ## Models
 
-Two new tables have been added to the app, Order and OrderItem: [https://github.com/rocketacademy/react-ecom-bootcamp/compare/orders?expand=1#diff-dbb9ac5aa07bd02d31bee46df2f2710c29b54193ab29aa1274c6e6afd9215c8dR28](https://github.com/rocketacademy/react-ecom-bootcamp/compare/orders?expand=1#diff-dbb9ac5aa07bd02d31bee46df2f2710c29b54193ab29aa1274c6e6afd9215c8dR28)
+Two new tables have been added to the app, Order and OrderItem: [https://github.com/rocketacademy/react-ecom-bootcamp/compare/orders?expand=1\#diff-dbb9ac5aa07bd02d31bee46df2f2710c29b54193ab29aa1274c6e6afd9215c8dR28](https://github.com/rocketacademy/react-ecom-bootcamp/compare/orders?expand=1#diff-dbb9ac5aa07bd02d31bee46df2f2710c29b54193ab29aa1274c6e6afd9215c8dR28)
 
 ## Controllers
 
-A new controller that accepts the POST request has been created. It creates the order and records all the items in the order: [https://github.com/rocketacademy/react-ecom-bootcamp/compare/orders?expand=1#diff-0e4202fb0b6b446b3b4affc9186952c3794c9bb51764ffe601bf520a9d9788f3R11](https://github.com/rocketacademy/react-ecom-bootcamp/compare/orders?expand=1#diff-0e4202fb0b6b446b3b4affc9186952c3794c9bb51764ffe601bf520a9d9788f3R11)
+A new controller that accepts the POST request has been created. It creates the order and records all the items in the order: [https://github.com/rocketacademy/react-ecom-bootcamp/compare/orders?expand=1\#diff-0e4202fb0b6b446b3b4affc9186952c3794c9bb51764ffe601bf520a9d9788f3R11](https://github.com/rocketacademy/react-ecom-bootcamp/compare/orders?expand=1#diff-0e4202fb0b6b446b3b4affc9186952c3794c9bb51764ffe601bf520a9d9788f3R11)
 
 ## Cart Component
 
-A button has been added to the Cart component that "checks out" the user. This button makes the request to check out. After the request response has come back, we empty the cart and display a message: [https://github.com/rocketacademy/react-ecom-bootcamp/compare/orders?expand=1#diff-5b736dbb0110ddcf3dd6a76d9abaa8d1ad9311a4516693a5d7c948053aa9aad1R37](https://github.com/rocketacademy/react-ecom-bootcamp/compare/orders?expand=1#diff-5b736dbb0110ddcf3dd6a76d9abaa8d1ad9311a4516693a5d7c948053aa9aad1R37)
+A button has been added to the Cart component that "checks out" the user. This button makes the request to check out. After the request response has come back, we empty the cart and display a message: [https://github.com/rocketacademy/react-ecom-bootcamp/compare/orders?expand=1\#diff-5b736dbb0110ddcf3dd6a76d9abaa8d1ad9311a4516693a5d7c948053aa9aad1R37](https://github.com/rocketacademy/react-ecom-bootcamp/compare/orders?expand=1#diff-5b736dbb0110ddcf3dd6a76d9abaa8d1ad9311a4516693a5d7c948053aa9aad1R37)

@@ -22,7 +22,7 @@ Standard "get to know you" interviews. Be yourself and show you care by asking y
 
 ## Algorithm Interview
 
-Most typical SWE interview. Typically consists of solving an algorithm problem in 30-60 minutes in a language of our choice. See [LeetCode](https://leetcode.com/) and [HackerRank](https://www.hackerrank.com/) for examples.
+Most typical SWE interview. Typically consists of solving an algorithm problem in 30-60 minutes in a language of our choice. See [LeetCode](https://leetcode.com) and [HackerRank](https://www.hackerrank.com) for examples.
 
 Algorithm problems have a fixed number of common patterns we can master with practice. We will practice algorithms throughout Bootcamp to familiarise ourselves with common patterns.
 

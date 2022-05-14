@@ -189,6 +189,6 @@ Please do not store code in folders synced to cloud storage such as Google Drive
 
 We will use the following software accounts during Bootcamp.
 
-1. [Codecademy](https://www.codecademy.com/)
-2. [LeetCode](https://leetcode.com/)
-3. [HackerRank](https://www.hackerrank.com/)
+1. [Codecademy](https://www.codecademy.com)
+2. [LeetCode](https://leetcode.com)
+3. [HackerRank](https://www.hackerrank.com)
