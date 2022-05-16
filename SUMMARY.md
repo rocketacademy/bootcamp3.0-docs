@@ -65,6 +65,7 @@
     * [2.E.2: Instagram Posts](2-full-stack/2.e-exercises/2.e.2-instagram-posts.md)
     * [2.E.3: Instagram Auth](2-full-stack/2.e-exercises/2.e.3-instagram-auth.md)
     * [2.E.4: Instagram Routes](2-full-stack/2.e-exercises/2.e.4-instagram-routes.md)
+    * [2.E.5: Weather App](2-full-stack/2.e-exercises/2.e.5-weather-app.md)
   * [2.P: Full-Stack App (Firebase)](2-full-stack/2.p-full-stack-app-firebase.md)
 * [3: Backend](3-backend/README.md)
   * [3.1: Express.js](3-backend/3.1-express.js/README.md)
