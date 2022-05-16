@@ -1,12 +1,26 @@
-# 2: Full Stack
+# 2 Full Stack
 
-## Learning Objectives
+Use Create React App and hook it into a backend we create.
 
-1. Learn how the internet works
-2. Learn how to use React with Firebase to build apps that persist data and authenticate users
-3. Learn how to use React Hooks, React Router, and AJAX requests to build modern React apps with rich functionality and connectivity to 3rd-party APIs
-4. Become more confident in reading documentation to learn new technologies
+Add data control with Context.
 
-## Introduction
+Refactor and reuse wrapper components with Higher-Order components:
 
-Welcome to full-stack engineering where apps have both a frontend and backend. We will strengthen our foundation in React by learning advanced React techniques such as Hooks, React Router and AJAX requests in React. We will learn to use a backend service Firebase to persist data from our apps and authenticate our users. Module 2 culminates in Project 2 where we will build a fully-featured app that can mimic virtually any app on the market today.
+- Detect Mobile Device HOC - for mobile device compass widget
+
+React Router - Deep linking into React
+
+Advanced usage of useEffect with setInterval
+
+Use CSS inside a component with Styled Components - CSS Modules, SASS and css classes.
+
+Use React Portals to set buttons outside the app.
+
+Use NPM library components to integrate APIs and / or complex UIs into your app:
+
+- file upload : [https://www.npmtrends.com/filedrop-vs-filestack-js-vs-fine-uploader-vs-react-dropzone-vs-resumablejs-vs-uppy](https://www.npmtrends.com/filedrop-vs-filestack-js-vs-fine-uploader-vs-react-dropzone-vs-resumablejs-vs-uppy)
+- upload: react dropzone: [https://www.npmjs.com/package/react-dropzone](https://www.npmjs.com/package/react-dropzone)
+- calendar date range picking
+- drag and drop - array / todo list ordering
+- type ahead
+- google maps - list of points / locations
