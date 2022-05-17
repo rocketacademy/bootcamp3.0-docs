@@ -2,8 +2,8 @@
 
 ## Learning Objectives
 
-1. Stacks are a last-in-first-out data structure
-2. Stacks are useful for tracking data in problems with multiple layers of depth
+1. Stacks are a last-in-first-out data structure, typically implemented with arrays
+2. The stack concept is useful for tracking ordered data that we may need to reverse, e.g. text edits
 
 ## Introduction
 
@@ -21,11 +21,9 @@ Please use JavaScript arrays to perform Stack operations. After attempting each 
 
 ### Pre-Class
 
-1. [https://leetcode.com/problems/reverse-string/](https://leetcode.com/problems/reverse-string/)
-   1. Only use an array, `.push` and `.pop` methods
-2. [https://leetcode.com/problems/crawler-log-folder/](https://leetcode.com/problems/crawler-log-folder/)
+1. [https://leetcode.com/problems/crawler-log-folder/](https://leetcode.com/problems/crawler-log-folder/)
    1. Rocket solution video: [https://youtu.be/y---RCHCdD4?t=2460](https://youtu.be/y---RCHCdD4?t=2460)
-3. [https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/)
+2. [https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/)
    1. Rocket strategy video: [https://youtu.be/y---RCHCdD4?t=4613](https://youtu.be/y---RCHCdD4?t=4613)
 
 ### Part 1
@@ -37,20 +35,18 @@ Please use JavaScript arrays to perform Stack operations. After attempting each 
 ### Part 2
 
 1. [https://leetcode.com/problems/valid-parentheses/](https://leetcode.com/problems/valid-parentheses/)
-   1. Rocket solution code: [https://pastebin.com/qGbG1BAN](https://pastebin.com/qGbG1BAN)
-2. [https://leetcode.com/problems/min-stack/](https://leetcode.com/problems/min-stack/)
+   1. Rocket solution code (Python): [https://pastebin.com/qGbG1BAN](https://pastebin.com/qGbG1BAN)
+2. [https://leetcode.com/problems/minimum-add-to-make-parentheses-valid/](https://leetcode.com/problems/minimum-add-to-make-parentheses-valid/)
 
 ### More Comfortable
 
-1. [https://leetcode.com/problems/design-a-stack-with-increment-operation/](https://leetcode.com/problems/design-a-stack-with-increment-operation/)
-2. [https://leetcode.com/problems/minimum-add-to-make-parentheses-valid/](https://leetcode.com/problems/minimum-add-to-make-parentheses-valid/)
-3. [https://leetcode.com/problems/score-of-parentheses/](https://leetcode.com/problems/score-of-parentheses/)
-4. [https://leetcode.com/problems/daily-temperatures/](https://leetcode.com/problems/daily-temperatures/)
-5. [https://leetcode.com/problems/validate-stack-sequences/](https://leetcode.com/problems/validate-stack-sequences/)
+1. [https://leetcode.com/problems/score-of-parentheses/](https://leetcode.com/problems/score-of-parentheses/)
+2. [https://leetcode.com/problems/validate-stack-sequences/](https://leetcode.com/problems/validate-stack-sequences/)
+3. [https://leetcode.com/problems/daily-temperatures/](https://leetcode.com/problems/daily-temperatures/)
 
 ## Additional Resources
 
-1. [This](https://www.youtube.com/watch?v=k1PX5LxFfTo) is a concise, high-level overview of the stack data structure concept, methods, and use cases.
-2. [This](https://www.youtube.com/watch?v=F1F2imiOJfk) is a slightly more detailed video covering the same concepts.
+1. [This video](https://www.youtube.com/watch?v=k1PX5LxFfTo) is a concise, high-level overview of the stack data structure concept, methods, and use cases.
+2. [This video](https://www.youtube.com/watch?v=F1F2imiOJfk) is slightly more detailed covering the same concepts.
 3. Read pages 108-109 in the [Cracking the Coding Interview PDF](broken-reference/).
 4. [FTBC3 class video ](https://youtu.be/y---RCHCdD4?t=559)introducing Stacks.
