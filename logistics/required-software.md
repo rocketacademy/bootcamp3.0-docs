@@ -177,13 +177,9 @@ Name files and folders in kebab-case, e.g. `new-file.txt`, lowercase and hyphena
 Please do not store code in folders synced to cloud storage such as Google Drive or Apple iCloud. This will cause issues during Bootcamp, such as package installations running slowly or unnecessary extra files committed to GitHub.
 {% endhint %}
 
-1. Store all Bootcamp code in a folder called `bootcamp`
-2. Within `bootcamp`, create a folder `projects` to store your 4 Bootcamp projects
-3. Within `bootcamp`, create a folder `m1` for Module 1
-4. Within `m1`, create a folder `d1` for Course Day 1
-5. Within `d1`, create `prce` (pre-class), `ice` (in-class), and `poce` (post-class) folders for the respective exercises
-6. Make 15 copies of `d1` within `m1` and rename them `d2`, `d3`, ..., `d16`, 1 folder for each day in the module
-7. Make 3 copies of `m1` within `bootcamp` and rename them `m2`, `m3`, and `m4`, 1 folder for each module in Bootcamp
+1. Store all Bootcamp code in a folder called `bootcamp`.
+2. Within `bootcamp`, create a folder `m1` for Module 1 and store all Module 1 exercise code there in exercise-specific folders. Our Project 1 repo folder can also go inside `m1`.
+3. Make 3 copies of `m1` within `bootcamp` and rename them `m2`, `m3`, and `m4`, 1 folder for each module in Bootcamp.
 
 ## Sign up for accounts
 
