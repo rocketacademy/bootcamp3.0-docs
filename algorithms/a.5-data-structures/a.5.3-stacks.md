@@ -7,7 +7,7 @@
 
 ## Introduction
 
-A stack (think stack of pancakes) is an array-like data structure that supports adding and removing only from the end, aka "top" of the stack. In practice we will use arrays to represent stacks, but what's important is the pattern of only adding and removing from the end of an array to model and solve certain types of problems.
+A stack (think stack of plates) is an array-like data structure that supports adding and removing only from the end, aka "top" of the stack. In practice we will use arrays to represent stacks, but what's important is the pattern of only adding and removing from the end of an array to model and solve certain types of problems.
 
 The stack concept powers many features we use daily, including:
 
@@ -46,7 +46,7 @@ Please use JavaScript arrays to perform Stack operations. After attempting each 
 
 ## Additional Resources
 
-1. [This video](https://www.youtube.com/watch?v=k1PX5LxFfTo) is a concise, high-level overview of the stack data structure concept, methods, and use cases.
-2. [This video](https://www.youtube.com/watch?v=F1F2imiOJfk) is slightly more detailed covering the same concepts.
-3. Read pages 108-109 in the [Cracking the Coding Interview PDF](broken-reference/).
-4. [FTBC3 class video ](https://youtu.be/y---RCHCdD4?t=559)introducing Stacks.
+1. [This video](https://www.youtube.com/watch?v=k1PX5LxFfTo) is a concise, high-level overview of the stack data structure concept, methods, and use cases
+2. [This video](https://www.youtube.com/watch?v=F1F2imiOJfk) is slightly more detailed covering the same concepts
+3. Read pages 108-109 in the [Cracking the Coding Interview PDF](broken-reference/)
+4. [FTBC3 class video ](https://youtu.be/y---RCHCdD4?t=559)introducing stacks

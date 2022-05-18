@@ -2,7 +2,7 @@
 
 ## Overview
 
-Welcome! Coding Bootcamp is Rocket Academy's flagship career-conversion course. It builds on concepts from Rocket's intro coding course [Coding Basics](https://codingbasics.rocketacademy.co). On completion of Coding Bootcamp, students can expect to get jobs as software engineers.
+Welcome! Coding Bootcamp is Rocket Academy's flagship career-conversion course. It builds on concepts from Rocket's intro coding course [Coding Basics](https://codingbasics.rocketacademy.co). On successful completion of Coding Bootcamp, students can expect to get jobs as software engineers.
 
 ## Learning Objectives
 
