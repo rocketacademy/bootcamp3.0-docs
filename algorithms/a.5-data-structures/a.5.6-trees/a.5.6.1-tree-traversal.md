@@ -42,7 +42,7 @@ print(root0)
 ## Helpful Resources
 
 1. [This](https://www.youtube.com/watch?v=qH6yxkw0u78) video is a clear and concise intro to basic concepts regarding trees.
-2. Read pages 112-115 in the [Cracking the Coding Interview PDF](broken-reference).
+2. Read pages 111-114 (book pages 100-103) in the [Cracking the Coding Interview PDF](https://drive.google.com/file/d/1M3uvavrprW_xmbSFHAe3Q4RgfgFwEfwy/view?usp=sharing).
 3. [FTBC3's class video](https://youtu.be/3Dw3spVIk1w?t=297) when we introduced trees.
 
 ## Tree Traversals

@@ -48,5 +48,4 @@ Please use JavaScript arrays to perform Stack operations. After attempting each 
 
 1. [This video](https://www.youtube.com/watch?v=k1PX5LxFfTo) is a concise, high-level overview of the stack data structure concept, methods, and use cases.
 2. [This video](https://www.youtube.com/watch?v=F1F2imiOJfk) is slightly more detailed covering the same concepts.
-3. Read pages 108-109 in the [Cracking the Coding Interview PDF](broken-reference/).
-4. [FTBC3 class video ](https://youtu.be/y---RCHCdD4?t=559)introducing Stacks.
+3. [FTBC3 class video ](https://youtu.be/y---RCHCdD4?t=559)introducing Stacks.
