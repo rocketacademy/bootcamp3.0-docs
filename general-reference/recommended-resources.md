@@ -4,25 +4,11 @@ Past students have found the following resources helpful.
 
 ## Books
 
-{% file src="../.gitbook/assets/Cracking-the-Coding-Interview-6th-Edition-189-Programming-Questions-and-Solutions.pdf" %}
-How to pass coding interviews
-{% endfile %}
-
-{% file src="../.gitbook/assets/Data Structures and Algorithms in Python.pdf" %}
-Algos in Python
-{% endfile %}
-
-{% file src="../.gitbook/assets/Clean Code.pdf" %}
-How to write high-quality code
-{% endfile %}
-
-{% file src="../.gitbook/assets/Kyle Simpson - You Don't Know JS_ Up & Going-O'Reilly Media (2015).pdf" %}
-JS deep dive
-{% endfile %}
-
-{% file src="../.gitbook/assets/SWE At Google.pdf" %}
-Software engineering at Google
-{% endfile %}
+1. [Cracking the Coding Interview](https://drive.google.com/file/d/1M3uvavrprW\_xmbSFHAe3Q4RgfgFwEfwy/view?usp=sharing)
+2. [Data Structures and Algorithms in Python](https://drive.google.com/file/d/1VoO9ggo1Cp3J2oBqrz7oI0Zz4oHQWoJY/view?usp=sharing)
+3. [Clean Code](https://drive.google.com/file/d/1JQfj-fubKMqBB9awNPnGibKdXYZ4UU5A/view?usp=sharing)
+4. [You Don't Know JS](https://drive.google.com/file/d/1-gSJ7OY6o9WzEHYBGUKUWtnPyuRIiHeV/view?usp=sharing)
+5. [SWE at Google](https://drive.google.com/file/d/10L8\_rTgJ1Hi5MQMpyW8Fpu\_1dOLMzZuN/view?usp=sharing)
 
 ## Videos
 
