@@ -1,4 +1,4 @@
-# A.5.8: Heaps
+# A.1.8: Heaps
 
 ![Heap Ledger](../../../.gitbook/assets/heap-ledger.png)
 
@@ -249,6 +249,6 @@ Please use the [Python `heapq` library](https://docs.python.org/3/library/heapq.
 
 1. [https://www.youtube.com/watch?v=WCm3TqScBM8](https://www.youtube.com/watch?v=WCm3TqScBM8)
 2. [https://www.youtube.com/watch?v=g9YK6sftDi0](https://www.youtube.com/watch?v=g9YK6sftDi0)
-3. https://www.youtube.com/watch?v=BzQGPA_v-vc
+3. https://www.youtube.com/watch?v=BzQGPA\_v-vc
 4. [https://www.youtube.com/watch?v=Dvq-YKeuO9Y](https://www.youtube.com/watch?v=Dvq-YKeuO9Y)
 5. Here is [Rocket's FTBC3's class video](https://youtu.be/Zat3PE0j1bA?t=701) introducing heaps.

@@ -2,7 +2,7 @@
 
 ## Learning Objectives
 
-1. We study algorithms to pass interviews (but they can also be helpful for optimising our code)
+1. We study algorithms at Rocket to pass interviews (but they can also be helpful for optimising our code)
 2. Know the general format of algorithm interview problems
 3. Understand how to solve basic algorithm problems
 4. Be familiar with LeetCode and HackerRank problem interfaces

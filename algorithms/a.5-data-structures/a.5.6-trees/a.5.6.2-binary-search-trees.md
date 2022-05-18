@@ -1,10 +1,10 @@
-# A.5.6.2: Binary Search Trees
+# A.1.6.2: Binary Search Trees
 
 ## Learning Objectives
 
 By the end of this lesson, you should:
 
-- be familiar with what a binary search tree data structure is
+* be familiar with what a binary search tree data structure is
 
 ## Introduction
 

@@ -1,6 +1,6 @@
 # A.1.1.3: Sorting Algorithms
 
-![](../../../a.5-data-structures/.gitbook/assets/sort-ar.jpeg)
+![](../../.gitbook/assets/sort-ar.jpeg)
 
 ## Introduction
 

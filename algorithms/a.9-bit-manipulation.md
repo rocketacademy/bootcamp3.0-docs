@@ -1,4 +1,4 @@
-# A.9: Bit Manipulation
+# A.6: Bit Manipulation
 
 ## Introduction
 

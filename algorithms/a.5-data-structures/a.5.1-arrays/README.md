@@ -1,4 +1,4 @@
-# A.5.1: Arrays
+# A.1.1: Arrays
 
 ## Learning Objectives
 

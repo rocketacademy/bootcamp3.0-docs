@@ -1,8 +1,8 @@
-# A.10: Open Practice
+# A.E: Exercises
 
 ## Introduction
 
-The following is a list of curated Leetcode problems we can work on daily after learning algorithms fundamentals. The problems are taken from the [Top Interview Questions list in Leetcode](https://leetcode.com/problemset/all/?listId=wpwgkgt&page=1&sorting=W3sic29ydE9yZGVyIjoiREVTQ0VORElORyIsIm9yZGVyQnkiOiJBQ19SQVRFIn1d), sorted in decreasing acceptance rate, i.e. % of submissions that were accepted on Leetcode.
+The following is a list of curated Leetcode problems we can work on daily after learning algorithms fundamentals. The problems are taken from the [Top Interview Questions list in Leetcode](https://leetcode.com/problemset/all/?listId=wpwgkgt\&page=1\&sorting=W3sic29ydE9yZGVyIjoiREVTQ0VORElORyIsIm9yZGVyQnkiOiJBQ19SQVRFIn1d), sorted in decreasing acceptance rate, i.e. % of submissions that were accepted on Leetcode.
 
 The majority of algorithms interviews Rocket grads have encountered have focused on arrays and hash tables. If you find yourself stuck on a problem focusing on a different data structure, feel free to skip and focus on the array and hash tables problems first.
 
@@ -19,7 +19,7 @@ The majority of algorithms interviews Rocket grads have encountered have focused
 1. [https://leetcode.com/problems/binary-tree-inorder-traversal/](https://leetcode.com/problems/binary-tree-inorder-traversal/)
    1. Feel free to skip the follow up question to implement this traversal iteratively. The iterative implementation is challenging and unlikely to appear in coding interviews.
 2. [https://leetcode.com/problems/reverse-linked-list/](https://leetcode.com/problems/reverse-linked-list/)
-   1. FTBC3 strategy video: [https://youtu.be/a5fTAdAv3_A?t=3101](https://youtu.be/a5fTAdAv3_A?t=3101)
+   1. FTBC3 strategy video: [https://youtu.be/a5fTAdAv3\_A?t=3101](https://youtu.be/a5fTAdAv3\_A?t=3101)
 3. [https://leetcode.com/problems/subsets/](https://leetcode.com/problems/subsets/)
 
 ### Day 3

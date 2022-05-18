@@ -1,4 +1,4 @@
-# A.7.1: Recursive Backtracking
+# A.4.1: Recursive Backtracking
 
 ## Introduction
 
@@ -78,7 +78,7 @@ def numTilePossibilities(self, tiles: str):
 ### Pre-Class
 
 1. [https://leetcode.com/problems/generate-parentheses/](https://leetcode.com/problems/generate-parentheses/)
-   1. Hint: Consider [this slide](https://docs.google.com/presentation/d/1rpY5NnOvN7MKVLSI5NoU7LYySGVNRTC9Yptl9mtaXRY/edit#slide=id.g81c439b50b_0_93) on how we can prune invalid subtrees.
+   1. Hint: Consider [this slide](https://docs.google.com/presentation/d/1rpY5NnOvN7MKVLSI5NoU7LYySGVNRTC9Yptl9mtaXRY/edit#slide=id.g81c439b50b\_0\_93) on how we can prune invalid subtrees.
    2. Rocket Academy solution code: [https://pastebin.com/HMxZjpM7](https://pastebin.com/HMxZjpM7)
    3. Rocket Academy solution video: [https://youtu.be/MTqylosJ1ow?t=2022](https://youtu.be/MTqylosJ1ow?t=2022) until 57:25
 
@@ -91,4 +91,4 @@ def numTilePossibilities(self, tiles: str):
 
 ## Further Reading
 
-[Geeks for Geeks article](https://www.geeksforgeeks.org/backtracking-introduction/#:~:text=Backtracking%20is%20an%20algorithmic%2Dtechnique,reaching%20any%20level%20of%20the). https://brilliant.org/wiki/recursive-backtracking/ https://www.hackerearth.com/practice/basic-programming/recursion/recursion-and-backtracking/tutorial/
+[Geeks for Geeks article](https://www.geeksforgeeks.org/backtracking-introduction/). https://brilliant.org/wiki/recursive-backtracking/ https://www.hackerearth.com/practice/basic-programming/recursion/recursion-and-backtracking/tutorial/

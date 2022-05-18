@@ -151,7 +151,7 @@ graph = {
 #### Part 4
 
 1. [https://leetcode.com/problems/number-of-islands/](https://leetcode.com/problems/number-of-islands/)
-2. [https://leetcode.com/problems/shortest-bridge/](a.1.7-graphs.md#a.5.7-graphs)
+2. [https://leetcode.com/problems/shortest-bridge/](a.5.7-graphs.md#a.5.7-graphs)
 3. [https://leetcode.com/problems/keys-and-rooms/](https://leetcode.com/problems/keys-and-rooms/) (Medium)
 4. [https://leetcode.com/problems/redundant-connection/](https://leetcode.com/problems/redundant-connection/) (Medium)
 5. [https://leetcode.com/problems/find-the-town-judge/](https://leetcode.com/problems/find-the-town-judge/)

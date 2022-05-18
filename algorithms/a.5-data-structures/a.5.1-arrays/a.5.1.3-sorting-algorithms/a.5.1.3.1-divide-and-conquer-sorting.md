@@ -2,15 +2,15 @@
 
 ## Merge Sort
 
-- Runtime: _**O(nlogn)**_
-- Space: _**O(n)**_
-- Sort In-Place: No
-- Stable: Yes
+* Runtime: _**O(nlogn)**_
+* Space: _**O(n)**_
+* Sort In-Place: No
+* Stable: Yes
 
 **Attributes**
 
-- fast
-- usually implemented recursively
+* fast
+* usually implemented recursively
 
 **Divide and Conquer**
 
@@ -124,16 +124,16 @@ pprint( result)
 
 ## Quick Sort
 
-- Runtime: _**O(nlogn)**_
-- Space: _**O(1)**_
-- Sort In-Place: Yes
-- Stable: Yes
+* Runtime: _**O(nlogn)**_
+* Space: _**O(1)**_
+* Sort In-Place: Yes
+* Stable: Yes
 
 **Attributes**
 
-- fast
-- good space complexity
-- was used for the `sort` method in JavaScript
+* fast
+* good space complexity
+* was used for the `sort` method in JavaScript
 
 ```python
 from pprint import pprint
@@ -275,10 +275,10 @@ print(A)
 
 #### Heap Sort
 
-- Runtime: _**O(nlogn)**_
-- Space: _**O(1)**_
-- Sort In-Place: Yes
-- Stable: Yes
+* Runtime: _**O(nlogn)**_
+* Space: _**O(1)**_
+* Sort In-Place: Yes
+* Stable: Yes
 
 Heap sort is on average slower and less commonly used than Merge Sort and Quick Sort
 

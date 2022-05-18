@@ -1,4 +1,4 @@
-# A.5.1.2: Sliding Windows
+# A.1.1.2: Sliding Windows
 
 ## Learning Objectives
 

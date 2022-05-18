@@ -1,16 +1,16 @@
-# A.5.8.1: Heap Sort
+# A.1.8.1: Heap Sort
 
 ### Heap Sort
 
-- Runtime: _**O(nlogn)**_
-- Space: _**O(1)**_
-- Sort In-Place: Yes
-- Stable: Yes
+* Runtime: _**O(nlogn)**_
+* Space: _**O(1)**_
+* Sort In-Place: Yes
+* Stable: Yes
 
 #### Attributes
 
-- good space complexity
-- not favored compared to quicksort
+* good space complexity
+* not favored compared to quicksort
 
 {% embed url="https://www.youtube.com/watch?v=onlhnHpGgC4" %}
 

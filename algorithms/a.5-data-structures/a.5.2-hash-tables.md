@@ -1,4 +1,4 @@
-# A.5.2: Hash Tables
+# A.1.2: Hash Tables
 
 ## Learning Objectives
 

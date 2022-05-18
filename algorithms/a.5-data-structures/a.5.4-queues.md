@@ -18,7 +18,7 @@ If we think of a list or, even worse, a stack, operations that affect the beginn
 
 1. [This](https://www.youtube.com/watch?v=9Obx8TTQnaY) video is a concise introduction for the motivation and usage of queues.
 2. [This](https://www.youtube.com/watch?v=Y7wZO2tMjnY) video is a more detailed introduction to queues and how to use them in Python.
-3. Read pages 109-110 in the [Cracking the Coding Interview PDF](../a.5-data-structures/broken-reference/).
+3. Read pages 109-110 in the [Cracking the Coding Interview PDF](broken-reference/).
 
 ## Queue Class
 

@@ -1,4 +1,4 @@
-# A.4: Complexity Analysis, Big-O Notation
+# A.2: Complexity Analysis
 
 ## Learning Objectives
 

@@ -1,4 +1,4 @@
-# A.7: Recursion
+# A.4: Recursion
 
 ### Introduction
 
@@ -35,7 +35,7 @@ There are 2 concepts to remember with recursion.
 
 ### Background on Recursion
 
-The history of recursion is deeply tied to the invention of Turing's theoretical computer. The word recursion is not just a topic in Computer Science but also a topic in mathematical logic. So the concept of recursion is deeper than simply a function that calls itself. It is any construct or system that is defined in terms of itself. Implementations of the concept of recursion include a [JavaScript interpreter written in JavaScript](./#part-2), or a [quine](<https://en.wikipedia.org/wiki/Quine_(computing)>), a program whose purpose is to print out it's own code. However, the purposes of Rocket's algorithms content we can assume the word recursion to mean a loop.
+The history of recursion is deeply tied to the invention of Turing's theoretical computer. The word recursion is not just a topic in Computer Science but also a topic in mathematical logic. So the concept of recursion is deeper than simply a function that calls itself. It is any construct or system that is defined in terms of itself. Implementations of the concept of recursion include a [JavaScript interpreter written in JavaScript](./#part-2), or a [quine](https://en.wikipedia.org/wiki/Quine\_\(computing\)), a program whose purpose is to print out it's own code. However, the purposes of Rocket's algorithms content we can assume the word recursion to mean a loop.
 
 ### Example - Simple Loops
 
@@ -143,7 +143,7 @@ This exposes the other major behaviour of a recursive function that returns a va
 
 How do we write recursive functions that returns values?
 
-![Demonstration of recursive string reverse from here: https://towardsdatascience.com/finding-a-recursive-solution-184784b0aea0](../../.gitbook/assets/recurse_string.gif)
+![Demonstration of recursive string reverse from here: https://towardsdatascience.com/finding-a-recursive-solution-184784b0aea0](../../.gitbook/assets/recurse\_string.gif)
 
 Given this iterative loop:
 
@@ -453,7 +453,7 @@ Please attempt to solve each problem on your own before reviewing each problem's
 ### Optional Reading
 
 1. Fast Exponentiation. What would be the time complexity of an algorithm to calculate the value of `2^n`, where `n` is an input value? A naïve solution would be to write a for loop to multiply 2 by itself `n` times, which would run in `O(n)` time complexity. However, if we take the notion that `2^2^2 == 2^4` , and `2^4^2 == 2^8`, we can see that we can calculate `2^n` in many fewer operations than `n`, on the order of `log(n)`, with time complexity of `O(logn)`. Fast exponentiation can be implemented relatively easily with recursion. Programming languages typically implement exponent operators using fast exponentiation.
-   1. [https://en.wikipedia.org/wiki/Exponentiation_by_squaring#Basic_method](https://en.wikipedia.org/wiki/Exponentiation_by_squaring#Basic_method)
+   1. [https://en.wikipedia.org/wiki/Exponentiation\_by\_squaring#Basic\_method](https://en.wikipedia.org/wiki/Exponentiation\_by\_squaring#Basic\_method)
 
 ## Further Reading
 
