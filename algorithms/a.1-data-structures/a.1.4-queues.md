@@ -30,10 +30,10 @@ Please fork starter code Repls and attempt solutions there. Feel free to compare
 1. [https://replit.com/@neokaiyuan/queues#main.py](https://replit.com/@neokaiyuan/queues#main.py)
    1. Solutions: [https://repl.it/@neokaiyuan/queuessoln#main.py](https://repl.it/@neokaiyuan/queuessoln#main.py)
 
-### Comfortable
+### Part 1
 
-1. [https://leetcode.com/problems/task-scheduler/](https://leetcode.com/problems/task-scheduler/)
-   1. Hint: This may be solved more efficiently without queues, but see how we can implement it with queues first.
+1. [https://leetcode.com/problems/number-of-students-unable-to-eat-lunch/](https://leetcode.com/problems/number-of-students-unable-to-eat-lunch/)
+2. [https://leetcode.com/problems/reveal-cards-in-increasing-order/](https://leetcode.com/problems/reveal-cards-in-increasing-order/)
 
 ## Additional Resources
 
