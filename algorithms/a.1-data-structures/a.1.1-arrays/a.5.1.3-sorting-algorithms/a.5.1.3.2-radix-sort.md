@@ -1,6 +1,6 @@
-# A.5.1.3.2: Radix Sort
+# A.1.1.3.2: Radix Sort
 
-## A.5.1.3.2: Radix Sort
+## A.1.1.3.2: Radix Sort
 
 ### Non-Comparison Sorting Algorithms
 
@@ -8,7 +8,7 @@ Non-comparison sorting algorithms are interesting because if all the avlues in t
 
 ## Counting Sort
 
-* Runtime: _**O(kn)**_
+- Runtime: _**O(kn)**_
 
 **k** is the highest integer in the array.
 
@@ -56,7 +56,7 @@ print("Counting sort result = ", sortedArray)
 
 ## Radix Sort
 
-* Runtime: _**O(dkn)**_
+- Runtime: _**O(dkn)**_
 
 **d** is the number of times counting sort is run.
 
