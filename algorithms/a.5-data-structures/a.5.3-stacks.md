@@ -7,6 +7,10 @@
 
 ## Introduction
 
+{% embed url="https://youtu.be/F1F2imiOJfk" %}
+Brief introduction to stack concepts, methods and applications
+{% endembed %}
+
 A stack (think stack of plates) is an array-like data structure that supports adding and removing only from the end, aka "top" of the stack. In practice we will use arrays to represent stacks, but what's important is the pattern of only adding and removing from the end of an array to model and solve certain types of problems.
 
 The stack concept powers many features we use daily, including:
@@ -17,7 +21,7 @@ The stack concept powers many features we use daily, including:
 
 ## Exercises
 
-Please use JavaScript arrays to perform Stack operations. After attempting each problem, find solutions in either Solution or Discuss tabs on that problem's page. If you get stuck for more than 15 minutes, review and understand the solutions and move on. Come back and re-attempt the problem after a few days.
+Please use JavaScript arrays to perform stack operations. After attempting each problem, find solutions in either Solution or Discuss tabs on that problem's page. If you get stuck for more than 15 minutes, review and understand the solutions and move on. Come back and re-attempt the problem after a few days.
 
 ### Pre-Class
 
@@ -46,7 +50,6 @@ Please use JavaScript arrays to perform Stack operations. After attempting each 
 
 ## Additional Resources
 
-1. [This video](https://www.youtube.com/watch?v=k1PX5LxFfTo) is a concise, high-level overview of the stack data structure concept, methods, and use cases
-2. [This video](https://www.youtube.com/watch?v=F1F2imiOJfk) is slightly more detailed covering the same concepts
-3. Read pages 108-109 in the [Cracking the Coding Interview PDF](broken-reference/)
-4. [FTBC3 class video ](https://youtu.be/y---RCHCdD4?t=559)introducing stacks
+1. [This video](https://www.youtube.com/watch?v=F1F2imiOJfk) is slightly more detailed introduction to stacks than the video above
+2. Read pages 108-109 in the [Cracking the Coding Interview PDF](broken-reference/)
+3. [FTBC3 class video ](https://youtu.be/y---RCHCdD4?t=559)introducing stacks

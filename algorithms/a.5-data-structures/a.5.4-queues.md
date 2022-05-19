@@ -2,129 +2,35 @@
 
 ## Learning Objectives
 
-1. be familiar with queue functionality time and space complexity
-2. understand the difference between LIFO and FIFO
-3. understand the python queue class example
+1. Queues are a first-in-first-out data structure, typically implemented with linked lists
+2. The queue concept is useful for tracking ordered data that needs to be executed sequentially, like queues in real life
 
 ## Introduction
 
-Queues are similar to stacks except instead of removing elements from the end of a list, we can only remove elements from the front of a list. Instead of push and pop operations, queues have "enqueue" and "dequeue" operations respectively. Enqueue adds an element to the back of a queue, and dequeue removes an element from the front of a queue. Queues are FIFO- First In First Out.
+{% embed url="https://youtu.be/XuCbpw6Bj1U" %}
+Brief introduction to queue concepts, methods and applications
+{% endembed %}
 
-#### Big-O of Queues
+A queue is a list-like data structure that supports adding to the back ("enqueue") and removing from the front ("dequeue"). For now we will use arrays to represent queues, but more efficient queue implementations will use linked lists because removing from the front of an array is `O(n)` (all other elements need to shift), while removing from the front of a linked list is `O(1)` (we will learn about this in the Linked Lists submodule).
 
-If we think of a list or, even worse, a stack, operations that affect the beginning of the data would run in at least O(n). Remember that in an array, removing something from the front is **O(n)**. We can think of a queue as a doubly linked list so that taking things off the front or the back is always **O(1)**.
+The queue concept powers many operations in computing, including:
+
+1. Message queues that replay message sends when offline devices go online
+2. Process queues where our computer needs to decide which applications get to access our CPU at any given time
+3. Data buffers, e.g. when our internet connection lags and our computers store video/audio segments before playback catches up
 
 ## Helpful Resources
 
-1. [This](https://www.youtube.com/watch?v=9Obx8TTQnaY) video is a concise introduction for the motivation and usage of queues.
-2. [This](https://www.youtube.com/watch?v=Y7wZO2tMjnY) video is a more detailed introduction to queues and how to use them in Python.
-3. Read pages 109-110 in the [Cracking the Coding Interview PDF](broken-reference/).
-
-## Queue Class
-
-Notice we Python's built-in `deque` data structure because it supports more efficient popping (dequeuing) of the left-most element than Python Lists.
-
-```python
-# We use the built-in Python deque data structure for queues.
-# Deque is implemented using linked lists and more efficient
-# than Python lists for popping the left-most element.
-from collections import deque
-
-class Queue:
-  '''
-  Define a Queue class that supports the methods
-  1) .enqueue(element): Add element to back of queue
-  2) .dequeue():        Return element from front of queue
-  3) .size():           Return number of elements in queue
-  '''
-  # self is a reference to the instance that was just created
-  def __init__(self):
-    self.data = deque()
-
-  # Return optional representation of class in string format
-  def __repr__(self):
-    return str(self.data)
-
-  def enqueue(self, element):
-    print(f"{element} joins the queue")
-    self.data.append(element)
-
-  def dequeue(self):
-    element = self.data.popleft()
-    print(f"{element} leaves the queue")
-    return element
-
-  def size(self):
-    print(f"Queue contains {len(self.data)} elements")
-    return len(self.data)
-```
-
-## Linked List Queue Class
-
-From [here](https://www.geeksforgeeks.org/queue-linked-list-implementation/).
-
-```python
-class Node:
-
-    def __init__(self, data):
-        self.data = data
-        self.next = None
-
-# A class to represent a queue
-
-# The queue, front stores the front node
-# of LL and rear stores the last node of LL
-class Queue:
-
-    def __init__(self):
-        self.front = self.rear = None
-
-    def isEmpty(self):
-        return self.front == None
-
-    # Method to add an item to the queue
-    def EnQueue(self, item):
-        temp = Node(item)
-
-        if self.rear == None:
-            self.front = self.rear = temp
-            return
-        self.rear.next = temp
-        self.rear = temp
-
-    # Method to remove an item from queue
-    def DeQueue(self):
-
-        if self.isEmpty():
-            return
-        temp = self.front
-        self.front = temp.next
-
-        if(self.front == None):
-            self.rear = None
-
-# Driver Code
-if __name__== '__main__':
-    q = Queue()
-    q.EnQueue(10)
-    q.EnQueue(20)
-    q.DeQueue()
-    q.DeQueue()
-    q.EnQueue(30)
-    q.EnQueue(40)
-    q.EnQueue(50)
-    q.DeQueue()
-    print("Queue Front " + str(q.front.data))
-    print("Queue Rear " + str(q.rear.data))
-```
+1. [This video](https://youtu.be/Y7wZO2tMjnY) is a more hands-on introduction to queues than the video above. It introduces queues in Python and Python's built-in `deque` data structure that we can use to perform dequeues in `O(1)` time complexity.
+2. Read pages 109-110 in the [Cracking the Coding Interview PDF](broken-reference/).
 
 ## Exercises
 
-Please use Python's `deque` data structure to represent queues.
-
-Please fork starter code Repls and attempt solutions there. Feel free to compare with reference solutions after attempting each problem. Have fun!
+Please use JavaScript arrays to perform queue operations. After attempting each problem, find solutions in either Solution or Discuss tabs on that problem's page. If you get stuck for more than 15 minutes, review and understand the solutions and move on. Come back and re-attempt the problem after a few days.
 
 ### Pre-Class
+
+Please fork starter code Repls and attempt solutions there. Feel free to compare with reference solutions after attempting each problem. Have fun!
 
 1. [https://replit.com/@neokaiyuan/queues#main.py](https://replit.com/@neokaiyuan/queues#main.py)
    1. Solutions: [https://repl.it/@neokaiyuan/queuessoln#main.py](https://repl.it/@neokaiyuan/queuessoln#main.py)
