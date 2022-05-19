@@ -51,5 +51,4 @@ Please use JavaScript arrays to perform stack operations. After attempting each 
 ## Additional Resources
 
 1. [This video](https://www.youtube.com/watch?v=F1F2imiOJfk) is slightly more detailed introduction to stacks than the video above
-2. Read pages 108-109 in the [Cracking the Coding Interview PDF](broken-reference/)
-3. [FTBC3 class video ](https://youtu.be/y---RCHCdD4?t=559)introducing stacks
+2. [FTBC3 class video ](https://youtu.be/y---RCHCdD4?t=559)introducing stacks

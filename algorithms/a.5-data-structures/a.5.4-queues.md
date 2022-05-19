@@ -19,11 +19,6 @@ The queue concept powers many operations in computing, including:
 2. Process queues where our computer needs to decide which applications get to access our CPU at any given time
 3. Data buffers, e.g. when our internet connection lags and our computers store video/audio segments before playback catches up
 
-## Helpful Resources
-
-1. [This video](https://youtu.be/Y7wZO2tMjnY) is a more hands-on introduction to queues than the video above. It introduces queues in Python and Python's built-in `deque` data structure that we can use to perform dequeues in `O(1)` time complexity.
-2. Read pages 109-110 in the [Cracking the Coding Interview PDF](broken-reference/).
-
 ## Exercises
 
 Please use JavaScript arrays to perform queue operations. After attempting each problem, find solutions in either Solution or Discuss tabs on that problem's page. If you get stuck for more than 15 minutes, review and understand the solutions and move on. Come back and re-attempt the problem after a few days.
@@ -39,3 +34,7 @@ Please fork starter code Repls and attempt solutions there. Feel free to compare
 
 1. [https://leetcode.com/problems/task-scheduler/](https://leetcode.com/problems/task-scheduler/)
    1. Hint: This may be solved more efficiently without queues, but see how we can implement it with queues first.
+
+## Additional Resources
+
+1. [This video](https://youtu.be/Y7wZO2tMjnY) is a more hands-on introduction to queues than the video above. It introduces queues in Python and Python's built-in `deque` data structure that we can use to perform dequeues in `O(1)` time complexity.
