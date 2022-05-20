@@ -41,9 +41,20 @@ function ListNode(val, next) {
 }
 ```
 
+### Linked list traversal
+
+Given a linked list head node `node`, we can traverse the linked list with a while loop and calling `node = node.next` at the end of the loop, where `next` is a property of the linked list node that points to the next node.
+
+```javascript
+while (node) {
+  // TODO: Do something with current node
+  node = node.next // Iterate to next node
+}
+```
+
 ### Insert and delete node in linked list
 
-![Steps to insert a node in a linked list. Source: University of San Francisco](../../../.gitbook/assets/image.png)
+![Steps to insert a node in a linked list. Source: University of San Francisco](../../.gitbook/assets/image.png)
 
 To insert a node in a linked list we need to:
 
@@ -56,18 +67,18 @@ To delete a node in a linked list we need to:
 
 ## Exercises
 
-Please fork starter code Repls and attempt solutions there. Feel free to compare with reference solutions after attempting each problem. Have fun!
+For Repl exercises: Please fork starter code Repls and attempt solutions there. Feel free to compare with reference solutions after attempting each problem. Have fun!
 
 ### Pre-Class
 
-1. [https://repl.it/@neokaiyuan/singly-linked-list](https://repl.it/@neokaiyuan/singly-linked-list)
-   1. [https://repl.it/@neokaiyuan/singly-linked-list-soln](https://repl.it/@neokaiyuan/singly-linked-list-soln)
-   2. [FTBC3 class video](https://youtu.be/qewAXA\_vkpE?t=2004) where we covered the 1st 2 problems (re-recorded after class)
+1. [https://replit.com/@neokaiyuan/singly-linked-list-js#index.js](https://replit.com/@neokaiyuan/singly-linked-list-js#index.js)
+   1. [https://replit.com/@neokaiyuan/singly-linked-list-js-solution#index.js](https://replit.com/@neokaiyuan/singly-linked-list-js-solution#index.js)
+   2. [FTBC3 class video](https://youtu.be/qewAXA\_vkpE?t=2004) (Python) where we covered the 1st 2 problems (re-recorded after class)
 
 ### Part 1
 
-1. [https://repl.it/@neokaiyuan/doubly-linked-list](https://repl.it/@neokaiyuan/doubly-linked-list)
-   1. [https://repl.it/@neokaiyuan/doubly-linked-list-soln](https://repl.it/@neokaiyuan/doubly-linked-list-soln)
+1. [https://replit.com/@neokaiyuan/doubly-linked-list-js#index.js](https://replit.com/@neokaiyuan/doubly-linked-list-js#index.js)
+   1. [https://replit.com/@neokaiyuan/doubly-linked-list-js-solution#index.js](https://replit.com/@neokaiyuan/doubly-linked-list-js-solution#index.js)
 2. [https://repl.it/@neokaiyuan/circular-doubly-linked-list](https://repl.it/@neokaiyuan/circular-doubly-linked-list)
    1. [https://repl.it/@neokaiyuan/circular-doubly-linked-list-soln](https://repl.it/@neokaiyuan/circular-doubly-linked-list-soln)
 3. [https://leetcode.com/problems/convert-binary-number-in-a-linked-list-to-integer/](https://leetcode.com/problems/convert-binary-number-in-a-linked-list-to-integer/)
@@ -78,9 +89,17 @@ Please fork starter code Repls and attempt solutions there. Feel free to compare
 ### Part 2
 
 1. [https://leetcode.com/problems/remove-duplicates-from-sorted-list/](https://leetcode.com/problems/remove-duplicates-from-sorted-list/)
+   1. Hint: Keep track of prev node and next node
+   2. When we encounter duplicate, update prev node's next value to next node
 2. [https://leetcode.com/problems/middle-of-the-linked-list/](https://leetcode.com/problems/middle-of-the-linked-list/)
 3. [https://leetcode.com/problems/merge-two-sorted-lists/](https://leetcode.com/problems/merge-two-sorted-lists/)
 4. [https://leetcode.com/problems/reverse-linked-list/](https://leetcode.com/problems/reverse-linked-list/)
+   1. Hint: For given node, keep track of old next node and new next node
+   2. Inside while loop:
+      1. Old next node is `node.next`
+      2. Assign `node.next` to new next node (the node we just visited)
+      3. Assign new next node variable to `node`
+      4. Assign `node` to old next node
 
 ### Part 3
 
