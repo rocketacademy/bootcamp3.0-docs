@@ -19,13 +19,14 @@ const arr = [2, 1, 3];
 | `arr.push(4)`         | `[2,1,3,4]`                | `4`          | `O(1)`     | We can append to end of array in single operation                                                                                                   |
 | `arr.length`          | `[2,1,3]`                  | `3`          | `O(1)`     | JS Array data structure stores up-to-date length that we can retrieve in constant time                                                              |
 | `Math.max(...arr)`    | `[2,1,3]`                  | `3`          | `O(n)`     | Get max element of unsorted array requires iterating over every element in array                                                                    |
+| `arr.shift()`         | `[1, 3]`                   | `2`          | `O(n)`     | Removing element from start of array requires shifting every element to the left by 1 index                                                         |
 | `arr.unshift(4)`      | `[4,2,1,3]`                | `4`          | `O(n)`     | Adding element to start of array requires shifting every element to the right by 1 index                                                            |
 | `arr.splice(1, 0, 4)` | `[2,4,1,3]`                | `[]`         | `O(n)`     | Adding and removing elements from the middle of an array requires shifting every following element by a constant number of indexes                  |
 | `arr.sort()`          | `[1,2,3]`                  | `[1,2,3]`    | `O(nlogn)` | The fastest sorting algorithms run in `O(nlogn)` time, different JS runtimes implement different sorting algorithms that all have similar runtimes. |
 
 ## Exercises
 
-After attempting each problem, find solutions in either Solution or Discuss tabs on that problem's page. If you get stuck for more than 15 minutes, review and understand the solutions and move on. Come back and re-attempt the problem after a few days.
+After attempting each problem, find solutions in the Leaderboard tab (HackerRank, may be on left side of page) or Solution or Discuss tabs (LeetCode) on that problem's page. If you get stuck for more than 15 minutes, review and understand the solutions and move on. Come back and re-attempt the problem after a few days.
 
 ### Pre-Class
 

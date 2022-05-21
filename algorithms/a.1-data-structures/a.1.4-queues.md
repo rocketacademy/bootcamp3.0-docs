@@ -11,7 +11,7 @@
 Brief introduction to queue concepts, methods and applications
 {% endembed %}
 
-A queue is a list-like data structure that supports adding to the back ("enqueue") and removing from the front ("dequeue"). For now we will use arrays to represent queues, but more efficient queue implementations will use linked lists because removing from the front of an array is `O(n)` (all other elements need to shift), while removing from the front of a linked list is `O(1)` (we will learn about this in the Linked Lists submodule).
+A queue is a list-like, first-in-first-out data structure that supports adding to the back ("enqueue") and removing from the front ("dequeue"). For now we will use arrays to represent queues, but more efficient queue implementations will use linked lists because removing from the front of an array is `O(n)` (all other elements need to shift), while removing from the front of a linked list is `O(1)` (more in the Linked Lists submodule).
 
 The queue concept powers many operations in computing, including:
 
@@ -21,7 +21,7 @@ The queue concept powers many operations in computing, including:
 
 ## Exercises
 
-Please use JavaScript arrays to perform queue operations.
+Please use JavaScript arrays to perform queue operations. We can use the array `push` method to enqueue and `shift` to dequeue.
 
 After attempting each problem, find solutions in the Leaderboard tab (HackerRank, may be on left side of page) or Solution or Discuss tabs (LeetCode) on that problem's page. If you get stuck for more than 15 minutes, review and understand the solutions and move on. Come back and re-attempt the problem after a few days.
 
