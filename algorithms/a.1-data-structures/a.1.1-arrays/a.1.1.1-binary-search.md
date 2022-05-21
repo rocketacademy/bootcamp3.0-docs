@@ -57,22 +57,16 @@ const result = binarySearch(myList, 6); // 4
 
 ### Pre-Class
 
-1. [https://leetcode.com/problems/binary-search/](https://leetcode.com/problems/binary-search/)
-   1. Rocket Academy solution code: [https://pastebin.com/9v2GdhRM](https://pastebin.com/9v2GdhRM)
-   2. Rocket Academy solution video: [https://youtu.be/Z5VjCg2YuPs?t=1147](https://youtu.be/Z5VjCg2YuPs?t=1147)
+1. Binary Search ([LeetCode](https://leetcode.com/problems/binary-search/))
+   1. [Rocket solution code](https://pastebin.com/9v2GdhRM) (Python)
+   2. [Rocket solution video](https://youtu.be/Z5VjCg2YuPs?t=1147) (Python)
 
 ### Part 1
 
-1. [https://leetcode.com/problems/count-negative-numbers-in-a-sorted-matrix/](https://leetcode.com/problems/count-negative-numbers-in-a-sorted-matrix/)
-   1. Rocket Academy solution code: [https://pastebin.com/u7xC2K7t](https://pastebin.com/u7xC2K7t)
-   2. Rocket Academy solution video: [https://youtu.be/Z5VjCg2YuPs?t=1598](https://youtu.be/Z5VjCg2YuPs?t=1598)
-2. [https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/)
-3. [https://leetcode.com/problems/search-insert-position/](https://leetcode.com/problems/search-insert-position/)
-4. [https://leetcode.com/problems/first-bad-version/](https://leetcode.com/problems/first-bad-version/)
-
-### More Comfortable
-
-1. [https://leetcode.com/problems/valid-perfect-square/](https://leetcode.com/problems/valid-perfect-square/)
-   1. Hint: Can we use binary search to find the factor of this number if it were a perfect square?
-2. \[Requires Heaps] [https://leetcode.com/problems/the-k-weakest-rows-in-a-matrix/](https://leetcode.com/problems/the-k-weakest-rows-in-a-matrix/)
-   1. Consider the solution to this heaps problem that we may have solved in [D.5.8: Heaps](a.1-data-structures/a.1.8-heaps#part-3): [https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/](https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/)
+1. First Bad Version ([LeetCode](https://leetcode.com/problems/first-bad-version/))
+2. Valid Perfect Square ([LeetCode](https://leetcode.com/problems/valid-perfect-square/))
+3. Search Insert Position ([LeetCode](https://leetcode.com/problems/search-insert-position/))
+4. Two Sum II Input Array is Sorted ([LeetCode](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/))
+5. Count Negative Numbers in a Sorted Matrix ([LeetCode](https://leetcode.com/problems/count-negative-numbers-in-a-sorted-matrix/))
+   1. [Rocket solution code](https://pastebin.com/u7xC2K7t) (Python)
+   2. [Rocket solution video](https://youtu.be/Z5VjCg2YuPs?t=1598) (Python)
