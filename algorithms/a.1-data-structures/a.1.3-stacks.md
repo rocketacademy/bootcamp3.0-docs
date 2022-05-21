@@ -21,44 +21,32 @@ The stack concept powers many features we use daily, including:
 
 ## Exercises
 
-Please use JavaScript arrays to perform stack operations.
-
-After attempting each problem, find solutions in the Leaderboard tab (HackerRank, may be on left side of page) or Solution or Discuss tabs (LeetCode) on that problem's page. If you get stuck for more than 15 minutes, review and understand the solutions and move on. Come back and re-attempt the problem after a few days.
+Please use JavaScript arrays to perform stack operations. After attempting each problem, find solutions in either Solution or Discuss tabs on that problem's page. If you get stuck for more than 15 minutes, review and understand the solutions and move on. Come back and re-attempt the problem after a few days.
 
 ### Pre-Class
 
-1. Remove All Adjacent Duplicates in String ([LeetCode](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/))
-   1. [Rocket strategy video](https://youtu.be/y---RCHCdD4?t=4613) (Python)
+1. [https://leetcode.com/problems/crawler-log-folder/](https://leetcode.com/problems/crawler-log-folder/)
+   1. Rocket solution video: [https://youtu.be/y---RCHCdD4?t=2460](https://youtu.be/y---RCHCdD4?t=2460)
+2. [https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/)
+   1. Rocket strategy video: [https://youtu.be/y---RCHCdD4?t=4613](https://youtu.be/y---RCHCdD4?t=4613)
 
 ### Part 1
 
-1. Make The String Great ([LeetCode](https://leetcode.com/problems/make-the-string-great/))
-   1. [Rocket strategy video](https://youtu.be/y---RCHCdD4?t=4457) (Python)
-2. Backspace String Compare ([LeetCode](https://leetcode.com/problems/backspace-string-compare/))
+1. [https://leetcode.com/problems/backspace-string-compare/](https://leetcode.com/problems/backspace-string-compare/)
+2. [https://leetcode.com/problems/make-the-string-great/](https://leetcode.com/problems/make-the-string-great/)
+   1. Rocket strategy video: [https://youtu.be/y---RCHCdD4?t=4457](https://youtu.be/y---RCHCdD4?t=4457)
 
 ### Part 2
 
-1. Crawler Log Folder ([LeetCode](https://leetcode.com/problems/crawler-log-folder/))
-   1. [Rocket solution video](https://youtu.be/y---RCHCdD4?t=2460) (Python)
-2. Maximum Element ([HackerRank](https://www.hackerrank.com/challenges/maximum-element/problem?isFullScreen=true))
-
-### Part 3
-
-1. Valid Parentheses ([LeetCode](https://leetcode.com/problems/valid-parentheses/), [HackerRank](https://www.hackerrank.com/challenges/balanced-brackets/problem?isFullScreen=true))
-   1. [Rocket solution code](https://pastebin.com/qGbG1BAN) (Python)
-2. Minimum Add To Make Parentheses Valid ([LeetCode](https://leetcode.com/problems/minimum-add-to-make-parentheses-valid/))
-
-### Part 4
-
-1. Simple Text Editor ([HackerRank](https://www.hackerrank.com/challenges/simple-text-editor/problem?isFullScreen=true))
-2. Validate Stack Sequences ([LeetCode](https://leetcode.com/problems/validate-stack-sequences/))
+1. [https://leetcode.com/problems/valid-parentheses/](https://leetcode.com/problems/valid-parentheses/)
+   1. Rocket solution code (Python): [https://pastebin.com/qGbG1BAN](https://pastebin.com/qGbG1BAN)
+2. [https://leetcode.com/problems/minimum-add-to-make-parentheses-valid/](https://leetcode.com/problems/minimum-add-to-make-parentheses-valid/)
 
 ### More Comfortable
 
-1. Score of Parentheses ([LeetCode](https://leetcode.com/problems/score-of-parentheses/))
-   1. Hint: The depth of the stack can be the power of 2
-2. Daily Temperatures ([LeetCode](https://leetcode.com/problems/daily-temperatures/))
-   1. Hint: Store temperatures and their array indexes in a stack as we iterate through the input array, and pop those temperatures off the stack and populate "num days until warmer temperature" in answer array when we see a warmer temperature.
+1. [https://leetcode.com/problems/score-of-parentheses/](https://leetcode.com/problems/score-of-parentheses/)
+2. [https://leetcode.com/problems/validate-stack-sequences/](https://leetcode.com/problems/validate-stack-sequences/)
+3. [https://leetcode.com/problems/daily-temperatures/](https://leetcode.com/problems/daily-temperatures/)
 
 ## Additional Resources
 

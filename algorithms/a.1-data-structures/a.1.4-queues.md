@@ -21,19 +21,22 @@ The queue concept powers many operations in computing, including:
 
 ## Exercises
 
+Please use JavaScript arrays to perform queue operations.
+
+After attempting each problem, find solutions in the Leaderboard tab (HackerRank, may be on left side of page) or Solution or Discuss tabs (LeetCode) on that problem's page. If you get stuck for more than 15 minutes, review and understand the solutions and move on. Come back and re-attempt the problem after a few days.
+
 ### Pre-Class
 
 Please fork starter code Repl and attempt solutions there. Feel free to compare with reference solutions after attempting each problem. Have fun!
 
-1. [https://replit.com/@neokaiyuan/queues-js#index.js](https://replit.com/@neokaiyuan/queues-js#index.js)
-   1. Solution: [https://replit.com/@neokaiyuan/queues-js-solution#index.js](https://replit.com/@neokaiyuan/queues-js-solution#index.js)
+1. Level-Order Traversal ([Repl](https://replit.com/@neokaiyuan/queues-js#index.js))
+   1. [Rocket solution code](https://replit.com/@neokaiyuan/queues-js-solution#index.js) (JavaScript)
 
 ### Part 1
 
-Please use JavaScript arrays to perform queue operations. After attempting each problem, find solutions in either Solution or Discuss tabs on that problem's page. If you get stuck for more than 15 minutes, review and understand the solutions and move on. Come back and re-attempt the problem after a few days.
-
-1. [https://leetcode.com/problems/number-of-students-unable-to-eat-lunch/](https://leetcode.com/problems/number-of-students-unable-to-eat-lunch/)
-2. [https://leetcode.com/problems/reveal-cards-in-increasing-order/](https://leetcode.com/problems/reveal-cards-in-increasing-order/)
+1. Number of Students Unable to Eat Lunch ([LeetCode](https://leetcode.com/problems/number-of-students-unable-to-eat-lunch/))
+2. Reveal Cards in Increasing Order ([LeetCode](https://leetcode.com/problems/reveal-cards-in-increasing-order/))
+   1. Hint: Sort deck and replay steps in reverse order
 
 ## Additional Resources
 
