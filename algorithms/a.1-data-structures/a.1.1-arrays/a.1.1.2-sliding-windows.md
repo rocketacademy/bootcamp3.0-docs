@@ -10,8 +10,6 @@ The sliding-window technique allow us to iteratively analyse subarrays ("windows
 
 ## Exercises
 
-After attempting each problem, find solutions in the Leaderboard tab (HackerRank, may be on left side of page) or Solution or Discuss tabs (LeetCode) on that problem's page. If you get stuck for more than 15 minutes, review and understand the solutions and move on. Come back and re-attempt the problem after a few days.
-
 ### Pre-Class
 
 1. Sum of All Odd-Length Subarrays ([LeetCode](https://leetcode.com/problems/sum-of-all-odd-length-subarrays/))
