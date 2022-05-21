@@ -107,27 +107,34 @@ After attempting each problem, find solutions in either Solution or Discuss tabs
 
 ### Pre-Class
 
-1. [https://leetcode.com/problems/valid-anagram/](https://leetcode.com/problems/valid-anagram/)
+1. Two Strings ([HackerRank](https://www.hackerrank.com/challenges/two-strings/problem?isFullScreen=true))
+2. Valid Anagram ([LeetCode](https://leetcode.com/problems/valid-anagram/))
 
 ### Part 1
 
-1. [https://leetcode.com/problems/unique-number-of-occurrences/](https://leetcode.com/problems/unique-number-of-occurrences/)
-2. [https://leetcode.com/problems/sum-of-unique-elements/](https://leetcode.com/problems/sum-of-unique-elements/)
-3. [https://leetcode.com/problems/n-repeated-element-in-size-2n-array/](https://leetcode.com/problems/n-repeated-element-in-size-2n-array/)
-4. [https://leetcode.com/problems/single-number/](https://leetcode.com/problems/single-number/)
-   1. Please ignore the constraint to implement this in constant space complexity because that involves a more advanced technique we haven't learned yet.
+1. N-Repeated Element in Size 2N Array ([LeetCode](https://leetcode.com/problems/n-repeated-element-in-size-2n-array/))
+2. Sum of Unique Elements ([LeetCode](https://leetcode.com/problems/sum-of-unique-elements/))
+3. Unique Number of Occurrences ([LeetCode](https://leetcode.com/problems/unique-number-of-occurrences/))
 
 ### Part 2
 
-1. [https://leetcode.com/problems/uncommon-words-from-two-sentences/](https://leetcode.com/problems/uncommon-words-from-two-sentences/)
-2. [https://leetcode.com/problems/find-words-that-can-be-formed-by-characters/](https://leetcode.com/problems/find-words-that-can-be-formed-by-characters/)
-3. [https://leetcode.com/problems/find-common-characters/](https://leetcode.com/problems/find-common-characters/)
-4. [https://leetcode.com/problems/maximum-number-of-balloons/](https://leetcode.com/problems/maximum-number-of-balloons/)
+1. Ransom Note ([HackerRank](https://www.hackerrank.com/challenges/ctci-ransom-note/problem?isFullScreen=true))
+2. Maximum Number of Balloons ([LeetCode](https://leetcode.com/problems/maximum-number-of-balloons/))
+3. Uncommon Words from Two Sentences ([LeetCode](https://leetcode.com/problems/uncommon-words-from-two-sentences/))
 
-### Leftover from Arrays
+### Part 3
 
-1. Intersection of Two Arrays II ([LeetCode](https://leetcode.com/problems/intersection-of-two-arrays-ii/)) (Requires hash tables)
-2. How Many Numbers are Smaller than the Current Number ([LeetCode](https://leetcode.com/problems/how-many-numbers-are-smaller-than-the-current-number/)) (requires hash tables)
-3. \[Sliding Window] Longest Substring Without Repeating Characters ([LeetCode](https://leetcode.com/problems/longest-substring-without-repeating-characters/))
-4. \[Sliding Window] Permutation in String ([LeetCode](https://leetcode.com/problems/permutation-in-string/))
+1. Find Words That Can Be Formed By Characters ([LeetCode](https://leetcode.com/problems/find-words-that-can-be-formed-by-characters/))
+2. Intersection of Two Arrays II ([LeetCode](https://leetcode.com/problems/intersection-of-two-arrays-ii/))
+3. Find Common Characters ([LeetCode](https://leetcode.com/problems/find-common-characters/))
+
+### More Comfortable
+
+1. How Many Numbers are Smaller than the Current Number ([LeetCode](https://leetcode.com/problems/how-many-numbers-are-smaller-than-the-current-number/))
+   1. Hint: Sort, track num smaller numbers for each number in hash table, use hash table to generate results array
+2. Sherlock and Anagrams ([HackerRank](https://www.hackerrank.com/challenges/sherlock-and-anagrams/problem?isFullScreen=true))
+   1. Hint: Sliding window?
+3. Longest Substring Without Repeating Characters ([LeetCode](https://leetcode.com/problems/longest-substring-without-repeating-characters/))
+   1. Hint: Sliding window?
+4. Permutation in String ([LeetCode](https://leetcode.com/problems/permutation-in-string/))
    1. Hint: Fixed-size window with hash table of letter frequencies?
