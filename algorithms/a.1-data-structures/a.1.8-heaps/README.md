@@ -245,11 +245,6 @@ Please use the [Python `heapq` library](https://docs.python.org/3/library/heapq.
 1. [https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/](https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/)
 2. [https://leetcode.com/problems/top-k-frequent-words/](https://leetcode.com/problems/top-k-frequent-words/)
 
-### Leftover from Binary Search
-
-1. [https://leetcode.com/problems/the-k-weakest-rows-in-a-matrix/](https://leetcode.com/problems/the-k-weakest-rows-in-a-matrix/)
-   1. Consider the solution to this heaps problem that we may have solved in [D.5.8: Heaps](../a.1.1-arrays/a.1-data-structures/a.1.8-heaps#part-3): [https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/](https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/)
-
 ## Further Reading
 
 1. [https://www.youtube.com/watch?v=WCm3TqScBM8](https://www.youtube.com/watch?v=WCm3TqScBM8)

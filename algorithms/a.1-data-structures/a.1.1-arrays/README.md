@@ -54,7 +54,7 @@ After attempting each problem, find solutions in either Solution or Discuss tabs
 3. String Matching in an Array ([LeetCode](https://leetcode.com/problems/string-matching-in-an-array/))
    1. Hint: You may find the array `sort` method helpful to sort input array by word length
    2. Hint: You may find nested for loops helpful where the indexes follow the pattern in the below code sample
-   3. [Recommended LeetCode solution](https://leetcode.com/problems/string-matching-in-an-array/discuss/930878/Clean-JavaScript-Solution)
+   3. [Recommended solution](https://leetcode.com/problems/string-matching-in-an-array/discuss/930878/Clean-JavaScript-Solution)
 4. Ice Cream Parlor ([HackerRank](https://www.hackerrank.com/challenges/icecream-parlor/problem?isFullScreen=true))
 
 Code sample for String Matching in an Array:

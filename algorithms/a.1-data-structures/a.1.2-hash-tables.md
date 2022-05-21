@@ -128,3 +128,6 @@ After attempting each problem, find solutions in either Solution or Discuss tabs
 
 1. Intersection of Two Arrays II ([LeetCode](https://leetcode.com/problems/intersection-of-two-arrays-ii/)) (Requires hash tables)
 2. How Many Numbers are Smaller than the Current Number ([LeetCode](https://leetcode.com/problems/how-many-numbers-are-smaller-than-the-current-number/)) (requires hash tables)
+3. \[Sliding Window] Longest Substring Without Repeating Characters ([LeetCode](https://leetcode.com/problems/longest-substring-without-repeating-characters/))
+4. \[Sliding Window] Permutation in String ([LeetCode](https://leetcode.com/problems/permutation-in-string/))
+   1. Hint: Fixed-size window with hash table of letter frequencies?
