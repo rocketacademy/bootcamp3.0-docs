@@ -67,46 +67,46 @@ To delete a node in a linked list we need to:
 
 ## Exercises
 
-For Repl exercises: Please fork starter code Repls and attempt solutions there. Feel free to compare with reference solutions after attempting each problem. Have fun!
+After attempting each problem, find solutions in the Leaderboard tab (HackerRank, may be on left side of page) or Solution or Discuss tabs (LeetCode) on that problem's page. If you get stuck for more than 15 minutes, review and understand the solutions and move on. Come back and re-attempt the problem after a few days.
+
+For problems with both HackerRank and LeetCode, implement a solution on the platform you are least comfortable with; feel free to submit on both.
 
 ### Pre-Class
 
-1. [https://replit.com/@neokaiyuan/singly-linked-list-js#index.js](https://replit.com/@neokaiyuan/singly-linked-list-js#index.js)
-   1. [https://replit.com/@neokaiyuan/singly-linked-list-js-solution#index.js](https://replit.com/@neokaiyuan/singly-linked-list-js-solution#index.js)
-   2. [FTBC3 class video](https://youtu.be/qewAXA\_vkpE?t=2004) (Python) where we covered the 1st 2 problems (re-recorded after class)
+1. Print the elements of a linked list ([HackerRank](https://www.hackerrank.com/challenges/print-the-elements-of-a-linked-list/problem?isFullScreen=true))
+2. Insert a node at the tail of a linked list ([HackerRank](https://www.hackerrank.com/challenges/insert-a-node-at-the-tail-of-a-linked-list/problem?isFullScreen=true))
+3. Insert a node at the head of a linked list ([HackerRank](https://www.hackerrank.com/challenges/insert-a-node-at-the-head-of-a-linked-list/problem?isFullScreen=true))
+4. Insert a node at a specific position in a linked list ([HackerRank](https://www.hackerrank.com/challenges/insert-a-node-at-a-specific-position-in-a-linked-list/problem?isFullScreen=true))
+5. Delete a node from a linked list ([HackerRank](https://www.hackerrank.com/challenges/delete-a-node-from-a-linked-list/problem?isFullScreen=true))
 
 ### Part 1
 
-1. [https://replit.com/@neokaiyuan/doubly-linked-list-js#index.js](https://replit.com/@neokaiyuan/doubly-linked-list-js#index.js)
-   1. [https://replit.com/@neokaiyuan/doubly-linked-list-js-solution#index.js](https://replit.com/@neokaiyuan/doubly-linked-list-js-solution#index.js)
-2. [https://repl.it/@neokaiyuan/circular-doubly-linked-list](https://repl.it/@neokaiyuan/circular-doubly-linked-list)
-   1. [https://repl.it/@neokaiyuan/circular-doubly-linked-list-soln](https://repl.it/@neokaiyuan/circular-doubly-linked-list-soln)
-3. [https://leetcode.com/problems/convert-binary-number-in-a-linked-list-to-integer/](https://leetcode.com/problems/convert-binary-number-in-a-linked-list-to-integer/)
-   1. Here's an [intuitive introduction to binary numbers](https://www.mathsisfun.com/binary-number-system.html).
-   2. [FTBC3 class video solution](https://youtu.be/qewAXA\_vkpE?t=2372) (re-recorded after class)
-      1. This video also explains binary numbers.
+1. Remove linked list elements ([LeetCode](https://leetcode.com/problems/remove-linked-list-elements/))
+2. Palindrome linked list ([LeetCode](https://leetcode.com/problems/palindrome-linked-list/))
+3. Middle of the linked list ([LeetCode](https://leetcode.com/problems/middle-of-the-linked-list/))
+4. Print the elements of a linked list in reverse ([HackerRank](https://www.hackerrank.com/challenges/print-the-elements-of-a-linked-list-in-reverse/problem?isFullScreen=true))
+5. Compare two linked lists ([HackerRank](https://www.hackerrank.com/challenges/compare-two-linked-lists/problem?isFullScreen=true))
 
 ### Part 2
 
-1. [https://leetcode.com/problems/remove-duplicates-from-sorted-list/](https://leetcode.com/problems/remove-duplicates-from-sorted-list/)
-   1. Hint: Keep track of prev node and next node
-   2. When we encounter duplicate, update prev node's next value to next node
-2. [https://leetcode.com/problems/middle-of-the-linked-list/](https://leetcode.com/problems/middle-of-the-linked-list/)
-3. [https://leetcode.com/problems/merge-two-sorted-lists/](https://leetcode.com/problems/merge-two-sorted-lists/)
-4. [https://leetcode.com/problems/reverse-linked-list/](https://leetcode.com/problems/reverse-linked-list/)
+1. Get the value of the node at a specific position from the tail ([HackerRank](https://www.hackerrank.com/challenges/get-the-value-of-the-node-at-a-specific-position-from-the-tail/problem?isFullScreen=true))
+2. Delete duplicate value nodes from a sorted linked list ([HackerRank](https://www.hackerrank.com/challenges/delete-duplicate-value-nodes-from-a-sorted-linked-list/problem?isFullScreen=true), [LeetCode](https://leetcode.com/problems/remove-duplicates-from-sorted-list/))
+   1. Hint: Keep track of prev node and next node. When we encounter duplicate, update prev node's next value to next node
+3. Merge two sorted linked lists ([HackerRank](https://www.hackerrank.com/challenges/merge-two-sorted-linked-lists/problem?isFullScreen=true), [LeetCode](https://leetcode.com/problems/merge-two-sorted-lists/))
+4. Reverse a linked list ([HackerRank](https://www.hackerrank.com/challenges/reverse-a-linked-list/problem?isFullScreen=true), [LeetCode](https://leetcode.com/problems/reverse-linked-list/))
    1. Hint: For given node, keep track of old next node and new next node
-   2. Inside while loop:
+   2. Hint: Inside while loop:
       1. Old next node is `node.next`
       2. Assign `node.next` to new next node (the node we just visited)
       3. Assign new next node variable to `node`
       4. Assign `node` to old next node
 
-### Part 3
+### More Comfortable
 
-1. [https://leetcode.com/problems/remove-linked-list-elements/](https://leetcode.com/problems/remove-linked-list-elements/)
-2. [https://leetcode.com/problems/linked-list-cycle/](https://leetcode.com/problems/linked-list-cycle/)
-3. [https://leetcode.com/problems/palindrome-linked-list/](https://leetcode.com/problems/palindrome-linked-list/)
-4. [https://leetcode.com/problems/intersection-of-two-linked-lists/](https://leetcode.com/problems/intersection-of-two-linked-lists/)
+1. Find the merge point of two joined linked lists ([HackerRank](https://www.hackerrank.com/challenges/find-the-merge-point-of-two-joined-linked-lists/problem?isFullScreen=true), [LeetCode](https://leetcode.com/problems/intersection-of-two-linked-lists/))&#x20;
+2. Insert a node into a sorted doubly linked list ([HackerRank](https://www.hackerrank.com/challenges/insert-a-node-into-a-sorted-doubly-linked-list/problem?isFullScreen=true))
+3. Reverse a doubly linked list ([HackerRank](https://www.hackerrank.com/challenges/reverse-a-doubly-linked-list/problem?isFullScreen=true))
+4. Detect whether a linked list contains a cycle ([HackerRank](https://www.hackerrank.com/challenges/detect-whether-a-linked-list-contains-a-cycle/problem?isFullScreen=true), [LeetCode](https://leetcode.com/problems/linked-list-cycle/))
 
 ## Additional Resources
 
