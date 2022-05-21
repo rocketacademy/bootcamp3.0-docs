@@ -123,3 +123,8 @@ After attempting each problem, find solutions in either Solution or Discuss tabs
 2. [https://leetcode.com/problems/find-words-that-can-be-formed-by-characters/](https://leetcode.com/problems/find-words-that-can-be-formed-by-characters/)
 3. [https://leetcode.com/problems/find-common-characters/](https://leetcode.com/problems/find-common-characters/)
 4. [https://leetcode.com/problems/maximum-number-of-balloons/](https://leetcode.com/problems/maximum-number-of-balloons/)
+
+### Leftover from Arrays
+
+1. Intersection of Two Arrays II ([LeetCode](https://leetcode.com/problems/intersection-of-two-arrays-ii/)) (Requires hash tables)
+2. How Many Numbers are Smaller than the Current Number ([LeetCode](https://leetcode.com/problems/how-many-numbers-are-smaller-than-the-current-number/)) (requires hash tables)

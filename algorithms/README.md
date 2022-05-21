@@ -11,7 +11,7 @@
 
 ## Introduction
 
-Algorithm interviews are the most common interview type for software engineering jobs, and typically require solving an algorithm problem in 30-45 minutes in a coding language of our choice. They will be similar to questions on popular interview prep platforms such as [HackerRank](https://www.hackerrank.com/) and [LeetCode](https://leetcode.com/), or in well-known interview prep material such as [Cracking the Coding Interview](https://drive.google.com/file/d/1M3uvavrprW\_xmbSFHAe3Q4RgfgFwEfwy/view?usp=sharing). With enough practice we can master algorithms and pass algorithm interviews from any company.
+Algorithm interviews are the most common interview type for software engineering jobs, and typically require solving an algorithm problem in 30-45 minutes in a coding language of our choice. They will be similar to questions on popular interview prep platforms such as [LeetCode](https://leetcode.com/) and [HackerRank](https://www.hackerrank.com/), or in well-known interview prep material such as [Cracking the Coding Interview](https://drive.google.com/file/d/1M3uvavrprW\_xmbSFHAe3Q4RgfgFwEfwy/view?usp=sharing). With enough practice we can master algorithms and pass algorithm interviews from any company.
 
 Algorithm problems require us to code an algorithm (series of steps) to transform specific inputs to specific outputs according to the rules of the problem. One of the most canonical basic algorithm problems is "Fizz Buzz", a problem that asks us to output all numbers from 1 to an input `n` where multiples of 3 are replaced with Fizz, multiples of 5 are replaced with Buzz, and multiples of both 3 and 5 are replaced with Fizz Buzz.
 
@@ -27,7 +27,7 @@ Below are basic algorithm problems to understand their format and what to expect
 
 ## Warmup Exercises
 
-Solve each exercise by writing a function that satisfies the requirements. You will need to create HackerRank and LeetCode accounts if you have not already.
+Solve each exercise by writing a function that satisfies the requirements. You will need to create LeetCode and HackerRank accounts if you have not already.
 
 {% hint style="info" %}
 **Recommended learning strategy**
@@ -35,11 +35,16 @@ Solve each exercise by writing a function that satisfies the requirements. You w
 For a given problem, if you cannot think of a way to solve the problem after 15 minutes, check the solutions or submissions to understand how others solved the problem. Come back to the problem after a few days and attempt the problem again. This will save us time and help us learn faster, because many problems follow the same patterns.
 {% endhint %}
 
-1. Solve Me First ([HackerRank](https://www.hackerrank.com/challenges/solve-me-first/problem?isFullScreen=true))
-2. Simple Array Sum ([HackerRank](https://www.hackerrank.com/challenges/simple-array-sum/problem?isFullScreen=true))
-3. Fizz Buzz ([LeetCode](https://leetcode.com/problems/fizz-buzz/)) (Fizz Buzz is a common coding screening test)
-4. Mini Max Sum ([HackerRank](https://www.hackerrank.com/challenges/mini-max-sum/problem?isFullScreen=true))
-5. Time Conversion ([HackerRank](https://www.hackerrank.com/challenges/time-conversion/problem?isFullScreen=true))
+### LeetCode
+
+The following are common coding screening tests because they test basic knowledge of coding.
+
+1. [Fizz Buzz](https://leetcode.com/problems/fizz-buzz/)
+2. [Reverse String](https://leetcode.com/problems/reverse-string/)
+
+### HackerRank
+
+1. [HackerRank Warmup](https://www.hackerrank.com/domains/algorithms?filters%5Bsubdomains%5D%5B%5D=warmup)
 
 ## Tips for Succeeding at Algorithm Interviews
 
