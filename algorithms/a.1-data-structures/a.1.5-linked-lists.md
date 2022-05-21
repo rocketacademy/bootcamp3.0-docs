@@ -13,7 +13,7 @@
 Brief introduction to the linked list data structure. Source: Neso Academy
 {% endembed %}
 
-Linked lists store ordered lists of data where elements (aka "nodes") may not be stored in contiguous blocks of memory. Each node contains a payload (numbers in above illustration) and a pointer to the next node (arrows in above illustration).&#x20;
+Linked lists store ordered lists of data where elements (aka "nodes") may not be stored in contiguous blocks of memory. Each node contains a payload (numbers in above illustration) and a pointer to the next node (arrows in above illustration).
 
 The benefit of non-contiguous data is that inserting or deleting a node from anywhere in a linked list is an `O(1)` operation because only adjacent nodes need updating, instead of all subsequent elements in an array. The drawback of this is that accessing an element in the middle of a linked list requires `O(n)` traversal, instead of `O(1)` access with an array.
 
@@ -75,19 +75,22 @@ For problems with both HackerRank and LeetCode, implement a solution on the plat
 
 1. Print the elements of a linked list ([HackerRank](https://www.hackerrank.com/challenges/print-the-elements-of-a-linked-list/problem?isFullScreen=true))
 2. Insert a node at the tail of a linked list ([HackerRank](https://www.hackerrank.com/challenges/insert-a-node-at-the-tail-of-a-linked-list/problem?isFullScreen=true))
-3. Insert a node at the head of a linked list ([HackerRank](https://www.hackerrank.com/challenges/insert-a-node-at-the-head-of-a-linked-list/problem?isFullScreen=true))
-4. Insert a node at a specific position in a linked list ([HackerRank](https://www.hackerrank.com/challenges/insert-a-node-at-a-specific-position-in-a-linked-list/problem?isFullScreen=true))
-5. Delete a node from a linked list ([HackerRank](https://www.hackerrank.com/challenges/delete-a-node-from-a-linked-list/problem?isFullScreen=true))
 
 ### Part 1
 
-1. Remove linked list elements ([LeetCode](https://leetcode.com/problems/remove-linked-list-elements/))
-2. Palindrome linked list ([LeetCode](https://leetcode.com/problems/palindrome-linked-list/))
-3. Middle of the linked list ([LeetCode](https://leetcode.com/problems/middle-of-the-linked-list/))
-4. Print the elements of a linked list in reverse ([HackerRank](https://www.hackerrank.com/challenges/print-the-elements-of-a-linked-list-in-reverse/problem?isFullScreen=true))
-5. Compare two linked lists ([HackerRank](https://www.hackerrank.com/challenges/compare-two-linked-lists/problem?isFullScreen=true))
+1. Insert a node at the head of a linked list ([HackerRank](https://www.hackerrank.com/challenges/insert-a-node-at-the-head-of-a-linked-list/problem?isFullScreen=true))
+2. Insert a node at a specific position in a linked list ([HackerRank](https://www.hackerrank.com/challenges/insert-a-node-at-a-specific-position-in-a-linked-list/problem?isFullScreen=true))
+3. Delete a node from a linked list ([HackerRank](https://www.hackerrank.com/challenges/delete-a-node-from-a-linked-list/problem?isFullScreen=true))
+4. Remove linked list elements ([LeetCode](https://leetcode.com/problems/remove-linked-list-elements/))
 
 ### Part 2
+
+1. Palindrome linked list ([LeetCode](https://leetcode.com/problems/palindrome-linked-list/))
+2. Middle of the linked list ([LeetCode](https://leetcode.com/problems/middle-of-the-linked-list/))
+3. Print the elements of a linked list in reverse ([HackerRank](https://www.hackerrank.com/challenges/print-the-elements-of-a-linked-list-in-reverse/problem?isFullScreen=true))
+4. Compare two linked lists ([HackerRank](https://www.hackerrank.com/challenges/compare-two-linked-lists/problem?isFullScreen=true))
+
+### Part 3
 
 1. Get the value of the node at a specific position from the tail ([HackerRank](https://www.hackerrank.com/challenges/get-the-value-of-the-node-at-a-specific-position-from-the-tail/problem?isFullScreen=true))
 2. Delete duplicate value nodes from a sorted linked list ([HackerRank](https://www.hackerrank.com/challenges/delete-duplicate-value-nodes-from-a-sorted-linked-list/problem?isFullScreen=true), [LeetCode](https://leetcode.com/problems/remove-duplicates-from-sorted-list/))
@@ -103,7 +106,7 @@ For problems with both HackerRank and LeetCode, implement a solution on the plat
 
 ### More Comfortable
 
-1. Find the merge point of two joined linked lists ([HackerRank](https://www.hackerrank.com/challenges/find-the-merge-point-of-two-joined-linked-lists/problem?isFullScreen=true), [LeetCode](https://leetcode.com/problems/intersection-of-two-linked-lists/))&#x20;
+1. Find the merge point of two joined linked lists ([HackerRank](https://www.hackerrank.com/challenges/find-the-merge-point-of-two-joined-linked-lists/problem?isFullScreen=true), [LeetCode](https://leetcode.com/problems/intersection-of-two-linked-lists/))
 2. Insert a node into a sorted doubly linked list ([HackerRank](https://www.hackerrank.com/challenges/insert-a-node-into-a-sorted-doubly-linked-list/problem?isFullScreen=true))
 3. Reverse a doubly linked list ([HackerRank](https://www.hackerrank.com/challenges/reverse-a-doubly-linked-list/problem?isFullScreen=true))
 4. Detect whether a linked list contains a cycle ([HackerRank](https://www.hackerrank.com/challenges/detect-whether-a-linked-list-contains-a-cycle/problem?isFullScreen=true), [LeetCode](https://leetcode.com/problems/linked-list-cycle/))
