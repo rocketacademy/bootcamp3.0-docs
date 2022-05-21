@@ -54,7 +54,7 @@ while (node) {
 
 ### Insert and delete node in linked list
 
-![Steps to insert a node in a linked list. Source: University of San Francisco](../../.gitbook/assets/image.png)
+![Steps to insert a node in a linked list. Source: University of San Francisco](<../../.gitbook/assets/A.1.5 Linked List Add Node.png>)
 
 To insert a node in a linked list we need to:
 
