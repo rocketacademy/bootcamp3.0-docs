@@ -1,4 +1,4 @@
-# 1: Frontend
+# 🖼 1: Frontend
 
 ## Learning Objectives
 

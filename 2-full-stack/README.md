@@ -1,4 +1,4 @@
-# 2: Full Stack
+# 🏭 2: Full Stack
 
 ## Learning Objectives
 
