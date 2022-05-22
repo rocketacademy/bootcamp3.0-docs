@@ -47,7 +47,7 @@
     - [2.2.1: AJAX](2-full-stack/2.2-advanced-react/2.2.1-ajax.md)
     - [2.2.2: Hooks](2-full-stack/2.2-advanced-react/2.2.2-hooks.md)
     - [2.2.3: React Router](2-full-stack/2.2-advanced-react/2.2.3-react-router.md)
-    - [2.2.4: Higher-Order Components](2-full-stack/2.2-advanced-react/2.2.4-higher-order-components/README.md)
+    - [2.2.4: Higher-Order Components](2-full-stack/2.2-advanced-react/2.2.4-higher-order-components.md)
     - [2.2.5: Context](2-full-stack/2.2-advanced-react/2.2.5-context.md)
     - [2.2.6: Eject CRA](2-full-stack/2.2-advanced-react/2.2.6-eject-cra.md)
   - [2.3: Firebase](2-full-stack/2.3-firebase/README.md)
