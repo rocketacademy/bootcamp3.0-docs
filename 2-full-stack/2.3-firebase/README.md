@@ -1,4 +1,4 @@
-# 2.2: Firebase
+# 2.3: Firebase
 
 ## Learning Objectives
 

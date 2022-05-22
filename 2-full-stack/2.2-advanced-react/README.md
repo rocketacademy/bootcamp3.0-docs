@@ -1,4 +1,4 @@
-# 2.3: Advanced React
+# 2.2: Advanced React
 
 ## Learning Objectives
 
