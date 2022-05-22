@@ -10,7 +10,7 @@
 
 Object-oriented programming (OOP) is the concept that data in our apps can be organised into conceptual entities called **"objects"** (unrelated to JavaScript objects), also known as **"classes"**. In an app context, `User` could be 1 such class, where a user could have multiple attributes such as name, email, password, and also multiple **"methods"** (another word for functions that are part of a class) that perform functionality on specific user **"instances"**. An "instance" is 1 instantiation of a class, e.g. a `User` instance that represents Kai. 1 example of a method on the `User` class could be `validatePassword`, which might hash an input password and verify if it matches the user's hashed password in the database.
 
-We have already used classes extensively in Coding Bootcamp, perhaps unknowingly. For example, the `push` and `pop` methods on arrays in JavaScript are examples of methods in the `Array` class.  Refer to [0.4.4: JavaScript classes](../0-foundations/0.4-javascript/0.4.6-classes.md) for a refresher on class syntax.
+We have already used classes extensively in Coding Bootcamp, perhaps unknowingly. For example, the `push` and `pop` methods on arrays in JavaScript are examples of methods in the `Array` class.  Refer to [0.4.4: JavaScript classes](../0-foundations/0.4-javascript/0.4.4-classes.md) for a refresher on class syntax.
 
 OOP is a controversial design pattern and is used in some places and not others. Classes are optional in languages like JavaScript and Python; classes are the only way to write code in languages like Java.
 
