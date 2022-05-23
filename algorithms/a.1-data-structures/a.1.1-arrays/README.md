@@ -62,7 +62,7 @@ Code sample for String Matching in an Array:
 
 ```javascript
 for (let i = 0; i <= arr; i += 1) {
-  for (let j = i + 1; j <= arr; j += 1) {
+  for (let j = i+1; j <= arr; j += 1) {
     // Compare arr[i] and arr[j] without duplicate checks
   }
 }
