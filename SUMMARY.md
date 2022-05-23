@@ -64,7 +64,6 @@
   * [2.P: Full-Stack App (Firebase)](2-full-stack/2.p-full-stack-app-firebase.md)
 * [🤖 3: Backend](3-backend/README.md)
   * [3.1: Express.js](3-backend/3.1-express.js/README.md)
-    * [3.1.1: Express with JSON DB](3-backend/3.1-express.js/3.1.1-express-with-json-db.md)
     * [3.1.2: Handling POST Requests](3-backend/3.1-express.js/3.1.2-handling-post-requests.md)
     * [3.1.3: PUT, DELETE Requests](3-backend/3.1-express.js/3.1.3-put-delete-requests.md)
     * [3.1.4: RESTful Routes](3-backend/3.1-express.js/3.1.4-restful-routes.md)
