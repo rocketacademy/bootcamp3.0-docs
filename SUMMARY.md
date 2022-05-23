@@ -65,7 +65,6 @@
 * [🤖 3: Backend](3-backend/README.md)
   * [3.1: Express.js](3-backend/3.1-express.js/README.md)
     * [3.1.2: Handling POST Requests](3-backend/3.1-express.js/3.1.2-handling-post-requests.md)
-    * [3.1.3: PUT, DELETE Requests](3-backend/3.1-express.js/3.1.3-put-delete-requests.md)
     * [3.1.4: RESTful Routes](3-backend/3.1-express.js/3.1.4-restful-routes.md)
   * [3.2: SQL](3-backend/3.2-sql/README.md)
     * [3.2.1: SQL Language](3-backend/3.2-sql/3.2.1-sql-language/README.md)
