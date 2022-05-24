@@ -2,18 +2,18 @@
 
 ## Learning Objectives
 
-1. Express.js is a server application framework that helps us set up server applications to receive requests from clients and respond with data
+1. Express.js is a server application framework that helps us receive requests from clients and respond with data
 2. Understand how to create routes and corresponding middleware functions that handle requests to those routes
 3. Know how to parse URL path and query parameters in route middleware
 4. Middleware functions are functions that run during the "request-response cycle" and have access to Express request and response objects
 
 ## Introduction
 
-Express.js is a JavaScript server application framework that helps us set up server applications to receive requests from clients and respond with data. Servers are computers without a screen that perform logic on behalf of clients such as running server applications.&#x20;
+Express.js is a server application framework that helps us receive requests from clients and respond with data. Servers are computers without a screen that perform logic on behalf of clients such as storing and retrieving data.
 
 ## Basic Express App
 
-The following code is a minimal Express app that hosts a server at port 3000 and responds with "Hello, World!" at the root route. [Check it out on StackBlitz](https://stackblitz.com/edit/basic-express-app-rocket?file=index.js), a popular online IDE!
+The following code is a minimal Express app that hosts a server at port 3000 and responds with "Hello, World!" at the root route, i.e. `localhost:3000` when run locally or `mysite.com` when deployed to `mysite.com`. [Check it out on StackBlitz](https://stackblitz.com/edit/basic-express-app-rocket?file=index.js), a popular online IDE!
 
 {% code title="index.js" %}
 ```javascript
@@ -118,6 +118,15 @@ Read [Express' official guide to using middleware](https://expressjs.com/en/guid
 Official Express guide to using middleware
 {% endembed %}
 
+## CORS
+
+CORS (Cross-Origin Resource Sharing) is a security mechanism that allows servers to specify which domains other than their own to accept requests from. Without CORS, hackers at malicious websites could induce users to perform sensitive actions to manipulate legitimate backends using authentication information stored in the browser. With CORS, legitimate backends can prevent such attacks by only allowing requests from legitimate domains.
+
+CORS is relevant for us now because we will host our frontends and backends on different domains, and we will need to configure our backends to allow requests from our frontends. Express provides an [official CORS middleware NPM library `cors`](https://expressjs.com/en/resources/middleware/cors.html) to configure CORS for our backends.
+
+For now we will use the most open and least secure `cors` configuration (`app.use(cors());`) to get our apps working. There are many ways to configure Express' `cors` library to be most secure that we can learn about later.
+
 ## Additional Resources
 
-[Web Dev Simplified's intro to Express](https://youtu.be/lY6icfhap2o) provides a video tutorial to the above concepts.
+1. [Web Dev Simplified's intro to Express](https://youtu.be/lY6icfhap2o) provides a video tutorial to the above Express concepts
+2. Portswigger provides a [detailed explanation of CORS](https://portswigger.net/web-security/cors)
