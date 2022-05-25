@@ -66,7 +66,6 @@
   * [3.1: Express.js](3-backend/3.1-express.js/README.md)
   * [3.2: SQL](3-backend/3.2-sql/README.md)
     * [3.2.1: SQL Language](3-backend/3.2-sql/3.2.1-sql-language/README.md)
-      * [3.2.1.1: Basic SQL Commands](3-backend/3.2-sql/3.2.1-sql-language/3.2.1.1-basic-sql-commands.md)
       * [3.2.1.2: SQL Relationships (One to Many)](3-backend/3.2-sql/3.2.1-sql-language/3.2.1.2-sql-relationships-one-to-many.md)
       * [3.2.1.3: SQL Relationships (Many to Many)](3-backend/3.2-sql/3.2.1-sql-language/3.2.1.3-sql-relationships-many-to-many.md)
       * [3.2.1.4: Non-Foreign-Key Relationship Data in Join Table](3-backend/3.2-sql/3.2.1-sql-language/3.2.1.4-non-foreign-key-relationship-data-in-join-table.md)
