@@ -188,15 +188,15 @@ Please fork starter code Repls and attempt solutions there. Feel free to compare
 
 ### Pre-Class
 
-1. [https://repl.it/@neokaiyuan/treeintro#main.py](https://repl.it/@neokaiyuan/treeintro#main.py)
-   1. [https://repl.it/@neokaiyuan/treeintrosoln#main.py](https://repl.it/@neokaiyuan/treeintrosoln#main.py)
+1. [https://repl.it/@rocketkai/treeintro#main.py](https://repl.it/@rocketkai/treeintro#main.py)
+   1. [https://repl.it/@rocketkai/treeintrosoln#main.py](https://repl.it/@rocketkai/treeintrosoln#main.py)
    2. [FTBC3 class video ](https://youtu.be/3Dw3spVIk1w?t=3001)where we solved the 1st 2 problems together.
 
 ### Part 1
 
-1. [https://repl.it/@neokaiyuan/treetraversals#main.py](https://repl.it/@neokaiyuan/treetraversals#main.py)
+1. [https://repl.it/@rocketkai/treetraversals#main.py](https://repl.it/@rocketkai/treetraversals#main.py)
    1. Hint: Level-order traversal requires BFS techniques that are not recursive.
-   2. [https://repl.it/@neokaiyuan/treetraversals-soln#main.py](https://repl.it/@neokaiyuan/treetraversals-soln#main.py)
+   2. [https://repl.it/@rocketkai/treetraversals-soln#main.py](https://repl.it/@rocketkai/treetraversals-soln#main.py)
 
 ### Part 2
 

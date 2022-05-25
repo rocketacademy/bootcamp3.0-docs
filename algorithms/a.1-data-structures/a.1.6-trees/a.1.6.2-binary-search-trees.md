@@ -4,7 +4,7 @@
 
 By the end of this lesson, you should:
 
-* be familiar with what a binary search tree data structure is
+- be familiar with what a binary search tree data structure is
 
 ## Introduction
 
@@ -46,8 +46,8 @@ Please fork starter code Repls and attempt solutions there. Feel free to compare
 
 ### Pre-Class
 
-1. [https://repl.it/@neokaiyuan/treebst#main.py](https://repl.it/@neokaiyuan/treebst#main.py)
-   1. [https://repl.it/@neokaiyuan/treebstsoln#main.py](https://repl.it/@neokaiyuan/treebstsoln#main.py)
+1. [https://repl.it/@rocketkai/treebst#main.py](https://repl.it/@rocketkai/treebst#main.py)
+   1. [https://repl.it/@rocketkai/treebstsoln#main.py](https://repl.it/@rocketkai/treebstsoln#main.py)
 
 ### Part 1
 

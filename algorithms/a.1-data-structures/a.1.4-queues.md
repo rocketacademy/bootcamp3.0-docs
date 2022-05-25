@@ -29,8 +29,8 @@ After attempting each problem, find solutions in the Leaderboard tab (HackerRank
 
 Please fork starter code Repl and attempt solutions there. Feel free to compare with reference solutions after attempting each problem. Have fun!
 
-1. Level-Order Traversal ([Repl](https://replit.com/@neokaiyuan/queues-js#index.js))
-   1. [Rocket solution code](https://replit.com/@neokaiyuan/queues-js-solution#index.js) (JavaScript)
+1. Level-Order Traversal ([Repl](https://replit.com/@rocketkai/queues-js#index.js))
+   1. [Rocket solution code](https://replit.com/@rocketkai/queues-js-solution#index.js) (JavaScript)
 
 ### Part 1
 
