@@ -1,165 +1,52 @@
 # 3.3: Sequelize
 
+## Learning Objectives
+
+1. ORMs allow us to query SQL databases using application languages such as JavaScript
+2. Sequelize is the most popular JavaScript ORM
+3. Understand basic Sequelize setup and usage
+
 ## Introduction
 
-Lets do some wishful thinking...
+ORMs (Object-Relational Mappings) allow us to manage and query SQL databases using application languages like JavaScript without writing SQL. This makes our applications more robust because it reduces human error from typos in SQL queries which are typically written as strings. ORMs are a layer on top of SQL, where ORMs translate application code to SQL before querying SQL DBs.
 
-- _What if we could write a program that writes these SQL queries for us?_
-- _What if we did not need to remember this crazy error prone SQL syntax?_
-- _What if we could call data their actual names, i.e; `Users`, `Sightings`, rather than the generic `rows`?_
+Sequelize is the most popular JavaScript ORM and we will use Sequelize in our applications during Bootcamp. The following sections follow official Sequelize tutorials. There is no need to remember all implementation details from the tutorials. Feel free to skim them, understand high-level concepts and refer back to the tutorials during implementation.
 
-### Introducing Sequelize (our ORM of choice)
+## Model Basics
 
-[ORM](https://en.wikipedia.org/wiki/Object%E2%80%93relational_mapping) stands for "object-relational mapping", where database tables (also known as "[relations](<https://en.wikipedia.org/wiki/Relation_(database)>)") are mapped to [objects or classes](<https://en.wikipedia.org/wiki/Object_(computer_science)#:~:text=An%20object%20is%20an%20abstract,found%20in%20the%20real%20world.>), such that SQL relations and their relevant associations can be manipulated directly from application code by generating templatized SQL query code. [Sequelize](https://sequelize.org) is the most popular ORM for Node.js. We will use Sequelize during Coding Bootcamp for our web applications to replace raw SQL.
+{% embed url="https://sequelize.org/docs/v6/core-concepts/model-basics/" %}
+Sequelize official tutorial on Sequelize models
+{% endembed %}
 
-### ORMs Replace Simple SQL Queries
+1. We will use `sequelize.define` to define models at Rocket
+2. We will use default table name inference for all Sequelize examples at Rocket, which automatically assumes table names are the pluralised form of model names
+3. We will not use `model.sync` to synchronise models with databases because that behaviour is not production-safe. We will instead use [database migrations](https://sequelize.org/docs/v6/core-concepts/model-basics/#synchronization-in-production).
 
-You may have noticed that SQL queries for each set of CRUD routes follow a similar pattern. Most CRUD queries follow this same pattern, and can be relatively easily substituted with ORM syntax by templatizing the standard SQL query syntax.
+## Model Instances
 
-```sql
-// Create Query
-INSERT INTO <TABLENAME> (<COLUMN_NAMES>) VALUES (<VALUES>);
-// Retrieve Query
-SELECT * FROM <TABLE_NAME> WHERE id=<ID>;
-```
+{% embed url="https://sequelize.org/docs/v6/core-concepts/model-instances/" %}
+Sequelize official tutorial on Sequelize model instances
+{% endembed %}
 
-ORM is the answer to the question: "_What if we could write a program that writes these SQL queries for us?_" When we finish implementing Sequelize ORM in our Express app, it will form the Model part of our Model-View-Controller architecture.
+1. We will use the `create` method to create model instances at Rocket instead of `build` and `save`.
+2. Rocket recommends using the suggested way to log model instances with `.toJSON()`
+3. Rocket recommends using `update` to update model instances for precision instead of `set` and `save`
 
-### SQL and Sequelize CRUD Side by Side
+## Model Querying - Basics
 
-Imagine a database setup with the following ERD:
+{% embed url="https://sequelize.org/docs/v6/core-concepts/model-querying-basics/" %}
+Sequelize official tutorial on Sequelize model instances
+{% endembed %}
 
-![](../../.gitbook/assets/category-item-erd-wide2.png)
+1. We will use `Model.create()` to insert rows into our database instead of `Model.build()` and `instance.save()`
+2. We will rarely need to use syntax in "Advanced queries with functions (not just columns)" section, if ever
+3. We will use `Model.bulkCreate` to seed data in our databases for Rocket exercises
+4. Limits and pagination will not be necessary until we have large amounts of data that slows down our apps when retrieved all at once
 
-#### SELECT with SQL vs. Sequelize
+## Model Querying - Finders
 
-{% tabs %}
-{% tab title="SQL" %}
+{% embed url="https://sequelize.org/docs/v6/core-concepts/model-querying-finders/" %}
+Sequelize official tutorial on Sequelize model finder methods
+{% endembed %}
 
-```javascript
-// Find all
-SELECT * FROM "categories";
-
-// Find all with specific columns
-SELECT id, name FROM "categories";
-
-// Find all with where clause
-SELECT * FROM "categories" WHERE createdAt = '2021-20-06'
-
-// Find one
-SELECT * FROM "categories" WHERE id = 5 LIMIT 1;
-```
-
-{% endtab %}
-
-{% tab title="Sequelize" %}
-
-```javascript
-// Find all
-Category.findAll();
-
-// Find all with specific columns
-Category.findAll({
-  attributes: ["id", "name"],
-});
-
-// Find all with where clause
-Category.findAll({
-  where: {
-    createdAt: "2021-20-06",
-  },
-});
-
-// Find one
-Category.findOne({
-  where: {
-    id: 5,
-  },
-});
-
-// Find by PrimaryKey(id)
-Category.findByPk(5);
-```
-
-{% endtab %}
-{% endtabs %}
-
-#### INSERT and UPDATE with SQL vs.Sequelize
-
-{% tabs %}
-{% tab title="SQL" %}
-
-```javascript
-// Create
-INSERT INTO "categories" (id, name, createdAt, updatedAt)
-VALUES (1, 'music', NOW(), NOW());
-
-// UPDATE
-UPDATE "categories"
-SET name = 'films'
-WHERE id = 1;
-```
-
-{% endtab %}
-
-{% tab title="Sequelize" %}
-
-```javascript
-// Create
-Category.create({
-  id: 1,
-  name: "music",
-  createdAt: Date.now(),
-  updatedAt: Date.now(),
-});
-
-// Update
-Category.update({ name: "films", updatedAt: Date.now() }, { where: { id: 1 } });
-
-// Create and update instance, no need for specifying where clause in update
-// The created instance acts as reference to the entry in the db
-const newCategory = Category.create({
-  id: 2,
-  name: "cooking",
-  createdAt: Date.now(),
-  updatedAt: Date.now(),
-});
-
-newCategory.update({ name: "gardening ", updatedAt: Date.now() });
-```
-
-{% endtab %}
-{% endtabs %}
-
-#### DELETE with SQL vs. Sequelize
-
-{% tabs %}
-{% tab title="SQL" %}
-
-```javascript
-// Delete
-DELETE FROM "categories" WHERE id = 1;
-```
-
-{% endtab %}
-
-{% tab title="Sequelize" %}
-
-```javascript
-// Delete
-Category.destroy({
-  where: {
-    id: 1,
-  },
-});
-
-// Delete instance
-const persistenceCategory = Category.findByPk(1);
-
-persistenceCategory.destroy();
-```
-
-{% endtab %}
-{% endtabs %}
-
-####
+1. These are some of the most common Sequelize methods we will use in our apps
