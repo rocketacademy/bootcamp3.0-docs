@@ -23,7 +23,7 @@ Complete all exercises in the following Codecademy lessons when they are assigne
 1. [Manipulation](https://www.codecademy.com/courses/learn-sql/lessons/manipulation/exercises/sql)
 2. [Queries](https://www.codecademy.com/courses/learn-sql/lessons/queries/exercises/queries)
 3. [Aggregate Functions](https://www.codecademy.com/courses/learn-sql/lessons/aggregate-functions/exercises/intro)
-4. [Multiple Tables](https://www.codecademy.com/courses/learn-sql/lessons/multiple-tables/exercises/intro)
+4. [Multiple Tables](https://www.codecademy.com/courses/learn-sql/lessons/multiple-tables/exercises/intro) (left joins, cross joins, unions and "with" syntax are more niche and less important for Bootcamp, but may be helpful in data analyst work)
 
 ## Additional Resources
 
