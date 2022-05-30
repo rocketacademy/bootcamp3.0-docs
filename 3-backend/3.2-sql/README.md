@@ -20,6 +20,8 @@ A primary strength of relational databases is their ability to represent relatio
 
 Complete all exercises in the following Codecademy lessons when they are assigned in the Rocket course schedule.
 
+The following exercises introduce basic SQL syntax. We will not write much SQL during Rocket because we will rely on ORMs (Object-Relational Mappings) such as Sequelize to construct SQL using JavaScript for more robust applications. However, it is relevant to know SQL syntax and some companies test for it during interviews.
+
 1. [Manipulation](https://www.codecademy.com/courses/learn-sql/lessons/manipulation/exercises/sql)
 2. [Queries](https://www.codecademy.com/courses/learn-sql/lessons/queries/exercises/queries)
 3. [Aggregate Functions](https://www.codecademy.com/courses/learn-sql/lessons/aggregate-functions/exercises/intro)
