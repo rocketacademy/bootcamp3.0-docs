@@ -26,7 +26,7 @@ By convention, we typically name callback functions that handle events with the 
 
 ### Variables
 
-By default, JavaScript uses [camelCase](https://en.wikipedia.org/wiki/Naming\_convention\_\(programming\)#Examples\_of\_multiple-word\_identifier\_formats) for variable names. Treat acronyms like regular words and use [camelCase for the acronym](https://stackoverflow.com/questions/15526107/acronyms-in-camelcase#:\~:text=When%20using%20acronyms%2C%20use%20Pascal,in%20identifiers%20or%20parameter%20names) for greater readability, e.g. `cardHtmlElement` instead of `cardHTMLElement`.
+By default, JavaScript uses [camelCase](https://en.wikipedia.org/wiki/Naming\_convention\_\(programming\)#Examples\_of\_multiple-word\_identifier\_formats) for variable names. Treat acronyms like regular words and use [camelCase for the acronym](https://stackoverflow.com/questions/15526107/acronyms-in-camelcase) for greater readability, e.g. `cardHtmlElement` instead of `cardHTMLElement`.
 
 ### Constants
 
@@ -68,7 +68,7 @@ URL entities that consist of multiple words are separated by hyphens. For exampl
 
 ### SQL Table and Column Names
 
-SQL column names should be in snake\_case. SQL is case-insensitive, and SQL commands such as CREATE and WHERE are often capitalised, thus lowercase is preferred for column names. Underscores are preferred over hyphens to separate words because hyphens are special characters in some SQL implementations.
+SQL table names should be plural and in snake\_case, and column names should be singular and in snake\_case. SQL is case-insensitive, and SQL commands such as CREATE and WHERE are often capitalised, thus lowercase is preferred for column names. Underscores are preferred over hyphens to separate words because hyphens are special characters in some SQL implementations.
 
 ## Commenting
 
