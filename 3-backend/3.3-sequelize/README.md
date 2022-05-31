@@ -5,6 +5,7 @@
 1. ORMs allow us to query SQL databases using application languages such as JavaScript
 2. Sequelize is the most popular JavaScript ORM
 3. Understand basic Sequelize setup and usage
+4. Models tell our apps what data they can access; Migrations tell our databases how to be structured
 
 ## Introduction
 
