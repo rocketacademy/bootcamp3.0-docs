@@ -50,3 +50,16 @@ Sequelize official tutorial on Sequelize model finder methods
 {% endembed %}
 
 1. These are some of the most common Sequelize methods we will use in our apps
+
+## Migrations
+
+{% embed url="https://sequelize.org/docs/v6/other-topics/migrations/" %}
+Sequelize official tutorial on Sequelize migrations
+{% endembed %}
+
+1. We will use migrations to set up our DB schema. All companies use migrations to manage DB schema. Rocket considers migrations a core concept of Sequelize and ORMs in general.
+2. Migrations at Rocket will only have "development" and "production" environments for simplicity. Tech teams in industry often have "test" environments for more robust testing between development and production.
+3. We will use `model:generate` at Rocket to generate model and migration files
+4. Rocket will use seed files to populate initial date in our applications
+5. Rocket will use `.sequelizerc` to specify Sequelize file and folder paths as per the example in "The `.sequelizerc` file" section
+6. We will not use concepts from "Dynamic configuration" onward during Rocket's Bootcamp
