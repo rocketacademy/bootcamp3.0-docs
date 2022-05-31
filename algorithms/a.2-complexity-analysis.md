@@ -42,11 +42,11 @@ Common Big-O complexities include `O(1)`, `O(logn)`, `O(n)`, `O(nlogn)`, `O(n^2)
 
 ### Example: Find median element in sorted array
 
-Given a sorted array of length `n`, find the median element of the array. Median refers to the element ranked `n/2` \*\*\*\* in sorted order.&#x20;
+Given a sorted array of length `n`, find the median element of the array. Median refers to the element ranked `n/2` \*\*\*\* in sorted order.
 
-We might be tempted to loop over the array and stop when `i === n/2`, but that would be an `O(n)` algorithm because the number of iterations would increase linearly with `n`.&#x20;
+We might be tempted to loop over the array and stop when `i === n/2`, but that would be an `O(n)` algorithm because the number of iterations would increase linearly with `n`.
 
-&#x20;Instead, since the array is sorted, we can access the middle element in a single operation with `arr[arr.length/2]`, where `arr` is the sorted input array. This is an `O(1)` algorithm because no matter `n`, the algorithm runs in a constant number of operations (in this case 1).
+Instead, since the array is sorted, we can access the middle element in a single operation with `arr[arr.length/2]`, where `arr` is the sorted input array. This is an `O(1)` algorithm because no matter `n`, the algorithm runs in a constant number of operations (in this case 1).
 
 Referencing an array element runs in `O(1)` space because it does not require additional variables beyond the input elements.
 
@@ -60,7 +60,7 @@ Without getting into too much math, `log(n)` represents the exponent necessary t
 
 ### Example: Find element with value `x` in sorted array
 
-Given a sorted array of length `n`, find the position of an element with value `x`.&#x20;
+Given a sorted array of length `n`, find the position of an element with value `x`.
 
 A naive solution would be to iterate over every element in the array until we find `x`, but this would run in `O(n)` time because we would need to search through up to `n` elements.
 
@@ -78,7 +78,7 @@ Binary search runs in `O(1)` space because it does not require additional variab
 
 ### Example: Find largest number in unsorted array
 
-Given an unsorted array of numbers where the array has length `n`, find the position of the largest number.&#x20;
+Given an unsorted array of numbers where the array has length `n`, find the position of the largest number.
 
 We cannot perform binary search on this array because it is unsorted and we do not know the value of the largest number. If the array were sorted, we could extract the last element of the array that would be the largest number in `O(1)` time. The fastest sorting algorithms take `O(nlogn)` time. Thus the best method is to iterate over each element of the array linearly (i.e. for loop) until we reach the end of the array and confirm the largest number, which would take `O(n)` time.
 
@@ -112,7 +112,7 @@ Given an array of numbers, find all unordered pairs of those numbers.
 
 This problem requires us to loop through each element of the array, and for each element of the array, loop through each other element of the array. This is a classic `O(n^2)`-time algorithm.
 
-The above algorithm runs in `O(n^2)` space because we would need to return an array containing all unordered pairs of numbers in the original array.
+The above algorithm runs in `O(n^2)` space because we would need to return an array containing all unordered pairs of numbers in the original array. For an input array of size `n`, there are `n * (n-1)/2` unordered pairs, which simplifies to `O(n^2)` in Big-O notation.
 
 ## Exponential: `O(2ⁿ)`
 
