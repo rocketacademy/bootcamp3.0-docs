@@ -106,13 +106,17 @@ The most common sorting algorithm Merge Sort runs in `O(n)` space because at any
 
 `O(n^2)` ("oh of n squared") time means the algorithm will complete in a number of operations proportional to the square of the input size `n`. This typically involves nested loops over an input collection.
 
-### Example: Find all pairs of numbers in an array
+### Example: Find all unordered pairs of numbers in an array
 
 Given an array of numbers, find all unordered pairs of those numbers.
 
 This problem requires us to loop through each element of the array, and for each element of the array, loop through each other element of the array. This is a classic `O(n^2)`-time algorithm.
 
-The above algorithm runs in `O(n^2)` space because we would need to return an array containing all unordered pairs of numbers in the original array. For an input array of size `n`, there are `n * (n-1)/2` unordered pairs, which simplifies to `O(n^2)` in Big-O notation.
+The above algorithm runs in `O(n^2)` space because we would need to return an array containing all unordered pairs of numbers in the original array. There is no need to understand why in detail for now, but if you are curious the explanation is below.
+
+Mathematically there are `n * (n-1)/2` unordered pairs in an input array of size `n`. For example, in an input array `[1, 2, 3]`, there are 2 pairs that start with the 1st element `1` and 1 pair that starts with the 2nd element `2`. If we extrapolate this to an input array `[1, 2, ..., n]`, where `...` represents all numbers between `2` and `n`, there will be `n-1` pairs that start with `1`, `n-2` pairs that start with `2`, so on and so forth until we reach 1 pair that starts with `n-1`. This means we have `1 + 2 + ... + n-1` unique unordered pairs.&#x20;
+
+A clever way to sum `1 + 2 + ... + n-1` is to add consecutive pairs at the beginning and end of the list. For example, `1 + n-1 = n`, `2 + n-2 = n`, etc. There are roughly `(n-1)/2` pairs that sum to `n`, meaning the total number of unordered pairs is `n * (n-1)/2`, which simplifies to `O(n^2)` in Big-O notation.
 
 ## Exponential: `O(2ⁿ)`
 
