@@ -73,7 +73,6 @@
     * [3.3.1: Sequelize 1-M Relationships](3-backend/3.3-sequelize/3.3.1-sequelize-1-m-relationships.md)
     * [3.3.2: Sequelize M-M Relationships](3-backend/3.3-sequelize/3.3.2-sequelize-m-m-relationships.md)
     * [3.3.3: Advanced Sequelize](3-backend/3.3-sequelize/3.3.3-advanced-sequelize.md)
-    * [3.3.4: Sequelize Setup Cheatsheet](3-backend/3.3-sequelize/3.3.4-sequelize-setup-cheatsheet.md)
   * [3.4: Authentication](3-backend/3.4-authentication/README.md)
     * [3.4.1: Cookies](3-backend/3.4-authentication/3.4.1-cookies.md)
     * [3.4.2: User Auth](3-backend/3.4-authentication/3.4.2-user-auth.md)
