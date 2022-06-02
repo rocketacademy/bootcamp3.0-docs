@@ -71,6 +71,24 @@ Read [Express' official routing guide](https://expressjs.com/en/guide/routing.ht
 Official Express routing guide
 {% endembed %}
 
+{% hint style="info" %}
+**Require vs Import Statements**
+
+You may notice that Express docs use `require` syntax to import modules. This is an older import syntax that is still supported by Node.js. Luckily we can generally use `require` and `import` statements interchangeably.
+
+Require (aka CommonJS) syntax:
+
+```javascript
+const express = require("express");
+```
+
+Import (aka ES Modules) syntax:
+
+```javascript
+import express from "express";
+```
+{% endhint %}
+
 ## Middleware
 
 Middleware functions (aka "middleware") are functions that run during the "request-response cycle" and have access to Express request and response objects. The request-response cycle is the logic a server executes between when the server receives a request and when the server sends a response for that request. Routing methods of the format `app.<METHOD>` are 1 form of middleware.

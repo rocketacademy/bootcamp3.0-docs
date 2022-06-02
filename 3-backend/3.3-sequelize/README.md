@@ -23,6 +23,12 @@ Sequelize official tutorial on Sequelize models
 2. We will use default table name inference for all Sequelize examples at Rocket, which automatically assumes table names are the pluralised form of model names
 3. We will not use `model.sync` to synchronise models with databases because that behaviour is not production-safe. We will instead use [database migrations](https://sequelize.org/docs/v6/core-concepts/model-basics/#synchronization-in-production).
 
+{% hint style="info" %}
+**Require vs Import Statements**
+
+You may notice that Sequelize docs use `require` syntax to import modules. This is an older import syntax that Node.js still supports. Rocket recommends using `import` syntax for all code we write, and to update file extensions to `.cjs` (short for CommonJS) instead of `.js` for files that use `require` syntax. To enable `import` syntax for all `.js` files by default, Rocket has included a `"type": "module"` setting in `package.json` in all Rocket starter code.
+{% endhint %}
+
 ## Model Instances
 
 {% embed url="https://sequelize.org/docs/v6/core-concepts/model-instances/" %}
