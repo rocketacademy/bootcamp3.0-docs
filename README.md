@@ -38,6 +38,10 @@ Rocket's Bootcamp contains 4 modules of 16 course days each, each of which culmi
 4. Capstone
    1. Build app with new technology (individual or group project)
 
-The following is a diagram of Rocket's curriculum. Module 1 introduces the relationship between client and server and how a frontend server can serve a client-side application. Module 2 introduces a 3rd-party backend service (Firebase) that our frontend apps can use to store data. Module 3 introduces how to build a backend service of our own. Throughout the course we will learn algorithms to bolster our foundations and prepare for SWE interviews.
+The following is a diagram of Rocket's curriculum. Module 1 introduces the relationship between client and server and how a frontend server can serve a client-side application. Module 2 introduces a 3rd-party backend service (Firebase) that our frontend apps can use to store data. Module 3 introduces how to build a backend service of our own. Throughout the course we will learn algorithms to bolster our foundations and prepare for coding interviews.
 
 ![Coding Bootcamp Curriculum Outline](<.gitbook/assets/Coding Bootcamp Curriculum Outline.png>)
+
+You may notice Rocket's docs often reference official docs, guides and tutorials for the content we teach, for example with React, Firebase and Sequelize. We do this because the official docs are often the best explanations, and Rocket supplements those explanations with our own expertise of what students are likely to understand at our level. All of Rocket's exercises are intentionally and meticulously designed to suit programmers at our level.
+
+We hope this teaching style suits you and we are excited to teach you the best!
