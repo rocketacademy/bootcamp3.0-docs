@@ -42,6 +42,6 @@ The following is a diagram of Rocket's curriculum. Module 1 introduces the relat
 
 ![Coding Bootcamp Curriculum Outline](<.gitbook/assets/Coding Bootcamp Curriculum Outline.png>)
 
-You may notice Rocket's docs often reference official docs, guides and tutorials for the content we teach, for example with React, Firebase and Sequelize. We do this because the official docs are often the best explanations, and Rocket supplements those explanations with our own expertise of what students are likely to understand at our level. All of Rocket's exercises are intentionally and meticulously designed to suit programmers at our level.
+You may notice Rocket's docs often reference official docs, guides and tutorials for the content we teach, for example with React, Firebase and Sequelize. We do this because the official docs are often the best explanations, and Rocket supplements those explanations with our own expertise of what students at our levels are likely to understand. All Rocket exercises are intentionally and meticulously designed to suit our students' experience levels.
 
 We hope this teaching style suits you and we are excited to teach you the best!
