@@ -15,8 +15,9 @@ After attempting each problem, find solutions in the Leaderboard tab (HackerRank
 ### Pre-Class
 
 1. Sum of All Odd-Length Subarrays ([LeetCode](https://leetcode.com/problems/sum-of-all-odd-length-subarrays/))
-   1. Hint: Would nested loops be helpful, an outer loop that determines the length of the subarray, and an inner loop that sums all subarrays of a given length?
-   2. [Rocket solution code](https://pastebin.com/apxLUSQh) (Python)
+   1. Note: There is no need to attempt the `O(n)` solution for now. The `O(n)` solution requires math that may not be the most relevant to us while we are practising JavaScript.
+   2. Hint: Would nested loops be helpful, an outer loop that determines the length of the subarray, and an inner loop that sums all subarrays of a given length?
+   3. [Rocket solution code](https://pastebin.com/apxLUSQh) (Python)
 
 ### Part 1
 
