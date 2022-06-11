@@ -36,6 +36,7 @@
   * [1.E: Exercises](1-frontend/1.e-exercises/README.md)
     * [1.E.1: Recipe Site](1-frontend/1.e-exercises/1.e.1-recipe-site.md)
     * [1.E.2: Portfolio Page](1-frontend/1.e-exercises/1.e.2-portfolio-page.md)
+    * [1.E.3: World Clock](1-frontend/1.e-exercises/1.e.3-world-clock.md)
     * [1.E.3: High Card](1-frontend/1.e-exercises/1.e.3-high-card.md)
     * [1.E.4: Guess The Word](1-frontend/1.e-exercises/1.e.4-guess-the-word.md)
   * [1.P: Frontend App](1-frontend/1.p-frontend-app.md)
