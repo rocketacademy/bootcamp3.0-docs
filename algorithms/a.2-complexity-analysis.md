@@ -56,7 +56,7 @@ Referencing an array element runs in `O(1)` space because it does not require ad
 
 `O(logn)` ("oh of log n") time means the algorithm will complete in a number of operations proportional to the log of the input size `n`.
 
-Without getting into too much math, `log(n)` represents the exponent necessary to raise a constant number (typically 2 or 10, the exact number doesn't matter in Big-O) to the value of `n`. For example, assuming a log of "base" 2, `log(2)` \*\*\*\* would be 1, and `log(1024)` would be 10. \_\_ Even though the value of `n` increased by over 1000 between the 2 examples, the value of `log(n)` only increased by roughly 10. Thus `log(n)` is significantly smaller than `n` for large values of `n`.
+Without getting into too much math, `log(n)` represents the exponent necessary to raise a constant number (typically 2 or 10, the exact number doesn't matter in Big-O) to the value of `n`. For example, assuming a log of "base" 2, `log(2)` equals 1, and `log(1024)` equals 10. Even though the value of `n` increased by over 1000 between the 2 examples, the value of `log(n)` only increased by 10. Thus `log(n)` is significantly smaller than `n` for large values of `n`.
 
 ### Example: Find element with value `x` in sorted array
 
