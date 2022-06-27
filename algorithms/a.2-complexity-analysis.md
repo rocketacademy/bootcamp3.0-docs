@@ -42,7 +42,7 @@ Common Big-O complexities include `O(1)`, `O(logn)`, `O(n)`, `O(nlogn)`, `O(n^2)
 
 ### Example: Find median element in sorted array
 
-Given a sorted array of length `n`, find the median element of the array. Median refers to the element ranked `n/2` \*\*\*\* in sorted order.
+Given a sorted array of length `n`, find the median element of the array. Median refers to the element ranked `n/2` in sorted order.
 
 We might be tempted to loop over the array and stop when `i === n/2`, but that would be an `O(n)` algorithm because the number of iterations would increase linearly with `n`.
 
@@ -126,7 +126,7 @@ A clever way to sum `1 + 2 + ... + n-1` is to add consecutive pairs at the begin
 
 ### Example: Calculate the n-th Fibonacci number
 
-The naive solution to calculating the n-th Fibonacci number runs in `O(2^n)` time. The Fibonacci sequence is defined as `Fib(n) = Fib(n-1) + Fib(n-2)`, where `Fib(0) = 1` and `Fib(1) = 1`. The naive solution recursively calculates `Fib(n)` by calling `Fib(n-1)` and `Fib(n-2)`. This results in 2 operations per `Fib` operation, and because each `Fib` operation runs recursively, we end up with `2^n` operations because it would take `n` levels of `Fib` operations to reach the base cases of `Fib(0)` \*\*\*\* and `Fib(1)`. Interestingly, this problem can be solved in linear time complexity with dynamic programming. We will learn about dynamic programming later in the course.
+The naive solution to calculating the n-th Fibonacci number runs in `O(2^n)` time. The Fibonacci sequence is defined as `Fib(n) = Fib(n-1) + Fib(n-2)`, where `Fib(0) = 1` and `Fib(1) = 1`. The naive solution recursively calculates `Fib(n)` by calling `Fib(n-1)` and `Fib(n-2)`. This results in 2 operations per `Fib` operation, and because each `Fib` operation runs recursively, we end up with `2^n` operations because it would take `n` levels of `Fib` operations to reach the base cases of `Fib(0)` and `Fib(1)`. Interestingly, this problem can be solved in linear time complexity with dynamic programming. We will learn about dynamic programming later in the course.
 
 The naive Fibonacci solution also runs in `O(2^n)` space because at any given time, there will be up to `O(2^n)` simultaneous function calls, thus `O(2^n)` intermediate `Fib` calculations in memory. The optimal `O(n)` time solution only requires `O(1)` space because it only uses a finite number of variables to calculate `Fib(n)`, regardless of `n`.
 
