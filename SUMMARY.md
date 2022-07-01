@@ -73,7 +73,7 @@
   * [3.3: Sequelize](3-backend/3.3-sequelize/README.md)
     * [3.3.1: Sequelize 1-M Relationships](3-backend/3.3-sequelize/3.3.1-sequelize-1-m-relationships.md)
     * [3.3.2: Sequelize M-M Relationships](3-backend/3.3-sequelize/3.3.2-sequelize-m-m-relationships.md)
-    * [3.3.3: Advanced Sequelize](3-backend/3.3-sequelize/3.3.3-advanced-sequelize.md)
+    * [3.3.3: Advanced Sequelize Concepts](3-backend/3.3-sequelize/3.3.3-advanced-sequelize.md)
   * [3.4: Authentication](3-backend/3.4-authentication.md)
   * [3.E: Exercises](3-backend/3.e-exercises/README.md)
     * [3.E.1: Bigfoot JSON](3-backend/3.e-exercises/3.e.1-bigfoot-json.md)
