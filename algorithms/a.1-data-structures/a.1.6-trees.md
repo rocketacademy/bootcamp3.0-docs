@@ -4,10 +4,9 @@
 
 1. Trees are collections of nodes connected by uni-directional edges without cycles
 2. Trees store hierarchical data and are commonly used for applications such as file systems, nested UI representation, search and language processing
-3. There are 2 common tree traversal algorithms: depth-first search (DFS) and breadth-first search (BFS)
-4. Within DFS there are 3 orders of traversing nodes: pre-order, in-order and post-order
-5. TODO: Time and space complexity?
-6. TODO: Include binary search trees
+3. Binary trees and binary search trees are the most common trees in algorithm problems
+4. There are 2 common tree traversal algorithms: depth-first search (DFS) and breadth-first search (BFS)
+5. Within DFS there are 3 orders of traversing nodes: pre-order, in-order and post-order
 
 ## Introduction
 
@@ -58,36 +57,37 @@ root.right.right = new Node(3);
 
 ### Binary Search Tree
 
-TODO: Update BST introduction
+![Sample binary search tree. Source: Wikipedia](<../../.gitbook/assets/A.1.6 - Trees - BST.png>)
 
-Binary search trees are commonly used for indexing and lookup- binary search trees are the data structure used in database indexes to speed up the querying of data.
+Binary search trees (BSTs) are binary trees where every node has the following properties:
 
-Binary Search Trees or BSTs are a special kind of tree where each node has the following properties.
+1. All nodes in the left subtree (subtree that extends from the parent node's left child) have values smaller than the parent node
+2. All nodes in the right subtree (subtree that extends from the parent node's right child) have values larger than the parent node
 
-1. All nodes in the left subtree (subtree that extends from the parent node's left child) have values smaller than the parent node.
-2. All nodes in the right subtree (subtree that extends from the parent node's right child) have values larger than the parent node.
+These properties are especially useful for search algorithms, because given relatively "balanced" (all subtrees have the same depth) BSTs, we will be able to search for elements in BSTs in `O(log(n))` time. BSTs can be considered a visual representation of binary search.
 
-These properties are especially useful for search algorithms, because given relatively "balanced" BSTs we will be able to search for elements in BSTs in `O(log(n))` time. [Read more about BSTs here](https://www.geeksforgeeks.org/binary-search-tree-data-structure/).
+```javascript
+// BST node definition
+class Node {
+  constructor(val) {
+    self.value = val;
+    self.left = null;
+    self.right = null;
+  }
+}
 
-```
-class Node:
-  def __init__(self, val):
-    self.value = val
-    self.left = None
-    self.right = None
-  def __repr__(self):
-    return str(self.value)
+// Creating a BST
+const root = new Node(5);
+root.left = new Node(3);
+root.right = new Node(8);
+root.right.left = new Node(7);
 
-# Creating a BST
-root = Node(5)
-root.left = Node(3)
-root.right = Node(8)
-root.right.left = Node(7)
-#   5
-#  / \
-# 3   8
-#    /
-#   7
+// The resulting tree should look like the following
+//   5
+//  / \
+// 3   8
+//    /
+//   7
 ```
 
 ### Generic Tree
@@ -124,6 +124,8 @@ DFS is the default form of tree traversal and we typically implement DFS with re
 
 ### Example: Find `x` in tree
 
+#### Algorithm description
+
 The following code uses DFS to find value `x` in a tree. The algorithm returns `true` if `x` exists in the tree and `false` if not.
 
 ```javascript
@@ -143,6 +145,8 @@ const findXInTree = (node, x) => {
 ```
 
 Notice the algorithm looks like many of the recursive algorithms we have written before, with base cases and recurrence relations. DFS algorithms typically examine the current node in the base cases and pass child nodes to the recursive functions in recurrence relations.
+
+#### Time and space complexity
 
 The above algorithm has a time complexity of `O(n)`, where `n` is the number of nodes in the tree. This is because the algorithm will need to visit at most all nodes in the tree to find `x`. This algorithm has a space complexity of `O(1)` because it does not allocate any additional memory beyond what is provided.
 
@@ -228,33 +232,43 @@ const postOrderTraversal = (node) => {
 
 ### Example: Return tree values in level order
 
-TODO: Clean up explanation and change code example to JS
+#### Algorithm description
 
-BFS is a fancier form of tree traversal that typically involves queues. As a recap of BFS, consider the following `level_order` traversal solution from Rocket's tree traversal exercises. The following algorithm enables us to access nodes in a tree in level order.
+The following algorithm returns all values in the tree level by level from top to bottom. This is hard to do with DFS because DFS explores each subtree completely before moving on to the next. BFS traverses nodes in exactly the order we want, making it easy to add their values to a list in level order.
 
-Consider using Python's built-in `deque` data structure [here](https://docs.python.org/3/library/collections.html#collections.deque) for a more efficient queue implementation than `list`. `deque` is implemented with a doubly-linked list, thus dequeue is a O(1) operation. Specifically, see the [`popleft` method](https://docs.python.org/3/library/collections.html#collections.deque.popleft).
+BFS is typically implemented using queues. Since there is no built-in queue data structure in JavaScript, we use arrays instead, with the array `shift` method to dequeue elements from the front of the array. Note that `shift` is a relatively inefficient `O(n)` operation, and when we need more efficient algorithms we would either use linked lists to implement a queue data structure, or use Python and its built-in `deque` data structure (uses linked lists underneath) for queue operations.
 
-```python
-from collections import deque
+The BFS algorithm works by iteratively (no recursion) adding each node's children to a queue, and visiting nodes in the order they appear in the queue. This guarantees all nodes at each level will be visited before nodes at lower levels. See above video for a visual description.
 
-def level_order(root_node):
-  ''' Return the list of values level by level (Hint: Consider iteration)'''
-  level_order_values = []
-  # Store upcoming nodes in a queue
-  q = deque([root_node])
-  while len(q) > 0:
-    # Iteratively dequeue first node in queue until queue is empty
-    currnode = q.popleft()
-    # Perform operation on current node
-    level_order_values.append(currnode.value)
-    # Enqueue left child if any
-    if currnode.left:
-      q.append(currnode.left)
-    # Enqueue right child if any
-    if currnode.right:
-      q.append(currnode.right)
-  return level_order_values
+```javascript
+// Return list of values in tree in level order from top to bottom
+const levelOrder = (root) => {
+  const levelOrderValues = [];
+  // Store upcoming nodes in a queue
+  q = [root];
+  while (q.length > 0) {
+    // Iteratively dequeue first node in queue until queue is empty
+    currNode = q.shift();
+    // Perform operation on curr node, in this case add to level order values
+    levelOrderValues.push(currNode.val);
+    // Enqueue left child if any
+    if (currNode.left) {
+      q.push(currNode.left);
+    }
+    // Enqueue right child if any
+    if (currNode.right) {
+      q.push(currNode.right);
+    }
+  }
+  return levelOrderValues;
+};
 ```
+
+In each loop, we enqueue the left and right child (assuming binary trees) of the current node to our queue, if any. The algorithm starts with only the root node in the queue, and ends when the queue is empty. BFS also works for non-binary trees, where we would enqueue all children and not just left and right children.
+
+#### Time and space complexity
+
+The above algorithm has a time complexity of `O(n)`, where `n` is the number of nodes in the tree. This is because the algorithm will need to visit at most all nodes in the tree to find `x`. This algorithm has a space complexity of `O(n)` because `levelOrderValues` has size `n` when it is returned.
 
 ## Additional Resources
 
