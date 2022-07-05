@@ -277,7 +277,7 @@ The above algorithm has a time complexity of `O(n)`, where `n` is the number of 
 
 ## Exercises
 
-TODO: Review all exercises, update Repl exercises to JS
+TODO: update Repl exercises to JS
 
 The following exercises are sorted in increasing order of difficulty, and organised to help us keep track of milestones. Please do as many as you can during Bootcamp and feel free to complete the rest at a later time.
 
@@ -296,26 +296,23 @@ Please fork starter code Repls and attempt solutions there. Feel free to compare
 Binary tree traversal.
 
 1. Univalued Binary Tree ([LeetCode](https://leetcode.com/problems/univalued-binary-tree/))
-2. Height of a Binary Tree ([HackerRank](https://www.hackerrank.com/challenges/tree-height-of-a-binary-tree/problem?isFullScreen=true))
-3. Maximum Depth of Binary Tree ([LeetCode](https://leetcode.com/problems/maximum-depth-of-binary-tree/))
+2. Height / Maximum Depth of a Binary Tree ([HackerRank](https://www.hackerrank.com/challenges/tree-height-of-a-binary-tree/problem?isFullScreen=true), [LeetCode](https://leetcode.com/problems/maximum-depth-of-binary-tree/))
    1. [FTBC3 class video discussion](https://youtu.be/uQldubu1LOE?t=2269) on solution and how to trace code in a recursion problem
-4. Balanced Binary Tree ([LeetCode](https://leetcode.com/problems/balanced-binary-tree/))
-   1. [FTBC3 In-Class Discussion Part 1](https://youtu.be/L2gtfJBxKzE?t=4412)
-   2. [FTBC3 In-Class Discussion Part 2](https://youtu.be/L2gtfJBxKzE?t=6278)
+3. Maximum Depth of N-ary Tree ([LeetCode](https://leetcode.com/problems/maximum-depth-of-n-ary-tree/))
+   1. Hint: Review [Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/) problem before attempting this one
+   2. [FTBC3 class video discussion](https://youtu.be/L2gtfJBxKzE?t=5329)
 
 ### Part 2
 
-DFS vs BFS.
+Binary Search Trees (BST).
 
-1. Maximum Depth of N-ary Tree ([LeetCode](https://leetcode.com/problems/maximum-depth-of-n-ary-tree/))
-   1. Hint: Review [Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/) problem before attempting this one
-   2. [FTBC3 class video discussion](https://youtu.be/L2gtfJBxKzE?t=5329)
-2. Level-Order Traversal ([HackerRank](https://www.hackerrank.com/challenges/tree-level-order-traversal/problem?isFullScreen=true))
-3. Minimum Depth of Binary Tree ([LeetCode](https://leetcode.com/problems/minimum-depth-of-binary-tree/))
-   1. Hint: Consider BFS for efficiency
-4. Same Tree ([LeetCode](https://leetcode.com/problems/same-tree/))
-   1. Hint: Both DFS and BFS should work
-   2. [FTBC3 class video discussion](https://youtu.be/uQldubu1LOE?t=1709) on solution and runtime
+See [Binary Search Tree section](a.1.6-trees.md#binary-search-tree) above for recap on properties of BSTs.
+
+1. Binary Search Tree Insertion ([HackerRank](https://www.hackerrank.com/challenges/binary-search-tree-insertion/problem?isFullScreen=true))
+2. Search in a Binary Search Tree ([LeetCode](https://leetcode.com/problems/search-in-a-binary-search-tree/))
+3. Increasing Order Search Tree ([LeetCode](https://leetcode.com/problems/increasing-order-search-tree/))
+   1. Hint: Consider in-order traversal to traverse a binary search tree in increasing order
+4. Lowest Common Ancestor of a Binary Search Tree ([HackerRank](https://www.hackerrank.com/challenges/binary-search-tree-lowest-common-ancestor/problem?isFullScreen=true), [LeetCode](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/))
 
 ### Part 3
 
@@ -323,30 +320,35 @@ DFS pre-order, in-order and post-order traversal.
 
 See [Pre-Order, In-Order, and Post-Order section](a.1.6-trees.md#pre-order-in-order-and-post-order-traversal) above for a recap on the various DFS traversal orderings. For non-binary trees that can have more than 2 children, when we iterate through an array of children we are typically iterating from left to right children.
 
-1. \[Binary Tree] Pre-Order Traversal ([HackerRank](https://www.hackerrank.com/challenges/tree-preorder-traversal/problem?isFullScreen=true))
-2. N-ary Tree Pre-Order Traversal ([LeetCode](https://leetcode.com/problems/n-ary-tree-preorder-traversal/))
-3. \[Binary Tree] In-Order Traversal ([HackerRank](https://www.hackerrank.com/challenges/tree-inorder-traversal/problem?isFullScreen=true))
-4. \[Binary Tree] Post-Order Traversal ([HackerRank](https://www.hackerrank.com/challenges/tree-postorder-traversal/problem?isFullScreen=true))
-5. N-ary Tree Post-Order Traversal ([LeetCode](https://leetcode.com/problems/n-ary-tree-postorder-traversal/))
-6. Increasing Order Search Tree ([LeetCode](https://leetcode.com/problems/increasing-order-search-tree/))
-   1. Hint: Consider in-order traversal to traverse a binary search tree in increasing order
+1. Pre-Order Traversal ([HackerRank](https://www.hackerrank.com/challenges/tree-preorder-traversal/problem?isFullScreen=true), [LeetCode](https://leetcode.com/problems/n-ary-tree-preorder-traversal/))
+2. In-Order Traversal ([HackerRank](https://www.hackerrank.com/challenges/tree-inorder-traversal/problem?isFullScreen=true))
+3. Post-Order Traversal ([HackerRank](https://www.hackerrank.com/challenges/tree-postorder-traversal/problem?isFullScreen=true), [LeetCode](https://leetcode.com/problems/n-ary-tree-postorder-traversal/))
 
 ### Part 4
 
-Binary Search Trees (BST).
+BFS.
 
-1. Binary Search Tree Insertion ([HackerRank](https://www.hackerrank.com/challenges/binary-search-tree-insertion/problem?isFullScreen=true))
-2. Search in a Binary Search Tree ([LeetCode](https://leetcode.com/problems/search-in-a-binary-search-tree/))
-3. Lowest Common Ancestor of a Binary Search Tree ([HackerRank](https://www.hackerrank.com/challenges/binary-search-tree-lowest-common-ancestor/problem?isFullScreen=true), [LeetCode](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/))
+1. Level-Order Traversal ([HackerRank](https://www.hackerrank.com/challenges/tree-level-order-traversal/problem?isFullScreen=true))
+2. Minimum Depth of Binary Tree ([LeetCode](https://leetcode.com/problems/minimum-depth-of-binary-tree/))
+   1. Hint: Consider BFS for efficiency
+3. Same Tree ([LeetCode](https://leetcode.com/problems/same-tree/))
+   1. Hint: Both DFS and BFS should work, DFS will be simpler
+   2. [FTBC3 class video discussion](https://youtu.be/uQldubu1LOE?t=1709) on solution and runtime
 
 ### Part 5
 
-1. Find Mode in Binary Search Tree ([LeetCode](https://leetcode.com/problems/find-mode-in-binary-search-tree/))
-2. Path Sum ([LeetCode](https://leetcode.com/problems/path-sum/))
+Misc tree problems.
+
+1. Path Sum ([LeetCode](https://leetcode.com/problems/path-sum/))
    1. [Rocket solution code](https://pastebin.com/wu9Xn6b3) (Python)
    2. [FTBC3 class video solution](https://youtu.be/DUxsg2iDtuE?t=1226) (Python)
+2. Balanced Binary Tree ([LeetCode](https://leetcode.com/problems/balanced-binary-tree/))
+   1. [FTBC3 In-Class Discussion Part 1](https://youtu.be/L2gtfJBxKzE?t=4412)
+   2. [FTBC3 In-Class Discussion Part 2](https://youtu.be/L2gtfJBxKzE?t=6278)
 
 ### Part 6
+
+Misc tree problems.
 
 1. Two Sum IV Input is a BST ([LeetCode](https://leetcode.com/problems/two-sum-iv-input-is-a-bst/))
 2. Range Sum of BST ([LeetCode](https://leetcode.com/problems/range-sum-of-bst/))
@@ -355,37 +357,39 @@ Binary Search Trees (BST).
 
 ### Part 7
 
+Misc tree problems.
+
 1. Merge Two Binary Trees ([LeetCode](https://leetcode.com/problems/merge-two-binary-trees/))
 2. Invert Binary Tree ([LeetCode](https://leetcode.com/problems/invert-binary-tree/))
-3. Leaf-Similar Trees ([LeetCode](https://leetcode.com/problems/leaf-similar-trees/))
 
 ### More Comfortable
 
-1. Sum of Left Leaves ([LeetCode](https://leetcode.com/problems/sum-of-left-leaves/))
-2. Subtree of Another Tree ([LeetCode](https://leetcode.com/problems/subtree-of-another-tree/))
-3. Convert Sorted Array to Binary Search Tree ([LeetCode](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/))
+1. Leaf-Similar Trees ([LeetCode](https://leetcode.com/problems/leaf-similar-trees/))
+2. Sum of Left Leaves ([LeetCode](https://leetcode.com/problems/sum-of-left-leaves/))
+3. Subtree of Another Tree ([LeetCode](https://leetcode.com/problems/subtree-of-another-tree/))
+4. Convert Sorted Array to Binary Search Tree ([LeetCode](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/))
    1. Hint: Consider starting in the middle of the array and using recursion.
-4. Binary Tree Paths ([LeetCode](https://leetcode.com/problems/binary-tree-paths/))
+5. Binary Tree Paths ([LeetCode](https://leetcode.com/problems/binary-tree-paths/))
    1. Hints
       1. Each time we reach a leaf node, we've explored a valid path.
       2. How can we keep track of the path up to each leaf node such that when we reach a leaf node in our recursion, we can add that path to the list of valid paths? Do we need an additional input parameter to our recursive function, i.e. a recursive helper function for this?
       3. Where can we store our list of valid paths? Should it be inside or outside of our recursive helper function?
    2. [FTBC3 class video discussion on algorithm](https://youtu.be/uQldubu1LOE?t=5355) and how to write helper function for recursion problems to pass additional parameter to recursive children
    3. [LeetCode reference solution](https://leetcode.com/problems/binary-tree-paths/discuss/1357824/Python-3-DFS-With-Backtracking) from LeetCode Discuss tab
-5. Average of Levels in Binary Tree ([LeetCode](https://leetcode.com/problems/average-of-levels-in-binary-tree/))
+6. Average of Levels in Binary Tree ([LeetCode](https://leetcode.com/problems/average-of-levels-in-binary-tree/))
    1. Hint: BFS
-6. Minimum Absolute Difference in BST ([LeetCode](https://leetcode.com/problems/minimum-absolute-difference-in-bst/))
+7. Minimum Absolute Difference in BST ([LeetCode](https://leetcode.com/problems/minimum-absolute-difference-in-bst/))
    1. Hint: The minimum absolute distance in a tree with root node `root` is the minimum of the following 4 values.
       1. `minAbsDist(root.left)`
       2. `minAbsDist(root.right)`
       3. `abs(root.val - maxValInLeftSubtree)`
       4. `abs(root.val - minValInRightSubtree))`
-7. Symmetric Tree ([LeetCode](https://leetcode.com/problems/symmetric-tree/))
+8. Symmetric Tree ([LeetCode](https://leetcode.com/problems/symmetric-tree/))
    1. [Rocket solution code](https://pastebin.com/a2buQJxv) (Python)
    2. [FTBC3 class video solution](https://youtu.be/AMpseCEX6\_A?t=2147) (Python)
-8. Cousins in Binary Tree ([LeetCode](https://leetcode.com/problems/cousins-in-binary-tree/))
+9. Cousins in Binary Tree ([LeetCode](https://leetcode.com/problems/cousins-in-binary-tree/))
    1. [Rocket Academy solution code](https://pastebin.com/wWYXg309) (Python)
    2. [Rocket Academy video solution](https://youtu.be/SeNfZBAU\_f4?t=4088) (Python)
-9. Diameter of Binary Tree ([LeetCode](https://leetcode.com/problems/diameter-of-binary-tree/))
-10. Binary Tree Right Side View ([LeetCode](https://leetcode.com/problems/binary-tree-right-side-view/)) (Medium)
-11. Binary Tree Zigzag Level Order Traversal ([LeetCode](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/)) (Medium)
+10. Diameter of Binary Tree ([LeetCode](https://leetcode.com/problems/diameter-of-binary-tree/))
+11. Binary Tree Right Side View ([LeetCode](https://leetcode.com/problems/binary-tree-right-side-view/)) (Medium)
+12. Binary Tree Zigzag Level Order Traversal ([LeetCode](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/)) (Medium)
