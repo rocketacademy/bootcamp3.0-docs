@@ -277,8 +277,6 @@ The above algorithm has a time complexity of `O(n)`, where `n` is the number of 
 
 ## Exercises
 
-TODO: update Repl exercises to JS
-
 The following exercises are sorted in increasing order of difficulty, and organised to help us keep track of milestones. Please do as many as you can during Bootcamp and feel free to complete the rest at a later time.
 
 ### Pre-Class
@@ -287,9 +285,9 @@ These starter problems cover basic tree traversal which will be helpful for the 
 
 Please fork starter code Repls and attempt solutions there. Feel free to compare with reference solutions after attempting each problem. Have fun!
 
-1. [https://repl.it/@rocketkai/treeintro#main.py](https://repl.it/@rocketkai/treeintro#main.py)
-   1. [https://repl.it/@rocketkai/treeintrosoln#main.py](https://repl.it/@rocketkai/treeintrosoln#main.py)
-   2. [FTBC3 class video ](https://youtu.be/3Dw3spVIk1w?t=3001)where we solved the 1st 2 problems together.
+1. [Starter problems in Repl](https://replit.com/@rocketkai/tree-intro-js#index.js)
+   1. [Solutions for starter problems](https://replit.com/@rocketkai/tree-intro-js-soln#index.js)
+   2. [FTBC3 class video ](https://youtu.be/3Dw3spVIk1w?t=3001)where we solved the 1st 2 problems together (Python)
 
 ### Part 1
 
@@ -333,7 +331,8 @@ BFS.
    1. Hint: Consider BFS for efficiency
 3. Same Tree ([LeetCode](https://leetcode.com/problems/same-tree/))
    1. Hint: Both DFS and BFS should work, DFS will be simpler
-   2. [FTBC3 class video discussion](https://youtu.be/uQldubu1LOE?t=1709) on solution and runtime
+   2. Can you think of both DFS and BFS solutions?
+   3. [FTBC3 class video discussion](https://youtu.be/uQldubu1LOE?t=1709) on solution and runtime
 
 ### Part 5
 
