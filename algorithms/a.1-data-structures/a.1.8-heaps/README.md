@@ -1,7 +1,5 @@
 # A.1.8: Heaps
 
-![Heap Ledger](../../.gitbook/assets/heap-ledger.png)
-
 ## Introduction
 
 Heap is a data structure that is optimized for keeping track of the minimum or maximum out of a changing collection of elements. A heap that keeps track of the minimum value is called a min-heap. A heap that keeps track of the maximum value is called a max-heap. A heap implements an abstract data type called a priority queue.
@@ -208,11 +206,19 @@ class Heap:
 
 From: [https://codereview.stackexchange.com/a/239294](https://codereview.stackexchange.com/a/239294)
 
+## Additional Resources
+
+1. [https://www.youtube.com/watch?v=WCm3TqScBM8](https://www.youtube.com/watch?v=WCm3TqScBM8)
+2. [https://www.youtube.com/watch?v=g9YK6sftDi0](https://www.youtube.com/watch?v=g9YK6sftDi0)
+3. https://www.youtube.com/watch?v=BzQGPA\_v-vc
+4. [https://www.youtube.com/watch?v=Dvq-YKeuO9Y](https://www.youtube.com/watch?v=Dvq-YKeuO9Y)
+5. Here is [Rocket's FTBC3's class video](https://youtu.be/Zat3PE0j1bA?t=701) introducing heaps.
+
 ## Exercises
 
 Please use the [Python `heapq` library](https://docs.python.org/3/library/heapq.html) to utilise heaps in code.
 
-## Tips
+### Tips
 
 1. Python's `heapq` data structure is a min heap by default. To use `heapq` as a max heap with numerical values, multiply every number you insert by -1 on push and pop.
 2. We may wish to sort elements by certain numerical values in a heap, but store associated payloads along with those numerical values. In these situations we can insert tuples (e.g. `(x, y)`) into our heap, where `x` is the value to sort by and `y` is the associated payload. For example, in the K Closest Points to Origin problem below, we could store `(dist_to_origin, coordinates)` elements in our heap.
@@ -248,12 +254,4 @@ Please use the [Python `heapq` library](https://docs.python.org/3/library/heapq.
 ### Leftover from Binary Search
 
 1. [https://leetcode.com/problems/the-k-weakest-rows-in-a-matrix/](https://leetcode.com/problems/the-k-weakest-rows-in-a-matrix/)
-   1. Consider the solution to this heaps problem that we may have solved in [D.5.8: Heaps](a.1.1-arrays/a.1-data-structures/a.1.8-heaps#part-3): [https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/](https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/)
-
-## Further Reading
-
-1. [https://www.youtube.com/watch?v=WCm3TqScBM8](https://www.youtube.com/watch?v=WCm3TqScBM8)
-2. [https://www.youtube.com/watch?v=g9YK6sftDi0](https://www.youtube.com/watch?v=g9YK6sftDi0)
-3. https://www.youtube.com/watch?v=BzQGPA\_v-vc
-4. [https://www.youtube.com/watch?v=Dvq-YKeuO9Y](https://www.youtube.com/watch?v=Dvq-YKeuO9Y)
-5. Here is [Rocket's FTBC3's class video](https://youtu.be/Zat3PE0j1bA?t=701) introducing heaps.
+   1. Consider the solution to this heaps problem that we may have solved in [D.5.8: Heaps](../a.1.1-arrays/a.1-data-structures/a.1.8-heaps#part-3): [https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/](https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/)

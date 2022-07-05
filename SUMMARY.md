@@ -110,7 +110,7 @@
     * [A.1.5: Linked Lists](algorithms/a.1-data-structures/a.1.5-linked-lists.md)
     * [A.1.6: Trees](algorithms/a.1-data-structures/a.1.6-trees.md)
     * [A.1.7: Graphs](algorithms/a.1-data-structures/a.1.7-graphs.md)
-    * [A.1.8: Heaps](algorithms/a.1-data-structures/a.1.8-heaps.md)
+    * [A.1.8: Heaps](algorithms/a.1-data-structures/a.1.8-heaps/README.md)
   * [A.2: Complexity Analysis](algorithms/a.2-complexity-analysis.md)
   * [A.3: Object-Oriented Programming](algorithms/a.3-object-oriented-programming.md)
   * [A.4: Recursion](algorithms/a.4-recursion.md)
