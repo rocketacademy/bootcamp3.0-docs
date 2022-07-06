@@ -2,10 +2,13 @@
 
 ## Learning Objectives
 
-1. Graphs are generalised versions of trees, where edges can be directed or undirected, edges can have weights and there can be cycles
-2. Graphs are used to model a wide variety of real-world problems, such as transport networks, social networks, disease networks, communication networks, website networks, e-commerce networks and more.
+1. Graphs are used to model a wide variety of real-world problems, such as transport networks, social networks, disease networks, communication networks, website networks, e-commerce networks and more
+2. Graphs are generalised versions of trees, where edges can be directed or undirected, edges can have weights and there can be cycles
+3. DFS and BFS are the most common graph traversal algorithms, where we typically track visited nodes to avoid infinite loops
 
 ## Introduction
+
+Graphs are used to model a wide variety of real-world problems, such as transport networks, social networks, disease networks, communication networks, website networks, e-commerce networks and more. Graph theory can get complex and is the subject of entire university courses; in this submodule we will introduce the basics that are relevant for algorithm interviews.
 
 The following video showcases the types of problems we can model and solve with graphs. We hope this excites you about the potential of graphs!
 
@@ -29,176 +32,142 @@ The following video introduces the above concepts and 3 common ways of represent
 Introduction to graphs and how we can represent graphs in code
 {% endembed %}
 
-## Representing a Graph
+## DFS and BFS for Graphs
 
-As described in the video above, there are many ways to represent a graph. We will be using an _adjacency list_ to represent our graphs.
+DFS and BFS are the most common graph traversal algorithms. Unlike trees, which are a type of graph with no cycles (called "acyclic" graphs), for graphs with cycles we will need to track visited nodes to avoid infinite loops.&#x20;
 
-```python
-graph = {
-  'a' : ['b','c'],
-  'b' : ['d'],
-  'c' : ['e'],
-  'd' : ['f'],
-  'e' : [],
-  'f' : []
-}
-```
+Not all graph problems require DFS or BFS-like traversal algorithms, although many will. Some simpler graph problems can be solved by analysing edges without DFS or BFS.
 
-## Traversal Algorithms
+DFS is generally a "simpler" algorithm because it involves recursion with no additional data structures beyond our graph. BFS requires the use of a queue to visit nodes in increasing distance order from the source node.
 
-### Depth First Search
+We would typically use DFS when we need to visit all nodes in the graph, and BFS when we wish to find the shortest path between nodes in the most efficient manner.
 
-For visiting every node in a graph. This code looks a little bit different from our tree DFS code.
+### DFS
+
+The following video explains the logic for DFS in graphs. Notice the use of a hash table to track which nodes have been visited to avoid cycles.
 
 {% embed url="https://www.youtube.com/watch?v=PMMc4VsIacU" %}
+Walkthrough of DFS logic for graphs
+{% endembed %}
 
-{% embed url="https://www.youtube.com/watch?v=7fujbpJ0LB4" %}
+The following is DFS code for graphs in JavaScript. Notice it is similar to DFS for trees except we track visited nodes, and we reference a hash table that represents our graph to find neighbours.
 
-```python
-graph = {
-  'a' : ['b','c'],
-  'b' : ['d'],
-  'c' : ['e'],
-  'd' : ['f'],
-  'e' : [],
-  'f' : []
-}
+```javascript
+// Represent graph in hash table with nodes as keys and neighbouring nodes as values
+const graph = {
+  a: ["b", "c"],
+  b: ["d"],
+  c: ["e"],
+  d: ["f"],
+  e: [],
+  f: [],
+};
 
-visited = {}
+// Track nodes we have visited in hash table
+const visited = {};
 
-def dfs(at):
-  if at in visited: return
+const dfs = (currNode) => {
+  // End this path if we reach visited node
+  if (visited[currNode]) {
+    return;
+  }
 
-  visited[at] = True
-  print(f'at: {at}')
+  // Mark current node visited
+  visited[currNode] = true;
 
-  neighbors = graph[at]
+  // Perform DFS on each neighbour
+  for (const neighbour in graph[currNode]) {
+    dfs(neighbour);
+  }
+};
 
-  for next_node in neighbors:
-    dfs(next_node)
-
-dfs('a')
+// Start DFS on source node
+dfs("a");
 ```
 
-### Breadth First Search
+### BFS
 
-For visiting every node in a graph. This one visits each node in order of distance. This is equivalent to the level-order tree traversal algorithm we've seen.
-
-{% embed url="https://www.youtube.com/watch?v=oDqjPvD54Ss" %}
+Visit each node in graph in increasing distance from source node. This is similar to the level-order tree traversal algorithm. Notice the use of a hash table to track which nodes have been visited to avoid cycles.
 
 {% embed url="https://www.youtube.com/watch?v=xlVX7dXLS64" %}
+Walkthrough of BFS logic for graphs
+{% endembed %}
 
-```python
-graph = {
-  'a' : ['b','c'],
-  'b' : ['d'],
-  'c' : ['e'],
-  'd' : ['f'],
-  'e' : [],
-  'f' : []
-}
-visited = {} # List to keep track of visited nodes.
-queue = []     #Initialize a queue
+The following is BFS code for graphs in JavaScript. Notice it is similar to BFS for N-ary trees except we track visited nodes, and we reference a hash table that represents our graph to find neighbours.
 
-def bfs(visited, graph, node):
-  visited[node] = True
-  queue.append(node)
+```javascript
+// Represent graph in hash table with nodes as keys and neighbouring nodes as values
+const graph = {
+  a: ["b", "c"],
+  b: ["d"],
+  c: ["e"],
+  d: ["f"],
+  e: [],
+  f: [],
+};
 
-  while queue:
-    s = queue.pop(0)
-    print (s, end = " ")
+// Track nodes we have visited in hash table
+const visited = {};
+// Track upcoming nodes to visit in a queue (represented by array for simplicity)
+const queue = [];
 
-    for neighbour in graph[s]:
-      if neighbour not in visited:
-        visited.append(neighbour)
-        queue.append(neighbour)
+const bfs = (sourceNode) => {
+  // Mark source node as visited
+  visited[sourceNode] = true;
+  // Initialise BFS by adding source node to queue
+  queue.push(sourceNode);
 
-# Driver Code
-bfs(visited, graph, 'a')
+  while (queue.length > 0) {
+    // Visit next node in queue
+    const currNode = queue.shift(0);
+    for (const neighbour in graph[currNode]) {
+      // Only add neighbour to queue if not visited yet
+      if (!visited[neighbour]) {
+        // Mark neighbour as visited
+        visited.push(neighbour);
+        // Add neighbour to queue
+        queue.push(neighbour);
+      }
+    }
+  }
+};
+
+// Start BFS on source node
+bfs("a");
 ```
-
-## Graph Problems
-
-### DFS Path Finding (maze)
-
-{% embed url="https://www.youtube.com/watch?v=W9F8fDQj7Ok" %}
-
-### BFS Shortest Path
-
-{% embed url="https://www.youtube.com/watch?v=KiCBXu4P-2Y" %}
-
-## Additional Resources
-
-1. ****[https://pythoninwonderland.wordpress.com/2017/03/18/how-to-implement-breadth-first-search-in-python/](https://pythoninwonderland.wordpress.com/2017/03/18/how-to-implement-breadth-first-search-in-python/)
-2. [https://medium.com/tebs-lab/breadth-first-search-and-depth-first-search-4310f3bf8416](https://medium.com/tebs-lab/breadth-first-search-and-depth-first-search-4310f3bf8416)
-3. [Intro to Graphs](https://www.youtube.com/watch?v=Pdk8U1r7qvk)****
-4. [Graph Representation](https://www.youtube.com/watch?v=WQ2Tzlxl\_Xo)****
-5. [BFS](https://www.youtube.com/watch?v=ls4cHglfc0g)****
-6. [DFS](https://www.youtube.com/watch?v=qH-mHxkoK0Q)
-7. [BFS](https://www.youtube.com/watch?v=T\_m27bhVQQQ)****
-8. [BFS vs DFS](https://www.youtube.com/watch?v=62IcXF\_OF3k)****
-9. ****[BFS and DFS](https://www.youtube.com/watch?v=TIbUeeksXcI)****
-10. **Free Code Camp - Graphs in JavaScript**
-    1. [https://www.youtube.com/watch?v=tWVWeAqZ0WU\&t=143s](https://www.youtube.com/watch?v=tWVWeAqZ0WU\&t=143s)
-    2. [https://www.youtube.com/watch?v=tWVWeAqZ0WU\&t=430s](https://www.youtube.com/watch?v=tWVWeAqZ0WU\&t=430s)
-    3. [https://www.youtube.com/watch?v=tWVWeAqZ0WU\&t=1753s](https://www.youtube.com/watch?v=tWVWeAqZ0WU\&t=1753s)****
-11. How many sandwiches are a salad?
 
 ## Exercises
 
 ### Part 1
 
-Implement a function that DFS searches a graph for a value and returns a boolean.
-
-Implement a function that BFS searches a graph for a value and returns a boolean.
+1. Find Center of Star Graph ([LeetCode](https://leetcode.com/problems/find-center-of-star-graph/))
+   1. Hint: This does not require graph traversal
+2. Find the Town Judge ([LeetCode](https://leetcode.com/problems/find-the-town-judge/))
+   1. Hint: What additional data structures might be helpful for us to solve this problem?
+   2. Hint: This does not require graph traversal
+   3. [Rocket solution code](https://pastebin.com/3N4NUz8G) (Python)
+   4. [Rocket solution video](https://youtu.be/1xDBSlnUiUE?t=1308) (Python)
 
 ### Part 2
 
-Implement path finding DFS that prints out a path in the graph from 'a' to 'e'.
-
-```python
-graph = {
-  'a' : ['b','c'],
-  'b' : ['d'],
-  'c' : ['e'],
-  'd' : ['f'],
-  'e' : [],
-  'f' : []
-}
-```
+1. Find if Path Exists in Graph ([LeetCode](https://leetcode.com/problems/find-if-path-exists-in-graph/))
+   1. Hint: This requires graph traversal
 
 ### Part 3
 
-Implement shortest path BFS that prints out or returns the shortest path in the graph from 'a' to 'e':
+1. Keys and Rooms ([LeetCode](https://leetcode.com/problems/keys-and-rooms/)) (Medium)
 
-```python
-graph = {
-  'a' : ['b','c'],
-  'b' : ['d'],
-  'c' : ['e'],
-  'd' : ['f'],
-  'e' : [],
-  'f' : []
-}
-```
+### More Comfortable
 
-### Part 4
-
-1. [https://leetcode.com/problems/number-of-islands/](https://leetcode.com/problems/number-of-islands/)
-2. [https://leetcode.com/problems/shortest-bridge/](https://leetcode.com/problems/shortest-bridge/)
-3. [https://leetcode.com/problems/keys-and-rooms/](https://leetcode.com/problems/keys-and-rooms/) (Medium)
-4. [https://leetcode.com/problems/redundant-connection/](https://leetcode.com/problems/redundant-connection/) (Medium)
-5. [https://leetcode.com/problems/find-the-town-judge/](https://leetcode.com/problems/find-the-town-judge/)
-   1. Hint: What additional data structures might be helpful for us to solve this problem?
-   2. Rocket solution code: [https://pastebin.com/3N4NUz8G](https://pastebin.com/3N4NUz8G)
-   3. Rocket solution video: [https://youtu.be/1xDBSlnUiUE?t=1308](https://youtu.be/1xDBSlnUiUE?t=1308)
-
-### Part 5
-
-1. https://leetcode.com/problems/shortest-path-in-a-grid-with-obstacles-elimination/
-2. https://leetcode.com/problems/minesweeper/
-3. [https://leetcode.com/problems/all-paths-from-source-to-target/](https://leetcode.com/problems/all-paths-from-source-to-target/) (Medium)
+1. All Paths from Source to Target ([LeetCode](https://leetcode.com/problems/all-paths-from-source-to-target/)) (Medium)
    1. Hint: Would recursion be helpful?
-   2. Rocket solution code: [https://pastebin.com/AtwkRjBf](https://pastebin.com/AtwkRjBf)
-   3. Rocket solution video: [https://www.youtube.com/watch?v=dUhleIGC-D4](https://www.youtube.com/watch?v=dUhleIGC-D4)
-4. [https://leetcode.com/problems/minimum-number-of-vertices-to-reach-all-nodes/](https://leetcode.com/problems/minimum-number-of-vertices-to-reach-all-nodes/) (Medium)
+   2. [Rocket solution code](https://pastebin.com/AtwkRjBf) (Python)
+   3. [Rocket solution video](https://www.youtube.com/watch?v=dUhleIGC-D4) (Python)
+2. Redundant Connection ([LeetCode](https://leetcode.com/problems/redundant-connection/)) (Medium)
+3. Minimum Number of Vertices to Reach All Nodes ([LeetCode](https://leetcode.com/problems/minimum-number-of-vertices-to-reach-all-nodes/)) (Medium)
+4. Number of Islands ([LeetCode](https://leetcode.com/problems/number-of-islands/)) (Medium)
+
+## Additional Resources
+
+1. [BFS vs DFS written explanation](https://medium.com/tebs-lab/breadth-first-search-and-depth-first-search-4310f3bf8416) in blog post
+2. [Graph Algorithms for Technical Interviews video](https://youtu.be/tWVWeAqZ0WU) by freeCodeCamp
