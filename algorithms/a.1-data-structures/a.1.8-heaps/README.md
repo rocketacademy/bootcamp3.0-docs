@@ -1,218 +1,42 @@
 # A.1.8: Heaps
 
+## Learning Objectives
+
+1. Heaps are a data structure that enables us to efficiently track the minimum or maximum in a collection of elements, even as that collection changes.
+2. Heaps are commonly used to implement priority queues for use cases such as hospital queues, bank queues and process queues in operating systems.
+3. JavaScript does not have a built-in heap implementation and building heaps from scratch using arrays is relatively complex. Because heaps are less commonly seen in interviews, Rocket recommends we master other data structures before focusing on heaps, and use Python and its built-in `heapq` library when we are ready to solve heap problems.
+
 ## Introduction
 
-Heap is a data structure that is optimized for keeping track of the minimum or maximum out of a changing collection of elements. A heap that keeps track of the minimum value is called a min-heap. A heap that keeps track of the maximum value is called a max-heap. A heap implements an abstract data type called a priority queue.
+Heaps are a data structure that enables us to efficiently track the minimum ("min heap") or maximum ("max heap") in a collection of elements, even as that collection changes. Heaps are commonly used to implement "priority queues" for use cases such as hospital queues, bank queues and process queues in operating systems. In these scenarios, heaps enable us to determine which person/element should be at the front of the queue based on factors in addition to insertion order such as severity or importance.
 
-## Complexity Properties of Heaps
+The beauty of heaps is that they enable us to extract the minimum (in a min heap) or maximum (in a max heap) value in `O(1)` time, while inserting new values into a heap takes `O(logn)` time. This is more efficient than adding a new element in sorted order to a sorted array, which would take `O(n)` time. Heaps are able to do this by utilising properties of trees, where heap elements are only partially sorted and not completely sorted like they would be in a sorted array.
 
-Accessing the minimum (for min-heap) or maximum value (for max-heap): `O(1)` constant time.
+## How Heaps Work
 
-Putting a new value into a heap: `O(logn)` log time.
-
-Using a normal array we would need linear time to keep track of the max or min element.
+The following video explains what heaps look like in theory and the fundamental properties of heaps that enable heaps to maintain `O(1)` access to the min or a max element efficiently. The video uses a max heap as an example, but the same properties apply to min heaps except with the order reversed (smaller numbers on top).
 
 {% embed url="https://www.youtube.com/watch?v=c1TpLRyQJ4w" %}
+Introduction to heaps and how heaps maintain `O(1)` access to min or max element when new element added
+{% endembed %}
+
+The following video explains how heaps maintain `O(1)` access to the min or max element when the previous min or max element is removed. Again the video uses a max heap as an example but the same theory applies to min heaps, except with order reversed.
 
 {% embed url="https://www.youtube.com/watch?v=ijfPvX2qYOQ" %}
+How heaps maintain `O(1)` access to min or max element after removal of previous min or max element
+{% endembed %}
+
+The above videos may not have mentioned, but notice the time complexity of adding or removing an element from the heap is `O(logn)` because we only perform element swaps down a single path of the heap tree, through `O(logn)` levels, where `n` is the number of elements in the heap.
+
+Now that we've learnt the theory, you may be wondering how to implement heaps in practice. The following video explains how to efficiently represent the heap data structure in code using an array.
 
 {% embed url="https://www.youtube.com/watch?v=fJORlbOGm9Y" %}
+How to represent and use heaps in code with arrays
+{% endembed %}
 
-## Summary (What do we need to know?)
+JavaScript does not have a built-in heap data type, and implementing heaps from scratch is relatively complex. [Here is sample code](https://blog.bitsrc.io/implementing-heaps-in-javascript-c3fbf1cb2e65) for a JavaScript implementation of heaps.
 
-In summary, we should remember 3 primary operations of heaps, and how heap sort works.
-
-1. Pop: Heaps provide efficient extraction (`O(logn)`) of min or max elements in a mutable collection
-   1. In code, extraction is done with the `heappop` method of the `heapq` data structure provided by Python [here](https://docs.python.org/3/library/heapq.html).
-2. Push: Adding an element to a heap is `O(logn)` because it involves 1 "heapify" call to "fix" the order of the heap after adding the element
-   1. In code, adding to a heap is done with `heappush` method of `heapq`.
-3. Heapify (create heap from array): Creating a heap is `O(n)`
-   1. In code, heap creation is done with `heapify` method of `heapq`.
-4. Heap sort runs in `O(nlogn)` time, but in practice is slower than Merge Sort
-
-## Max Heap Example
-
-```python
-# consider a single parent and two children
-# sift larger values up through the tree
-def max_heapify(A,k):
-
-    # get the place in the array that should be left of k
-    l = left(k)
-
-    # get the place in the array that should be right of k
-    r = right(k)
-
-    # if it's not off the array and
-    # left val is more than k val
-    if l < len(A) and A[l] > A[k]:
-        largest = l
-    else:
-        largest = k
-
-    # if  it's not off the array and
-    # right is more than largest
-    if r < len(A) and A[r] > A[largest]:
-        largest = r
-
-    # if k isn't larger than children
-    if largest != k:
-        # swap child with parent
-        A[k], A[largest] = A[largest], A[k]
-
-        # recurse down the tree, passing in child
-        max_heapify(A, largest)
-
-def left(k):
-    return 2 * k + 1
-
-def right(k):
-    return 2 * k + 2
-
-def build_max_heap(A):
-
-    # find the root of the tree we are building
-    n = int((len(A)//2)-1)
-
-    # do max heap for root and children
-    for k in range(n, -1, -1):
-        max_heapify(A,k)
-
-A = [3,9,2,1,4,5]
-build_max_heap(A)
-print(A)
-```
-
-From: [https://favtutor.com/blogs/heap-in-python](https://favtutor.com/blogs/heap-in-python)
-
-## Max Heap with Comments
-
-```python
-# consider a single parent and two children
-def max_heapify(A,k):
-    print('***************************')
-
-    # get the place in the array that should be left of k
-    l = left(k)
-
-    # get the place in the array that should be right of k
-    r = right(k)
-
-    # if it's not off the array and
-    # left val is more than k val
-    if l < len(A) and A[l] > A[k]:
-        print(f'largest is l: {A[l]}')
-        largest = l
-    else:
-        print(f'largest is k: {A[k]}')
-        largest = k
-
-    # if  it's not off the array and
-    # right is more than largest
-    if r < len(A) and A[r] > A[largest]:
-        print(f'largest is r: {A[r]}')
-        largest = r
-
-    # if k isn't larger than children
-    if largest != k:
-        # swap child with parent
-        A[k], A[largest] = A[largest], A[k]
-        print(f'swap {A[largest]} with {A[k]}')
-
-        # recurse up the tree, passing in child
-        print(f'recurse down to  {largest} with {A[largest]}')
-        max_heapify(A, largest)
-
-
-def left(k):
-    return 2 * k + 1
-
-def right(k):
-    return 2 * k + 2
-
-def build_max_heap(A):
-
-    # find the root of the tree we are building
-    n = int((len(A)//2)-1)
-
-    # do max heap for root and children
-    for k in range(n, -1, -1):
-        print(f'heapifying: {k}')
-        max_heapify(A,k)
-
-A = [3,9,2,1,4,5]
-#     3
-#    / \
-#   9   2
-#  /\   /
-# 1  4 5
-
-
-build_max_heap(A)
-print(A)
-#     9
-#    / \
-#   4   5
-#  /\   /
-# 1  3 2
-```
-
-## Full Max Heap Class Example
-
-```python
-class Heap:
-    def __init__(self):
-        self.lst = []
-        self.is_bigger_than = operator.gt
-
-    def add(self, x):
-        self.lst.append(x)
-        idx_node = len(self.lst) - 1
-        self._siftup(idx_node)
-
-    def pop(self):
-        if len(self.lst) == 0:
-            print("Error: Heap empty!")
-        else:
-            lst = self.lst
-            lst[0], lst[-1] = lst[-1], lst[0]  # switch first with last element
-            res = lst.pop()  # pop last element
-            self._siftdown(0)
-            return res
-
-    def _siftup(self, inode):
-        lst = self.lst
-        iparent = self._get_parent(inode)
-        if iparent >= 0 and self.is_bigger_than(lst[inode], lst[iparent]):
-            lst[inode], lst[iparent] = lst[iparent], lst[inode]
-            self._siftup(iparent)
-
-    def _siftdown(self, inode):
-        lst = self.lst
-        ichildren = self._get_children(inode)
-        for ichild in ichildren:  # do I need to sift down
-            if ichild < len(lst) and self.is_bigger_than(lst[ichild], lst[inode]):
-                lst[ichild], lst[inode] = lst[inode], lst[ichild]
-                self._siftdown(ichild)
-
-    def _get_parent(self, idx_child):
-        idx_parent = int((idx_child - 1) / 2)  # zero-based array
-        return idx_parent
-
-    def _get_children(self, idx_parent):
-        idx_children = 2 * idx_parent + 1, 2 * idx_parent + 2
-        return idx_children
-```
-
-From: [https://codereview.stackexchange.com/a/239294](https://codereview.stackexchange.com/a/239294)
-
-## Additional Resources
-
-1. [https://www.youtube.com/watch?v=WCm3TqScBM8](https://www.youtube.com/watch?v=WCm3TqScBM8)
-2. [https://www.youtube.com/watch?v=g9YK6sftDi0](https://www.youtube.com/watch?v=g9YK6sftDi0)
-3. https://www.youtube.com/watch?v=BzQGPA\_v-vc
-4. [https://www.youtube.com/watch?v=Dvq-YKeuO9Y](https://www.youtube.com/watch?v=Dvq-YKeuO9Y)
-5. Here is [Rocket's FTBC3's class video](https://youtu.be/Zat3PE0j1bA?t=701) introducing heaps.
+Rocket recommends we focus on mastering other data structures and algorithms first before attempting heap problems. When ready to solve heap problems, Rocket recommends we use Python and its built-in [`heapq`](https://docs.python.org/3/library/heapq.html) library, where `heappush` and `heappop` (equivalent to `insert` and `remove` respectively in JS code example above) are implemented for us.
 
 ## Exercises
 
@@ -255,3 +79,8 @@ Please use the [Python `heapq` library](https://docs.python.org/3/library/heapq.
 
 1. [https://leetcode.com/problems/the-k-weakest-rows-in-a-matrix/](https://leetcode.com/problems/the-k-weakest-rows-in-a-matrix/)
    1. Consider the solution to this heaps problem that we may have solved in [D.5.8: Heaps](../a.1.1-arrays/a.1-data-structures/a.1.8-heaps#part-3): [https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/](https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/)
+
+## Additional Resources
+
+1. [Alternative video explanation of heaps by Back to Back SWE](https://www.youtube.com/watch?v=g9YK6sftDi0) (same concepts as above)
+2. [Rocket's FTBC3's class video](https://youtu.be/Zat3PE0j1bA?t=701) introducing heaps.
