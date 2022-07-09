@@ -138,11 +138,14 @@ bfs("a");
 
 ## Exercises
 
-### Part 1
+### Pre-Class
 
 1. Find Center of Star Graph ([LeetCode](https://leetcode.com/problems/find-center-of-star-graph/))
    1. Hint: This does not require graph traversal
-2. Find the Town Judge ([LeetCode](https://leetcode.com/problems/find-the-town-judge/))
+
+### Part 1
+
+1. Find the Town Judge ([LeetCode](https://leetcode.com/problems/find-the-town-judge/))
    1. Hint: What additional data structures might be helpful for us to solve this problem?
    2. Hint: This does not require graph traversal
    3. [Rocket solution code](https://pastebin.com/3N4NUz8G) (Python)
