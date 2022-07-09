@@ -147,4 +147,5 @@ For now we will use the most open and least secure `cors` configuration (`app.us
 ## Additional Resources
 
 1. [Web Dev Simplified's intro to Express](https://youtu.be/lY6icfhap2o) provides a video tutorial to the above Express concepts
-2. Portswigger provides a [detailed explanation of CORS](https://portswigger.net/web-security/cors)
+2. Stackoverflow shares [API server route design best practices](https://stackoverflow.blog/2020/03/02/best-practices-for-rest-api-design/)
+3. Portswigger provides a [detailed explanation of CORS](https://portswigger.net/web-security/cors)
