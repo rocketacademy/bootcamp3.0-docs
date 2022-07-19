@@ -36,7 +36,7 @@ const votes = []
 
 // Create a random sample of 1000 votes
 for (let i = 0; i < 1000; i++) {
-  votes.push(candidates[Math.floor(Math.random(candidates.length))])
+  votes.push(candidates[Math.floor(Math.random() * candidates.length)])
 }
   
 // Compile tally of how many votes each candidate received
@@ -58,7 +58,7 @@ Object.keys(tally).forEach((candidate) => {
     maxVotes = tally[candidate];
     mostPopularCandidate = candidate;
   }
-}
+})
 
 // mostPopularCandidate is the candidate with most votes in tally
 console.log(`${mostPopularCandidate} wins!`);
@@ -75,7 +75,7 @@ fruitsInStore = []
 
 // Create a random sample of 1000 fruits
 for (let i = 0; i < 1000; i++) {
-  fruitsInStore.push(fruitTypes[Math.floor(Math.random(fruitTypes.length))])
+  fruitsInStore.push(fruitTypes[Math.floor(Math.random() * fruitTypes.length)])
 }
 
 // Compile tally of how many of each fruit is in store
@@ -95,7 +95,7 @@ Object.keys(tally).forEach((fruit) => {
   if (tally[fruit] < LOW_STOCK_THRESHOLD) {
     lowStockFruits.push(fruit)
   }
-}
+})
 
 // Output fruits with stock below the low stock threshold
 console.log(lowStockFruits);
