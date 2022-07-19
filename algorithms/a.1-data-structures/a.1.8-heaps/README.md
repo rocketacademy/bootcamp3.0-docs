@@ -38,9 +38,11 @@ JavaScript does not have a built-in heap data type, and implementing heaps from 
 
 Rocket recommends we focus on mastering other data structures and algorithms first before attempting heap problems. When ready to solve heap problems, Rocket recommends we use Python and its built-in [`heapq`](https://docs.python.org/3/library/heapq.html) library, where `heappush` and `heappop` (equivalent to `insert` and `remove` respectively in JS code example above) are implemented for us.
 
+Please review Rocket's Python submodule before working on heap algorithm exercises with `heapq`.
+
 ## Exercises
 
-Please use the [Python `heapq` library](https://docs.python.org/3/library/heapq.html) to utilise heaps in code.
+Please use Python3 and the [Python `heapq` library](https://docs.python.org/3/library/heapq.html) to use heaps in code.
 
 ### Tips
 
@@ -53,34 +55,29 @@ Please use the [Python `heapq` library](https://docs.python.org/3/library/heapq.
 
 ### Pre-Class
 
-1. Implement adding an element to the heap by implementing a `sift_up` function for the max heap example above (don't use a heapq). You can use the heap class example above as reference.
-2. [https://leetcode.com/problems/last-stone-weight/](https://leetcode.com/problems/last-stone-weight/)
-   1. Rocket Solution code: [https://pastebin.com/JCB78UG0](https://pastebin.com/JCB78UG0)
-   2. Rocket Solution video: [https://youtu.be/Zat3PE0j1bA?t=2092](https://youtu.be/Zat3PE0j1bA?t=2092)
+1. Last Stone Weight ([LeetCode](https://leetcode.com/problems/last-stone-weight/))
+   1. [Rocket Solution code](https://pastebin.com/JCB78UG0) (Python)
+   2. [Rocket Solution video](https://youtu.be/Zat3PE0j1bA?t=2092) (Python)
 
 ### Part 1
 
-1. [https://leetcode.com/problems/kth-largest-element-in-a-stream/](https://leetcode.com/problems/kth-largest-element-in-a-stream/)
-   1. Hint: What's the most efficient way to get the k-th largest element in a heap of size k? Would we use a min-heap or max-heap?
-2. [https://leetcode.com/problems/k-closest-points-to-origin/](https://leetcode.com/problems/k-closest-points-to-origin/)
-3. [https://leetcode.com/problems/sort-characters-by-frequency/](https://leetcode.com/problems/sort-characters-by-frequency/)
+1. Kth Largest Element in Array ([LeetCode](https://leetcode.com/problems/kth-largest-element-in-an-array/))
+   1. Hint: What's the most efficient way to get the Kth largest element in a heap of size K? Would we use a min-heap or max-heap? Review tips above before starting.
 
 ### Part 2
 
-1. [https://leetcode.com/problems/top-k-frequent-elements/](https://leetcode.com/problems/top-k-frequent-elements/)
-2. [https://leetcode.com/problems/kth-largest-element-in-an-array/](https://leetcode.com/problems/kth-largest-element-in-an-array/)
+1. K Closest Points to Origin ([LeetCode](https://leetcode.com/problems/k-closest-points-to-origin/))
 
 ### Part 3
 
-1. [https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/](https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/)
-2. [https://leetcode.com/problems/top-k-frequent-words/](https://leetcode.com/problems/top-k-frequent-words/)
+1. The K Weakest Rows in a Matrix ([LeetCode](https://leetcode.com/problems/the-k-weakest-rows-in-a-matrix/))
 
-### Leftover from Binary Search
+### More Comfortable
 
-1. [https://leetcode.com/problems/the-k-weakest-rows-in-a-matrix/](https://leetcode.com/problems/the-k-weakest-rows-in-a-matrix/)
-   1. Consider the solution to this heaps problem that we may have solved in [D.5.8: Heaps](../a.1.1-arrays/a.1-data-structures/a.1.8-heaps#part-3): [https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/](https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/)
+1. Top K Frequent Words ([LeetCode](https://leetcode.com/problems/top-k-frequent-words/))
+   1. Hint: Creating a heap of `n` elements is an [`O(n)` operation](https://stackoverflow.com/questions/9755721/how-can-building-a-heap-be-on-time-complexity). Hence building and maintaining a heap of frequencies and associated words of size K is more efficient (`O(n)`) than sorting all frequencies of up to `n` distinct words (`O(nlogn)`).
 
 ## Additional Resources
 
 1. [Alternative video explanation of heaps by Back to Back SWE](https://www.youtube.com/watch?v=g9YK6sftDi0) (same concepts as above)
-2. [Rocket's FTBC3's class video](https://youtu.be/Zat3PE0j1bA?t=701) introducing heaps.
+2. [Rocket's FTBC3's class video](https://youtu.be/Zat3PE0j1bA?t=701) introducing heaps
