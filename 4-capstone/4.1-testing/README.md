@@ -1,46 +1,29 @@
 # 4.1: Testing
 
-![](../../.gitbook/assets/darth-test.jpeg)
+## Learning Objectives
+
+1. Programmatic software testing is a crucial feature of software development that all tech companies practice
+2. Programmatic testing allows us to quickly verify we did not break existing features when building new ones
+3. Programmatic testing involves writing code to test our code
+4. There are 3 general categories of programmatic tests: unit tests, integration tests and end-to-end tests
 
 ## Introduction
 
-Testing generally describes an automated system that guards against bugs in an application by defining _**test cases-**_ behaviour and values that are expected from an application given a well-defined input.
+Every mature software product has software tests to verify intended functionality. Without software tests, every time we write a new feature we might not know whether we broke an existing one. This lack of clarity can cause stress, especially when existing features are crucial to user experiences. Engineers working on early-stage products often omit writing tests because their product requirements change often, but once product requirements start to stabilise and mature, testing is necessary to maintain engineer sanity.
 
-There are many systems and methodologies to define the inputs and the system, we will be mostly focusing around unit tests, which are the most low level. Unit tests work with some well-defined module within the code that can be written and tested in isolation from the rest of the system.
+Software tests are code written using 1 or more test frameworks that programatically verify that functions, groups of functions, or entire features produce expected output when provided with specific input. Engineers typically merge these tests to repos at the same time they merge the tested feature, guaranteeing tests for every feature in the product. Some engineers prefer to write tests before writing the feature (aka test-driven development), and others prefer to write tests after or while writing the feature (more common).
 
-The following are the 3 most common categories of tests.
+There are 3 most common categories of software tests: unit tests, integration tests and end-to-end tests. Unit tests typically test individual functions, especially ones with non-trivial logic such as calculations. Integration tests typically test groups of functions, for example a function that triggers functionality in multiple helper functions. End-to-end tests typically test entire features by using frameworks to simulate user actions, and verifying that those actions cause the desired database and UI changes in the app. Unit tests are the simplest and most common form of testing, and engineers often omit end-to-end testing until their product matures.
 
-1. Unit tests: Testing individual or small groups of functions
-2. Integration tests: Testing API contracts
-3. End-to-end tests: Replicating the user experience
+## Unit Testing in JavaScript
 
-## Testing in Industry
+For illustration purposes we will demonstrate a unit test in JavaScript. We will write a unit test for one of our backend functions, since backend functionality tends to change less often than frontend UI.
 
-Testing as part of a company's normal development workflow is a defacto standard in the industry. It is considered a best-practice to have at least some testing \([like a smoke test](https://en.wikipedia.org/wiki/Smoke_testing_%28software%29)\) in place in most web applications so that new bugs are not introduced and that old features don't break. \(It is not necessarily a standard in other industries/fields such as computer graphics, mobile applications or Machine Learning\).
+Mocha and Chai are common test frameworks used together to test JavaScript backends. Mocha is the framework that enables us to run tests. It provides functions in which we can write tests, and a test runner script we can use to run all of a subset of our tests. Chai is an "assertion framework" that allows us to verify values in our code match what we expect, values such as the return value of the function we are testing.
 
-A standard workflow setup is to run testing as part of a [Continuous Integration](https://en.wikipedia.org/wiki/Continuous_integration) system, a system that runs tests and deploys the application automatically or at the click of a single button.
+TODO(kai): Make example with more realistic code if possible
 
-![](../../.gitbook/assets/agile-test-pyramid.png)
-
-{% hint style="info" %}
-_Brittle_ in this case refers to the idea that if you add any kind of code to a project it will have errors and need to be maintained. Unit tests run against some underlying logic of the app and so are less likely to need to change. Automatic tests need to be updated in many more situations, such as CSS changes \(because the automation needs to know where to click\) that are not related to the core app logic.
-
-It is generally agreed that the volume of tests should be weighted towards easy-to-maintain unit tests.
-{% endhint %}
-
-## Javascript Unit Testing
-
-We will be using two tightly coupled libraries to run our tests: Mocha and Chai.
-
-#### Mocha
-
-Mocha is a "testing framework" which basically means the command line command that we run in order to kick off the tests we write. Mocha also provides wrapper functions that will run each "unit" of our tests sequentially and separately.
-
-#### Chai
-
-Chai is an assertion library, which means that the Chai functions we run are to verify values and states in our code.
-
-## Setup
+### Setup
 
 Let's get a simple test running with a bare-bones Mocha and Chai setup.
 
