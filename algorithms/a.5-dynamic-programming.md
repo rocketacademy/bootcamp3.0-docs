@@ -1,52 +1,20 @@
 # A.5: Dynamic Programming
 
+## Learning Objectives
+
+1. Dynamic programming (DP) problems are a subset of recursion problems that involve caching intermediate calculations to avoid repeated calculations
+2. DP problems often involve "take or don't take" logic in each recursive call, which results in repeated calculations without caching
+3. DP problems are not the most commonly seen interview problems (less common at most SWE jobs), and Rocket recommends being comfortable with prior algorithm topics before spending too much time on DP
+
 ## Introduction
 
-Dynamic programming allows us to optimise recursive solutions by "caching" intermediate calculation results to reduce repeated and redundant calculations.
+Dynamic programming allows us to optimise recursive solutions by "caching" (i.e. storing) intermediate calculations to minimise repeated and redundant recursive calls.
 
-#### Why is it called Dynamic Programming?
-
-[According to Wikipedia](https://en.wikipedia.org/wiki/Dynamic_programming), "The word _dynamic_ was chosen \[...] to capture the time-varying aspect of the problems, and because it sounded impressive. The word _programming_ referred to the use of the method to find an optimal _program_, in the sense of a military schedule for training or logistics." In other words, the name makes this algorithm topic seem harder and more esoteric than it is.
-
-### Introduction Video
-
-(the first 40 minutes are the basic definition of Dynamic Programming- no need to watch 5 hours!!)
+The first 40 minutes of the below video visually explain the premise behind dynamic programming and why it is powerful. The remainder of the video walks through DP solutions to other problems, which we do not need to review right now.
 
 {% embed url="https://www.youtube.com/watch?v=oBt53YbR9Kk" %}
-
-Calculating the _nth_ fibonacci number using dynamic programming.
-
-```
-fib_table = {} # table to store previously computed values
-
-def fib(n):
-  if n < 2:
-    return n
-  if n in fib_table:
-    # give back a previously calculated result
-    return fib_table[n]
-
-  result = fib(n-1) + fib(n-2)
-
-  # store a result that has been calculated
-  fib_table[n] = result
-
-  return result
-```
-
-## Further Reading
-
-{% embed url="https://www.educative.io/courses/grokking-dynamic-programming-patterns-for-coding-interviews/m2G1pAq0OO0" %}
-
-{% embed url="https://www.youtube.com/watch?v=vYquumk4nWw" %}
-
-Some dynamic programming problems can be expressed in a table.
-
-{% embed url="https://www.youtube.com/watch?v=ASoaQq66foQ" %}
-
-{% embed url="https://www.youtube.com/watch?v=OQ5jsbhAv_M" %}
-
-[https://www.youtube.com/watch?v=vYquumk4nWw\&list=PLBZBJbE_rGRU5PrgZ9NBHJwcaZsNpf8yD](https://www.youtube.com/watch?v=vYquumk4nWw&list=PLBZBJbE_rGRU5PrgZ9NBHJwcaZsNpf8yD)
+Introduction to dynamic programming
+{% endembed %}
 
 ## Exercises
 
@@ -79,3 +47,7 @@ Please fork starter code Repls and attempt solutions there. Feel free to compare
 
 1. [https://leetcode.com/problems/maximum-points-you-can-obtain-from-cards/](https://leetcode.com/problems/maximum-points-you-can-obtain-from-cards/)
 2. [https://leetcode.com/problems/minimum-operations-to-reduce-x-to-zero/](https://leetcode.com/problems/minimum-operations-to-reduce-x-to-zero/)
+
+## Further Reading
+
+1. [Video solution to Longest Common Subsequence](https://youtu.be/ASoaQq66foQ), a DP problem that involves storing intermediate calculations in a table with dimensions `m` by `n`, where `m` is the length of 1 input word and `n` is the length of the other.
