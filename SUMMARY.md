@@ -114,4 +114,5 @@
   * [A.3: Object-Oriented Programming](algorithms/a.3-object-oriented-programming.md)
   * [A.4: Recursion](algorithms/a.4-recursion.md)
   * [A.5: Dynamic Programming](algorithms/a.5-dynamic-programming.md)
+  * [A.6: Python](algorithms/a.6-python.md)
   * [A.E: Exercises](algorithms/a.e-exercises.md)
