@@ -18,12 +18,12 @@ Introduction to dynamic programming
 
 ## Exercises
 
-Please fork starter code Repls and attempt solutions there. Feel free to compare with reference solutions after attempting each problem. Have fun!
-
 ### Part 1
 
-1. [https://repl.it/@rocketkai/dp1-basics#main.py](https://repl.it/@rocketkai/dp1-basics#main.py)
-   1. [https://repl.it/@rocketkai/dp1-basics-soln#main.py](https://repl.it/@rocketkai/dp1-basics-soln#main.py)
+Please fork starter code Repl and attempt solutions there. Feel free to compare with reference solutions after attempting each problem. Conway and Catalan problems are optional. Have fun!
+
+1. [https://replit.com/@rocketkai/dp#index.js](https://replit.com/@rocketkai/dp#index.js)
+   1. [https://replit.com/@rocketkai/dp-soln#index.js](https://replit.com/@rocketkai/dp-soln#index.js)
 
 ### Part 2
 
