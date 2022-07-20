@@ -76,7 +76,13 @@ If you are using a company computer for this course you may not be able to overr
 {% endtab %}
 {% endtabs %}
 
+### Personal Access Tokens&#x20;
+
 ### Configure Git and GitHub
+
+When using the HTTPS protocol on GitHub to retrieve repository information you will need to develop a personal access token on your GitHub account, you will then be able to use this token to authenticate your request. To create a personal access token please follow this set of [documentation](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token).
+
+After you have created the personal access token be sure to save it in a safe spot as it will be required when authenticating requests to the GitHub servers. You will be prompted to pass your GitHub username and password when trying to push to repositories, use your Personal Access Token in place of your password.&#x20;
 
 #### Configure Git default branch
 
@@ -108,6 +114,20 @@ git config --global user.email "<YOUR_GITHUB_EMAIL>"
 ```
 
 Type `git config -l` into the terminal to verify configuration success. If you see `user.name` and `user.email` in the output, we succeeded. If you see a `:` at the bottom of the output, you may need to press `Enter` until you see the lines starting with `user.name` and `user.email`.
+
+After configuring your GitHub credentials you will be able to access GitHub repositories and make requests, however you will be prompted for your username and password every single request. While this level of security is brilliant for companies it can be frustrating for the developers. To make your lives a tad easier you can run these commands in your CLI in order to save your credentials into the environment.
+
+```bash
+git config --global credential.helper store
+```
+
+```bash
+git config --global credential.helper cache
+```
+
+After doing these commands you may need to go through git flow once before it has saved your credentials (including your personal access token, which should be used as a password when prompted for username and password.
+
+
 
 ## Install Node.js
 
@@ -188,3 +208,15 @@ We will use the following software accounts during Bootcamp.
 1. [Codecademy](https://www.codecademy.com/)
 2. [LeetCode](https://leetcode.com/)
 3. [HackerRank](https://www.hackerrank.com/)
+
+## Extra Reading
+
+#### GitHub and SSH
+
+Another way developers are able to authenticate requests to GitHub is to create and use an SSH key on their personal machines. This SSH key acts as a unique signature that can be linked to your GitHub account online, essentially creating a connection between your machine and GitHub when used. SSH keys require a little more setup than using HTTPS but they will not prompt you for authentication every single request.
+
+#### Setting up SSH&#x20;
+
+1. &#x20;You will need to check for existing SSH keys on your machine, please follow these [docs](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/checking-for-existing-ssh-keys).&#x20;
+2. If you do not have you then you will need to generate a new SSH key please follow these [docs](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent).
+3. Following this you will need to add the new SSH key into your GitHub account online please follow these [docs](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account).
