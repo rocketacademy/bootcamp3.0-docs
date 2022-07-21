@@ -15,159 +15,140 @@ Software tests are code written using 1 or more test frameworks that programatic
 
 There are 3 most common categories of software tests: unit tests, integration tests and end-to-end tests. Unit tests typically test individual functions, especially ones with non-trivial logic such as calculations. Integration tests typically test groups of functions, for example a function that triggers functionality in multiple helper functions. End-to-end tests typically test entire features by using frameworks to simulate user actions, and verifying that those actions cause the desired database and UI changes in the app. Unit tests are the simplest and most common form of testing, and engineers often omit end-to-end testing until their product matures.
 
+There is no such thing as perfect testing, but hopefully with mindful testing we can eliminate bugs that would otherwise have happened unnoticed without tests.
+
 ## Unit Testing in JavaScript
 
-For illustration purposes we will demonstrate a unit test in JavaScript. We will write a unit test for one of our backend functions, since backend functionality tends to change less often than frontend UI.
+### Introduction
 
-Mocha and Chai are common test frameworks used together to test JavaScript backends. Mocha is the framework that enables us to run tests. It provides functions in which we can write tests, and a test runner script we can use to run all of a subset of our tests. Chai is an "assertion framework" that allows us to verify values in our code match what we expect, values such as the return value of the function we are testing.
+For illustration purposes we will demonstrate unit testing in JavaScript. For Bootcamp projects and take-home interview assignments, it should be sufficient to write unit tests on our functions like this one.
 
-TODO(kai): Make example with more realistic code if possible
+[Mocha](https://mochajs.org/) and [Chai](https://www.chaijs.com/) are common test frameworks used together to test JavaScript backends. Mocha is the framework that enables us to run tests. It provides functions in which we can write tests, and a test runner script we can use to run all of a subset of our tests. Chai is an "assertion framework" that allows us to verify values in our code match what we expect, values such as the return value of the function we are testing. Jest is a more common test framework used for frontends that has the same functionality as Mocha and Chai combined.
 
 ### Setup
 
-Let's get a simple test running with a bare-bones Mocha and Chai setup.
+Fork and clone Rocket's [`unit-test-bootcamp` repo](https://github.com/rocketacademy/unit-test-bootcamp) to follow along. We have implemented a simple unit test example using Rocket's Express app template.
 
-Clone the base repo and install the libraries.
+Before we wrote tests, we created a module to test. In this case, we have created a basic `utils` module in `utils.js` that exports an `add` function that adds 2 numbers. Trivial, but you can imagine more complex functions such as those we implemented for games like Blackjack.
 
-```bash
-git clone https://github.com/rocketacademy/base-node-bootcamp.git mocha
-```
-
+{% code title="utils.js" %}
 ```javascript
-cd mocha
-```
-
-```javascript
-npm install mocha chai
-```
-
-Mocha expects a directory called test that holds the test files.
-
-```javascript
-mkdir test
-```
-
-For this example we'll create a simple calculator to test.
-
-```javascript
-touch calculator.js
-```
-
-#### calculator.js
-
-```javascript
-export default function add(a, b) {
+const add = (a, b) => {
   return a + b;
-}
+};
+
+module.exports = {
+  add,
+};
 ```
+{% endcode %}
 
-Because we are doing unit testing, we are creating a library module to use as in this `index.js` below.
+Next we set up our test framework.
 
-#### index.js
+1.  We installed Mocha and Chai libraries as development dependencies. Development dependencies are only used during development and do not need to be included in the final app package shipped to users, helping make the app package smaller.
 
+    ```
+    npm i --save-dev mocha chai
+    ```
+
+
+2.  We added a script in `package.json` that allows us to run tests by running `npm test`.&#x20;
+
+    ```
+    "test": "mocha"
+    ```
+
+
+3.  We added the Mocha env setting to `.eslintrc.js` for ESLint to support Mocha syntax.
+
+    ```
+    mocha: true,
+    ```
+
+
+4.  We created a folder `test` in the root of the repo to store our test files. By default Mocha looks for a folder called `test` to find tests.
+
+    ```
+    mkdir test
+    ```
+
+At this point we created our test file and wrote our tests in it. We will dissect the test code below.
+
+{% code title="test/utils.js" %}
 ```javascript
-import { add } from "./calculator.js";
+const { expect } = require("chai");
+const { add } = require("../utils.js");
 
-console.log(add(2, 3));
-```
+describe("Utils", () => {
+  describe("Add", () => {
+    it("Adds 2 of the same number", () => {
+      const result = add(1, 1);
+      expect(result).to.equal(2);
+    });
 
-However, we won't be testing any functionalities inside the `index.js` itself. We'll only be running code in the `caluclator.js` file.
+    it("Adds 2 different numbers", () => {
+      const result = add(1, 2);
+      expect(result).to.equal(3);
+    });
 
-Now let's create the file that will run our tests.
+    it("Adds a positive and a negative number", () => {
+      const result = add(1, -1);
+      expect(result).to.equal(0);
+    });
 
-#### test/calculator.js
-
-```javascript
-import { expect } from "chai";
-
-import { add } from "../calculator.js";
-
-describe("Calculator", function () {
-  describe("Basic Operations", function () {
-    it("Adds two numbers", function () {
-      const result = add(2, 2);
-      expect(result).to.equal(4);
+    it("Adds 2 negative numbers", () => {
+      const result = add(-1, -1);
+      expect(result).to.equal(-2);
     });
   });
 });
 ```
+{% endcode %}
 
-To run the tests, make a change to the `package.json`:
+Now if we run `npm test` from our repo in the command line we should get the following output.
 
-```javascript
-{
-  "name": "base-node-swe1",
-  "version": "1.0.0",
-  "description": "# basic-node-swe1",
-  "main": "index.js",
-  "scripts": {
-    "test": "mocha"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/rocketacademy/base-node-swe1.git"
-  },
-  "keywords": [],
-  "author": "",
-  "type": "module",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/rocketacademy/base-node-swe1/issues"
-  },
-  "homepage": "https://github.com/rocketacademy/base-node-swe1#readme",
-  "dependencies": {
-    "chai": "^4.3.3",
-    "mocha": "^8.3.1"
-  },
-  "devDependencies": {
-    "eslint": "^7.12.1",
-    "eslint-config-airbnb-base": "^14.2.0",
-    "eslint-plugin-import": "^2.22.1",
-    "nodemon": "^2.0.6"
-  }
-}
+```
+unit-test-bootcamp % npm test
+
+> unit-test-bootcamp@1.0.0 test
+> mocha
+
+  Utils
+    Add
+      ✔ Adds 2 of the same number
+      ✔ Adds 2 different numbers
+      ✔ Adds a positive and a negative number
+      ✔ Adds 2 negative numbers
+
+  4 passing (4ms)
+
+unit-test-bootcamp % 
 ```
 
-On line 7 we changed the test key so that Mocha will run:
+### Syntax
 
-```javascript
-npm run test
-```
+#### `expect`
 
-We should then see output like this:
+At the top of our test file `test/utils.js` we imported the `expect` module from Chai. `expect` is an "assertion" syntax that helps us "assert" that our code meets expectations.
 
-![](../../.gitbook/assets/screen-shot-2021-03-11-at-1.45.24-am.png)
+Observe in each of the `it` blocks (we explain `it` below) how we use `expect` to verify expected values using a pseudo-English syntax.
 
-Let's talk about the test code and the test run output.
+[Chai's API reference](https://www.chaijs.com/api/bdd/) provides a list of assertions we can perform with `expect`.
 
-### Describe
+#### `describe`
 
-On line 5 & 6 of `test/calculator.js` we are calling the `describe` function. This function segregates the different tests and formats the output according to what was called inside these functions.
+`describe` is a syntax for grouping and categorising tests. Notice each `describe` block accepts a string followed by a function, where the string is the description of the group of tests contained within the function.&#x20;
 
-### It
+We can nest `describe` blocks within each other to group different types of tests. For example, each function that we test can be in its own nested `describe` block. In our case, our `add` function has its own nested `describe` block, and we could add another nested `describe` block for `subtract` function tests if we ever added a `subtract` function to `utils`.
 
-`it` is the smallest piece of a unit test suite. The first argument to `it` is a string that describes what this code is testing.
+Notice Mocha logs the description for each `describe` block in the console when running tests.
 
-```javascript
-it("Adds two numbers", function () {
-  const result = add(2, 2);
-  expect(result).to.equal(4);
-});
-```
+#### `it`
 
-#### Expect
-
-Expect is the code that actually evaluates that a result is correct. In this case we are checking for the number 4. There are many other kinds of comparisons besides `to.equal`.
-
-## Further Reading
-
-1. [Mocha website](https://mochajs.org/)
-2. [Chai documentation](https://www.chaijs.com/api/bdd/)
-3. [Mocha & Chai tutorial](https://semaphoreci.com/community/tutorials/getting-started-with-node-js-and-mocha)
+`it` declares an individual test. Like `describe`, `it` accepts a string followed by a function, where the string is the test description and the function is the test logic. Mocha engineers chose `it` as the function name so that test descriptions could read more like plain English, e.g. `it("Adds 2 of the same number", () => { ... });`
 
 ## Exercises
 
-1. Run the above code
-2. Run the test to see the output
-3. Break the test on purpose to see what a failing test looks like
-4. Add a `multiply` function to the calculator and write a test for it
+1. Run the tests in Rocket's repo and review output
+2. Break a test on purpose to see what a failing test looks like, e.g. by changing the expected result
+3. Add a `multiply` function to `utils` and write tests for it

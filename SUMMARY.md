@@ -87,7 +87,6 @@
 * [🏞 4: Capstone](4-capstone/README.md)
   * [4.1: Testing](4-capstone/4.1-testing/README.md)
     * [4.1.3: CI](4-capstone/4.1-testing/4.1.3-ci.md)
-  * [4.2: Containers](4-capstone/4.2-containers/README.md)
   * [4.3: Security](4-capstone/4.3-security/README.md)
     * [4.3.1: XSS](4-capstone/4.3-security/4.3.1-xss.md)
     * [4.3.2: CSRF](4-capstone/4.3-security/4.3.2-csrf.md)
