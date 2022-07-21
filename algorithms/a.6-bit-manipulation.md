@@ -75,4 +75,3 @@ Hint: For JavaScript, consider using the built-in [`toString(2)`](https://stacko
    1. Hint: Unsigned integer means the number is always positive and has no signed bit
 4. Single Number ([HackerRank](https://www.hackerrank.com/challenges/lonely-integer/problem?isFullScreen=true), [LeetCode](https://leetcode.com/problems/single-number/))
    1. Hint: Requires trick to understand what happens when we XOR a number with 0, and when we XOR a number with itself
-5.
