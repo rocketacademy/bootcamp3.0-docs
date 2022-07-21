@@ -115,3 +115,8 @@
   * [A.6: Bit Manipulation](algorithms/a.6-bit-manipulation.md)
   * [A.7: Python](algorithms/a.6-python.md)
   * [A.E: Exercises](algorithms/a.e-exercises.md)
+* [💼 Interview Prep](interview-prep/README.md)
+  * [IP.1: Job Application Strategy](interview-prep/ip.1-job-application-strategy.md)
+  * [IP.2: Resume](interview-prep/ip.2-resume.md)
+  * [IP.3: Portfolio](interview-prep/ip.3-portfolio.md)
+  * [IP.4: Job List](interview-prep/ip.4-job-list.md)
