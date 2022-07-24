@@ -88,7 +88,7 @@
   * [4.1: Testing](4-capstone/4.1-testing.md)
   * [4.2: Continuous Integration](4-capstone/4.2-continuous-integration.md)
   * [4.3: TypeScript](4-capstone/4.3-typescript.md)
-  * [4.4: Security](4-capstone/4.4-security.md)
+  * [4.4: Security](4-capstone/4.4-security/README.md)
   * [4.P: Capstone](4-capstone/4.p-capstone.md)
 * [🧮 Algorithms](algorithms/README.md)
   * [A.1: Data Structures](algorithms/a.1-data-structures/README.md)
