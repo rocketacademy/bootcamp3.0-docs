@@ -9,7 +9,7 @@
 
 ## Introduction
 
-ORMs (Object-Relational Mappings) allow us to manage and query SQL databases using application languages like JavaScript without writing SQL. This makes our applications more robust because it reduces human error from typos in SQL queries which are typically written as strings. ORMs are a layer on top of SQL, where ORMs translate application code to SQL before querying SQL DBs.
+ORMs (Object-Relational Mappings) allow us to manage and query SQL databases using application languages like JavaScript without having to write SQL. This makes our applications more robust because it reduces human error from typos in SQL queries which are typically written as strings. ORMs are a layer on top of SQL, where ORMs translate application code to SQL before querying SQL DBs.
 
 Sequelize is the most popular JavaScript ORM and we will use Sequelize in our applications during Bootcamp. The following sections follow official Sequelize tutorials. There is no need to remember all implementation details from the tutorials. Feel free to skim them, understand high-level concepts and refer back to the tutorials during implementation.
 
@@ -19,9 +19,13 @@ Sequelize is the most popular JavaScript ORM and we will use Sequelize in our ap
 Sequelize official tutorial on Sequelize models
 {% endembed %}
 
-1. We will use `sequelize.define` to define models at Rocket
-2. We will use default table name inference for all Sequelize examples at Rocket, which automatically assumes table names are the pluralised form of model names
-3. We will not use `model.sync` to synchronise models with databases because that behaviour is not production-safe. We will instead use [database migrations](https://sequelize.org/docs/v6/core-concepts/model-basics/#synchronization-in-production).
+1. A Model is an abstraction that represents a table within your database,  in Sequelize the Model is a class, the instances of this class represent the data stored.&#x20;
+2. We will `Extend the Sequelize` `Model` to define models at Rocket
+3. We will use default table name inference for all Sequelize examples at Rocket, which automatically assumes table names are the pluralised form of model names
+4. When passing in the second object that contains sequelize, we will pass two more key value pairs :&#x20;
+   1. `modelName: '<lowercase-name-of-model'>`
+   2. `underscored: true`
+5. We will not use `model.sync` to synchronise models with databases because that behaviour is not production-safe. We will instead use [database migrations](https://sequelize.org/docs/v6/core-concepts/model-basics/#synchronization-in-production).
 
 {% hint style="info" %}
 **Require vs Import Statements**
@@ -35,9 +39,10 @@ You may notice that Sequelize docs use `require` syntax to import modules. This 
 Sequelize official tutorial on Sequelize model instances
 {% endembed %}
 
-1. We will use the `create` method to create model instances at Rocket instead of `build` and `save`.
-2. Rocket recommends using the suggested way to log model instances with `.toJSON()`
-3. Rocket recommends using `update` to update model instances for precision instead of `set` and `save`
+1. An instance of the Model class represents a row of data that is stored within the Sequelize database.
+2. We will use the `create` method to create model instances at Rocket instead of `build` and `save`.
+3. Rocket recommends using the suggested way to log model instances with `.toJSON()`
+4. Rocket recommends using `update` to update model instances for precision instead of `set` and `save`
 
 ## Model Querying - Basics
 
@@ -45,10 +50,11 @@ Sequelize official tutorial on Sequelize model instances
 Sequelize official tutorial on Sequelize model instances
 {% endembed %}
 
-1. We will use `Model.create()` to insert rows into our database instead of `Model.build()` and `instance.save()`
-2. We will rarely need to use syntax in "Advanced queries with functions (not just columns)" section, if ever
-3. We will use `Model.bulkCreate` to seed data in our databases for Rocket exercises
-4. Limits and pagination will not be necessary until we have large amounts of data that slows down our apps when retrieved all at once
+1. Model Querying allows developers to preform CRUD like actions to our database, we can preform actions such as create, read update and delete on the database
+2. We will use `Model.create()` to insert rows into our database instead of `Model.build()` and `instance.save()`
+3. We will rarely need to use syntax in "Advanced queries with functions (not just columns)" section, if ever
+4. We will use `Model.bulkCreate` to seed data in our databases for Rocket exercises
+5. Limits and pagination will not be necessary until we have large amounts of data that slows down our apps when retrieved all at once
 
 ## Model Querying - Finders
 
@@ -56,7 +62,12 @@ Sequelize official tutorial on Sequelize model instances
 Sequelize official tutorial on Sequelize model finder methods
 {% endembed %}
 
-1. These are some of the most common Sequelize methods we will use in our apps
+1. If you're not updating, inserting or deleting a value from your stored data, you're probably looking to list out some specific information, or even just all the data in your table, use the Model Query Finders to do this.&#x20;
+2. These are some of the most common Sequelize methods we will use in our apps
+3. We can use the `Instance.findAll()` method to select data from the database to use within our application
+   1. You can pass in an object with a where key this helps refine your searches, check out this [example](https://sequelize.org/docs/v6/core-concepts/model-querying-basics/#the-basics).
+   2. [Operators](https://sequelize.org/docs/v6/core-concepts/model-querying-basics/#operators) can also be used for advanced queries.
+   3. Order and group your data, checkout this [example](https://sequelize.org/docs/v6/core-concepts/model-querying-basics/#ordering-and-grouping).
 
 ## Migrations
 
@@ -64,7 +75,7 @@ Sequelize official tutorial on Sequelize model finder methods
 Sequelize official tutorial on Sequelize migrations
 {% endembed %}
 
-1. We will use migrations to set up our DB schema. All companies use migrations to manage DB schema. Rocket considers migrations a core concept of Sequelize and ORMs in general.
+1. We will use migrations to set up our DB schema, the structure of our database, or the tables and their relationships. All companies use migrations to manage DB schema. Rocket considers migrations a core concept of Sequelize and ORMs in general.
 2. Migrations at Rocket will only have "development" and "production" environments for simplicity. Tech teams in industry often have "test" environments for more robust testing between development and production.
 3. We will use `model:generate` at Rocket to generate model and migration files
 4. Rocket will use seed files to populate initial date in our applications
