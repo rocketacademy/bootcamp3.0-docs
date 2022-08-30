@@ -17,8 +17,8 @@ The following code is a minimal Express app that hosts a server at port 3000 and
 
 {% code title="index.js" %}
 ```javascript
-// Import Express NPM library
-import express from "express";
+// require Express NPM library
+const express = require('express');
 
 // Declare the port to listen to and initialise Express
 const PORT = 3000;
@@ -38,7 +38,7 @@ app.listen(PORT, () => {
 
 Let's break down the above code.
 
-1. Importing `express` imports the Express library for us to initialise, configure and run our server
+1. Requiring `express` imports the Express library for us to initialise, configure and run our server
 2. `PORT` defines the port that our Express server will listen on. Recall from Module 2 that ports determine which applications receive which requests on servers. We use SCREAM\_CASE to define constant variables like `PORT` at the top of our files or in a separate constants file for easy access.
 3. `const app = express()` initialises our Express application
 4. `app.get` is a route middleware (more on this below) that routes requests to a specific URL path to a specific middleware function to handle that request
@@ -93,12 +93,11 @@ import express from "express";
 
 Middleware functions (aka "middleware") are functions that run during the "request-response cycle" and have access to Express request and response objects. The request-response cycle is the logic a server executes between when the server receives a request and when the server sends a response for that request. Routing methods of the format `app.<METHOD>` are 1 form of middleware.
 
-We can run other non-routing middleware in the request-response cycle by attaching middleware functions with `app.use` before routing middleware. This will allow us to execute arbitrary logic using `req` and `res` objects before our routes, such as logging requests, adding metadata to our requests or validating authentication. Express executes middleware in the order the middleware is bound to the `app` object, until any middleware sends a response back to the client.
+We can run other non-routing middleware in the request-response cycle by attaching middleware functions with `app.use` before routing middleware. This will allow us to execute arbitrary logic using `req` and `res` objects before our routes, such as logging requests, adding metadata to our requests or validating authentication. Express executes middleware in the order the middleware is bound to the `app` object, until any middleware sends a response back to the client.c
 
 {% code title="index.js" %}
 ```javascript
-import express from "express";
-
+const express = require('express');
 const app = express();
 
 // Define a custom middleware function myLogger to log requests
