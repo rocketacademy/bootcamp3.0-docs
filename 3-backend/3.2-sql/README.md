@@ -122,7 +122,7 @@ sudo service postgresql restart
 Login as the user `postgres` - the default root user for the Postgres database. This system user was created when you installed Postgres.
 
 ```
-sudo su - postgres
+sudo su postgres
 ```
 
 Create a user and database named after your Ubuntu user. We can retrieve our Ubuntu username via the `whoami` command on the command line.
@@ -146,6 +146,14 @@ exit
 ```
 
 
+
+To interface with Postgres through your command line follow these commands:
+
+```
+sudo service postgresql start
+sudo su postgres
+psql postgres
+```
 
 ## Post-Class Exercises: Codecademy Learn SQL
 
