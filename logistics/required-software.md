@@ -43,11 +43,17 @@ Homebrew typically manages OS-specific packages, e.g. `node`, and not applicatio
 
 {% tabs %}
 {% tab title="Windows" %}
-Open an Ubuntu terminal in VS Code and run the following commands.
+Open an Ubuntu terminal in VS Code and run the following commands separately.
 
 ```bash
 sudo apt-get update
+```
+
+```bash
 sudo apt-get install git
+```
+
+```bash
 # Verify correct installation by checking Git version
 git --version
 ```
@@ -133,11 +139,15 @@ After doing these commands you may need to go through git flow once before it ha
 
 {% tabs %}
 {% tab title="Windows" %}
-Open an Ubuntu terminal in VS Code and run the following commands.
+Open an Ubuntu terminal in VS Code and run the following commands separately.
 
 ```bash
 curl -fsSL https://deb.nodesource.com/setup_16.x | sudo -E bash -
+```
+
+```bash
 sudo apt-get install -y nodejs
+
 ```
 {% endtab %}
 
