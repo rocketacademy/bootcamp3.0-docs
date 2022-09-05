@@ -43,11 +43,17 @@ Homebrew typically manages OS-specific packages, e.g. `node`, and not applicatio
 
 {% tabs %}
 {% tab title="Windows" %}
-Open an Ubuntu terminal in VS Code and run the following commands.
+Open an Ubuntu terminal in VS Code and run the following commands separately.
 
 ```bash
 sudo apt-get update
+```
+
+```bash
 sudo apt-get install git
+```
+
+```bash
 # Verify correct installation by checking Git version
 git --version
 ```
@@ -133,19 +139,26 @@ After doing these commands you may need to go through git flow once before it ha
 
 {% tabs %}
 {% tab title="Windows" %}
-Open an Ubuntu terminal in VS Code and run the following commands.
+Open an Ubuntu terminal in VS Code and run the following commands separately.
 
 ```bash
 curl -fsSL https://deb.nodesource.com/setup_16.x | sudo -E bash -
+```
+
+```bash
 sudo apt-get install -y nodejs
+
 ```
 {% endtab %}
 
 {% tab title="MacOS" %}
-Install Node.js using Homebrew using the following commands. `install` installs the package and `link` makes the `node` command accessible in our terminal.
+Install Node.js using Homebrew using the following commands. `install` installs the package and `link` makes the `node` command accessible in our terminal. Run these commands separately.&#x20;
 
 ```
 brew install node@16
+```
+
+```
 brew link node@16
 ```
 {% endtab %}
