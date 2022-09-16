@@ -52,7 +52,7 @@
     * [2.2.5: Context](2-full-stack/2.2-advanced-react/2.2.5-context.md)
     * [2.2.6: Eject CRA](2-full-stack/2.2-advanced-react/2.2.6-eject-cra.md)
     * [2.2.7: Environmental Variables](2-full-stack/2.2-advanced-react/2.2.7-environmental-variables.md)
-    * [2.2.8: React useMemo - useCallback](2-full-stack/2.2-advanced-react/2.2.8-react-usememo-usecallback.md)
+    * [2.2.8 React useMemo && useCallback](2-full-stack/2.2-advanced-react/2.2.8-react-usememo-and-and-usecallback.md)
   * [2.3: Firebase](2-full-stack/2.3-firebase/README.md)
     * [2.3.1: Firebase Realtime Database](2-full-stack/2.3-firebase/2.3.1-firebase-realtime-database.md)
     * [2.3.2: Firebase Storage](2-full-stack/2.3-firebase/2.3.2-firebase-storage.md)
