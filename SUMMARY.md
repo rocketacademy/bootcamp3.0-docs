@@ -110,7 +110,6 @@
   * [A.5: Dynamic Programming](algorithms/a.5-dynamic-programming.md)
   * [A.6: Bit Manipulation](algorithms/a.6-bit-manipulation.md)
   * [A.7: Python](algorithms/a.6-python.md)
-  * [A.E: Exercises](algorithms/a.e-exercises.md)
 * [💼 Interview Prep](interview-prep/README.md)
   * [IP.1: Job Application Strategy](interview-prep/ip.1-job-application-strategy.md)
   * [IP.2: Resume](interview-prep/ip.2-resume.md)
