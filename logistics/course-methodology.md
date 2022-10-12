@@ -51,6 +51,108 @@ Compare the following 3 questions. Notice how it becomes much easier to help som
 > console.log(card.rank);
 > ```
 
+
+
+### **How to document your errors**
+
+In this section, we will be looking at how we can document errors, this will facilitate your debugging process and make asking for help much easier.
+
+### Frontend React Error
+
+When handling errors in a React frontend, you can usually see an error message in the Command Line Interface where you executed the command ‘npm start’, as well as the console of the browser. The browser usually emulates the error that is found in the Command Line Interface, so the Terminal, for Mac, or Ubuntu for Windows, is where one starts debugging. Let’s take a look at an application that is currently experiencing an error.
+
+**To document a React error to the fullest, find the errors in your Command Line Interface, take some screenshots and provide these screenshots when asking for help.**&#x20;
+
+<figure><img src="../.gitbook/assets/Screenshot 2022-09-23 at 11.17.02 AM.png" alt=""><figcaption><p>React terminal error</p></figcaption></figure>
+
+The error found in the CLI specifies that there is an issue:
+
+`‘Module not found: Error: Can’t resolve ‘./Greting’ …  ERROR in ./src/App.js 6:0-33’`&#x20;
+
+This means that something that we are importing within the App.js cannot be found, the file which we are importing from seems to be ‘./Greting’.
+
+
+
+<figure><img src="../.gitbook/assets/Greetings Rocket Student called Sam (1).png" alt=""><figcaption><p>Browser error</p></figcaption></figure>
+
+The error that we would see in the browser mirrors what we have looked at previously, this is because React is showcasing the errors that occurred during runtime. This means we probably need to take a look into the App.js as React’s error reporting is telling us where the issue originates.&#x20;
+
+#### Further documenting && Solving the Error
+
+<figure><img src="../.gitbook/assets/EXPLORER.png" alt=""><figcaption><p><br>Failing App.js</p></figcaption></figure>
+
+From the code block here we can see that the component is importing ‘./Greting.js’, but if we look at the image, on the left,  we can see that the  file name is called Greeting.js. So to fix this problem, we just need to fix the import statement, such that we were importing from the correct file, then the error should be fixed.
+
+So when we are documenting this error we should share error screenshots of the CLI tool running the application, the browser errors as well as the JavaScript components or files that are being flagged by React. In this case, the App.js.
+
+
+
+### Document Backend Errors
+
+When developing a backend server, it might seem operational, however, when an actual API route is consumed an error is thrown  in your CLI window where the backend application is running. This issue that is occurring might stem from the route handler, the Controller or even database. So what we will have to do is breakdown the error and and see if that can solve the issue.
+
+To do this we would need to share the error that is being shown within our backend CLI, an example is below.
+
+<figure><img src="../.gitbook/assets/port 5432 (2).png" alt=""><figcaption><p>CLI Error</p></figcaption></figure>
+
+In the error above, we can see that it reads:
+
+`‘ConnectionRefusedError … connect ECONNREFUSED 127.0.0.1:5432”`
+
+By reading the error we can ascertain the where the issue is seeming from, in this case it seems like a Seqeulize issue has occurred, specifically that the client (our server) cannot connect to our database. There is a simple solution to this error, turn on your database. It’s possible to forget to start your database server locally or even on a deployed instance, when developing always remember to check your environments are setup before testing.\
+
+
+You should always over share when trying to debug as it will help to provide context to people attempting to help you.
+
+
+
+Here is an example of another error:
+
+<figure><img src="../.gitbook/assets/Screenshot 2022-09-26 at 5.23.23 PM.png" alt=""><figcaption><p>Database Issue</p></figcaption></figure>
+
+There are a few things that you should look out for when you are debugging your applications, some of them are highlighted above, we can see that the error is being thrown by Seqeulize, the error reads:
+
+`‘error: relation “sightings” does not exist’`&#x20;
+
+The error code is ’42P01’, a quick google indicates that, our database, PostgreSQL, states that error 42P01 **denotes the database query is on an undefined table**. This error usually occurs due to improper database setup, unidentified table name.
+
+But how could this be? You’ve already setup the database, you have run npx sequelize db:migrate as well as the seed commands. So how when, I am consuming an API does it error out? Consider how Sequelize sets up your database, it will use the credentials found in ‘/config/database.js’, for database creation, migration as well as seeding data. On the other hand when querying data programatically from the application it will take whatever credentials that you have placed into the ‘/models/index.js’. Use console.log statements to ensure that your are using the correct credentials when you query data.&#x20;
+
+
+
+The issues above were database related. You may encounter issues with other parts of your backend, such as your Controller or Router. If you do encounter an issue it would be prudent to share all of the affected files.&#x20;
+
+Say you are trying to get some data from your database and display it on your backend, but you're receiving an error like this:
+
+<figure><img src="../.gitbook/assets/Screenshot 2022-10-04 at 4.03.13 PM (1).png" alt=""><figcaption><p>Backend Error, Controller</p></figcaption></figure>
+
+This error seems to stem from the baseController file as highlighted by the image above, in this case, it would be prudent to share this file if you are asking for help. &#x20;
+
+<figure><img src="../.gitbook/assets/Screenshot 2022-10-04 at 4.07.07 PM.png" alt=""><figcaption><p>BaseController.js</p></figcaption></figure>
+
+The error reads:
+
+`'TypeError: Cannot read properties of undefined (reading 'findAll')'`
+
+This indicates that there is an issue with the findAll command, in this case, we have spelt model incorrectly, replace with `this.model` and the code should be operational.
+
+
+
+**Debugging CheckList**
+
+* [ ] &#x20;**** Find any error codes&#x20;
+* [ ] Document your error codes and environments they occur in
+* [ ] Google the error codes to find a fix
+* [ ] Check all of your environment is setup correctly
+* [ ] Check that your environmental variables are correct
+* [ ] Check casing throughout your application
+* [ ] Check your dependancy injections
+* [ ] Checkout your git commits to find a working version of your code
+* [ ] Remove code line by line to check where the bug is
+* [ ] Rebuild the application one line at a time checking to see if its broken
+
+
+
 ## Difficulty Levels
 
 Rocket provides multiple levels of difficulty to accommodate different learning speeds and prior experience. Students can complete Bootcamp without attempting Comfortable, but students that complete Comfortable may have a firmer grasp of concepts. Rocket recommends completing Base for all of each day's post-class and pre-class exercises before attempting Comfortable.
