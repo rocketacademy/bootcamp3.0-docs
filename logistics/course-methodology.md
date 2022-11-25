@@ -283,4 +283,4 @@ Occasionally we will review each others' code to learn from each other. Start by
 ### Part 2: In Pairs
 
 1. Review learnings from individual code reviews
-2. Pair program on 1 person's code to get a working version. The person with the weaker understanding of the current concepts should be the driver. For more info on pair programming, read [Rocket's primer on pair programming in Coding Basics](https://codingbasics.rocketacademy.co/logistics/course-methodology/course-components#pair-programming).
+2. Pair program on 1 person's code to get a working version. The person with the weaker understanding of the current concepts should be the driver. For more info on pair programming, read [Rocket's primer on pair programming in Coding Basics](https://basics.rocketacademy.co/course-logistics/course-methodology/course-components#pair-programming).
