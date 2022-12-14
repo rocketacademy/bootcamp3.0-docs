@@ -1,13 +1,30 @@
 # 3.1: Express.js
 
-## Learning Objectives
+Learning Objectives
 
-1. Express.js is a server application framework that helps us receive requests from clients and respond with data
-2. Understand how to create routes and corresponding middleware functions that handle requests to those routes
-3. Know how to parse URL path and query parameters in route middleware
-4. Middleware functions are functions that run during the "request-response cycle" and have access to Express request and response objects
+1. Revise the HTTP Request and Reponse Cycle.
+2. Express.js is a server application framework that helps us receive requests from clients and respond with data
+3. Understand how to create routes and corresponding middleware functions that handle requests to those routes
+4. Know how to parse URL path and query parameters in route middleware
+5. Middleware functions are functions that run during the "request-response cycle" and have access to Express request and response objects
+
+## HTTP Revision
+
+{% embed url="https://youtu.be/XoQPZyO4rMo" %}
+Http Request and Response Cycle
+{% endembed %}
+
+{% embed url="https://youtu.be/M-cMnNBOgGc" %}
+HTTP Request Verb and Status Codes
+{% endembed %}
+
+
 
 ## Introduction
+
+{% embed url="https://youtu.be/KAKkV0AimeM" %}
+Introduction to Express
+{% endembed %}
 
 Express.js is a server application framework that helps us receive requests from clients and respond with data. Servers are computers without a screen that perform logic on behalf of clients such as storing and retrieving data.
 
@@ -47,6 +64,18 @@ Let's break down the above code.
 7. `app.listen` tells the Express app to start listening for requests at the specified port and execute the specified callback function after successfully starting
 
 In the following sections we will dig deeper into route middleware and middleware functions in general.
+
+{% embed url="https://youtu.be/0EhCLKlw5ng" %}
+Thunder Client && Expressjs
+{% endembed %}
+
+
+
+## Fruit Express App (Simple)
+
+{% embed url="https://youtu.be/AbAi44vQtuc" %}
+Express Fruit Application
+{% endembed %}
 
 ## Routes
 
@@ -88,6 +117,18 @@ Import (aka ES Modules) syntax:
 import express from "express";
 ```
 {% endhint %}
+
+## Express Request Extras
+
+{% embed url="https://youtu.be/wJdY3Vvp2g0" %}
+HTTP Request Extras
+{% endembed %}
+
+## Express Fruit Application
+
+{% embed url="https://youtu.be/8WLofzPe7zI" %}
+Express Fruit Application
+{% endembed %}
 
 ## Middleware
 
@@ -135,6 +176,12 @@ Read [Express' official guide to using middleware](https://expressjs.com/en/guid
 Official Express guide to using middleware
 {% endembed %}
 
+## Express In-Built Middleware
+
+{% embed url="https://youtu.be/25XpyTTnt58" %}
+Express Middleware
+{% endembed %}
+
 ## CORS
 
 CORS (Cross-Origin Resource Sharing) is a security mechanism that allows servers to specify which domains other than their own to accept requests from. Without CORS, hackers at malicious websites could induce users to perform sensitive actions to manipulate legitimate backends using authentication information stored in the browser. With CORS, legitimate backends can prevent such attacks by only allowing requests from legitimate domains.
@@ -142,6 +189,22 @@ CORS (Cross-Origin Resource Sharing) is a security mechanism that allows servers
 CORS is relevant for us now because we will host our frontends and backends on different domains, and we will need to configure our backends to allow requests from our frontends. Express provides an [official CORS middleware NPM library `cors`](https://expressjs.com/en/resources/middleware/cors.html) to configure CORS for our backends.
 
 For now we will use the most open and least secure `cors` configuration (`app.use(cors());`) to get our apps working. There are many ways to configure Express' `cors` library to be most secure that we can learn about later.
+
+## Express Structure
+
+If you find that your backend index.js is getting rather long due to the amount of route handlers, middleware or other code that is implemented. We suggest that you apply some backend structure to your Express directories.&#x20;
+
+{% embed url="https://youtu.be/J_YBGjBVBYs" %}
+Implementing an Express Router
+{% endembed %}
+
+{% embed url="https://youtu.be/Bj0jYeJS-ZM" %}
+Implementing an Express Controller
+{% endembed %}
+
+{% embed url="https://youtu.be/CRhOv8mtdC4" %}
+Implementing Router and Controller
+{% endembed %}
 
 ## Additional Resources
 
