@@ -13,6 +13,24 @@ ORMs (Object-Relational Mappings) allow us to manage and query SQL databases usi
 
 Sequelize is the most popular JavaScript ORM and we will use Sequelize in our applications during Bootcamp. The following sections follow official Sequelize tutorials. There is no need to remember all implementation details from the tutorials. Feel free to skim them, understand high-level concepts and refer back to the tutorials during implementation.
 
+
+
+{% embed url="https://youtu.be/XB-0A5nQS1s" %}
+Introduction to Databases&#x20;
+{% endembed %}
+
+{% embed url="https://youtu.be/6OBhgbS5J-Q" %}
+Table Relationships
+{% endembed %}
+
+{% embed url="https://youtu.be/dl33mcglPCI" %}
+Sequelize Migrations, Seeders and Models
+{% endembed %}
+
+{% embed url="https://youtu.be/7Gcm2LjQBYI" %}
+Setting up Sequelize in an Express App
+{% endembed %}
+
 ## Model Basics
 
 {% embed url="https://sequelize.org/docs/v6/core-concepts/model-basics/" %}
