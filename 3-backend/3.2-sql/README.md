@@ -23,8 +23,6 @@ PostgreSQL (aka "Postgres") is a popular and robust SQL dialect that is both lig
 
 Postgres is also a database server application that we will use to store and retrieve data for our apps using the Postgres language. Postgres is typically run on its own server in production for modularity (multiple apps may want to access this DB) and security (different security rules for our DB vs API server).
 
-
-
 ## Intro to Database Servers
 
 Database servers run applications that allow programs to manipulate the data inside them. In this module we'll learn how to create, manage, and deploy database servers. Note that this is separate from managing the _data_ inside the database, which is done by the SQL language. How SQL interacts with the database server hard drive depends on the particular SQL implementation.
@@ -60,6 +58,10 @@ psql is the Postgres command-line client to access our databases. To help us lea
 ### Mac
 
 Install [postgres.app](https://postgresapp.com). Open the application and follow the setup instructions on the website. Do the optional step to configure `$PATH` to use included command line tools.
+
+{% embed url="https://youtu.be/cEOe6WRAhRE" %}
+Installing Postgres Mac
+{% endembed %}
 
 ### Ubuntu (for Windows users in WSL and EC2 Installation)
 
