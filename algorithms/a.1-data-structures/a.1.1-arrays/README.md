@@ -2,10 +2,10 @@
 
 ## Learning Objectives
 
-1. Understand common array functions and their runtimes
+1. Understand common array functions and their use cases
 2. Get familiar with solving algorithm problems with arrays
 
-## Common array functions and runtimes
+## Common array functions&#x20;
 
 Assume we start with the following example array `arr`. Scroll right in the table below to see explanations.
 
@@ -13,16 +13,16 @@ Assume we start with the following example array `arr`. Scroll right in the tabl
 const arr = [2, 1, 3];
 ```
 
-| Function              | Resulting value of \`arr\` | Return value | Runtime    | Explanation                                                                                                                                         |
-| --------------------- | -------------------------- | ------------ | ---------- | --------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `arr[1]`              | `[2,1,3]`                  | `1`          | `O(1)`     | We can access value at specific index in array in a single operation                                                                                |
-| `arr.push(4)`         | `[2,1,3,4]`                | `4`          | `O(1)`     | We can append to end of array in single operation                                                                                                   |
-| `arr.length`          | `[2,1,3]`                  | `3`          | `O(1)`     | JS Array data structure stores up-to-date length that we can retrieve in constant time                                                              |
-| `Math.max(...arr)`    | `[2,1,3]`                  | `3`          | `O(n)`     | Get max element of unsorted array requires iterating over every element in array                                                                    |
-| `arr.shift()`         | `[1, 3]`                   | `2`          | `O(n)`     | Removing element from start of array requires shifting every element to the left by 1 index                                                         |
-| `arr.unshift(4)`      | `[4,2,1,3]`                | `4`          | `O(n)`     | Adding element to start of array requires shifting every element to the right by 1 index                                                            |
-| `arr.splice(1, 0, 4)` | `[2,4,1,3]`                | `[]`         | `O(n)`     | Adding and removing elements from the middle of an array requires shifting every following element by a constant number of indexes                  |
-| `arr.sort()`          | `[1,2,3]`                  | `[1,2,3]`    | `O(nlogn)` | The fastest sorting algorithms run in `O(nlogn)` time, different JS runtimes implement different sorting algorithms that all have similar runtimes. |
+| Function              | Resulting value of \`arr\` | Return value | Explanation                                                                                                                                         |
+| --------------------- | -------------------------- | ------------ | --------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `arr[1]`              | `[2,1,3]`                  | `1`          | We can access value at specific index in array in a single operation                                                                                |
+| `arr.push(4)`         | `[2,1,3,4]`                | `4`          | We can append to end of array in single operation                                                                                                   |
+| `arr.length`          | `[2,1,3]`                  | `3`          | JS Array data structure stores up-to-date length that we can retrieve in constant time                                                              |
+| `Math.max(...arr)`    | `[2,1,3]`                  | `3`          | Get max element of unsorted array requires iterating over every element in array                                                                    |
+| `arr.shift()`         | `[1, 3]`                   | `2`          | Removing element from start of array requires shifting every element to the left by 1 index                                                         |
+| `arr.unshift(4)`      | `[4,2,1,3]`                | `4`          | Adding element to start of array requires shifting every element to the right by 1 index                                                            |
+| `arr.splice(1, 0, 4)` | `[2,4,1,3]`                | `[]`         | Adding and removing elements from the middle of an array requires shifting every following element by a constant number of indexes                  |
+| `arr.sort()`          | `[1,2,3]`                  | `[1,2,3]`    | The fastest sorting algorithms run in `O(nlogn)` time, different JS runtimes implement different sorting algorithms that all have similar runtimes. |
 
 ## Exercises
 
