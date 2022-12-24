@@ -1,0 +1,6 @@
+# The following redirects suggested by Mustard SEO to keep search traffic from past Bootcamp content
+redirects:
+  7-react/7.6-passing-data-between-sibling-components: 1-frontend/1.3-react#10-lifting-state-up
+  4-backend-structure/4.1-orm-sequelize/4.1.8-multiple-foreign-key-columns-referencing-same-table: 3-backend/3.3-sequelize/3.3.3-advanced-sequelize-concepts#association-aliases-and-custom-foreign-keys
+  4-backend-structure/4.1-orm-sequelize/4.1.3-async-await-with-sequelize: 3-backend/3.3-sequelize/3.3.1-sequelize-1-m-relationships#introduction
+  4-backend-structure/4.1-orm-sequelize/4.1.2-sequelize-one-to-many-relationships: 3-backend/3.3-sequelize/3.3.1-sequelize-1-m-relationships
