@@ -149,13 +149,213 @@ exit
 
 
 
-To interface with Postgres through your command line follow these commands:
+## Basic SQL Commands
+
+When creating your database within PostgreSQL you will need to be armed with some knowledge, namely the ability to create tables, insert information and subsequently query that dataset. In this section we will explore how we can interface with our database through the command line interface.
+
+
+
+#### Starting PostgreSQL (Mac)
+
+The first step is to start your PostgreSQL server and open a CLI window. For Mac users goto the applications toolbar and find this logo:
+
+<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption><p>PostgreSQL logo</p></figcaption></figure>
+
+Click on it, it will start up the PostgreSQL server and it will open a window that is similar to below, you may need to click start on when selecting a Postgres instance:
+
+<figure><img src="../../.gitbook/assets/Screenshot 2023-01-04 at 10.16.47 AM.png" alt=""><figcaption><p>PostgreSQL Mac GUI</p></figcaption></figure>
+
+From this panel select a database, here we have highlighted the fruit database, once you click on it a terminal window will appear:
+
+<figure><img src="../../.gitbook/assets/Screenshot 2023-01-04 at 10.19.21 AM.png" alt=""><figcaption><p>PostgreSQL terminal window</p></figcaption></figure>
+
+From this window we can interface with Postgres using SQL as well as PostgreSQL commands. We are currently accessing the fruit databse and will only be able to query tables within that database from here.&#x20;
+
+
+
+#### Starting PostgreSQL (Ubuntu - Windows)
+
+To interface with PostgreSQL through your command line (Ubuntu) first open a new Ubuntu instance, then execute these commands:
 
 ```
 sudo service postgresql start
 sudo su postgres
 psql postgres
 ```
+
+
+
+In both Mac and Windows what we are doing is starting the PostgreSQL server on our computer, then we are making a connection to a particular database on the server. The commands above first start the PostgreSQL service, specifies that we are running PostgreSQL commands and then connects to the default PostgreSQL database.
+
+
+
+#### Common PostgreSQL commands
+
+When you have connected to a PostgreSQL database you can easily list all of your databases, users or current tables:
+
+List all of the databases on this PostgreSQL server:
+
+```
+\l
+```
+
+When you run this command in the current window you will get a table that contains all of the current databases and pertinent information regarding it.
+
+
+
+Change the current window to another database:
+
+```
+\c <db-name>
+
+// EG:
+
+\c samoshaughnessy
+```
+
+The command above would change the current window to another database, in this case one named samoshaughnessy.
+
+
+
+Another useful command is to list out all of the tables within the current database context.
+
+```
+\dt
+```
+
+The command above will generate a table which containing information about each table.
+
+
+
+To list out all of the users you can use the command below:
+
+```
+\du
+```
+
+
+
+#### Creating table
+
+After connecting to the appropriate database we can use the CREATE TABLE statement to develop a new table within this database. In the example below we will create a new table names students that contains a few columns regarding student information.&#x20;
+
+```sql
+CREATE TABLE students (
+    id SERIAL PRIMARY KEY,
+    first_name VARCHAR(255),
+    last_name VARCHAR(255),
+    mobile int,
+    gender boolean,
+    );
+    
+```
+
+This command generates a table that contains four columns, an auto-incrementing identity column id, and two character columns first\_name, last\_name. This is followed by two additional columns mobile and gender which have the datatype of integer and boolean respectively. We are generating columns by naming the column, then adding a datatype as well as any column constraints that we need to implement. You can alter the datatype and constraints by changing the arguments to the code above. To see what PostgreSQL datatypes you can insert please checkout [this documentation](https://www.postgresql.org/docs/current/datatype.html). If you want to checkout the constraints [click here](https://www.postgresql.org/docs/current/ddl-constraints.html).
+
+#### <mark style="color:red;">SQL NOTE</mark>
+
+It should be noted that we must end the command with a semicolon otherwise PostgreSQL will not register that the command is complete.
+
+
+
+#### Data Insertion
+
+Inserting data into tables is the next step in database creation, the code below demonstrates an insertion query that will add a new row of data into the previously generated student table.
+
+{% code overflow="wrap" %}
+```sql
+INSERT INTO students (first_name, last_name, address, mobile, gender) values ("Foong", "Leung", 9987712, true);
+```
+{% endcode %}
+
+We entered a new student into the database, notice how we didn't need to insert an id, this is due to the SERIAL constraint we added when creating our table. These id's act a [Primary Keys](https://www.postgresql.org/docs/15/ddl-constraints.html#DDL-CONSTRAINTS-PRIMARY-KEYS) which are vital unique identifiers for our rows of data. The  information that is required is the data that will be placed in our columns for this row, the two strings, a number and  the final value a boolean, true, true represents male within this table structure.
+
+You can add in additional rows of information one at a time or you can insert multiple values like the command below.
+
+{% code overflow="wrap" %}
+```sql
+INSERT INTO students (first_name, last_name, address, mobile, gender) values ("Sam", "O'Shaughnessy", 2781192, true), ("Neo", "Yuan", 4366813, true) ;
+```
+{% endcode %}
+
+
+
+#### Data Querying
+
+When working with databases, it is important that you can query information such that you're able to manipulate, retrieve and delete data. You are able to do this from your command line interface and this is the next step in hands on database management. Querying data is dependant on specificity and targeting the correct information. You can select information from a database by table, row or under a condition, we will showcase a few of these commands below.
+
+{% code overflow="wrap" %}
+```sql
+// Selecting by Table
+SELECT * FROM students;
+// This will return all of the enteries from the students table
+
+SELECT first_name, last_name FROM students;
+// This will return all of the data within the columns first_name and last_name from the students table
+
+// Selecting by Row
+SELECT * FROM students WHERE id = 1;
+// This will return the row with an id of 1 from the students table
+
+// Selecting by Condition
+SELECT * FROM students WHERE gender = false;
+// This will return all of the rows where gender is false.
+```
+{% endcode %}
+
+
+
+To alter existing data within the tables you can use the UPDATE or DELETE commands paired with the WHERE claus that we saw in the previous code block. It should be noted that you can use logical operations like greater than or less than, read more about this [here](https://www.postgresql.org/docs/current/functions-comparison.html). Checkout the code block below to see how you can update and remove information inside a table.
+
+
+
+{% code overflow="wrap" %}
+```sql
+// Update a row by ID
+UPDATE students SET first_name = 'Neo Kai', mobile = 86739984 WHERE id = 3;
+
+// Update a row by column value
+UPDATE students SET first_name = 'Neo Kai', mobile = 86739984 WHERE first_name = 'Neo';
+
+// Deleting data using id
+DELETE FROM students WHERE id = 1;
+
+// Deleting data using condition
+DELETE FROM students WHERE gender = true; 
+```
+{% endcode %}
+
+
+
+#### SQL relationships&#x20;
+
+Creating tables and inserting data allows you to create some structure for data within your database. To really showcase meaningful information within a database, tables should have relationships and in more complex instances data could depend on other sets. To showcase this we will develop another table student\_addresses.
+
+
+
+{% code overflow="wrap" %}
+```sql
+CREATE TABLE student_addresses (
+    id SERIAL PRIMARY KEY,
+    CONSTRAINT fk_students
+    FOREIGN KEY (student_id)
+    REFERENCES students(student_id),
+    address VARCHAR(255)
+);
+```
+{% endcode %}
+
+The above command will generate a new table that contains three columns, an id, a student\_id which is referencing data in our students table and our address column. In this instance we have to ensure that data is present within the students table before we can add any data into students\_addresses this is because we are referencing an id within the students table for every entry within student\_addresses. If you want to read more about foreign keys please look into [this set of documentation](https://www.javatpoint.com/postgresql-foreign-key).&#x20;
+
+Once you have developed a database that contains multiple tables that have relationships you will be able to query with what are known as join clauses. Joins allow you to select from multiple tables, the returned information will only return the information that satisfies all of the criteria. Check out the command below:
+
+{% code overflow="wrap" %}
+```sql
+SELECT * FROM students join student_addresses on students.id = student_addresses.student_id WHERE gender = false;
+```
+{% endcode %}
+
+This will produce the most common join the inner join. Which means you will only be returned records that have matching values within both tables. We have also added an additional claus further refining the search to only show the female students who have an address within the students\_addresses table. It should be noted that the returned table that contains our information will not persist and you will need to run the query above to get the data.
 
 ## Post-Class Exercises: Codecademy Learn SQL
 
