@@ -208,7 +208,7 @@ Change the current window to another database:
 ```
 \c <db-name>
 
-// EG:
+// example command below
 
 \c samoshaughnessy
 ```
@@ -223,7 +223,7 @@ Another useful command is to list out all of the tables within the current datab
 \dt
 ```
 
-The command above will generate a table which containing information about each table.
+The command above will generate a table which contains information about each table.
 
 
 
@@ -235,9 +235,9 @@ To list out all of the users you can use the command below:
 
 
 
-#### Creating table
+#### Creating a table
 
-After connecting to the appropriate database we can use the CREATE TABLE statement to develop a new table within this database. In the example below we will create a new table names students that contains a few columns regarding student information.&#x20;
+After connecting to the appropriate database we can use the CREATE TABLE statement to develop a new table within the database. In the example below we will create a new table named students that contains a few columns regarding student information.&#x20;
 
 ```sql
 CREATE TABLE students (
@@ -250,7 +250,7 @@ CREATE TABLE students (
     
 ```
 
-This command generates a table that contains four columns, an auto-incrementing identity column id, and two character columns first\_name, last\_name. This is followed by two additional columns mobile and gender which have the datatype of integer and boolean respectively. We are generating columns by naming the column, then adding a datatype as well as any column constraints that we need to implement. You can alter the datatype and constraints by changing the arguments to the code above. To see what PostgreSQL datatypes you can insert please checkout [this documentation](https://www.postgresql.org/docs/current/datatype.html). If you want to checkout the constraints [click here](https://www.postgresql.org/docs/current/ddl-constraints.html).
+This command generates a table that contains five columns, an auto-incrementing identity column, id, two character columns first\_name, last\_name. This is followed by two additional columns mobile and gender which have the datatype of integer and boolean respectively. We are generating columns by naming the column, then adding a datatype with any column constraints that we need to implement. You can alter the datatype and constraints by changing the arguments to the code above. To see what PostgreSQL datatypes you can insert please checkout [this documentation](https://www.postgresql.org/docs/current/datatype.html). If you want to checkout the constraints [click here](https://www.postgresql.org/docs/current/ddl-constraints.html).
 
 #### <mark style="color:red;">SQL NOTE</mark>
 
@@ -347,7 +347,7 @@ CREATE TABLE student_addresses (
 
 The above command will generate a new table that contains three columns, an id, a student\_id which is referencing data in our students table and our address column. In this instance we have to ensure that data is present within the students table before we can add any data into students\_addresses this is because we are referencing an id within the students table for every entry within student\_addresses. If you want to read more about foreign keys please look into [this set of documentation](https://www.javatpoint.com/postgresql-foreign-key).&#x20;
 
-Once you have developed a database that contains multiple tables that have relationships you will be able to query with what are known as join clauses. Joins allow you to select from multiple tables, the returned information will only return the information that satisfies all of the criteria. Check out the command below:
+Once you have developed a database that contains multiple tables that have relationships you will be able to query with what are known as join clauses. Joins allow you to select from multiple tables, the returned information will only return the information that satisfies all of the criteria. To find out more about joins please look into this [set of documentation](https://www.geeksforgeeks.org/sql-join-set-1-inner-left-right-and-full-joins/). Check out the command below:
 
 {% code overflow="wrap" %}
 ```sql
@@ -356,6 +356,8 @@ SELECT * FROM students join student_addresses on students.id = student_addresses
 {% endcode %}
 
 This will produce the most common join the inner join. Which means you will only be returned records that have matching values within both tables. We have also added an additional claus further refining the search to only show the female students who have an address within the students\_addresses table. It should be noted that the returned table that contains our information will not persist and you will need to run the query above to get the data.
+
+
 
 ## Post-Class Exercises: Codecademy Learn SQL
 
