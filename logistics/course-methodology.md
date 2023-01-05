@@ -73,7 +73,7 @@ This means that something that we are importing within the App.js cannot be foun
 
 
 
-<figure><img src="../.gitbook/assets/Greetings Rocket Student called Sam.png" alt=""><figcaption><p>Browser error</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/Greetings Rocket Student called Sam (1).png" alt=""><figcaption><p>Browser error</p></figcaption></figure>
 
 The error that we would see in the browser mirrors what we have looked at previously, this is because React is showcasing the errors that occurred during runtime. This means we probably need to take a look into the App.js as React’s error reporting is telling us where the issue originates.&#x20;
 
@@ -93,7 +93,7 @@ When developing a backend server, it might seem operational, however, when an ac
 
 To do this we would need to share the error that is being shown within our backend CLI, an example is below.
 
-<figure><img src="../.gitbook/assets/port 5432 (1) (1).png" alt=""><figcaption><p>CLI Error</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/port 5432 (2).png" alt=""><figcaption><p>CLI Error</p></figcaption></figure>
 
 In the error above, we can see that it reads:
 
