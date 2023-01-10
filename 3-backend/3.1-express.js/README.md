@@ -18,8 +18,6 @@ Http Request and Response Cycle
 HTTP Request Verb and Status Codes
 {% endembed %}
 
-
-
 ## Introduction
 
 {% embed url="https://youtu.be/KAKkV0AimeM" %}
@@ -118,6 +116,8 @@ import express from "express";
 ```
 {% endhint %}
 
+
+
 ## Express Request Extras
 
 {% embed url="https://youtu.be/wJdY3Vvp2g0" %}
@@ -205,6 +205,10 @@ Implementing an Express Controller
 {% embed url="https://youtu.be/CRhOv8mtdC4" %}
 Implementing Router and Controller
 {% endembed %}
+
+
+
+Does the class based code look unfamiliar have a look at the [Rocket curriculum](https://bootcamp.rocketacademy.co/0-foundations/0.4-javascript/0.4.4-classes) to touch up your understanding.
 
 ## Additional Resources
 
