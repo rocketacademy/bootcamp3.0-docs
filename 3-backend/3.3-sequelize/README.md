@@ -31,6 +31,31 @@ Sequelize Migrations, Seeders and Models
 Setting up Sequelize in an Express App
 {% endembed %}
 
+## Migrations
+
+{% embed url="https://sequelize.org/docs/v6/other-topics/migrations/" %}
+Sequelize official tutorial on Sequelize migrations
+{% endembed %}
+
+1. We will use migrations to set up our DB schema, the structure of our database, or the tables and their relationships. All companies use migrations to manage DB schema. Rocket considers migrations a core concept of Sequelize and ORMs in general.
+2. Migrations at Rocket will only have "development" and "production" environments for simplicity. Tech teams in industry often have "test" environments for more robust testing between development and production.
+3. We will use `model:generate` at Rocket to generate model and migration files ( This is done below)
+4. You may also use  a command like this: `npx sequelize migration:generate --name products`
+5. Rocket will use `.sequelizerc` to specify Sequelize file and folder paths as per the example in "The `.sequelizerc` file" section
+6. We will not use concepts from "Dynamic configuration" onward during Rocket's Bootcamp
+
+
+
+## Seeders
+
+{% embed url="https://sequelize.org/docs/v6/other-topics/migrations/#creating-the-first-seed" %}
+Sequelize official tutorial on Sequelize Seeders
+{% endembed %}
+
+1. We use seeder files to setup the initial data that can be used to populate our database. All companies will likely seed dummy data so that developers can collaborate and work with similar data.
+2. We will use  `npx sequelize seed:generate --name products` command in order to generate our Seeder file
+3. Rocket will use seed files to populate initial data in our applications
+
 ## Model Basics
 
 {% embed url="https://sequelize.org/docs/v6/core-concepts/model-basics/" %}
@@ -87,15 +112,3 @@ Sequelize official tutorial on Sequelize model finder methods
    2. [Operators](https://sequelize.org/docs/v6/core-concepts/model-querying-basics/#operators) can also be used for advanced queries.
    3. Order and group your data, checkout this [example](https://sequelize.org/docs/v6/core-concepts/model-querying-basics/#ordering-and-grouping).
 
-## Migrations
-
-{% embed url="https://sequelize.org/docs/v6/other-topics/migrations/" %}
-Sequelize official tutorial on Sequelize migrations
-{% endembed %}
-
-1. We will use migrations to set up our DB schema, the structure of our database, or the tables and their relationships. All companies use migrations to manage DB schema. Rocket considers migrations a core concept of Sequelize and ORMs in general.
-2. Migrations at Rocket will only have "development" and "production" environments for simplicity. Tech teams in industry often have "test" environments for more robust testing between development and production.
-3. We will use `model:generate` at Rocket to generate model and migration files
-4. Rocket will use seed files to populate initial date in our applications
-5. Rocket will use `.sequelizerc` to specify Sequelize file and folder paths as per the example in "The `.sequelizerc` file" section
-6. We will not use concepts from "Dynamic configuration" onward during Rocket's Bootcamp
