@@ -43,7 +43,7 @@ This will mean that when you run the `npm start` command the React application w
 
 ## Day 5
 
-## 1: Hello World
+### 1: Hello World
 
 {% embed url="https://reactjs.org/docs/hello-world.html" %}
 
@@ -60,7 +60,7 @@ CRA Introduction
 Inside the CRA
 {% endembed %}
 
-## 2: Introducing JSX
+### 2: Introducing JSX
 
 {% embed url="https://reactjs.org/docs/introducing-jsx.html" %}
 
@@ -75,7 +75,7 @@ JavaScript and XML
 Using JSX
 {% endembed %}
 
-## 3: Rendering Elements
+### 3: Rendering Elements
 
 {% embed url="https://reactjs.org/docs/rendering-elements.html" %}
 
@@ -83,7 +83,7 @@ Using JSX
 
 ## Day 6
 
-## 4: Components and Props
+### 4: Components and Props
 
 {% embed url="https://reactjs.org/docs/components-and-props.html" %}
 
@@ -98,14 +98,14 @@ React Components
 React Props
 {% endembed %}
 
-## 5: State and Lifecycle
+### 5: State and Lifecycle
 
 {% embed url="https://reactjs.org/docs/state-and-lifecycle.html" %}
 
 1. [`setInterval`](https://www.w3schools.com/jsref/met\_win\_setinterval.asp) is a function that runs a given "callback function" at a specified time interval. A callback function is a function that runs at a later time when triggered by an event, such as the timer in `setInterval`.
 2. The `super` function in the class `constructor` function runs the `constructor` function of the class' parent class, if any. In the `Clock` example, `super` runs the `constructor` function of the `React.Component` class. This helps classes we create that "inherit" `React.Component` have all functionality of `React.Component` without us having to declare that functionality.
 
-#### State
+#### Hands-On Explanations: State
 
 {% embed url="https://youtu.be/FJQ052Bk3g8" %}
 React State
@@ -119,13 +119,13 @@ React Counter Component - Implementing state
 React setState
 {% endembed %}
 
-#### Life Cycle Methods
+#### Hands-On Explanations: Component Life Cycle Methods
 
 {% embed url="https://youtu.be/Cum8ddeEp-A" %}
 Introduction to Life Cycle Methods
 {% endembed %}
 
-
+#### Example: Clock Component
 
 {% embed url="https://youtu.be/B_84fHdVFFk" %}
 React Clock Component - Life Cycle Methods
@@ -137,7 +137,7 @@ React Clock Component - ComponentWillUnmount
 
 ## Day 7
 
-## 6: Handling Events
+### 6: Handling Events
 
 {% embed url="https://reactjs.org/docs/handling-events.html" %}
 
@@ -149,13 +149,13 @@ React Clock Component - ComponentWillUnmount
 React Events
 {% endembed %}
 
-## 7: Conditional Rendering
+### 7: Conditional Rendering
 
 {% embed url="https://reactjs.org/docs/conditional-rendering.html" %}
 
 1. Conditional rendering is one of the most powerful features of React, enabling us to use conditional logic to specify what a component should render.
 
-## 8: Lists and Keys
+### 8: Lists and Keys
 
 {% embed url="https://reactjs.org/docs/lists-and-keys.html" %}
 
@@ -163,7 +163,7 @@ React Events
 
 ## Day 9
 
-## 9: Forms
+### 9: Forms
 
 {% embed url="https://reactjs.org/docs/forms.html" %}
 
@@ -179,7 +179,7 @@ Binding state and handlingChange
 
 ## Day 10
 
-## 10: Lifting State Up
+### 10: Lifting State Up
 
 {% embed url="https://reactjs.org/docs/lifting-state-up.html" %}
 
@@ -189,9 +189,7 @@ Binding state and handlingChange
 Why lift up state?
 {% endembed %}
 
-
-
-#### Building a Blog List
+#### Example: Building a Blog List
 
 {% embed url="https://youtu.be/j8RqUGBIL3Y" %}
 Defining initial state / data and using that data
@@ -213,11 +211,9 @@ Creating a BlogComposer with internal logic
 Lifting up state
 {% endembed %}
 
-
-
 ## Day 11
 
-## 11: Composition vs Inheritance
+### 11: Composition vs Inheritance
 
 {% embed url="https://reactjs.org/docs/composition-vs-inheritance.html" %}
 
@@ -225,14 +221,14 @@ Lifting up state
 
 ## Day 12
 
-## 12: Thinking In React
+### 12: Thinking In React
 
 {% embed url="https://reactjs.org/docs/thinking-in-react.html" %}
 
 1. [JSON](https://www.w3schools.com/js/js\_json\_intro.asp) (JavaScript Object Notation) is a data format similar to JavaScript Objects, except can be used in text or file form. An API (Application Programming Interface) is typically a URL that manipulates and/or returns data. A JSON API is an API that returns data in JSON format, one of the most common formats to send and receive data on the internet.
 2. Review 10: Lifting State Up above for a refresher on passing "callbacks" (i.e. callback functions) to descendant components to update shared state in ancestor components.
 
-## Tutorial: Intro to React
+### Tutorial: Intro to React
 
 {% embed url="https://reactjs.org/tutorial/tutorial.html" %}
 
