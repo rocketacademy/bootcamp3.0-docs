@@ -264,7 +264,7 @@ Inserting data into tables is the next step in database creation, the code below
 
 {% code overflow="wrap" %}
 ```sql
-INSERT INTO students (first_name, last_name, address, mobile, gender) values ("Foong", "Leung", 9987712, true);
+INSERT INTO students (first_name, last_name, mobile, gender) values ("Foong", "Leung", 9987712, true);
 ```
 {% endcode %}
 
@@ -274,7 +274,7 @@ You can add in additional rows of information one at a time or you can insert mu
 
 {% code overflow="wrap" %}
 ```sql
-INSERT INTO students (first_name, last_name, address, mobile, gender) values ("Sam", "O'Shaughnessy", 2781192, true), ("Neo", "Yuan", 4366813, true) ;
+INSERT INTO students (first_name, last_name, mobile, gender) values ("Sam", "O'Shaughnessy", 2781192, true), ("Neo", "Yuan", 4366813, true) ;
 ```
 {% endcode %}
 
