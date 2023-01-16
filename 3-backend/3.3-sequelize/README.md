@@ -31,6 +31,10 @@ Sequelize Migrations, Seeders and Models
 Setting up Sequelize in an Express App
 {% endembed %}
 
+{% embed url="https://youtu.be/r8U6YKuIIR4" %}
+Sequelize Migrations
+{% endembed %}
+
 ## Migrations
 
 {% embed url="https://sequelize.org/docs/v6/other-topics/migrations/" %}
@@ -44,6 +48,20 @@ Sequelize official tutorial on Sequelize migrations
 5. Rocket will use `.sequelizerc` to specify Sequelize file and folder paths as per the example in "The `.sequelizerc` file" section
 6. We will not use concepts from "Dynamic configuration" onward during Rocket's Bootcamp
 
+{% embed url="https://youtu.be/yCPssb0sxds" %}
+Primary Migrations
+{% endembed %}
+
+{% embed url="https://youtu.be/zJglYvFliiA" %}
+Secondary Migrations
+{% endembed %}
+
+{% embed url="https://youtu.be/4Wrx_hn_RbM" %}
+Tertiary Migrations
+{% endembed %}
+
+
+
 
 
 ## Seeders
@@ -56,7 +74,47 @@ Sequelize official tutorial on Sequelize Seeders
 2. We will use  `npx sequelize seed:generate --name products` command in order to generate our Seeder file
 3. Rocket will use seed files to populate initial data in our applications
 
+
+
+{% embed url="https://youtu.be/U4ymjMHCya0" %}
+Primary Seeders
+{% endembed %}
+
+{% embed url="https://youtu.be/sBYRyUEuULM" %}
+Secondary Seeders
+{% endembed %}
+
+{% embed url="https://youtu.be/BKNk_bh6fFk" %}
+Tertiary Seeders
+{% endembed %}
+
+## Running Migrations and Seeders
+
+{% embed url="https://youtu.be/ug3ZE7e0Abw" %}
+Migration Alteration
+{% endembed %}
+
+{% embed url="https://youtu.be/cWwxuWO-bu8" %}
+Seeder Alteration
+{% endembed %}
+
+{% embed url="https://youtu.be/97n2BR5doxM" %}
+Running Migrations and Seeders
+{% endembed %}
+
+
+
 ## Model Basics
+
+{% embed url="https://youtu.be/0eS0f84q_RA" %}
+Sequelize Models (1)
+{% endembed %}
+
+
+
+{% embed url="https://youtu.be/BVZS4HIERH0" %}
+Sequelize Models (2)
+{% endembed %}
 
 {% embed url="https://sequelize.org/docs/v6/core-concepts/model-basics/" %}
 Sequelize official tutorial on Sequelize models
@@ -111,4 +169,60 @@ Sequelize official tutorial on Sequelize model finder methods
    1. You can pass in an object with a where key this helps refine your searches, check out this [example](https://sequelize.org/docs/v6/core-concepts/model-querying-basics/#the-basics).
    2. [Operators](https://sequelize.org/docs/v6/core-concepts/model-querying-basics/#operators) can also be used for advanced queries.
    3. Order and group your data, checkout this [example](https://sequelize.org/docs/v6/core-concepts/model-querying-basics/#ordering-and-grouping).
+
+
+
+## Developing Controllers for Fruit Application
+
+{% embed url="https://youtu.be/ci80xB97L3o" %}
+Sequelize and Controllers (1)
+{% endembed %}
+
+{% embed url="https://youtu.be/0j2fZqhRX4M" %}
+Sequelize and Controller (2)
+{% endembed %}
+
+## Testing Fruit Application with Thunder Client
+
+{% embed url="https://youtu.be/q_9qjLDU84A" %}
+Testing Application (1)
+{% endembed %}
+
+{% embed url="https://youtu.be/CuuZylrvScU" %}
+Testing Application (2)
+{% endembed %}
+
+
+
+## Building Frontend&#x20;
+
+{% embed url="https://youtu.be/zmsso0wTwVU" %}
+Create React App Fruit Application
+{% endembed %}
+
+{% embed url="https://youtu.be/l7GMh-mXgts" %}
+React Componnets: Fruit && FruitCard
+{% endembed %}
+
+{% embed url="https://youtu.be/nzxAOJl75xo" %}
+Calling API and adding CORS to backend
+{% endembed %}
+
+{% embed url="https://youtu.be/Hs0OSkVNJ04" %}
+Frontend Form Component
+{% endembed %}
+
+{% embed url="https://youtu.be/Y13ydLgeKRs" %}
+Finsihing Frontend Form Component
+{% endembed %}
+
+{% embed url="https://youtu.be/mGnnamK6RTI" %}
+Testing Application and Framing Challenge&#x20;
+{% endembed %}
+
+
+
+
+
+
 
