@@ -169,7 +169,7 @@ From this panel select a database, here we have highlighted the fruit database, 
 
 <figure><img src="../../.gitbook/assets/Screenshot 2023-01-04 at 10.19.21 AM.png" alt=""><figcaption><p>PostgreSQL terminal window</p></figcaption></figure>
 
-From this window we can interface with Postgres using SQL as well as PostgreSQL commands. We are currently accessing the fruit databse and will only be able to query tables within that database from here.&#x20;
+From this window we can interface with Postgres using SQL as well as PostgreSQL commands. We are currently accessing the fruit database and will only be able to query tables within that database from here.&#x20;
 
 
 
@@ -213,7 +213,7 @@ Change the current window to another database:
 \c samoshaughnessy
 ```
 
-The command above would change the current window to another database, in this case one named samoshaughnessy.
+The command above would change the current window to another database, in this case one named samoshaughnessy, this users database.
 
 
 
@@ -237,7 +237,7 @@ To list out all of the users you can use the command below:
 
 #### Creating a table
 
-After connecting to the appropriate database we can use the CREATE TABLE statement to develop a new table within the database. In the example below we will create a new table named students that contains a few columns regarding student information.&#x20;
+After connecting to the appropriate database we can use the CREATE TABLE statement to develop a new table within the database. In the example below we will create a new table named students that contains a few columns regarding student information. Try to create this table within the users database.
 
 ```sql
 CREATE TABLE students (

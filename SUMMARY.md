@@ -75,6 +75,7 @@
     * [3.2.2: SQL M-M Relationships](3-backend/3.2-sql/3.2.2-sql-m-m-relationships.md)
     * [3.2.3: SQL Schema Design](3-backend/3.2-sql/3.2.3-sql-schema-design.md)
     * [3.2.4: Advanced SQL Concepts](3-backend/3.2-sql/3.2.4-advanced-sql-concepts.md)
+    * [3.2.5: SQL - express](3-backend/3.2-sql/3.2.5-sql-express.md)
   * [3.3: Sequelize](3-backend/3.3-sequelize/README.md)
     * [3.3.1: Sequelize One-To-Many (1-M) Relationships](3-backend/3.3-sequelize/3.3.1-sequelize-1-m-relationships.md)
     * [3.3.2: Sequelize Many-To-Many (M-M) Relationships](3-backend/3.3-sequelize/3.3.2-sequelize-m-m-relationships.md)
