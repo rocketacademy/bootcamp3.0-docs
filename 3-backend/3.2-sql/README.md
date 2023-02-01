@@ -80,18 +80,10 @@ Set the Postgres server to start in the background:
 sudo service postgresql start
 ```
 
-Set password-less login by opening pg\_hba.conf and copying the below contents into it.&#x20;
+Set password-less login by opening pg\_hba.conf and copying the below contents into it.
 
-<mark style="color:red;">**Note**</mark>
-
-The command below assumes you've installed postgresql version 12, **you may need to alter the commands to accommodate a newer version of postgres** depending on which version you've installed.
-
-```bash
-// Postgres Version 12
+```
 sudo chmod 777 /etc/postgresql/12/main/pg_hba.conf
-
-// Postgres Version 14
-sudo chmod 777 /etc/postgresql/14/main/pg_hba.conf
 ```
 
 ```bash
@@ -103,12 +95,9 @@ sudo "$(which code)" /etc/postgresql/12/main/pg_hba.conf
 
 If the above command doesn't work, try running VSCode without `sudo`.
 
-For the next command to work you will need to have the code command installed on your machine.
-
 ```bash
 # Open pg_hba.conf in VSCode
 
-// Postgres Version 12
 code /etc/postgresql/12/main/pg_hba.conf
 ```
 
@@ -245,14 +234,6 @@ To list out all of the users you can use the command below:
 ```
 
 
-
-In order to create a new database you can use the command below:
-
-```
-CREATE DATABASE new_database;
-```
-
-You can alter the name of the databases by chnage the value `new_database` to your desired database name.&#x20;
 
 #### Creating a table
 

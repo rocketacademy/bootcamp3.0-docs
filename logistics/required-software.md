@@ -16,7 +16,7 @@ This document outlines required software for Coding Bootcamp. Please install thi
 WSL allows us to run the Linux operating system on Windows machines. We do this because most programming uses Unix-based operating systems, of which MacOS is a descendant. Most SWEs that use Windows do their work in WSL to maximise compatibility between their work and work done on Linux machines. Before installing WSL, update Windows to the latest version.
 
 1. Install WSL [here](https://docs.microsoft.com/en-us/windows/wsl/install-win10).
-2. Install the latest version of Ubuntu [here](https://apps.microsoft.com/store/detail/ubuntu-22041-lts/9PN20MSR04DW?hl=en-sg\&gl=sg). Ubuntu is a popular version of the Linux operating system.
+2. Install the latest version of Ubuntu [here](https://www.microsoft.com/en-sg/p/ubuntu-2004-lts/9n6svws3rx71). Ubuntu is a popular version of the Linux operating system.
 3. Run `sudo apt install build-essential` in Ubuntu in WSL to install standard libraries Ubuntu needs to further install common packages.
 4. Run `sudo apt-get install ca-certificates` in Ubuntu in WSL to get SSL verification certificates on Ubuntu for Ubuntu to communicate with VS Code on our computer.
 

@@ -10,32 +10,32 @@
 
 CSS (Cascading Style Sheets) enables styling of HTML pages by applying styles and layout properties on HTML elements. CSS styles customise size, borders, font, background, opacity, position and more.
 
-The following CSS rule applies `text-align` and `colour` properties to all HTML `p` tags.
+The following CSS rule applies `text-align` and `color` properties to all HTML `p` tags.
 
 ```css
 p {
   text-align: center;
-  colour: red;
+  color: red;
 }
 ```
 
 ## CSS Rules
 
-CSS consists of **rules** like the example above, where rules consist of **selectors** (`p` tag above) and **declarations** (`text-align` and `colour` declarations above).
+CSS consists of **rules** like the example above, where rules consist of **selectors** (`p` tag above) and **declarations** (`text-align` and `color` declarations above).
 
 CSS "selectors" can be HTML tags, CSS "classes", CSS "IDs", or any combination of tags, classes and IDs. CSS classes and IDs are typically kebab-case strings that we label HTML elements with to apply styles to those elements with CSS. Classes are reusable across multiple elements; IDs are meant for only 1 element. Class selectors are prefixed with `.` and ID selectors are prefixed with `#`.
 
 ```css
 .my-class {
-  colour: red;
+  color: red;
 }
 
 #my-id {
-  colour: green;
+  color: green;
 }
 
 .my-class #my-id {
-  colour: blue;
+  color: blue;
 }
 ```
 
@@ -69,13 +69,13 @@ In the following example, the 1st paragraph will have colour red, the 2nd green,
   <head>
     <style>
       p {
-        colour: red;
+        color: red;
       }
       .para-class {
-        colour: green;
+        color: green;
       }
       #para-id {
-        colour: blue;
+        color: blue;
       }
     </style>
   </head>
@@ -99,10 +99,10 @@ In the following example, the paragraph text will be red even though its parent 
   <head>
     <style>
       p {
-        colour: red;
+        color: red;
       }
       #div-id {
-        colour: blue;
+        color: blue;
       }
     </style>
   </head>
@@ -196,8 +196,8 @@ Notice what the un-styled HTML looks like. Now insert the following `style` HTML
 ```html
 <style>
   h1 {
-    background-colour: blue;
-    colour: white;
+    background-color: blue;
+    color: white;
   }
 </style>
 ```
