@@ -35,7 +35,7 @@ In the package.json please find:
 Replace with:
 
 ```
-scripts": {
+"scripts": {
     "start": "WATCHPACK_POLLING=true react-scripts start",
 ```
 
