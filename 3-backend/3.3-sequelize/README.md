@@ -172,57 +172,5 @@ Sequelize official tutorial on Sequelize model finder methods
 
 
 
-## Developing Controllers for Fruit Application
-
-{% embed url="https://youtu.be/ci80xB97L3o" %}
-Sequelize and Controllers (1)
-{% endembed %}
-
-{% embed url="https://youtu.be/0j2fZqhRX4M" %}
-Sequelize and Controller (2)
-{% endembed %}
-
-## Testing Fruit Application with Thunder Client
-
-{% embed url="https://youtu.be/q_9qjLDU84A" %}
-Testing Application (1)
-{% endembed %}
-
-{% embed url="https://youtu.be/CuuZylrvScU" %}
-Testing Application (2)
-{% endembed %}
-
-
-
-## Building Frontend&#x20;
-
-{% embed url="https://youtu.be/zmsso0wTwVU" %}
-Create React App Fruit Application
-{% endembed %}
-
-{% embed url="https://youtu.be/l7GMh-mXgts" %}
-React Componnets: Fruit && FruitCard
-{% endembed %}
-
-{% embed url="https://youtu.be/nzxAOJl75xo" %}
-Calling API and adding CORS to backend
-{% endembed %}
-
-{% embed url="https://youtu.be/Hs0OSkVNJ04" %}
-Frontend Form Component
-{% endembed %}
-
-{% embed url="https://youtu.be/Y13ydLgeKRs" %}
-Finsihing Frontend Form Component
-{% endembed %}
-
-{% embed url="https://youtu.be/mGnnamK6RTI" %}
-Testing Application and Framing Challenge&#x20;
-{% endembed %}
-
-
-
-
-
 
 
