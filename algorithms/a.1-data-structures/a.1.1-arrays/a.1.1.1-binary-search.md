@@ -31,12 +31,13 @@ const binarySearch = (arr, x) => {
     // Find the midpoint between left_index and right_index
     let mid_index = (left_index + right_index) / 2;
     // If the element at mid_index is x, return mid_index
-    if (arr[mid_index] === x) {
+    // Use Math.floor to ensure that the index position is an integer not a decimal
+    if (arr[Math.floor(mid_index)] === x) {
       return mid_index;
     }
     // Otherwise, if x is greater than elem at mid_index,
     // update left_index to be 1 above mid_index
-    else if (arr[mid_index] < x) {
+    else if (arr[Math.floor(mid_index)] < x) {
       left_index = mid_index + 1;
     }
     // Otherwise, if x is less than elem at mid_index,
