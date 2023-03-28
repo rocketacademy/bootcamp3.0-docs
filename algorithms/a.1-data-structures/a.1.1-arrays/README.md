@@ -37,7 +37,7 @@ After attempting each problem, find solutions in the Leaderboard tab (HackerRank
 
 1. Valid Mountain Array ([LeetCode](https://leetcode.com/problems/valid-mountain-array))
 2. Sherlock and Array ([HackerRank](https://www.hackerrank.com/challenges/sherlock-and-array/problem?isFullScreen=true))
-3. Two Sum ([LeetCode](https://leetcode.com/problems/two-sum/))
+3. Jewels and Stones ([LeetCode](https://leetcode.com/problems/jewels-and-stones/))
 4. Missing Numbers ([HackerRank](https://www.hackerrank.com/challenges/missing-numbers/problem?isFullScreen=true))
 5. Sparse Arrays ([HackerRank](https://www.hackerrank.com/challenges/sparse-arrays/problem?isFullScreen=true))
 
