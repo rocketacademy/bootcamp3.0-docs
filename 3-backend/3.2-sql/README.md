@@ -80,10 +80,18 @@ Set the Postgres server to start in the background:
 sudo service postgresql start
 ```
 
-Set password-less login by opening pg\_hba.conf and copying the below contents into it.
+Set password-less login by opening pg\_hba.conf and copying the below contents into it.&#x20;
 
-```
+<mark style="color:red;">**Note**</mark>
+
+The command below assumes you've installed postgresql version 12, **you may need to alter the commands to accommodate a newer version of postgres** depending on which version you've installed.
+
+```bash
+// Postgres Version 12
 sudo chmod 777 /etc/postgresql/12/main/pg_hba.conf
+
+// Postgres Version 14
+sudo chmod 777 /etc/postgresql/14/main/pg_hba.conf
 ```
 
 ```bash
@@ -95,9 +103,12 @@ sudo "$(which code)" /etc/postgresql/12/main/pg_hba.conf
 
 If the above command doesn't work, try running VSCode without `sudo`.
 
+For the next command to work you will need to have the code command installed on your machine.
+
 ```bash
 # Open pg_hba.conf in VSCode
 
+// Postgres Version 12
 code /etc/postgresql/12/main/pg_hba.conf
 ```
 
@@ -235,6 +246,14 @@ To list out all of the users you can use the command below:
 
 
 
+In order to create a new database you can use the command below:
+
+```
+CREATE DATABASE new_database;
+```
+
+You can alter the name of the databases by chnage the value `new_database` to your desired database name.&#x20;
+
 #### Creating a table
 
 After connecting to the appropriate database we can use the CREATE TABLE statement to develop a new table within the database. In the example below we will create a new table named students that contains a few columns regarding student information. Try to create this table within the users database.
@@ -245,7 +264,7 @@ CREATE TABLE students (
     first_name VARCHAR(255),
     last_name VARCHAR(255),
     mobile int,
-    gender boolean,
+    gender boolean
     );
     
 ```
@@ -264,7 +283,7 @@ Inserting data into tables is the next step in database creation, the code below
 
 {% code overflow="wrap" %}
 ```sql
-INSERT INTO students (first_name, last_name, mobile, gender) values ("Foong", "Leung", 9987712, true);
+INSERT INTO students (first_name, last_name, mobile, gender) values ('Foong', 'Leung', 9987712, true);
 ```
 {% endcode %}
 
@@ -274,7 +293,7 @@ You can add in additional rows of information one at a time or you can insert mu
 
 {% code overflow="wrap" %}
 ```sql
-INSERT INTO students (first_name, last_name, mobile, gender) values ("Sam", "O'Shaughnessy", 2781192, true), ("Neo", "Yuan", 4366813, true) ;
+INSERT INTO students (first_name, last_name, mobile, gender) values ('Sam', 'O"Shaughnessy', 2781192, true), ('Neo', 'Yuan', 4366813, true) ;
 ```
 {% endcode %}
 
@@ -338,8 +357,8 @@ Creating tables and inserting data allows you to create some structure for data 
 CREATE TABLE student_addresses (
     id SERIAL PRIMARY KEY,
     CONSTRAINT fk_students
-    FOREIGN KEY (student_id)
-    REFERENCES students(student_id),
+    FOREIGN KEY (id)
+    REFERENCES students(id),
     address VARCHAR(255)
 );
 ```
@@ -351,7 +370,7 @@ Once you have developed a database that contains multiple tables that have relat
 
 {% code overflow="wrap" %}
 ```sql
-SELECT * FROM students join student_addresses on students.id = student_addresses.student_id WHERE gender = false;
+SELECT * FROM students join student_addresses on students.id = student_addresses.id WHERE gender = false;
 ```
 {% endcode %}
 
