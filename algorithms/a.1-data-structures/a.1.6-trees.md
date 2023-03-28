@@ -272,7 +272,7 @@ The above algorithm has a time complexity of `O(n)`, where `n` is the number of 
 
 ## Additional Resources
 
-1. Read pages 111-114 (book pages 100-103) in the [Cracking the Coding Interview PDF](https://drive.google.com/file/d/1M3uvavrprW\_xmbSFHAe3Q4RgfgFwEfwy/view?usp=sharing)
+1. Read pages 111-114 (book pages 100-103) in the [Cracking the Coding Interview PDF](https://www.dropbox.com/s/uhl4ouzzcz5h6oq/CrackingTheCodingInteview.pdf?dl=0)
 2. [FTBC3's class video](https://youtu.be/3Dw3spVIk1w?t=297) when we introduced trees
 
 ## Exercises
