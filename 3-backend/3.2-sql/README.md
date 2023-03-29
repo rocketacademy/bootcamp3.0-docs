@@ -356,10 +356,11 @@ Creating tables and inserting data allows you to create some structure for data 
 ```sql
 CREATE TABLE student_addresses (
     id SERIAL PRIMARY KEY,
-    CONSTRAINT fk_students
-    FOREIGN KEY (id)
-    REFERENCES students(id),
-    address VARCHAR(255)
+    student_id INT,
+    address VARCHAR(255),
+    CONSTRAINT fk_student_id
+    FOREIGN KEY (student_id)
+    REFERENCES students(id),    
 );
 ```
 {% endcode %}
@@ -370,7 +371,7 @@ Once you have developed a database that contains multiple tables that have relat
 
 {% code overflow="wrap" %}
 ```sql
-SELECT * FROM students join student_addresses on students.id = student_addresses.id WHERE gender = false;
+SELECT * FROM students join student_addresses on students.id = student_addresses.student_id WHERE gender = false;
 ```
 {% endcode %}
 
