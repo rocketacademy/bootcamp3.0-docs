@@ -1,6 +1,6 @@
 # 1.3: React
 
-## Learning Objectives
+Learning Objectives
 
 1. React is a frontend framework and library that allows us to create custom, nest-able UI elements with a combination of HTML and JavaScript syntax (JSX)
 2. How to write JSX
@@ -43,9 +43,7 @@ This will mean that when you run the `npm start` command the React application w
 
 ## Day 5
 
-### 1: Hello World
-
-{% embed url="https://reactjs.org/docs/hello-world.html" %}
+### 1: [Hello World](https://legacy.reactjs.org/docs/hello-world.html)
 
 1. `document.getElementById('root')` is a DOM (Document Object Model) command that retrieves the HTML element with ID "root". React renders our app inside that element. React removes the need to write DOM code and the above command is the only DOM command we will need.
 2. Rocket recommends we play with as many of the provided CodePen examples as we can to understand the relevant concepts
@@ -60,9 +58,7 @@ CRA Introduction
 Inside the CRA
 {% endembed %}
 
-### 2: Introducing JSX
-
-{% embed url="https://reactjs.org/docs/introducing-jsx.html" %}
+### 2: [Introducing JSX](https://legacy.reactjs.org/docs/introducing-jsx.html)
 
 1. DOM stands for "Document Object Model", which is a JavaScript representation of HTML rendered on a web page. Frontend frameworks like React use the DOM to programmatically manipulate UI without manually specifying HTML. Rocket recommends [W3School's intro to JavaScript HTML DOM](https://www.w3schools.com/js/js\_htmldom.asp) (just the 1st page) for a primer. For Rocket's Bootcamp we can stop at DOM Intro without reading W3School's subsequent pages on DOM.
 2. To apply CSS classes to JSX elements we will need to use the `className` keyword instead of `class`, which we used with vanilla HTML. This is because `class` is a reserved keyword in JS used to declare classes (which we will see in 4: Components and Props below).
@@ -75,17 +71,13 @@ JavaScript and XML
 Using JSX
 {% endembed %}
 
-### 3: Rendering Elements
-
-{% embed url="https://reactjs.org/docs/rendering-elements.html" %}
+### 3: [Rendering Elements](https://legacy.reactjs.org/docs/rendering-elements.html)
 
 1. React follows what we call a "declarative" UI paradigm, where we tell our computers how the UI should look, but not how to achieve that look. In the clock example on this page, we tell React that the latest time should always be in the `h2` element, but we never explicitly tell React to update the value in the `h2` element. The declarative paradigm is a layer on top of the "imperative" paradigm of DOM manipulation more commonly used before React.
 
 ## Day 6
 
-### 4: Components and Props
-
-{% embed url="https://reactjs.org/docs/components-and-props.html" %}
+### 4: [Components and Props](https://legacy.reactjs.org/docs/components-and-props.html)
 
 1. "ES6 classes" are the same concept we learnt about in [0.4.6: Classes](../../0-foundations/0.4-javascript/0.4.4-classes.md)
 2. [User-defined components must be capitalised](https://reactjs.org/docs/jsx-in-depth.html#user-defined-components-must-be-capitalized). Otherwise React will think they are HTML tags.
@@ -98,9 +90,7 @@ React Components
 React Props
 {% endembed %}
 
-### 5: State and Lifecycle
-
-{% embed url="https://reactjs.org/docs/state-and-lifecycle.html" %}
+### 5: [State and Lifecycle](https://legacy.reactjs.org/docs/state-and-lifecycle.html)
 
 1. [`setInterval`](https://www.w3schools.com/jsref/met\_win\_setinterval.asp) is a function that runs a given "callback function" at a specified time interval. A callback function is a function that runs at a later time when triggered by an event, such as the timer in `setInterval`.
 2. The `super` function in the class `constructor` function runs the `constructor` function of the class' parent class, if any. In the `Clock` example, `super` runs the `constructor` function of the `React.Component` class. This helps classes we create that "inherit" `React.Component` have all functionality of `React.Component` without us having to declare that functionality.
@@ -137,9 +127,7 @@ React Clock Component - ComponentWillUnmount
 
 ## Day 7
 
-### 6: Handling Events
-
-{% embed url="https://reactjs.org/docs/handling-events.html" %}
+### 6: [Handling Events](https://legacy.reactjs.org/docs/handling-events.html)
 
 1. "Events on DOM elements" are the same as [JavaScript events or HTML events](https://www.w3schools.com/js/js\_events.asp). JS events allow us to perform logic on events that happen on our web pages such as mouse clicks. React supports a [wide range of events](https://reactjs.org/docs/events.html#supported-events).
 2. `condition ? true : false` syntax is the [JavaScript conditional operator](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Conditional\_Operator).
@@ -149,23 +137,17 @@ React Clock Component - ComponentWillUnmount
 React Events
 {% endembed %}
 
-### 7: Conditional Rendering
-
-{% embed url="https://reactjs.org/docs/conditional-rendering.html" %}
+### 7: [Conditional Rendering](https://legacy.reactjs.org/docs/conditional-rendering.html)
 
 1. Conditional rendering is one of the most powerful features of React, enabling us to use conditional logic to specify what a component should render.
 
-### 8: Lists and Keys
-
-{% embed url="https://reactjs.org/docs/lists-and-keys.html" %}
+### 8: [Lists and Keys](https://legacy.reactjs.org/docs/lists-and-keys.html)
 
 1. Rocket recommends always using keys when rendering JSX elements in a list for performance reasons.
 
 ## Day 9
 
-### 9: Forms
-
-{% embed url="https://reactjs.org/docs/forms.html" %}
+### 9: [Forms](https://legacy.reactjs.org/docs/forms.html)
 
 1. An [HTML form](https://www.w3schools.com/html/html\_forms.asp) is an HTML element that either refreshes the page or navigates to a new page when the user submits the form. We often do not want this behaviour in React, opting to update UI on submit without refresh. To disable "refresh on submit" behaviour, Rocket recommends the technique in the React docs, to provide the `form` a `handleSubmit` callback function that calls `event.preventDefault`.
 
@@ -179,9 +161,7 @@ Binding state and handlingChange
 
 ## Day 10
 
-### 10: Lifting State Up
-
-{% embed url="https://reactjs.org/docs/lifting-state-up.html" %}
+### 10: [Lifting State Up](https://legacy.reactjs.org/docs/lifting-state-up.html)
 
 1. It is important that we pass both the temperature value and handle-change function from `Calculator` to `TemperatureInput` so the app can maintain only 1 "source of truth" state for temperature value in `Calculator`. If it helps, Rocket recommends drawing the component hierarchy to visualise how data flows in the application and verifying our understanding with our classmates and section leader.
 
@@ -213,24 +193,18 @@ Lifting up state
 
 ## Day 11
 
-### 11: Composition vs Inheritance
-
-{% embed url="https://reactjs.org/docs/composition-vs-inheritance.html" %}
+### 11: [Composition vs Inheritance](https://legacy.reactjs.org/docs/composition-vs-inheritance.html)
 
 1. Composition vs inheritance is an architectural paradigm of React where React prefers composing components with other components, instead of defining parent-child inheritance relationships like with traditional OOP classes.&#x20;
 
 ## Day 12
 
-### 12: Thinking In React
-
-{% embed url="https://reactjs.org/docs/thinking-in-react.html" %}
+### 12: [Thinking In React](https://legacy.reactjs.org/docs/thinking-in-react.html)
 
 1. [JSON](https://www.w3schools.com/js/js\_json\_intro.asp) (JavaScript Object Notation) is a data format similar to JavaScript Objects, except can be used in text or file form. An API (Application Programming Interface) is typically a URL that manipulates and/or returns data. A JSON API is an API that returns data in JSON format, one of the most common formats to send and receive data on the internet.
 2. Review 10: Lifting State Up above for a refresher on passing "callbacks" (i.e. callback functions) to descendant components to update shared state in ancestor components.
 
-### Tutorial: Intro to React
-
-{% embed url="https://reactjs.org/tutorial/tutorial.html" %}
+### [Tutorial: Intro to React](https://legacy.reactjs.org/tutorial/tutorial.html)
 
 If you finish the React Guide pages above early, feel free to start and finish this tutorial early to have more time for [Project 1](../1.p-frontend-app.md).
 
