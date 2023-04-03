@@ -306,7 +306,7 @@ Binary Search Trees (BST).
 
 See [Binary Search Tree section](a.1.6-trees.md#binary-search-tree) above for recap on properties of BSTs.
 
-1. Binary Search Tree Insertion ([HackerRank](https://www.hackerrank.com/challenges/binary-search-tree-insertion/problem?isFullScreen=true))
+1. Binary Search Tree Insertion ([HackerRank](https://www.hackerrank.com/challenges/binary-search-tree-insertion/problem?isFullScreen=true)) you will need to define a node as well as additional code to insert into the Binary Tree.
 2. Search in a Binary Search Tree ([LeetCode](https://leetcode.com/problems/search-in-a-binary-search-tree/))
 3. Increasing Order Search Tree ([LeetCode](https://leetcode.com/problems/increasing-order-search-tree/))
    1. Hint: Consider in-order traversal to traverse a binary search tree in increasing order
