@@ -7,6 +7,8 @@
 3. Programmatic testing involves writing code to test our code
 4. There are 3 general categories of programmatic tests: unit tests, integration tests and end-to-end tests
 
+
+
 ## Introduction
 
 Every mature software product has software tests to verify intended functionality. Without software tests, every time we write a new feature we might not know whether we broke an existing one. This lack of clarity can cause stress, especially when existing features are crucial to user experiences. Engineers working on early-stage products often omit writing tests because their product requirements change often, but once product requirements start to stabilise and mature, testing is necessary to maintain engineer sanity.
@@ -147,8 +149,11 @@ Notice Mocha logs the description for each `describe` block in the console when 
 
 `it` declares an individual test. Like `describe`, `it` accepts a string followed by a function, where the string is the test description and the function is the test logic. Mocha engineers chose `it` as the function name so that test descriptions could read more like plain English, e.g. `it("Adds 2 of the same number", () => { ... });`
 
+If you put an x infront of any it or describe your test will be skipped.
+
 ## Exercises
 
 1. Run the tests in Rocket's repo and review output
 2. Break a test on purpose to see what a failing test looks like, e.g. by changing the expected result
 3. Add a `multiply` function to `utils` and write tests for it
+

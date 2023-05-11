@@ -140,7 +140,7 @@ This indicates that there is an issue with the findAll command, in this case, we
 
 **Debugging CheckList**
 
-* [ ] &#x20;**** Find any error codes&#x20;
+* [ ] &#x20;Find any error codes&#x20;
 * [ ] Document your error codes and environments they occur in
 * [ ] Google the error codes to find a fix
 * [ ] Check all of your environment is setup correctly
