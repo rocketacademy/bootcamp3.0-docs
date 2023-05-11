@@ -92,7 +92,7 @@
     * [3.E.6: Carousell Auth](3-backend/3.e-exercises/3.e.6-carousell-auth.md)
   * [3.P: Full-Stack App (Express)](3-backend/3.p-full-stack-app-express.md)
 * [🏞 4: Capstone](4-capstone/README.md)
-  * [4.1: Testing](4-capstone/4.1-testing/README.md)
+  * [4.1: Testing](4-capstone/4.1-testing.md)
     * [4.1.1: Frontend React Testing](4-capstone/4.1-testing/4.1.1-frontend-react-testing.md)
     * [4.1.2: Backend Expressjs Testing](4-capstone/4.1-testing/4.1.2-backend-expressjs-testing.md)
   * [4.2: Continuous Integration](4-capstone/4.2-continuous-integration.md)
