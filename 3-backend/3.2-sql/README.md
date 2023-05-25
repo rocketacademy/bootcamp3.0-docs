@@ -263,8 +263,8 @@ CREATE TABLE students (
     id SERIAL PRIMARY KEY,
     first_name VARCHAR(255),
     last_name VARCHAR(255),
-    mobile int,
-    gender boolean
+    mobile INT,
+    gender BOOLEAN
     );
     
 ```
@@ -283,7 +283,7 @@ Inserting data into tables is the next step in database creation, the code below
 
 {% code overflow="wrap" %}
 ```sql
-INSERT INTO students (first_name, last_name, mobile, gender) values ('Foong', 'Leung', 9987712, true);
+INSERT INTO students (first_name, last_name, mobile, gender) VALUES ('Foong', 'Leung', 9987712, true);
 ```
 {% endcode %}
 
@@ -293,7 +293,7 @@ You can add in additional rows of information one at a time or you can insert mu
 
 {% code overflow="wrap" %}
 ```sql
-INSERT INTO students (first_name, last_name, mobile, gender) values ('Sam', 'O"Shaughnessy', 2781192, true), ('Neo', 'Yuan', 4366813, true) ;
+INSERT INTO students (first_name, last_name, mobile, gender) VALUES ('Sam', 'O"Shaughnessy', 2781192, true), ('Neo', 'Yuan', 4366813, true) ;
 ```
 {% endcode %}
 
@@ -360,7 +360,7 @@ CREATE TABLE student_addresses (
     address VARCHAR(255),
     CONSTRAINT fk_student_id
     FOREIGN KEY (student_id)
-    REFERENCES students(id),    
+    REFERENCES students(id)    
 );
 ```
 {% endcode %}
@@ -371,7 +371,7 @@ Once you have developed a database that contains multiple tables that have relat
 
 {% code overflow="wrap" %}
 ```sql
-SELECT * FROM students join student_addresses on students.id = student_addresses.student_id WHERE gender = false;
+SELECT * FROM students JOIN student_addresses ON students.id = student_addresses.student_id WHERE gender = false;
 ```
 {% endcode %}
 

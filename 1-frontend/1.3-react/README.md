@@ -15,9 +15,9 @@ Learning Objectives
 
 [React](https://reactjs.org) is a frontend framework and library that allows us to create custom, nest-able UI elements with a combination of HTML and JavaScript syntax (JSX). React's HTML-like structure makes it easy to visualise, and its integrated JS makes it easy to render dynamic data. Alternative but less popular frontend libraries include [Vue](https://vuejs.org) and [Angular](https://angularjs.org).
 
-We will use React's official [guide](https://reactjs.org/docs/hello-world.html) and [tutorial](https://reactjs.org/tutorial/tutorial.html) to learn React, and React's official app-starter kit [Create React App](https://create-react-app.dev) to build React apps. Create React App contains a tool called Webpack that translates React to code that browsers can read. Browsers do not read React natively; they read HTML, CSS and JS, not JSX.
+We will use React's official [guide](https://reactjs.org/docs/hello-world.html) and [tutorial](https://legacy.reactjs.org/tutorial/tutorial.html) to learn React, and React's official app-starter kit [Create React App](https://create-react-app.dev) to build React apps. Create React App contains a tool called Webpack that translates React to code that browsers can read. Browsers do not read React natively; they read HTML, CSS and JS, not JSX.
 
-The following sections provide Rocket's annotations to React's official [guide](https://reactjs.org/docs/hello-world.html) and [tutorial](https://reactjs.org/tutorial/tutorial.html) to explain concepts that the React team assumes readers know.
+The following sections provide Rocket's annotations to React's official [guide](https://reactjs.org/docs/hello-world.html) and [tutorial](https://legacy.reactjs.org/tutorial/tutorial.html) to explain concepts that the React team assumes readers know.
 
 #### <mark style="color:red;">Additional Setup for Windows machines (If your application doesn't automatically reflect saved changed after npm start)</mark>
 
@@ -150,6 +150,7 @@ React Events
 ### 9: [Forms](https://legacy.reactjs.org/docs/forms.html)
 
 1. An [HTML form](https://www.w3schools.com/html/html\_forms.asp) is an HTML element that either refreshes the page or navigates to a new page when the user submits the form. We often do not want this behaviour in React, opting to update UI on submit without refresh. To disable "refresh on submit" behaviour, Rocket recommends the technique in the React docs, to provide the `form` a `handleSubmit` callback function that calls `event.preventDefault`.
+2. When hanlding the submit method from a form you should target the `event.target.value` to get the current value of an input.&#x20;
 
 {% embed url="https://youtu.be/Jm3C7WuVsIE" %}
 Building React Form State

@@ -62,15 +62,15 @@ jobs:
 
 After pushing the above workflow to `main`, we can observe this workflow in the [Actions tab](https://github.com/rocketacademy/unit-test-bootcamp/actions) in the GitHub console.
 
-![GitHub Actions tab in GitHub console](<../.gitbook/assets/4.2 - CI - Actions Tab.png>)
+![GitHub Actions tab in GitHub console](<../../.gitbook/assets/4.2 - CI - Actions Tab.png>)
 
 We can inspect what happened in this workflow by clicking into it.
 
-![GitHub shows us each stage of the GitHub Action workflow](<../.gitbook/assets/4.2 - CI - CI Workflow.png>)
+![GitHub shows us each stage of the GitHub Action workflow](<../../.gitbook/assets/4.2 - CI - CI Workflow.png>)
 
 For more detailed analysis of the workflow, we can click on each of the workflow stages to observe what happened in that stage. For example, we can click into the "Run npm test" stage to verify the correct tests ran.
 
-![GitHub allows us to view exact command line output from each workflow stage](<../.gitbook/assets/4.2 - CI - CI Workflow Tests.png>)
+![GitHub allows us to view exact command line output from each workflow stage](<../../.gitbook/assets/4.2 - CI - CI Workflow Tests.png>)
 
 In addition to running CI, GitHub Actions also allows us to deploy our apps automatically with continuous deployment (aka CD). Read about [GitHub Actions' Deploy to Heroku library](https://github.com/marketplace/actions/deploy-to-heroku) for a convenient way to deploy our apps to Heroku on GitHub pull requests and merges.
 
