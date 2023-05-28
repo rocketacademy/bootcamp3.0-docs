@@ -4,7 +4,7 @@ Learning Objectives
 
 1. React is a frontend framework and library that allows us to create custom, nest-able UI elements with a combination of HTML and JavaScript syntax (JSX)
 2. How to write JSX
-3. How to write and render React components
+3. How to write and render Class based React components
 4. How to use props
 5. How to use state
 6. What are component lifecycles and lifecycle methods
@@ -13,7 +13,7 @@ Learning Objectives
 
 ## Introduction
 
-[React](https://reactjs.org) is a frontend framework and library that allows us to create custom, nest-able UI elements with a combination of HTML and JavaScript syntax (JSX). React's HTML-like structure makes it easy to visualise, and its integrated JS makes it easy to render dynamic data. Alternative but less popular frontend libraries include [Vue](https://vuejs.org) and [Angular](https://angularjs.org).
+[React](https://legacy.reactjs.org/) is a frontend framework and library that allows us to create custom, nest-able UI elements with a combination of HTML and JavaScript syntax (JSX). React's HTML-like structure makes it easy to visualise, and its integrated JS makes it easy to render dynamic data. Alternative but less popular frontend libraries include [Vue](https://vuejs.org) and [Angular](https://angularjs.org).
 
 We will use React's official [guide](https://reactjs.org/docs/hello-world.html) and [tutorial](https://legacy.reactjs.org/tutorial/tutorial.html) to learn React, and React's official app-starter kit [Create React App](https://create-react-app.dev) to build React apps. Create React App contains a tool called Webpack that translates React to code that browsers can read. Browsers do not read React natively; they read HTML, CSS and JS, not JSX.
 
