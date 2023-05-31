@@ -226,13 +226,7 @@ Complete all exercises in the following Codecademy lessons when they are assigne
 3. Components Interacting
    1. [Components Render Other Components](https://www.codecademy.com/courses/react-101/lessons/components-render-each-other/exercises/components-interacting-intro)
    2. [this.props](https://www.codecademy.com/courses/react-101/lessons/this-props/exercises/this-props-intro)
-   3. [this.state](https://www.codecademy.com/courses/react-101/lessons/this-state/exercises/this-state-intro)
-4. [Component Lifecycle Methods](https://www.codecademy.com/courses/react-101/lessons/component-lifecycle-methods/exercises/the-component-lifecycle)
-5. [React Forms](https://www.codecademy.com/courses/react-101/lessons/react-forms/exercises/react-forms-intro)
-6. Stateless Components from Stateful Components
-   1. [Stateless Components From Stateful Components](https://www.codecademy.com/courses/react-101/lessons/stateless-inherit-stateful-intro/exercises/stateless-inherit-stateful)
-   2. [Child Components Update Their Parents' state](https://www.codecademy.com/courses/react-101/lessons/child-updates-parents-state/exercises/child-updates-parents-state-intro)
-   3. [Child Components Update Their Siblings' props](https://www.codecademy.com/courses/react-101/lessons/child-updates-sibling/exercises/child-updates-sibling-intro)
+4. [React Forms](https://www.codecademy.com/courses/react-101/lessons/react-forms/exercises/react-forms-intro)
 
 {% hint style="info" %}
 **New to Rocket Academy?**
