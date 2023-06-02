@@ -75,6 +75,8 @@ Thunder Client && Expressjs
 Express Fruit Application
 {% endembed %}
 
+Please checkout the finished code in this [repository](https://github.com/rocketacademy/m3\_express\_repo), ensure that you're on the `simple_express` branch if you want to test out the application on your machine you will need to install the dependencies with the command `npm install` after the installation you can then run the application with the command `node index.js`
+
 ## Routes
 
 Routes (aka "route middleware", "routing methods") are middleware functions that define how servers handle requests to specific URL paths with specific URL methods. Routes provide some of the most basic infrastructure for server applications. Read [Express' official introduction to routes](https://expressjs.com/en/starter/basic-routing.html) for context.
@@ -124,11 +126,17 @@ import express from "express";
 HTTP Request Extras
 {% endembed %}
 
+Please checkout the finished code in this [repository](https://github.com/rocketacademy/m3\_express\_repo/tree/simple\_express\_params), ensure that you're on the `simple_express_params` branch if you want to test out the application on your machine you will need to install the dependencies with the command `npm install` after the installation you can then run the application with the command `node index.js`
+
 ## Express Fruit Application
 
 {% embed url="https://youtu.be/8WLofzPe7zI" %}
 Express Fruit Application
 {% endembed %}
+
+Please checkout the finished code in this [repository](https://github.com/rocketacademy/m3\_express\_repo/tree/crud\_handlers), ensure that you're on the `crud_handlers` branch if you want to test out the application on your machine you will need to install the dependencies with the command `npm install` after the installation you can then run the application with the command `node index.js`
+
+
 
 ## Middleware
 
@@ -182,6 +190,8 @@ Official Express guide to using middleware
 Express Middleware
 {% endembed %}
 
+Please checkout the finished code in this [repository](https://github.com/rocketacademy/m3\_express\_repo/tree/built\_in\_middleware), ensure that you're on the `built_in_middleware` branch if you want to test out the application on your machine you will need to install the dependencies with the command `npm install` after the installation you can then run the application with the command `node index.js`
+
 ## CORS
 
 CORS (Cross-Origin Resource Sharing) is a security mechanism that allows servers to specify which domains other than their own to accept requests from. Without CORS, hackers at malicious websites could induce users to perform sensitive actions to manipulate legitimate backends using authentication information stored in the browser. With CORS, legitimate backends can prevent such attacks by only allowing requests from legitimate domains.
@@ -206,7 +216,7 @@ Implementing an Express Controller
 Implementing Router and Controller
 {% endembed %}
 
-
+Please checkout the finished code in this [repository](https://github.com/rocketacademy/m3\_express\_repo/tree/router\_and\_controller), ensure that you're on the `router_and_controller` branch if you want to test out the application on your machine you will need to install the dependencies with the command `npm install` after the installation you can then run the application with the command `node index.js`
 
 Does the class based code look unfamiliar have a look at the [Rocket curriculum](https://bootcamp.rocketacademy.co/0-foundations/0.4-javascript/0.4.4-classes) to touch up your understanding.
 

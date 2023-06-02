@@ -35,6 +35,8 @@ Setting up Sequelize in an Express App
 Sequelize Migrations
 {% endembed %}
 
+Please checkout the finished code in this [repository](https://github.com/rocketacademy/m3\_sequelize\_repo/tree/initial\_setup), ensure that you're on the `initial_setup` branch.
+
 ## Migrations
 
 {% embed url="https://sequelize.org/docs/v6/other-topics/migrations/" %}
@@ -60,7 +62,7 @@ Secondary Migrations
 Tertiary Migrations
 {% endembed %}
 
-
+Please checkout the finished code in this [repository](https://github.com/rocketacademy/m3\_sequelize\_repo/tree/migrations), ensure that you're on the `migrations` branch.
 
 
 
@@ -88,6 +90,8 @@ Secondary Seeders
 Tertiary Seeders
 {% endembed %}
 
+Please checkout the finished code in this [repository](https://github.com/rocketacademy/m3\_sequelize\_repo/tree/seeders), ensure that you're on the `seeders` branch.
+
 ## Running Migrations and Seeders
 
 {% embed url="https://youtu.be/ug3ZE7e0Abw" %}
@@ -102,19 +106,11 @@ Seeder Alteration
 Running Migrations and Seeders
 {% endembed %}
 
+Please checkout the finished code in this [repository](https://github.com/rocketacademy/m3\_sequelize\_repo/tree/running\_migrations\_seeders), ensure that you're on the `running_migrations_seeders` branch if you want to test out the migrations and seeders on your machine you will need to install the dependencies with the command `npm install` after the installation you need to setup your database connections and `.env` after this you can run the migrations, and seeders.
+
 
 
 ## Model Basics
-
-{% embed url="https://youtu.be/0eS0f84q_RA" %}
-Sequelize Models (1)
-{% endembed %}
-
-
-
-{% embed url="https://youtu.be/BVZS4HIERH0" %}
-Sequelize Models (2)
-{% endembed %}
 
 {% embed url="https://sequelize.org/docs/v6/core-concepts/model-basics/" %}
 Sequelize official tutorial on Sequelize models
@@ -172,5 +168,15 @@ Sequelize official tutorial on Sequelize model finder methods
 
 
 
+{% embed url="https://youtu.be/0eS0f84q_RA" %}
+Sequelize Models (1)
+{% endembed %}
 
+
+
+{% embed url="https://youtu.be/BVZS4HIERH0" %}
+Sequelize Models (2)
+{% endembed %}
+
+Please checkout the finished code in this [repository](https://github.com/rocketacademy/m3\_sequelize\_repo/tree/models), ensure that you're on the `models` branch.
 
