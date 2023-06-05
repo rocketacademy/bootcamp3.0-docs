@@ -76,7 +76,7 @@ const dfs = (currNode) => {
   visited[currNode] = true;
 
   // Perform DFS on each neighbour
-  for (const neighbour in graph[currNode]) {
+  for (const neighbour of graph[currNode]) {
     dfs(neighbour);
   }
 };
@@ -124,7 +124,7 @@ const bfs = (sourceNode) => {
       // Only add neighbour to queue if not visited yet
       if (!visited[neighbour]) {
         // Mark neighbour as visited
-        visited.push(neighbour);
+        visited[neighbour] = true
         // Add neighbour to queue
         queue.push(neighbour);
       }
