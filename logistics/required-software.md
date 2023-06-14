@@ -4,10 +4,10 @@
 
 This document outlines required software for Coding Bootcamp. Please install this software before starting the course unless instructed otherwise.
 
-## Complete Coding Basics setup
+## Complete Fundamentals setup
 
 1. Please install the latest version of Windows or MacOS that your computer supports.
-2. If you haven't already, please obtain and install [Coding Basics required hardware, software and accounts](https://codingbasics.rocketacademy.co/logistics/required-hardware-software-and-accounts).
+2. If you haven't already, please obtain and install [Fundamentals required hardware, software and accounts](https://fundamentals.rocketacademy.co/course-logistics/required-hardware-and-software).
 
 ## \[Windows Only] Install Windows-specific software
 
