@@ -29,15 +29,17 @@ const binarySearch = (arr, x) => {
   // While left_index and right_index have yet to overlap
   while (left_index <= right_index) {
     // Find the midpoint between left_index and right_index
-    let mid_index = (left_index + right_index) / 2;
+    let mid_index = Math.floor((left_index + right_index) / 2);
+
+    console.log("middle index", mid_index);
     // If the element at mid_index is x, return mid_index
     // Use Math.floor to ensure that the index position is an integer not a decimal
-    if (arr[Math.floor(mid_index)] === x) {
+    if (arr[mid_index] === x) {
       return mid_index;
     }
     // Otherwise, if x is greater than elem at mid_index,
     // update left_index to be 1 above mid_index
-    else if (arr[Math.floor(mid_index)] < x) {
+    else if (arr[mid_index] < x) {
       left_index = mid_index + 1;
     }
     // Otherwise, if x is less than elem at mid_index,
@@ -52,6 +54,7 @@ const binarySearch = (arr, x) => {
 
 const myList = [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12];
 const result = binarySearch(myList, 6); // 4
+console.log(result);
 ```
 
 ## Exercises
